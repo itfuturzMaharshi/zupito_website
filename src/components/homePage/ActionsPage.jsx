@@ -53,7 +53,7 @@ const ActionsPage = () => {
           />
 
           {/* Card container (desktop exact sizing as provided) */}
-          <div className="relative z-[1] bg-white rounded-[20px] shadow-[0px_10px_30px_0px_#0000001A]  max-w-[full] mx-auto lg:h-[524px] overflow-hidden">
+          <div className="relative z-[1] bg-white rounded-[20px] shadow-[0px_10px_30px_0px_#0000001A]  max-w-[full] mx-auto lg:h-[513px] overflow-hidden">
             {/* Desktop divider line at x=681, 492px tall */}
 
             <div className="relative z-[1] grid grid-cols-1 p-12! lg:grid-cols-2 gap-6 lg:gap-10 xl:gap-12 items-stretch lg:gap-0">
