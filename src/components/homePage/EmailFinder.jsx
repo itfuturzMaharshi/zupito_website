@@ -74,10 +74,10 @@ const EmailFinder = () => {
                         key={label}
                         className="w-full xs:w-full sm:w-full md:w-full lg:w-full h-[58px] md:h-[62px] lg:h-[64px] bg-white rounded-[10px] shadow-[0_8px_20px_0_#00000012] px-4! sm:px-5! md:px-6! flex items-center gap-4"
                       >
-                        <span className="inline-flex items-center justify-center w-[38px] h-[38px] md:w-[48px] md:h-[42px] lg:w-[50px] lg:h-[46px] rounded-[10px] bg-[#F6F6F7]">
+                        <span className="inline-flex items-center justify-center w-[38px] h-[38px] md:w-[48px] md:h-[42px] lg:w-[56px] lg:h-[46px] rounded-[10px] bg-[#F6F6F7]">
                           <img src="/images/Bullet.svg" alt="" className="w-4 h-4 md:w-5 md:h-5 object-contain" />
                         </span>
-                        <span className="text-[#3A4A5A] font-medium text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] leading-[100%]">
+                        <span className="text-[#3A4A5A] font-medium text-[16px] sm:text-[18px] md:text-[20px] lg:text-[18px] leading-[100%]">
                           {label}
                         </span>
                       </div>
