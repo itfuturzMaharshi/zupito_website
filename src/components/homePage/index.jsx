@@ -4,6 +4,7 @@ import ActionsPage from './ActionsPage'
 import EmailPrecision from './EmailPrecision'
 import EmailsVerified from './EmailsVerified'
 import EmailFinder from './EmailFinder'
+import Teams from './Teams'
 
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
       <EmailPrecision />
       <EmailsVerified />
       <EmailFinder />
+      <Teams />
     </div>
   )
 }
