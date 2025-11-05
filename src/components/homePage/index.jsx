@@ -6,6 +6,7 @@ import EmailsVerified from './EmailsVerified'
 import EmailFinder from './EmailFinder'
 import Teams from './Teams'
 import Productivity from './Productivity'
+import EmailFinderWorks from './EmailFinderWorks'
 
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
       <EmailFinder />
       <Teams />
       <Productivity />
+      <EmailFinderWorks />
     </div>
   )
 }
