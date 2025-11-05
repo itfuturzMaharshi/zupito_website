@@ -5,6 +5,7 @@ import EmailPrecision from './EmailPrecision'
 import EmailsVerified from './EmailsVerified'
 import EmailFinder from './EmailFinder'
 import Teams from './Teams'
+import Productivity from './Productivity'
 
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
       <EmailsVerified />
       <EmailFinder />
       <Teams />
+      <Productivity />
     </div>
   )
 }

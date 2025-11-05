@@ -1,0 +1,167 @@
+import React from "react";
+
+const Productivity = () => {
+  return (
+    <section className="relative w-full bg-[#FAFBFF] overflow-hidden">
+      {/* Container rhythm mirrors ActionsPage */}
+      <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[264px]! py-10! lg:py-16! xl:py-20!">
+        <div className="max-w-[full] mx-auto">
+          {/* Top copy row (second image sizing intent) */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] md:gap-[50px] lg:gap-[60px] items-start">
+            {/* Headline block on the left */}
+            <div className="flex flex-col gap-4">
+              <div className="inline-flex items-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]">
+                <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
+                <span>Type Something</span>
+              </div>
+
+              <h2 className="text-[#132436] font-semibold tracking-[-1.5px] leading-[36px] sm:leading-[44px] md:leading-[50px] lg:leading-[50px] text-[34px] sm:text-[40px] md:text-[44px] lg:text-[44px]">
+                <span>Powerful</span>
+                <span className="align-middle inline-flex items-center justify-center mx-2 relative -top-px">
+                  <img
+                    src="/images/Powerfull-platform.svg"
+                    alt=""
+                    className="w-[28px] h-[28px] md:w-[60px] md:h-[60px] mx-1.5!"
+                  />
+                </span>
+                <span className="text-[#3A4A5A] opacity-50">Platform</span>
+                <br />
+                <span>Features For Productivity</span>
+              </h2>
+            </div>
+
+            {/* Right description copy */}
+            <div>
+              <p className="text-[#6C728C] font-normal text-[16px] leading-[28px] sm:text-[18px] sm:leading-[32px] md:text-[20px] md:leading-[32px] lg:text-[22px] lg:leading-[34px]">
+                Zupitu's user-friendly interface simplifies prospecting with
+                intuitive tools for high-quality data generation.
+              </p>
+              <p className="mt-3 text-[#6C728C] font-normal text-[16px] leading-[28px] sm:text-[18px] sm:leading-[32px] md:text-[20px] md:leading-[32px] lg:text-[22px] lg:leading-[34px]">
+                It supports seamless team collaboration, easily handles large
+                data volumes, and offers cost-effective scalability for growing
+                businesses.
+              </p>
+            </div>
+          </div>
+
+          {/* Main content row (third image sizing intent) */}
+          <div className="mt-10! sm:mt-14! md:mt-16! lg:mt-20! grid grid-cols-1 lg:grid-cols-2 gap-[20px] md:gap-[30px]">
+            {/* Left large card (fourth + sixth + seventh images) */}
+            <div className="relative w-full">
+              {/* Background image */}
+              <div
+                className="relative h-full rounded-[24px] border border-[#EEF0F3] bg-[#FAFAFF] overflow-hidden"
+                style={{
+                  backgroundImage: "url('/images/Background.png')",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+              >
+                {/* Decorative frame on top area (fifth image) */}
+                <div className="w-full">
+                  <img
+                    src="/images/productivity-frame.png"
+                    alt="Productivity frame"
+                    className="w-full h-auto select-none pointer-events-none"
+                  />
+                </div>
+
+                {/* Bottom content block (sixth image) */}
+                <div className="px-9! py-7! md:px-9! md:py-8! lg:px-9! lg:py-8! bg-white/0 rounded-b-[24px]">
+                  <div className="flex flex-col gap-4">
+                    <div className="inline-flex items-center gap-[6px] rounded-[50px] bg-white px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]">
+                      <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
+                      <span>Type Something</span>
+                    </div>
+
+                    <div className="mt-5 flex flex-col gap-4">
+                       <h3 className="text-[#132436] font-semibold tracking-[-1.5px] text-[24px] leading-[34px] sm:text-[28px] sm:leading-[40px] md:text-[30px] md:leading-[46px] lg:text-[32px] lg:leading-[50px]">
+                         Powerful Team, Management
+                         <br className="hidden sm:block" />
+                         <span>Unified</span>
+                         <span className="align-middle inline-flex items-center justify-center mx-2 relative -top-px">
+                           <img
+                             src="/images/Success.svg"
+                             alt=""
+                             className="w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] md:w-[40px] md:h-[40px] mx-1.5!"
+                           />
+                         </span>
+                         <span>Success</span>
+                       </h3>
+
+                      <div className="flex flex-col gap-4">
+                        <p className="text-[#6C728C] text-[16px] leading-[28px] sm:text-[16px] sm:leading-[32px] md:text-[18px] md:leading-[36px]">
+                          Zupitu's Team Management features empower businesses
+                          with streamlined team management workflows.
+                        </p>
+                        <p className="text-[#6C728C] text-[16px] leading-[28px] sm:text-[16px] sm:leading-[32px] md:text-[18px] md:leading-[36px]">
+                          Our free platform features help customers to optimize
+                          resource allocation and get actionable insights
+                          through detailed reporting. Teams can enhance
+                          productivity and budget efficiency.
+                        </p>
+                        <p className="text-[#6C728C] text-[16px] leading-[28px] sm:text-[16px] sm:leading-[32px] md:text-[18px] md:leading-[36px]">
+                          These tools ensure accountability and decision- making
+                          for achieving business goals
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right column feature list (ninth + tenth + eleventh images) */}
+            <div className="w-full max-w-[592px] lg:max-w-none">
+              <div className="grid grid-cols-1 gap-5 md:gap-6 h-full">
+                {[
+                  {
+                    title: "Manage Multiple Teams",
+                    desc: "Our conversion-focused approach ensures your brand captivates and converts with every pixel.",
+                    icon: "/images/manage-multiple-teams.svg",
+                  },
+                  {
+                    title: "Track Team Performance",
+                    desc: "Monitor team performance in real time and take informed actions to maximize productivity and effectiveness.",
+                    icon: "/images/track-team-performance.svg",
+                  },
+                  {
+                    title: "Manage Credits",
+                    desc: "Distribute resources smartly by allocating and reallocating credits across teams, ensuring optimized budget consumption and usage.",
+                    icon: "/images/manage-credits.svg",
+                  },
+                  {
+                    title: "Detailed Reporting",
+                    desc: "Generate detailed reports on multiple data points, including individual team member usage, date-wise history, and overall team activity, for actionable insights.",
+                    icon: "/images/detailed-reporting.svg",
+                  },
+                ].map((item, idx) => (
+                  <div
+                    key={idx}
+                    className="rounded-[16px] border border-[#EEF0F3] bg-white p-5! sm:p-6! md:p-6! lg:p-6! lg:pt-8! lg:pb-8! shadow-[0_1px_0_0_#0000000A]"
+                  >
+                    <div className="flex items-start gap-4">
+                      <div className="w-[54px] h-[54px] rounded-[44px] bg-[#FAFBFF] flex items-center justify-center shrink-0">
+                        <img src={item.icon} alt="" className="w-[32px] h-[32px]" />
+                      </div>
+                      <div className="flex-1 flex flex-col gap-3">
+                        <h4 className="text-[#132436] font-bold text-[20px] leading-[26px] sm:text-[22px] sm:leading-[28px] md:text-[24px] md:leading-[30px] tracking-[-0.32px] capitalize">
+                          {item.title}
+                        </h4>
+                        <p className="text-[#747C9A] text-[14px] leading-[24px] sm:text-[16px] sm:leading-[26px] md:text-[18px] md:leading-[30px]">
+                          {item.desc}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Productivity;
