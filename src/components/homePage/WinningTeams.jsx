@@ -25,7 +25,7 @@ const WinningTeams = () => {
 
             {/* Heading */}
             <h2 className="font-semibold text-center tracking-[-2.2px] text-white">
-              <span className="inline-flex flex-col items-center gap-[14px] align-middle max-w-[830px] mx-auto text-[32px] leading-[36px] sm:text-[42px] sm:leading-[44px] md:text-[50px] md:leading-[52px] lg:text-[60px] lg:leading-[60px]">
+              <span className="inline-flex flex-col items-center gap-[14px] align-middle max-w-[830px] mx-auto text-[26px] leading-[36px] sm:text-[42px] sm:leading-[44px] md:text-[50px] md:leading-[52px] lg:text-[60px] lg:leading-[60px]">
                 <span>
                   <span className="text-white">Winning </span>
                   <span className="text-[#717680]">Teams </span>
@@ -54,7 +54,7 @@ const WinningTeams = () => {
           </div>
 
           {/* Cards area */}
-          <div className="mt-10! sm:mt-12! md:mt-16! lg:mt-42! grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 md:gap-8 justify-items-center">
+          <div className="mt-10! sm:mt-12! md:mt-16! lg:mt-42! lg:px-4! grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 lg:gap-4 xl:gap-8 justify-items-center">
             {[
               { title: '15+', desc: 'Reduce bounces and protect sender reputation' },
               { title: '300%', desc: 'Lower Cost Per Lead-\nCut costs with verified leads' },
@@ -63,15 +63,15 @@ const WinningTeams = () => {
             ].map((card, idx) => (
               <div
                 key={idx}
-                className={`w-full h-full rounded-[20px] bg-[#FAFBFF] shadow-[0px_4px_7px_0px_#53587B12] px-[22px]! py-[80px]! flex flex-col items-center justify-center text-center gap-5${
-                  idx === 1 || idx === 2 ? ' mt-[56px]!' : ''
+                className={`w-full max-w-[300px] h-[280px] rounded-[20px] bg-[#FAFBFF] shadow-[0px_4px_7px_0px_#53587B12] px-[22px]! lg:py-[50px]! xl:py-[80px]! flex flex-col items-center justify-center text-center gap-5${
+                  idx === 1 || idx === 2 ? ' lg:mt-[56px]!' : ''
                 }`}
               >
-                <div className="text-[#132436] font-bold text-[60px] leading-[60px] tracking-[-1.2px]">
+                <div className="text-[#132436] font-bold text-[40px]  md:text-[40px]  lg:text-[40px] xl:text-[60px] leading-[28px] sm:leading-[32px] md:leading-[40px] lg:leading-[40px] xl:leading-[60px] tracking-[-1.2px]">
                   {card.title}
                 </div>
                 {idx === 1 || idx === 2 ? (
-                  <p className="text-[#3A4A5A] text-[20px] sm:text-[22px] md:text-[22px] leading-[28px] sm:leading-[30px] md:leading-[32px]">
+                  <p className="text-[#3A4A5A] text-[20px] sm:text-[22px] lg:text-[18px] xl:text-[22px] leading-[28px] sm:leading-[30px] md:leading-[32px] lg:leading-[34px] xl:leading-[36px]">
                     <span className="block">Lower Cost Per Lead-</span>
                     <span className="block">Cut costs with verified leads</span>
                   </p>
