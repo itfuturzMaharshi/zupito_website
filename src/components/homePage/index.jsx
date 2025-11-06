@@ -8,6 +8,7 @@ import Teams from './Teams'
 import Productivity from './Productivity'
 import EmailFinderWorks from './EmailFinderWorks'
 import FAQsPage from './FAQsPage'
+import WinningTeams from './WinningTeams'
 
 
 const HomePage = () => {
@@ -22,6 +23,7 @@ const HomePage = () => {
       <Productivity />
       <EmailFinderWorks />
       <FAQsPage />
+      <WinningTeams />
     </div>
   )
 }
