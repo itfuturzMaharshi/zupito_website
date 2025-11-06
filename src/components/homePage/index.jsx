@@ -9,6 +9,7 @@ import Productivity from './Productivity'
 import EmailFinderWorks from './EmailFinderWorks'
 import FAQsPage from './FAQsPage'
 import WinningTeams from './WinningTeams'
+import Footer from './Footer'
 
 
 const HomePage = () => {
@@ -24,6 +25,7 @@ const HomePage = () => {
       <EmailFinderWorks />
       <FAQsPage />
       <WinningTeams />
+      <Footer />
     </div>
   )
 }
