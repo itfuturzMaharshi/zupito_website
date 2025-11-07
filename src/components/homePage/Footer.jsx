@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="w-full flex justify-center px-6! py-6! sm:py-6! md:py-6!">
         {/* Background box with required properties */}
         <div
-          className="relative w-full max-w-full mx-auto rounded-[24px] overflow-hidden bg-no-repeat bg-cover bg-center py-[100px]! xl:px-24! 2xl:px-[200px]!"
+          className="relative w-full max-w-full mx-auto rounded-[24px] overflow-hidden bg-no-repeat bg-cover bg-center py-12! sm:py-16! md:py-20! lg:py-24! xl:py-[100px]! px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[200px]!"
           style={{
             backgroundImage: "url('/images/footer-bg-img.png')",
             backgroundSize: "cover",
@@ -18,9 +18,19 @@ const Footer = () => {
           <img
             src="/images/home-footer-vector.png"
             alt=""
-            className="pointer-events-none select-none absolute right-15 top-45 w-[120px] z-[1] sm:w-[160px] md:w-[220px] lg:w-[260px]"
+            className="pointer-events-none select-none absolute w-[120px] z-[1] sm:w-[160px] md:w-[220px] lg:w-[260px]"
+            style={{
+              right: 'clamp(50px, 2.5vw, 15px)',
+              top: 'clamp(150px, 4.5vh, 45px)',
+            }}
           />
-          <div className="absolute pointer-events-none z-[1] bottom-228! left-9! -translate-x-1/2 w-40 h-40 sm:left-6 sm:bottom-6 sm:translate-x-0 md:w-52 md:h-52 lg:w-60 lg:h-60">
+          <div 
+            className="absolute pointer-events-none z-[1] w-40 h-40 sm:w-44 sm:h-44 md:w-52 md:h-52 lg:w-60 lg:h-60"
+            style={{
+              left: 'clamp(30px, 0.8vw, 20px)',
+              bottom: 'clamp(920px, 20vh, 228px)',
+            }}
+          >
             <img
               src="/images/footer-animation-1.png"
               alt="footer decorative 1"
@@ -30,14 +40,20 @@ const Footer = () => {
           <img
             src="/images/orange-circle.png"
             alt=""
-            className="pointer-events-none select-none absolute w-[50px] "
-            style={{ top: 170, right: 40 }}
+            className="pointer-events-none select-none absolute w-[40px] sm:w-[45px] md:w-[50px]"
+            style={{
+              top: 'clamp(135px, 15vh, 170px)',
+              right: 'clamp(15px, 3vw, 30px)',
+            }}
           />
           <img
             src="/images/yellow-circle.png"
             alt=""
-            className="pointer-events-none select-none absolute  w-[50px] motion-safe:animate-[bounce_4s_ease-in-out_infinite]"
-            style={{ left: 1145, bottom: 875 }}
+            className="pointer-events-none select-none absolute w-[40px] sm:w-[45px] md:w-[50px] motion-safe:animate-[bounce_4s_ease-in-out_infinite]"
+            style={{
+              left: 'clamp(78%, 95vw, 1145px)',
+              bottom: 'clamp(900px, 50vh, 875px)',
+            }}
           />
           <div className="relative z-2 w-full max-w-full mx-auto flex flex-col items-center gap-[20px] md:gap-[24px]">
             <h2 className="font-bold text-center tracking-[-2.4px] mt-8! text-white leading-[40px] text-[28px] sm:text-[36px] sm:leading-[48px] md:text-[46px] md:leading-[62px] lg:text-[54px] lg:leading-[72px] xl:text-[56px] xl:leading-[80px] capitalize">
