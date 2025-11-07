@@ -39,7 +39,7 @@ const EmailFinderWorks = () => {
 
           {/* Three different cards with background image per card */}
           <div className="relative flex justify-center -bottom-40 mb-[140px]! md:mb-[160px]! lg:mb-[160px]!">
-            <div className="relative mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] md:gap-[26px] lg:gap-[29px] w-full lg:max-w-[1362px] mt-[-36px] sm:mt-[-48px] md:mt-[-64px] lg:mt-[-88px] overflow-visible">
+            <div className="relative mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] md:gap-[26px] lg:gap-[29px] w-full lg:max-w-[1362px]  overflow-visible">
               {/* Card 1 */}
               <div
                 className="relative w-full lg:w-full rounded-[24px] border border-[#EEF0F3] shadow-[0px_8px_20px_0px_#6868681A] p-3! md:p-4!  flex flex-col gap-[20px] bg-no-repeat bg-cover overflow-visible"

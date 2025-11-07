@@ -70,12 +70,21 @@ const Footer = () => {
             </p>
 
             <div className="flex items-center justify-center gap-4 md:gap-6 flex-wrap w-full max-w-[800px] pt-6! pb-6!">
-              <button className="h-[54px] sm:h-[58px] md:h-[62px] px-6! sm:px-8! md:px-10! rounded-[50px] bg-[#EB3609] text-white text-[16px] sm:text-[18px] md:text-[20px] font-semibold whitespace-nowrap">
-                Checkout Details
+              <button className="h-[54px] sm:h-[58px] md:h-[62px] px-6! sm:px-8! md:px-10! rounded-[50px] bg-[#EB3609] text-white text-[16px] sm:text-[18px] md:text-[20px] font-semibold whitespace-nowrap inline-flex items-center gap-3">
+                <span>Checkout Details</span>
+                <img
+                    src="/images/right-arrow.svg"
+                    alt="Right arrow icon"
+                    className="w-4 h-4 sm:w-5 sm:h-5 "
+                  />
               </button>
-              <button className="text-white text-[16px] sm:text-[18px] md:text-[24px] font-semibold flex items-center gap-2! md:gap-3!">
+              <button className="text-white text-[16px] sm:text-[18px] md:text-[24px] font-semibold flex items-center gap-2">
                 <span>Claim 300 free credits</span>
-                <span className="inline-block translate-y-px">→</span>
+               <img
+                    src="/images/right-arrow.svg"
+                    alt="Right arrow icon"
+                    className=" w-4 h-4 sm:w-5 sm:h-5 mt-1"
+                  />
               </button>
             </div>
 

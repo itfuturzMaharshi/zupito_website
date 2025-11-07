@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const EmailFinder = () => {
   return (
@@ -25,24 +25,26 @@ const EmailFinder = () => {
                 </div>
 
                 {/* Fourth image (bottom description panel) */}
-                <div className="w-full bg-[#FCFCFD] rounded-b-[24px] pt-4! pr-4! pb-4! pl-4!">
-                  <div className="max-w-[750px] mx-auto flex flex-col gap-5">
+                <div className="w-full bg-[#FCFCFD] rounded-b-[24px] pt-4! pr-4! pb-4! pl-4! h-full">
+                  <div className="max-w-[750px] mx-auto flex flex-col justify-between h-full">
                     {/* Fifth image text */}
-                    <p className="text-[#4A4E5C] font-normal text-[18px] leading-[30px] sm:text-[20px] sm:leading-[34px] md:text-[24px] md:leading-[40px]">
-                      Beyond Opt-In mail list, email finder is a one of the most reliable sources of building a deliverable list. Zupitu helps you uncover the most accurate.
-                    </p>
-
-                    <button className="inline-flex items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize">
-                      <span>Explore Email Finder</span>
-                      <svg
-                        className="w-4 h-4"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                      </svg>
-                    </button>
+                    <div>
+                      <p className="text-[#4A4E5C] font-normal text-[18px] leading-[30px] sm:text-[20px] sm:leading-[34px] md:text-[24px] md:leading-[40px]">
+                        Beyond Opt-In mail list, email finder is a one of the
+                        most reliable sources of building a deliverable list.
+                        Zupitu helps you uncover the most accurate.
+                      </p>
+                    </div>
+                    <div>
+                      <button className="inline-flex items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize">
+                        <span>Explore Email Finder</span>
+                        <img
+                          src="/images/right-orange-arrow.svg"
+                          alt="Right arrow icon"
+                          className="w-5 h-5 mt-1"
+                        />
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -65,17 +67,21 @@ const EmailFinder = () => {
                   {/* Cards */}
                   <div className="w-full max-w-[700px] mx-auto flex flex-col items-center gap-4 sm:gap-5 md:gap-6">
                     {[
-                      'Check domain status',
-                      'Verified business emails',
-                      'Upload lists without template restriction',
-                      'Find complex emails',
+                      "Check domain status",
+                      "Verified business emails",
+                      "Upload lists without template restriction",
+                      "Find complex emails",
                     ].map((label) => (
                       <div
                         key={label}
                         className="w-full xs:w-full sm:w-full md:w-full lg:w-full h-[58px] md:h-[62px] lg:h-[64px] bg-white rounded-[10px] shadow-[0_8px_20px_0_#00000012] px-4! sm:px-5! md:px-6! flex items-center gap-4"
                       >
                         <span className="inline-flex items-center justify-center w-[38px] h-[38px] md:w-[48px] md:h-[42px] lg:w-[56px] lg:h-[46px] rounded-[10px] bg-[#F6F6F7]">
-                          <img src="/images/Bullet.svg" alt="" className="w-4 h-4 md:w-5 md:h-5 object-contain" />
+                          <img
+                            src="/images/Bullet.svg"
+                            alt=""
+                            className="w-4 h-4 md:w-5 md:h-5 object-contain"
+                          />
                         </span>
                         <span className="text-[#3A4A5A] font-medium text-[16px] sm:text-[18px] md:text-[20px] lg:text-[18px] leading-[100%]">
                           {label}
@@ -90,7 +96,7 @@ const EmailFinder = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default EmailFinder
+export default EmailFinder;

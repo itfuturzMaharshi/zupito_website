@@ -4,10 +4,10 @@ const EmailsVerified = () => {
   return (
     <section className="relative w-full bg-white overflow-hidden">
       {/* Outer container mirrors EmailPrecision spacing rhythm */}
-      <div className="w-full h-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[200px]! py-10! lg:py-16! xl:py-20! my-4!">
+      <div className="w-full h-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[200px]! pt-10! lg:pt-16! xl:pt-20!">
         <div className="max-w-[full] mx-auto relative">
           {/* Main container - first image: width 1362px, height 624px, gap 24px */}
-          <div className="w-full max-w-[full] mx-auto h-auto lg:h-[full] grid grid-cols-1 lg:grid-cols-2 items-stretch gap-6 md:gap-8">
+          <div className="w-full max-w-[full] mx-auto max-h-auto lg:h-[full] grid grid-cols-1 lg:grid-cols-2 items-stretch gap-6 md:gap-8">
             {/* Left column - second image: width 555px, height 623px, gap 20px, border-radius 24px, padding 24px, background #F0EBFF */}
             <div className="w-full lg:w-[full] h-auto lg:h-full rounded-[24px] p-6! bg-[#F0EBFF] flex flex-col gap-5">
               {/* Title section */}
@@ -25,18 +25,18 @@ const EmailsVerified = () => {
               </div>
 
               {/* Workflow diagram image */}
-              <div className="w-full flex-1 flex items-center justify-center mt-4 md:mt-6">
+              <div className="w-auto  flex-1 flex items-center justify-center ">
                 <img
                   src="/images/shape-automate.png"
                   alt="Email verification workflow"
-                  className="w-full max-w-[480px] sm:max-w-[520px] md:max-w-auto lg:max-w-auto h-auto rounded-[16px] object-contain"
+                  className="w-full max-w-auto sm:max-w-auto  md:max-w-auto lg:max-w-auto rounded-[16px] object-contain"
                 />
               </div>
             </div>
 
             {/* Right column */}
             <div
-              className="w-full lg:w-auto lg:flex-1 flex flex-col gap-6 md:gap-14 lg:gap-20  bg-white rounded-[24px] border border-solid border-[var(--color-grey-92,#E9EAEB)] overflow-hidden"
+              className="w-full lg:w-auto justify-between  flex flex-col gap-6 md:gap-14 lg:gap-16  bg-white rounded-[24px] border border-solid border-[var(--color-grey-92,#E9EAEB)] overflow-hidden"
             >
               {/* Right side image - verified email content */}
               <div className="w-full flex items-center justify-center">
@@ -48,9 +48,9 @@ const EmailsVerified = () => {
               </div>
 
               {/* Bottom section - width 781px, height 240px, padding 30px 32px, border-radius bottom 24px, background #F9F9F8 */}
-              <div className="w-full max-w-[781px] mx-auto lg:mx-0 h-auto lg:h-[240px] rounded-b-[24px] bg-[#F9F9F8] pt-4! md:pt-4! pr-4! md:pr-4! pb-4! md:pb-4! pl-4! md:pl-4! flex flex-col">
+              <div className="w-full max-w-[781px] mx-auto lg:mx-0 h-auto lg:h-[240px] rounded-b-[24px] bg-[#F9F9F8] pt-4! md:pt-4! pr-4! md:pr-4! pb-4! md:pb-8! pl-4! md:pl-4! flex flex-col">
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
-                <div className="w-full max-w-[717px] h-auto lg:h-[180px] flex flex-col gap-4">
+                <div className="w-full max-w-[717px] h-full flex flex-col justify-between">
                   {/* Description text */}
                   <p className="text-[#4A4E5C] font-normal text-[18px] leading-[30px] sm:text-[20px] sm:leading-[34px] md:text-[22px] md:leading-[38px] tracking-[0px]">
                     Zupitu ensures your emails always reach the right inbox.
@@ -65,7 +65,11 @@ const EmailsVerified = () => {
                       className="inline-flex items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] tracking-[0px] capitalize hover:opacity-80 transition-opacity"
                     >
                       Explore Email Finder
-                      <span className="inline-block">→</span>
+                      <img
+                   src="/images/right-orange-arrow.svg"
+                   alt="Right arrow icon"
+                   className="w-5 h-5 mt-1"
+                 />
                     </a>
                   </div>
                 </div>

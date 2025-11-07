@@ -2,9 +2,9 @@ import React from "react";
 
 const ActionsPage = () => {
   return (
-    <section className="relative w-full bg-[#FAFBFF] overflow-hidden">
+    <section className="relative w-full bg-[#FAFBFF] overflow-hidden mt-4!">
       {/* Outer container mirrors HeroSection spacing rhythm */}
-      <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[200px]! py-10! lg:py-16! xl:py-20! mt-4!">
+      <div className="w-full  px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[200px]! py-10! lg:py-16! xl:py-20!">
         <div className="max-w-[full] mx-auto relative">
           {/* Header copy */}
           <div className="text-center">
@@ -35,12 +35,12 @@ const ActionsPage = () => {
           </div>
 
           {/* Connector dot and subtle divider (decorative) */}
-          <div className="flex justify-center mt-10 sm:mt-14 md:mt-20 lg:mt-[200px] mb-6 md:mb-8">
+          <div className="absolute flex w-full justify-center mt-4">
             <img
               src="/images/element-img.png"
               alt=""
               aria-hidden="true"
-              className="pointer-events-none select-none w-[56px] md:w-[72px] lg:w-[86px] h-auto"
+              className="pointer-events-none select-none w-[506px]  h-full"
             />
           </div>
 
@@ -49,11 +49,11 @@ const ActionsPage = () => {
             src="/images/action-bg-animation.png"
             alt=""
             aria-hidden="true"
-            className="pointer-events-none select-none absolute top-12 left-[-30px] w-[140px] sm:top-14 sm:left-[-50px] sm:w-[180px] md:top-[17%] md:left-[-80px] md:w-[220px] lg:left-[-120px] lg:w-[260px] opacity-80 z-0"
+            className="pointer-events-none select-none absolute top-12 left-[-30px] w-[140px] sm:top-14 sm:left-[-50px] sm:w-[180px] md:top-[26%] md:left-[-80px] md:w-[220px] lg:left-[-140px] lg:w-[260px] opacity-80 z-0"
           />
 
           {/* Card container (desktop exact sizing as provided) */}
-          <div className="relative z-1 bg-white rounded-[20px] shadow-[0px_10px_30px_0px_#0000001A]  max-w-[full] mx-auto lg:h-[513px] overflow-hidden">
+          <div className="relative z-1 top-24 bg-white rounded-[20px] shadow-[0px_10px_30px_0px_#0000001A]  max-w-[full] mx-auto lg:h-[513px] overflow-hidden mb-[100px]">
             {/* Desktop divider line at x=681, 492px tall */}
             <div
               aria-hidden="true"
@@ -93,46 +93,40 @@ const ActionsPage = () => {
                 </div>
                 </div>
 
-                <button className="inline-flex items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[28px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize">
+                <button className="inline-flex items-center gap-3 text-[#EB3609] font-bold text-[18px] leading-[28px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize">
                   <span>Checkout Our Deals</span>
-                  <svg
-                    className="w-4 h-4"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
+                  <span className="flex items-center justify-center ">
+                   <img
+                   src="/images/right-orange-arrow.svg"
+                   alt="Right arrow icon"
+                   className="w-5 h-5 mt-1"
+                 />
+                  </span>
                 </button>
               </div>
 
               {/* Right panel (widget) sized 600x490 at 724/42 */}
               <div className="relative mx-auto lg:mx-0 w-full   bg-[#132436] rounded-[24px] p-4! sm:p-5! md:p-6! flex flex-col items-center gap-[20px]">
                 {/* Top icon */}
-                <div className="mt-6 sm:mt-8 md:mt-10 lg:mt-[42px] relative w-[56px] h-[56px] rounded-full bg-white shadow-sm">
+                <div className="mt-3 relative w-[56px] h-[56px] rounded-full bg-white shadow-sm">
                   <img src="/images/email-icon.svg" alt="Email" className="absolute left-[55%] top-[52%] -translate-x-1/2 -translate-y-1/2 w-[36px] h-[36px] object-contain" />
                 </div>
 
                 {/* Title */}
-                <h4 className="text-white text-center font-semibold text-[20px] leading-[32px] sm:text-[22px] sm:leading-[36px] md:text-[24px] md:leading-[40px] lg:text-[26px] lg:leading-[47px] tracking-[-0.56px] px-4">
+                <h4 className="text-white text-center font-semibold text-[20px] leading-[32px] sm:text-[22px] sm:leading-[36px] md:text-[24px] md:leading-[40px] lg:text-[26px] lg:leading-[42px] tracking-[-0.56px] px-4">
                   Verify Personal & Business
                   <br className="hidden sm:block" />
                   Emails Instantly
                 </h4>
 
                 {/* Subtitle */}
-                <p className="text-[#546779] text-center font-medium text-[14px] leading-[24px] sm:text-[16px] sm:leading-[28px] md:text-[17px] md:leading-[32px] lg:text-[18px] lg:leading-[37px] tracking-[0px] max-w-[420px] px-4">
+                <p className="text-[#546779] text-center font-medium text-[14px] leading-[24px] sm:text-[16px] sm:leading-[28px] md:text-[17px] md:leading-[30px] lg:text-[18px] lg:leading-[32px] tracking-[0px] max-w-[420px] px-4">
                   Check up to 10 emails for free — no sign-up required.
                 </p>
 
                 {/* Input group */}
                 <div className="w-full px-2!">
-                  <div className="mx-auto w-full max-w-[520px] bg-white rounded-[40px] h-[50px] sm:h-[54px] md:h-[56px] lg:h-[60px] flex items-center shadow-[0_2px_0_0_#0000000A] border border-[#E6E8EB] overflow-hidden">
+                  <div className="mx-auto w-full max-w-[520px] bg-white rounded-[40px] h-[50px] sm:h-[54px] md:h-[52px] lg:h-[56px] flex items-center shadow-[0_2px_0_0_#0000000A] border border-[#E6E8EB] overflow-hidden">
                     <input
                       type="email"
                       placeholder="Email Address..."

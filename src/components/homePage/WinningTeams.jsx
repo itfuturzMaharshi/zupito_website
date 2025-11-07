@@ -67,16 +67,16 @@ const WinningTeams = () => {
                   idx === 1 || idx === 2 ? ' lg:mt-[56px]!' : ''
                 }`}
               >
-                <div className="text-[#132436] font-bold text-[40px]  md:text-[40px]  lg:text-[40px] xl:text-[60px] leading-[28px] sm:leading-[32px] md:leading-[40px] lg:leading-[40px] xl:leading-[60px] tracking-[-1.2px]">
+                <div className="text-[#132436] font-bold text-[28px]  md:text-[32px]  lg:text-[38px] xl:text-[40px] leading-[28px] sm:leading-[32px] md:leading-[40px] lg:leading-[40px] xl:leading-[40px] tracking-[-1.2px]">
                   {card.title}
                 </div>
                 {idx === 1 || idx === 2 ? (
-                  <p className="text-[#3A4A5A] text-[20px] sm:text-[22px] lg:text-[18px] xl:text-[22px] leading-[28px] sm:leading-[30px] md:leading-[32px] lg:leading-[34px] xl:leading-[36px]">
+                  <p className="text-[#3A4A5A] text-[16px] sm:text-[18px] lg:text-[20px] xl:text-[20px] leading-[24px] sm:leading-[24px] md:leading-[26px] lg:leading-[26px] xl:leading-[28px]">
                     <span className="block">Lower Cost Per Lead-</span>
                     <span className="block">Cut costs with verified leads</span>
                   </p>
                 ) : (
-                  <p className="whitespace-pre-line text-[#3A4A5A] text-[20px] sm:text-[22px] md:text-[22px] leading-[28px] sm:leading-[30px] md:leading-[32px]">
+                  <p className="whitespace-pre-line text-[#3A4A5A] text-[16px] sm:text-[18px] md:text-[20px] leading-[24px] sm:leading-[26px] md:leading-[28px]">
                     {card.desc}
                   </p>
                 )}
