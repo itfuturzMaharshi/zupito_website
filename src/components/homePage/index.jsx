@@ -21,10 +21,10 @@ const HomePage = () => {
       <EmailsVerified />
       <EmailFinder />
       <Teams />
+       <WinningTeams />
       <Productivity />
       <EmailFinderWorks />
       <FAQsPage />
-      <WinningTeams />
       <Footer />
     </div>
   )
