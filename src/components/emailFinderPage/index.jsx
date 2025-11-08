@@ -5,6 +5,7 @@ import FAQsPage from "./FAQsPage";
 import EmailFinder from "./EmailFinder";
 import HeroSection from "./HeroSection";
 import VerifiedEmail from "./VerifiedEmail";
+import BulkEmailFinder from "./BulkEmailFinder";
 
 const EmailFinderPage = () => {
   return (
@@ -15,6 +16,7 @@ const EmailFinderPage = () => {
       <FAQsPage />
       <EmailFinder />
       <VerifiedEmail />
+      <BulkEmailFinder />
     </div>
   );
 };
