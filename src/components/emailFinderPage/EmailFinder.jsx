@@ -70,23 +70,13 @@ const EmailFinder = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px]">
                   {/* Card 1: Empower Solo Users & Large Teams Alike */}
                   <div className="rounded-[24px] border-2 border-[#EEF0F3] p-[40px] bg-[#F6F6FF] flex flex-col gap-[40px]">
-                    {/* Profile Section */}
-                    <div className="flex items-start gap-4">
-                      <div className="relative">
-                        <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center">
-                          <span className="text-2xl">👤</span>
-                        </div>
-                        <div className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center">
-                          <span className="text-white text-xs">✓</span>
-                        </div>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        <h3 className="text-[#132436] font-bold text-lg">Rohan Mehta</h3>
-                        <p className="text-gray-600 text-sm">rohanmehta.testing@gmail.com</p>
-                        <div className="flex items-center gap-2">
-                          <span className="bg-red-500 text-white px-3 py-1 rounded-lg text-sm font-semibold">96%</span>
-                        </div>
-                      </div>
+                    {/* Image Section */}
+                    <div className="w-full">
+                      <img
+                        src="/images/shape-automate-1.jpg"
+                        alt="Empower solo users & large teams alike"
+                        className="w-full h-auto rounded-lg"
+                      />
                     </div>
                     
                     {/* Content Section */}
@@ -112,15 +102,13 @@ const EmailFinder = () => {
 
                   {/* Card 2: 97% + Accuracy = More Conversions */}
                   <div className="rounded-[24px] border-2 border-[#EEF0F3] p-[40px] bg-[#F6F6FF] flex flex-col gap-[40px]">
-                    {/* Success Rate Section */}
-                    <div className="flex flex-col gap-4">
-                      <div className="bg-green-100 rounded-lg p-4">
-                        <h4 className="text-[#132436] font-bold text-lg mb-2">Hit the right inbox every time</h4>
-                        <p className="text-gray-600 text-sm mb-3">Zupitu's AI-powered verification ensures accuracy that converts...</p>
-                        <div className="bg-green-500 text-white px-4 py-2 rounded-lg text-center font-bold">
-                          97%+ Success Rate
-                        </div>
-                      </div>
+                    {/* Image Section */}
+                    <div className="w-full">
+                      <img
+                        src="/images/shape-automate-2.jpg"
+                        alt="97% + Accuracy = More Conversions"
+                        className="w-full h-auto rounded-lg"
+                      />
                     </div>
                     
                     {/* Content Section */}
@@ -146,17 +134,13 @@ const EmailFinder = () => {
 
                   {/* Card 3: Simple, Transparent Pricing */}
                   <div className="rounded-[24px] border-2 border-[#EEF0F3] p-[40px] bg-[#F6F6FF] flex flex-col gap-[40px]">
-                    {/* Pricing Section */}
-                    <div className="flex flex-col gap-4">
-                      <h4 className="text-[#132436] font-bold text-lg">Pay only for real results</h4>
-                      <div className="flex flex-col gap-3">
-                        <div className="bg-gray-100 rounded-lg p-3">
-                          <p className="text-gray-700 font-medium">No Hidden Charges</p>
-                        </div>
-                        <div className="bg-purple-100 rounded-lg p-3">
-                          <p className="text-purple-700 font-medium">Only Verified, Working Emails Count</p>
-                        </div>
-                      </div>
+                    {/* Image Section */}
+                    <div className="w-full">
+                      <img
+                        src="/images/shape-automate-3.jpg"
+                        alt="Simple, Transparent Pricing"
+                        className="w-full h-auto rounded-lg"
+                      />
                     </div>
                     
                     {/* Content Section */}
@@ -182,16 +166,13 @@ const EmailFinder = () => {
 
                   {/* Card 4: Global Coverage */}
                   <div className="rounded-[24px] border-2 border-[#EEF0F3] p-[40px] bg-[#F6F6FF] flex flex-col gap-[40px]">
-                    {/* Profile Images Section */}
-                    <div className="flex flex-col gap-4">
-                      <h4 className="text-[#132436] font-bold text-lg">Reach inboxes worldwide</h4>
-                      <div className="flex items-center gap-2">
-                        {[1, 2, 3, 4, 5].map((i) => (
-                          <div key={i} className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center">
-                            <span className="text-lg">👤</span>
-                          </div>
-                        ))}
-                      </div>
+                    {/* Image Section */}
+                    <div className="w-full">
+                      <img
+                        src="/images/shape-automate-4.jpg"
+                        alt="Global Coverage"
+                        className="w-full h-auto rounded-lg"
+                      />
                     </div>
                     
                     {/* Content Section */}
@@ -217,32 +198,13 @@ const EmailFinder = () => {
 
                   {/* Card 5: Real-Time Verification Built-In */}
                   <div className="rounded-[24px] border-2 border-[#EEF0F3] p-[40px] bg-[#F6F6FF] flex flex-col gap-[40px]">
-                    {/* Verification UI Section */}
-                    <div className="flex flex-col gap-4">
-                      <div className="flex items-center gap-2 bg-white rounded-lg p-3 border border-gray-200">
-                        <span className="text-gray-700">cafuro@example.com</span>
-                        <span className="text-green-500 ml-auto">✓</span>
-                      </div>
-                      <div className="bg-white rounded-lg p-4 border border-gray-200">
-                        <div className="flex flex-col gap-2 text-sm">
-                          <div className="flex justify-between">
-                            <span className="text-gray-600">Can Email?</span>
-                            <span className="text-gray-800 font-medium">No</span>
-                          </div>
-                          <div className="flex justify-between">
-                            <span className="text-gray-600">Roll Based?</span>
-                            <span className="text-gray-800 font-medium">No</span>
-                          </div>
-                          <div className="flex justify-between">
-                            <span className="text-gray-600">Domain</span>
-                            <span className="text-gray-800 font-medium">cafuro@example.com</span>
-                          </div>
-                          <div className="flex justify-between">
-                            <span className="text-gray-600">Domain Status</span>
-                            <span className="text-green-600 font-medium">Valid</span>
-                          </div>
-                        </div>
-                      </div>
+                    {/* Image Section */}
+                    <div className="w-full">
+                      <img
+                        src="/images/shape-automate-5.jpg"
+                        alt="Real-Time Verification Built-In"
+                        className="w-full h-auto rounded-lg"
+                      />
                     </div>
                     
                     {/* Content Section */}
@@ -268,23 +230,13 @@ const EmailFinder = () => {
 
                   {/* Card 6: Simple, Transparent Pricing (Duplicate) */}
                   <div className="rounded-[24px] border-2 border-[#EEF0F3] p-[40px] bg-[#F6F6FF] flex flex-col gap-[40px]">
-                    {/* Profile Section (Same as Card 1) */}
-                    <div className="flex items-start gap-4">
-                      <div className="relative">
-                        <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center">
-                          <span className="text-2xl">👤</span>
-                        </div>
-                        <div className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-green-500 flex items-center justify-center">
-                          <span className="text-white text-xs">✓</span>
-                        </div>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        <h3 className="text-[#132436] font-bold text-lg">Rohan Mehta</h3>
-                        <p className="text-gray-600 text-sm">rohanmehta.testing@gmail.com</p>
-                        <div className="flex items-center gap-2">
-                          <span className="bg-red-500 text-white px-3 py-1 rounded-lg text-sm font-semibold">96%</span>
-                        </div>
-                      </div>
+                    {/* Image Section */}
+                    <div className="w-full">
+                      <img
+                        src="/images/shape-automate-6.jpg"
+                        alt="Simple, Transparent Pricing"
+                        className="w-full h-auto rounded-lg"
+                      />
                     </div>
                     
                     {/* Content Section */}
