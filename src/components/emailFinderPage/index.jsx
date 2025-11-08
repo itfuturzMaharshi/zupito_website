@@ -3,6 +3,7 @@ import FindTheRightConnections from './FindTheRightConnections'
 import FinderWorks from './FinderWorks'
 import FAQsPage from './FAQsPage'
 import EmailFinder from './EmailFinder'
+import HeroSection from './HeroSection'
 
 const EmailFinderPage = () => {
   return (
@@ -11,6 +12,7 @@ const EmailFinderPage = () => {
       <FinderWorks />
       <FAQsPage />
       <EmailFinder />
+      <HeroSection />
     </div>
   )
 }
