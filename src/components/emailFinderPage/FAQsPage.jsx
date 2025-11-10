@@ -32,7 +32,7 @@ const FAQsPage = () => {
       <div className="w-full flex justify-center px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[200px]! py-10! lg:py-16! xl:py-20!">
         <div className="max-w-full mx-auto relative">
           {/* Header Section - max-width 1362px */}
-          <div className="w-full max-w-[1362px] mx-auto">
+          <div className="w-full max-w-full mx-auto">
             {/* FAQ Tag - width: 85px, height: 49px */}
             <div className="inline-flex items-center justify-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] mb-4!">
               <span className="w-2 h-2 rounded-full bg-[#3B82F6]" />
@@ -40,7 +40,7 @@ const FAQsPage = () => {
             </div>
 
             {/* Title Section - width: 1362px, height: 239px, justify-content: space-between */}
-            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 lg:gap-[21px] mt-4! h-auto"  style={{alignItems: 'end'}}>
+            <div className="flex flex-col md:flex-row lg:flex-row lg:items-start lg:justify-between gap-6 lg:gap-[21px] mt-4! h-auto"  style={{alignItems: 'end'}}>
               {/* Left side - Title with icons - width: 568px, height: 239px, gap: 21px */}
               <div className="flex-1 max-w-[568px]">
                 <h2 className="text-[#132436] font-semibold">

@@ -26,9 +26,9 @@ const EmailFinder = () => {
                 </div>
 
                 {/* Heading and Description Section */}
-                <div className="w-full flex flex-col lg:flex-row lg:items-start gap-[42px]">
+                <div className="w-full grid-cols-2 lg:items-start gap-[42px] grid ">
                   {/* Heading Section */}
-                  <div className="w-full lg:w-[551px] shrink-0">
+                  <div className="w-full lg:w-auto shrink-0">
                     <h2
                       className="text-[#132436] font-semibold leading-[clamp(40px,4.2vw,50px)] tracking-[-2.2px] align-middle flex flex-col gap-5 text-[clamp(36px,4vw,60px)]"
                       style={{
@@ -66,7 +66,7 @@ const EmailFinder = () => {
               </div>
 
               {/* Feature Cards Grid Section */}
-              <div className="w-full max-w-[1362px] mx-auto">
+              <div className="w-full max-w-full mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px]">
                   {/* Card 1: Empower Solo Users & Large Teams Alike */}
                   <div className="rounded-[24px] border-2 border-[#EEF0F3] p-[40px] bg-[#F6F6FF] flex flex-col gap-[40px]">
