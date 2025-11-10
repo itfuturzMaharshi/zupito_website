@@ -2,41 +2,17 @@ import React from "react";
 
 const EmailVerification = () => {
   return (
-    <section
-      className="relative w-full min-h-screen flex items-center justify-center py-12 sm:py-16 md:py-20 lg:py-24"
-      style={{
-        background: "linear-gradient(180deg, #FAFDFF 0%, #EFEFFF 100%)",
-      }}
-    >
+    <section className="relative flex min-h-screen w-full items-center justify-center bg-linear-to-b from-[#FAFDFF] to-[#EFEFFF] py-12 sm:py-16 md:py-20 lg:py-24">
       {/* Container with 200px left/right padding on large screens */}
       <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[200px] 2xl:px-[200px]">
         <div className="w-full max-w-full mx-auto flex flex-col items-center">
           {/* Top Section - Badge and Heading */}
-          <div className="w-full flex flex-col items-center gap-[21px] mb-[21px]">
+          <div className="mb-[21px] flex w-full flex-col items-center gap-[21px]">
             {/* Grow Your Business Badge */}
             <div className="flex items-center justify-center">
-              <div
-                className="flex items-center gap-[6px] px-4 py-3 rounded-[50px] bg-white"
-                style={{
-                  paddingTop: "12px",
-                  paddingRight: "16px",
-                  paddingBottom: "12px",
-                  paddingLeft: "16px",
-                }}
-              >
-                <div className="w-2 h-2 rounded-full bg-[#4A90E2] shrink-0"></div>
-                <span
-                  className="font-['Inter'] font-semibold text-base leading-[18px] tracking-normal capitalize text-[#132436] align-middle"
-                  style={{
-                    fontFamily: "Inter",
-                    fontWeight: 600,
-                    fontSize: "16px",
-                    lineHeight: "18px",
-                    letterSpacing: "0px",
-                    textTransform: "capitalize",
-                    color: "#132436",
-                  }}
-                >
+              <div className="flex items-center gap-[6px] rounded-[50px] bg-white px-4 py-3">
+                <div className="h-2 w-2 shrink-0 rounded-full bg-[#4A90E2]"></div>
+                <span className="align-middle font-['Inter'] text-base font-semibold capitalize leading-[18px] tracking-normal text-[#132436]">
                   Grow Your Business
                 </span>
               </div>
@@ -44,19 +20,9 @@ const EmailVerification = () => {
 
             {/* Main Heading */}
             <div className="w-full flex flex-col items-center gap-[21px]">
-              <h1
-                className="text-center flex flex-wrap items-center justify-center gap-2 sm:gap-3"
-                style={{
-                  fontFamily: "Inter",
-                  fontWeight: 600,
-                  fontSize: "clamp(32px, 5vw, 60px)",
-                  lineHeight: "100%",
-                  letterSpacing: "-2.2px",
-                  color: "#132436",
-                }}
-              >
+              <h1 className="flex flex-wrap items-center justify-center gap-2 text-center font-['Inter'] text-[clamp(32px,5vw,60px)] font-semibold leading-[100%] tracking-[-2.2px] text-[#132436] sm:gap-3">
                 <span>Email</span>
-                <span className="inline-flex items-center justify-center w-[clamp(50px, 6vw, 70px)] h-[clamp(50px, 6vw, 70px)] rounded-full bg-[#EB3609] shrink-0 shadow-lg">
+                <span className="inline-flex h-[clamp(50px,6vw,70px)] w-[clamp(50px,6vw,70px)] shrink-0 items-center justify-center rounded-full bg-[#EB3609] shadow-lg">
                   <svg
                     width="32"
                     height="32"
@@ -85,22 +51,15 @@ const EmailVerification = () => {
                     />
                   </svg>
                 </span>
-                <span>Verification Solution for</span>
-                <span className="text-[#3A4A5A]">Both</span>
+                <span>
+                  Verification Solution{" "}
+                  <span className="text-[#3A4A5A] opacity-50">for</span>
+                </span>
+                <span>Both</span>
               </h1>
-              <h1
-                className="text-center flex flex-wrap items-center justify-center gap-2 sm:gap-3"
-                style={{
-                  fontFamily: "Inter",
-                  fontWeight: 600,
-                  fontSize: "clamp(32px, 5vw, 60px)",
-                  lineHeight: "100%",
-                  letterSpacing: "-2.2px",
-                  color: "#132436",
-                }}
-              >
+              <h1 className="flex flex-wrap items-center justify-center gap-2 text-center font-['Inter'] text-[clamp(32px,5vw,60px)] font-semibold leading-[100%] tracking-[-2.2px] text-[#132436] sm:gap-3">
                 <span>B2B & B2C</span>
-                <span className="inline-flex items-center justify-center w-[clamp(50px, 6vw, 70px)] h-[clamp(50px, 6vw, 70px)] rounded-lg bg-[#8B7FD9] shrink-0">
+                <span className="inline-flex h-[clamp(50px,6vw,70px)] w-[clamp(50px,6vw,70px)] shrink-0 items-center justify-center rounded-lg bg-[#8B7FD9]">
                   <svg
                     width="28"
                     height="28"
@@ -132,18 +91,7 @@ const EmailVerification = () => {
             </div>
 
             {/* Subtitle */}
-            <p
-              className="text-center max-w-4xl mx-auto"
-              style={{
-                fontFamily: "Manrope",
-                fontWeight: 500,
-                fontSize: "clamp(18px, 2.5vw, 26px)",
-                lineHeight: "100%",
-                letterSpacing: "0px",
-                color: "#546779",
-                marginTop: "21px",
-              }}
-            >
+            <p className="mx-auto mt-[21px] max-w-4xl text-center font-['Manrope'] text-[clamp(18px,2.5vw,26px)] font-medium leading-[100%] tracking-normal text-[#546779]">
               Get your list validated without worrying about business or
               personal emails.
             </p>
@@ -152,15 +100,8 @@ const EmailVerification = () => {
           {/* Main Content Section - Image and Card */}
           <div className="w-full flex flex-col gap-8 lg:gap-12 mt-12 lg:mt-16 lg:flex-row lg:items-stretch">
             {/* Left Section - B2B-B2C Image */}
-            <div className="w-full h-full lg:flex-1 flex justify-center">
-              <div
-                className="w-full h-full  rounded-2xl overflow-hidden"
-                style={{
-                  boxShadow: "0px 4px 20px 0px #00000026",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                }}
-              >
+            <div className="flex h-full w-full justify-center lg:flex-1">
+              <div className="h-full min-h-full w-full max-w-full overflow-hidden rounded-2xl shadow-[0px_4px_20px_rgba(0,0,0,0.15)]">
                 <img
                   src="/images/B2B-B2C-img.png"
                   alt="B2B B2C Email Verification"
@@ -170,28 +111,10 @@ const EmailVerification = () => {
             </div>
 
             {/* Right Section - White Card with Text */}
-            <div className="w-full lg:flex-1 flex">
-              <div
-                className="w-full h-full bg-white rounded-[24px] flex flex-col"
-                style={{
-                  boxShadow: "0px 15px 60px 0px #5757571F",
-                  paddingTop: "26px",
-                  paddingLeft: "27px",
-                  paddingRight: "27px",
-                  paddingBottom: "27px",
-                }}
-              >
-                <div className="flex flex-col" style={{ gap: "40px" }}>
-                  <p
-                    style={{
-                      fontFamily: "Manrope",
-                      fontWeight: 600,
-                      fontSize: "clamp(18px, 2vw, 24px)",
-                      lineHeight: "42px",
-                      letterSpacing: "0px",
-                      color: "#7F878E",
-                    }}
-                  >
+            <div className="flex w-full lg:flex-1">
+              <div className="flex h-full w-full flex-col rounded-[24px] bg-white p-[27px] pt-[26px] shadow-[0px_15px_60px_rgba(87,87,87,0.12)]">
+                <div className="flex flex-col gap-[40px]">
+                  <p className="font-['Manrope'] text-[clamp(18px,2vw,24px)] font-semibold leading-[42px] tracking-normal text-[#7F878E]">
                     Our System lets you validate business emails list, personal
                     emails list and a mix of both. Choose your preference of
                     emails to validate and let Zupitu do the rest for you. <br />
@@ -201,26 +124,15 @@ const EmailVerification = () => {
                   </p>
 
                   <div className="mt-auto">
-                  <a
-                    href="#"
-                    className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
-                    style={{
-                      fontFamily: "Manrope",
-                      fontWeight: 700,
-                      fontSize: "clamp(18px, 2vw, 22px)",
-                      lineHeight: "30px",
-                      letterSpacing: "0px",
-                      textTransform: "capitalize",
-                      color: "#EB3609",
-                    }}
-                  >
-                    <span>Checkout Our Deals</span>
-                    <span className="text-[#EB3609]">→</span>
-                  </a>
+                    <a
+                      href="#"
+                      className="inline-flex items-center gap-2 font-['Manrope'] text-[clamp(18px,2vw,22px)] font-bold capitalize leading-[30px] tracking-normal text-[#EB3609] transition-opacity hover:opacity-80"
+                    >
+                      <span>Checkout Our Deals</span>
+                      <span className="text-[#EB3609]">→</span>
+                    </a>
+                  </div>
                 </div>
-                </div>
-
-            
               </div>
             </div>
           </div>
