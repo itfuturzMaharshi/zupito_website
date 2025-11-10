@@ -12,12 +12,12 @@ const EmailFinderPage = () => {
   return (
     <div>
       <HeroSection />
+      <EmailFinder />
       <FindTheRightConnections />
       <FinderWorks />
-      <FAQsPage />
-      <EmailFinder />
-      <VerifiedEmail />
       <BulkEmailFinder />
+      <VerifiedEmail />
+      <FAQsPage />
       <Footer />
     </div>
   );

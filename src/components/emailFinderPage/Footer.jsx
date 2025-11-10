@@ -24,7 +24,7 @@ const Footer = () => {
         <div
           className="relative w-full max-w-full mx-auto rounded-[24px] overflow-hidden bg-no-repeat bg-cover bg-center "
           style={{
-            backgroundImage: "url('/images/footer-bg-img.png')",
+            backgroundImage: "url('/images/email-finder-footer-bg-img.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             opacity: 1,
@@ -35,14 +35,26 @@ const Footer = () => {
             <div
               className="relative w-full max-w-full mx-auto rounded-[24px] overflow-visible bg-no-repeat bg-cover bg-center"
               style={{
-                backgroundImage: "url('/images/email-finder-footer-img.png')",
+                backgroundImage: "url('/images/Banner-BG.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 opacity: 1,
                 minHeight: "clamp(500px, 60vw, 600px)",
               }}
             >
-              <div className="w-full h-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-38 py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
+              {/* Yellow Circle Decorative Element */}
+              <div
+                className="absolute rounded-full"
+                style={{
+                  backgroundColor: "#FFDD47",
+                  width: "clamp(40px, 30vw, 80px)",
+                  height: "clamp(40px, 30vw, 80px)",
+                  top: "clamp(100px, -5vw, -100px)",
+                  right: "clamp(130px, -5vw, -100px)",
+                  zIndex: 1,
+                }}
+              ></div>
+              <div className="relative w-full h-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-38 py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12" style={{ zIndex: 2 }}>
                 {/* Left Content Section */}
                 <div className="w-full lg:w-auto lg:flex-1 flex flex-col justify-center">
                   {/* Ready Templates Badge */}
@@ -80,7 +92,7 @@ const Footer = () => {
                         style={{
                           fontFamily: "Inter",
                           fontWeight: 600,
-                          fontSize: "clamp(32px, 5vw, 54px)",
+                          fontSize: "clamp(32px, 5vw, 50px)",
                           lineHeight: "clamp(40px, 8vw, 80px)",
                           letterSpacing: "-2.4px",
                           verticalAlign: "middle",
@@ -362,7 +374,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-full max-w-full mx-auto text-center text-white text-[14px] sm:text-[16px] md:text-[20px] pt-10!">
+          <div className="w-full max-w-full mx-auto text-center text-white text-[14px] sm:text-[16px] md:text-[20px] py-10!">
             © 2025 Zupitu.{" "}
             <span className="text-white/70">All Rights Reserved.</span>
           </div>
