@@ -94,7 +94,7 @@ const AccountFeature = () => {
         <div className="w-full flex flex-col items-center gap-6 sm:gap-8 md:gap-[30px] mb-12 sm:mb-16 md:mb-20 lg:mb-[70px]">
           {/* Plugin Integration Badge */}
           <div className="flex items-center justify-center">
-            <div className="flex items-center gap-[6px] rounded-[50px] bg-white px-4 py-3 border border-[#4A90E2]">
+            <div className="flex items-center gap-[6px] rounded-[50px] bg-white px-4 py-3">
               <div className="h-2 w-2 shrink-0 rounded-full bg-[#4A90E2]"></div>
               <span className="font-['Inter'] text-sm sm:text-base font-semibold capitalize leading-[18px] tracking-normal text-[#132436] align-middle">
                 Plugin Integration
