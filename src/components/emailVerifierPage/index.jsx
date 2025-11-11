@@ -6,6 +6,7 @@ import NonTechFeature from './NonTechFeature'
 import RealTimeEmailVerification from './RealTimeEmailVerification'
 import BusinessEmailVerification from './BusinessEmailVerification'
 import PersonalEmailVerification from './PersonalEmailVerification'
+import PlanPage from './PlanPage'
 
 const EmailVerifierPage = () => {
   return (
@@ -17,6 +18,7 @@ const EmailVerifierPage = () => {
       <RealTimeEmailVerification />
       <BusinessEmailVerification />
       <PersonalEmailVerification />
+      <PlanPage />
     </div>
   )
 }
