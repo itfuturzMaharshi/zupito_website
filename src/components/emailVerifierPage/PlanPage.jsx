@@ -4,7 +4,7 @@ const PlanPage = () => {
   return (
     <section className="relative w-full overflow-hidden bg-[#FFFAED]">
       {/* Container aligned to NonTechFeature.jsx */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[110px] 2xl:px-[200px] py-[80px] sm:py-[100px]">
+      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[200px] py-[80px] sm:py-[100px]">
         {/* Header */}
         <div className="w-full flex flex-col items-center gap-3 sm:gap-4 md:gap-6">
           {/* Badge */}
