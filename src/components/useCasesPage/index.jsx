@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSection from './HeroSection'
 import LeadGeneration from './LeadGeneration'
 import SalesProspecting from './SalesProspecting'
+import PromotionalCampaigns from './PromotionalCampaigns'
 
 const UseCasesPage = () => {
   return (
@@ -9,6 +10,7 @@ const UseCasesPage = () => {
       <HeroSection />
       <LeadGeneration />
       <SalesProspecting />
+      <PromotionalCampaigns />
     </div>
   )
 }
