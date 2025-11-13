@@ -18,8 +18,18 @@ const PlanPage = () => {
           </div>
 
           {/* Title */}
-          <h2 className="text-center  font-['Inter'] font-semibold text-[clamp(28px,4.8vw,56px)] leading-[110%] md:leading-[100%] tracking-[-1.5px] md:tracking-[-2.2px] text-[#132436]">
-            Get started. Pick a Plan That <br /> Suits your needs
+          <h2 className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-center font-['Inter'] font-semibold text-[clamp(28px,4.8vw,56px)] leading-[110%] md:leading-[100%] tracking-[-1.5px] md:tracking-[-2.2px] text-[#132436]">
+            <span>Get Started.</span>
+            <span className="inline-flex items-center justify-center">
+              <img
+                src="/images/email-icon-5.svg"
+                alt="Email icon"
+                className="h-[clamp(40px,5vw,70px)] w-[clamp(40px,5vw,70px)]"
+              />
+            </span>
+            <span>Pick a Plan That</span>
+            <br className="w-full" />
+            <span>Suits Your Needs</span>
           </h2>
 
           {/* Sub text */}
@@ -29,8 +39,14 @@ const PlanPage = () => {
         </div>
 
         {/* Pricing Panel */}
-        <div className="mt-8 md:mt-14 w-full rounded-[24px] bg-white shadow-[0_10px_39px_0_rgba(71,87,104,0.10)] p-4 sm:p-6 md:p-8 lg:p-9">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+        <div className="relative mt-12 md:mt-14 w-full pt-2 sm:pt-24">
+          <img
+            src="/images/Group-bg.png"
+            alt="Decorative background"
+            className="pointer-events-none absolute -top-10 left-1/2 h-auto w-[140%] lg:max-w-[980px] -translate-x-1/2 opacity-90"
+          />
+          <div className="relative z-10 w-full rounded-[24px] bg-white shadow-[0_10px_39px_0_rgba(71,87,104,0.10)] p-4 sm:p-6 md:p-8 lg:p-9">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Left column */}
             <div className="flex flex-col gap-6">
               <h3 className="font-['Inter'] text-[clamp(22px,3.5vw,32px)] font-semibold leading-[100%] tracking-[-1.2px] text-[#053155]">
@@ -101,6 +117,7 @@ const PlanPage = () => {
                   </p>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>

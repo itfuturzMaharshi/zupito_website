@@ -105,37 +105,23 @@ const RealTimeEmailVerification = () => {
             <div className="flex flex-col items-center gap-[21px] text-center">
               <h2 className="flex flex-wrap items-center justify-center gap-[18px] font-['Inter'] text-[clamp(32px,5.5vw,60px)] font-semibold leading-[100%] tracking-[-2.2px] text-[#132436]">
                 <span>Real-Time</span>
-                <span className="inline-flex items-center justify-center rounded-full bg-[#0FBE4F] text-white px-[12px] py-[8px]">
-                  <span className="inline-flex h-[44px] w-[44px] items-center justify-center rounded-full bg-[#25D767]">
-                    <svg
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <circle cx="12" cy="12" r="5" fill="white" />
-                      <circle cx="12" cy="12" r="2" fill="#0FBE4F" />
-                    </svg>
+                <span className="inline-flex items-center justify-center">
+                    <img
+                      src="/images/setting-green.svg"
+                      alt="Setting icon"
+                      className="h-[56px] w-[56px]"
+                    />
                   </span>
-                </span>
                 <span>Email Verification-</span>
 
-                <span>
+                <span className="flex items-center gap-1">
                   Smarter, Safer,
-                  <span className="inline-flex items-center justify-center rounded-full bg-[#0FBE4F] text-white px-[12px] py-[8px]">
-                    <span className="inline-flex h-[44px] w-[44px] items-center justify-center rounded-full bg-[#25D767]">
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <circle cx="12" cy="12" r="5" fill="white" />
-                        <circle cx="12" cy="12" r="2" fill="#0FBE4F" />
-                      </svg>
-                    </span>
+                  <span className="inline-flex items-center justify-center">
+                    <img
+                      src="/images/rocket-purple.svg"
+                      alt="Rocket icon"
+                      className="h-[56px] w-[56px]"
+                    />
                   </span>
                   Stronger
                 </span>

@@ -58,20 +58,12 @@ const BusinessEmailVerification = () => {
           <div className="w-full flex flex-col items-center gap-4 sm:gap-[16px] text-center">
             <h2 className="flex flex-wrap items-center justify-center gap-3 font-['Inter'] text-[clamp(32px,6vw,60px)] font-semibold leading-[100%] tracking-[-2.2px] text-[#132436]">
               <span>Business</span>
-              <span className="inline-flex h-[clamp(44px,6vw,64px)] w-[clamp(44px,6vw,64px)] items-center justify-center rounded-full bg-[#E8E6FF]">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#5A5CFF"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="h-[clamp(20px,3vw,28px)] w-[clamp(20px,3vw,28px)]"
-                >
-                  <rect x="3" y="5" width="18" height="14" rx="3" />
-                  <polyline points="3 7 12 13 21 7" />
-                </svg>
+              <span className="inline-flex items-center justify-center">
+                <img
+                  src="/images/email-icon-1.svg"
+                  alt="Email icon"
+                  className="h-[54px] w-[54px]"
+                />
               </span>
               <span>Email Verification</span>
             </h2>
@@ -147,9 +139,24 @@ const BusinessEmailVerification = () => {
 
         <div className="mt-[30px] sm:mt-[50px]">
           <div className="w-full rounded-[24px] bg-size-[100%_100%] bg-[linear-gradient(270.08deg,_#DEF7FF_-43.6%,_#F3F3FF_99.93%)] px-6 sm:px-10 md:px-14 lg:px-[50px] py-10 sm:py-12 md:py-[50px] flex flex-col md:flex-row items-center md:items-center justify-between gap-8 md:gap-[50px]">
-            <div className="flex flex-col gap-5 md:gap-[15px] text-center md:text-left max-w-auto">
-              <h3 className="font-['Inter'] text-[clamp(28px,4.5vw,36px)] font-semibold leading-[110%] tracking-[-1.5px] text-[#132436] capitalize">
-                Our Business Email Verification Process
+            <div className="flex flex-col gap-5 md:gap-[15px] text-left max-w-auto">
+              <h3 className="flex flex-col md:flex-row md:flex-wrap md:items-center gap-2 md:gap-3 font-['Inter'] text-[clamp(28px,4.5vw,36px)] font-semibold leading-[110%] tracking-[-1.5px] text-[#132436] capitalize">
+                <span className="flex items-center gap-2 md:gap-3">
+                  <span>Our</span>
+                  <span className="inline-flex items-center justify-center">
+                    <img
+                      src="/images/Commitment-2.svg"
+                      alt="Business icon"
+                      className="h-[clamp(40px,5vw,48px)] w-[clamp(50px,6vw,60px)]"
+                    />
+                  </span>
+                </span>
+                <span className="flex flex-wrap items-center gap-2 md:gap-3">
+                  <span>Business</span>
+                  <span>Email</span>
+                  <span>Verification</span>
+                  <span>Process</span>
+                </span>
               </h3>
               <p className="font-['Manrope'] text-[clamp(18px,3vw,20px)] font-normal leading-[clamp(30px,4.5vw,32px)] text-[#5A6B7D]">
                 Key highlights of our checkpoints are Corporate domain check,
@@ -161,9 +168,14 @@ const BusinessEmailVerification = () => {
             <div className="flex w-full md:w-auto justify-center md:justify-end">
               <a
                 href="#"
-                className="inline-flex items-center whitespace-nowrap justify-center rounded-[50px] bg-[#EB3609] px-8 sm:px-10 py-4 text-center font-['Inter'] text-[clamp(18px,3vw,20px)] font-semibold leading-[100%] text-white transition-transform duration-200 hover:scale-[1.03]"
+                className="inline-flex items-center gap-2 whitespace-nowrap justify-center rounded-[50px] bg-[#EB3609] px-8 sm:px-10 py-4 text-center font-['Inter'] text-[clamp(18px,3vw,20px)] font-semibold leading-[100%] text-white transition-transform duration-200 hover:scale-[1.03]"
               >
                 Try It Free
+                <img
+                  src="/images/right-arrow.svg"
+                  alt="Arrow"
+                  className="h-6 w-6"
+                />
               </a>
             </div>
           </div>

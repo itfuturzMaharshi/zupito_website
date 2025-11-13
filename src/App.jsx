@@ -14,9 +14,9 @@ function App() {
       <Header />
       {/* <HomePage /> */}
       {/* <EmailFinderPage /> */}
-      {/* <EmailVerifierPage /> */}
+      <EmailVerifierPage />
       {/* <HelpDeskPage /> */}
-      <UseCasesPage />
+      {/* <UseCasesPage /> */}
     </>
   );
 }

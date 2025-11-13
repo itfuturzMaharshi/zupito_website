@@ -19,38 +19,14 @@ const EmailVerification = () => {
             </div>
 
             {/* Main Heading */}
-            <div className="w-full flex flex-col items-center gap-[21px]">
+            <div className="w-full flex flex-col items-center gap-2 md:gap-[21px]">
               <h1 className="flex flex-wrap items-center justify-center gap-2 text-center font-['Inter'] text-[clamp(32px,5vw,60px)] font-semibold leading-[100%] tracking-[-2.2px] text-[#132436] sm:gap-3">
                 <span>Email</span>
-                <span className="inline-flex h-[clamp(50px,6vw,70px)] w-[clamp(50px,6vw,70px)] shrink-0 items-center justify-center rounded-full bg-[#EB3609] shadow-lg">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="12" cy="12" r="2.5" fill="white" />
-                    <circle
-                      cx="12"
-                      cy="12"
-                      r="6"
-                      stroke="white"
-                      strokeWidth="1.5"
-                      fill="none"
-                      opacity="0.8"
-                    />
-                    <circle
-                      cx="12"
-                      cy="12"
-                      r="9"
-                      stroke="white"
-                      strokeWidth="1"
-                      fill="none"
-                      opacity="0.5"
-                    />
-                  </svg>
-                </span>
+                <img
+                  src="/images/setting-orange.svg"
+                  alt="Target icon"
+                  className="h-[clamp(50px,6vw,70px)] w-[clamp(50px,6vw,70px)] shrink-0 "
+                />
                 <span>
                   Verification Solution{" "}
                   <span className="text-[#3A4A5A] opacity-50">for</span>
@@ -59,33 +35,11 @@ const EmailVerification = () => {
               </h1>
               <h1 className="flex flex-wrap items-center justify-center gap-2 text-center font-['Inter'] text-[clamp(32px,5vw,60px)] font-semibold leading-[100%] tracking-[-2.2px] text-[#132436] sm:gap-3">
                 <span>B2B & B2C</span>
-                <span className="inline-flex h-[clamp(50px,6vw,70px)] w-[clamp(50px,6vw,70px)] shrink-0 items-center justify-center rounded-lg bg-[#8B7FD9]">
-                  <svg
-                    width="28"
-                    height="28"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      x="3"
-                      y="5"
-                      width="18"
-                      height="14"
-                      rx="2"
-                      stroke="white"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                    <path
-                      d="M3 7l9 6 9-6"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                <img
+                  src="/images/rocket-purple.svg"
+                  alt="Rocket icon"
+                  className="h-[clamp(50px,6vw,70px)] w-[clamp(50px,6vw,70px)] shrink-0"
+                />
                 <span>Businesses</span>
               </h1>
             </div>
@@ -129,7 +83,11 @@ const EmailVerification = () => {
                       className="inline-flex items-center gap-2 font-['Manrope'] text-[clamp(18px,2vw,22px)] font-bold capitalize leading-[30px] tracking-normal text-[#EB3609] transition-opacity hover:opacity-80"
                     >
                       <span>Checkout Our Deals</span>
-                      <span className="text-[#EB3609]">→</span>
+                      <img
+                        src="/images/right-orange-arrow.svg"
+                        alt="Arrow icon"
+                        className="h-5 w-5"
+                      />
                     </a>
                   </div>
                 </div>

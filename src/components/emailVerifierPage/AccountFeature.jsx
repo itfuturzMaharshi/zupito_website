@@ -60,30 +60,24 @@ const AccountFeature = () => {
     }
   ]
 
-  // Gear Icon Component (for first 4 features) - Monitor with gear
+  // Gear Icon Component (for first 4 features)
   const GearIcon = () => (
-    <svg className="w-full h-full" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      {/* Window frame */}
-      <rect x="4" y="6" width="24" height="18" rx="2" stroke="#737B9C" strokeWidth="1.5" fill="none"/>
-      {/* Window controls */}
-      <circle cx="8" cy="10" r="1.5" fill="#EB3609"/>
-      <circle cx="11" cy="10" r="1.5" fill="#EB3609"/>
-      <circle cx="14" cy="10" r="1.5" fill="#EB3609"/>
-      {/* Gear icon inside */}
-      <circle cx="16" cy="16" r="4" stroke="#737B9C" strokeWidth="1.5" fill="none"/>
-      <circle cx="16" cy="16" r="1.5" fill="#737B9C"/>
-      <path d="M16 12L16 20M12 16L20 16" stroke="#737B9C" strokeWidth="1.5" strokeLinecap="round"/>
-      {/* Cursor */}
-      <path d="M22 22L24 24M24 24L22 26M24 24L26 22" stroke="#737B9C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-    </svg>
+    <img
+      src="/images/Layer_1.svg"
+      alt="Feature icon"
+      className="w-full h-full object-contain"
+    />
   )
 
-  // Checkmark Icon Component (for remaining features) - Blue circle with white checkmark
+  // Checkmark Icon Component (for remaining features)
   const CheckIcon = () => (
-    <svg className="w-full h-full" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="16" cy="16" r="12" fill="#4A90E2"/>
-      <path d="M11 16L14 19L21 12" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-    </svg>
+    <span className="inline-flex w-6 h-6 items-center justify-center rounded-full bg-[#0088FF] p-[6px] shadow-[0px_4px_4px_0px_#0000001A]">
+      <img
+        src="/images/Tick-2.svg"
+        alt="Check icon"
+        className="w-full h-full object-contain"
+      />
+    </span>
   )
 
   return (
@@ -106,34 +100,12 @@ const AccountFeature = () => {
           <div className="w-full flex flex-col items-center gap-4 sm:gap-[16px]">
             <h1 className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-center font-['Inter'] text-[clamp(32px,5vw,60px)] font-semibold leading-[100%] tracking-[-2.2px] text-[#132436]">
               <span>Zupitu</span>
-              <span className="inline-flex h-[clamp(40px,5vw,70px)] w-[clamp(40px,5vw,70px)] shrink-0 items-center justify-center rounded-full bg-[#EB3609]">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-[clamp(20px,3vw,32px)] h-[clamp(20px,3vw,32px)]"
-                >
-                  <rect
-                    x="6"
-                    y="6"
-                    width="12"
-                    height="12"
-                    rx="2"
-                    stroke="white"
-                    strokeWidth="2"
-                    fill="none"
-                  />
-                  <rect
-                    x="8"
-                    y="8"
-                    width="8"
-                    height="8"
-                    rx="1"
-                    fill="white"
-                  />
-                </svg>
+              <span className="inline-flex items-center justify-center">
+                <img
+                  src="/images/email-icon-4.svg"
+                  alt="Email icon"
+                  className="h-[56px] w-[56px]"
+                />
               </span>
               <span>Account Features</span>
             </h1>
@@ -149,7 +121,13 @@ const AccountFeature = () => {
               className="inline-flex items-center gap-[6px] rounded-[50px] bg-white px-4 py-3 font-['Manrope'] text-[clamp(18px,2vw,22px)] font-bold capitalize leading-[30px] tracking-normal text-[#EB3609] transition-opacity hover:opacity-80"
             >
               <span>Claim Deals</span>
-              <span className="text-[#EB3609]">→</span>
+              <span className="inline-flex items-center justify-center">
+                <img
+                  src="/images/right-orange-arrow.svg"
+                  alt="Arrow icon"
+                  className="h-4 w-4"
+                />
+              </span>
             </a>
           </div>
         </div>

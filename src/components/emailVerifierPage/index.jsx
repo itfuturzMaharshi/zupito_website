@@ -14,15 +14,15 @@ import FAQsPage from './FAQsPage'
 const EmailVerifierPage = () => {
   return (
     <div>
+      <HeroSection />
       <EmailVerification />
-      <SingleAndBulkEmail />
-      <AccountFeature />
-      <NonTechFeature />
-      <RealTimeEmailVerification />
       <BusinessEmailVerification />
       <PersonalEmailVerification />
+      <RealTimeEmailVerification />
+      <SingleAndBulkEmail />
+      <NonTechFeature />
       <PlanPage />
-      <HeroSection />
+      <AccountFeature />
       <FAQsPage />
       <Footer />
     </div>

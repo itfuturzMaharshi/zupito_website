@@ -24,10 +24,12 @@ const SingleAndBulkEmail = () => {
           {/* Main Title */}
           <h1 className="text-center flex flex-wrap items-center justify-center gap-3 mb-5 font-['Inter'] font-semibold text-[clamp(32px,4vw,60px)] leading-[50px] tracking-[-2.2px] align-middle text-[#132436]">
             <span>Single</span>
-            <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-green-500 shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="white"/>
-              </svg>
+            <span className="inline-flex items-center justify-center ">
+              <img
+                src="/images/email-icon-3.svg"
+                alt="Email icon"
+                className="h-[56px] w-[56px]"
+              />
             </span>
             <span>& Bulk Mail Verification</span>
           </h1>
@@ -58,11 +60,12 @@ const SingleAndBulkEmail = () => {
                   <span>Instant Single Email Verification –</span>
                   <br className="lg:hidden" />
                   <span>Simple,</span>
-                  <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-500 shrink-0">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                      <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2" fill="none"/>
-                      <path d="M12 6v6l4 2" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
+                  <span className="inline-flex items-center justify-center ">
+                    <img
+                      src="/images/setting-orange-7.svg"
+                      alt="Setting icon"
+                      className="h-[56px] w-[56px]"
+                    />
                   </span>
                   <span>Fast, Accurate</span>
                 </h2>
@@ -85,7 +88,11 @@ const SingleAndBulkEmail = () => {
                   className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity font-['Manrope'] font-bold text-[22px] leading-[30px] tracking-normal align-middle capitalize text-[#EB3609]"
                 >
                   <span>Buy Now</span>
-                  <span className="text-[#EB3609]">→</span>
+                  <img
+                    src="/images/right-orange-arrow.svg"
+                    alt="Arrow icon"
+                    className="h-4 w-4"
+                  />
                 </a>
               </div>
             </div>
@@ -121,11 +128,12 @@ const SingleAndBulkEmail = () => {
               <div className="flex flex-col gap-[14px]">
                 <h2 className="flex flex-wrap items-center gap-2 mb-6 font-['Inter'] font-semibold text-[clamp(32px,3vw,32px)] leading-[100%] tracking-[-1.5px] align-middle text-[#132436]">
                   <span>Effortless</span>
-                  <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-500 shrink-0">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                      <path d="M7 10l5 5 5-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M12 3v12" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
+                  <span className="inline-flex items-center justify-center">
+                    <img
+                      src="/images/setting-orange-8.svg"
+                      alt="Setting icon"
+                      className="h-[56px] w-[56px]"
+                    />
                   </span>
                   <span>Bulk Email</span>
                   <br className="lg:hidden" />
@@ -150,7 +158,11 @@ const SingleAndBulkEmail = () => {
                   className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity font-['Manrope'] font-bold text-[22px] leading-[30px] tracking-normal align-middle capitalize text-[#EB3609]"
                 >
                   <span>Buy Now</span>
-                  <span className="text-[#EB3609]">→</span>
+                  <img
+                    src="/images/right-orange-arrow.svg"
+                    alt="Arrow icon"
+                    className="h-4 w-4"
+                  />
                 </a>
               </div>
             </div>

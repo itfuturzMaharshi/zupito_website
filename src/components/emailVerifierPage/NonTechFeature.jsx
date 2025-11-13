@@ -82,34 +82,12 @@ const NonTechFeature = () => {
           <div className="w-full flex flex-col items-center gap-4 sm:gap-[16px]">
             <h1 className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-center font-['Inter'] text-[clamp(32px,5vw,60px)] font-semibold leading-[100%] tracking-[-2.2px] text-[#132436]">
               <span>Zupitu</span>
-              <span className="inline-flex h-[clamp(40px,5vw,70px)] w-[clamp(40px,5vw,70px)] shrink-0 items-center justify-center rounded-full bg-[#EB3609]">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-[clamp(20px,3vw,32px)] h-[clamp(20px,3vw,32px)]"
-                >
-                  <rect
-                    x="6"
-                    y="6"
-                    width="12"
-                    height="12"
-                    rx="2"
-                    stroke="white"
-                    strokeWidth="2"
-                    fill="none"
-                  />
-                  <rect
-                    x="8"
-                    y="8"
-                    width="8"
-                    height="8"
-                    rx="1"
-                    fill="white"
-                  />
-                </svg>
+              <span className="inline-flex  items-center justify-center ">
+                <img
+                  src="/images/email-icon-4.svg"
+                  alt="Email icon"
+                  className="h-[56px] w-[56px]"
+                />
               </span>
               <span>Non-Tech Features</span>
             </h1>
