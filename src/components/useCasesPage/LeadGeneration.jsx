@@ -18,7 +18,8 @@ const LeadGeneration = () => {
             <div
               className="w-full max-w-full mx-auto h-[125px] flex items-center justify-center rounded-[16px] relative"
               style={{
-                background: "linear-gradient(90deg, #EFF7FF 0%, #CFCFFF 100%)",
+                background:
+                  "linear-gradient(90deg, rgba(239, 247, 255, 0.5) 0%, rgba(207, 207, 255, 0.5) 100%)",
                 transform: "rotate(-180deg)",
               }}
             >
@@ -106,7 +107,7 @@ const LeadGeneration = () => {
                 <div className="w-full flex flex-col gap-[20px]">
                   {/* Tenth Image - Individual Bullet Container */}
                   <div className="w-full flex items-start gap-[10px]">
-                    <span className="inline-flex items-center justify-center w-[30px] h-[30px] shrink-0 mt-1">
+                    <span className="inline-flex items-center justify-center w-[16px] h-[16px] shrink-0 mt-1">
                       <img
                         src="/images/Tick-1.svg"
                         alt="Check icon"
@@ -127,7 +128,7 @@ const LeadGeneration = () => {
 
                   {/* Tenth Image - Individual Bullet Container */}
                   <div className="w-full flex items-start gap-[10px]">
-                    <span className="inline-flex items-center justify-center w-[30px] h-[30px] shrink-0 mt-1">
+                    <span className="inline-flex items-center justify-center w-[16px] h-[16px] shrink-0 mt-1">
                       <img
                         src="/images/Tick-1.svg"
                         alt="Check icon"
@@ -147,7 +148,7 @@ const LeadGeneration = () => {
 
                   {/* Tenth Image - Individual Bullet Container */}
                   <div className="w-full flex items-start gap-[10px]">
-                    <span className="inline-flex items-center justify-center w-[30px] h-[30px] shrink-0 mt-1">
+                    <span className="inline-flex items-center justify-center w-[16px] h-[16px] shrink-0 mt-1">
                       <img
                         src="/images/Tick-1.svg"
                         alt="Check icon"
