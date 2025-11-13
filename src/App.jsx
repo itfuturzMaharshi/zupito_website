@@ -5,6 +5,7 @@ import HomePage from "./components/homePage";
 import EmailFinderPage from "./components/emailFinderPage";
 import EmailVerifierPage from "./components/emailVerifierPage";
 import HelpDeskPage from "./components/helpdeskPage";
+import UseCasesPage from "./components/useCasesPage";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <HomePage /> */}
       {/* <EmailFinderPage /> */}
       {/* <EmailVerifierPage /> */}
-      <HelpDeskPage />
+      {/* <HelpDeskPage /> */}
+      <UseCasesPage />
     </>
   );
 }
