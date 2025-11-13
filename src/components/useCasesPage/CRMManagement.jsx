@@ -1,15 +1,15 @@
 import React from "react";
 
-const SalesProspecting = () => {
+const CRMManagement = () => {
   const bulletPoints = [
-    "Increase response rates with verified addresses.",
-    "Minimize bounce rates that hurt your sender reputation.",
-    "Give sales teams confidence in every email they send.",
+    "Maintain a clean, accurate CRM.",
+    "Reduce wasted effort on dead leads.",
+    "Enable teams to act on reliable data.",
   ];
 
   return (
     <section className="relative w-full flex items-center justify-center overflow-hidden">
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[200px] pb-[80px] sm:pb-[100px]">
+      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[200px] py-[80px] sm:py-[100px]">
         <div className="relative w-full max-w-full mx-auto rounded-[24px]">
           <div className="w-full max-w-full mx-auto  flex flex-col gap-[80px]">
             <div
@@ -27,7 +27,7 @@ const SalesProspecting = () => {
                   transform: "rotate(180deg)",
                 }}
               >
-                Cold Outreach &nbsp; Sales Prospecting
+                Database & CRM Management
               </h1>
             </div>
 
@@ -42,7 +42,8 @@ const SalesProspecting = () => {
                         color: "#132436",
                       }}
                     >
-                      <span>Reach The Right</span>
+                      <span>Keep your database</span>
+                      <span>clean &</span>
                       <span className="inline-flex items-center justify-center w-[38px] h-[38px] shrink-0">
                         <img
                           src="/images/setting-orange-6.svg"
@@ -50,8 +51,7 @@ const SalesProspecting = () => {
                           className="w-full h-full object-contain"
                         />
                       </span>
-                      <span>People </span>
-                      <span>With Confidence</span>
+                      <span>actionable</span>
                     </h2>
                   </div>
                   <div className="w-full flex flex-col gap-[10px]">
@@ -62,11 +62,10 @@ const SalesProspecting = () => {
                         color: "#3C4E60",
                       }}
                     >
-                      Cold outreach is only effective if your emails actually
-                      land in inboxes. Our Email Finder helps you uncover the
-                      right email addresses for your prospects, while the Email
-                      Verifier ensures those emails are accurate and
-                      deliverable.
+                      An outdated or messy database can slow down both marketing
+                      and sales. The Email Verifier regularly cleans your lists
+                      to remove invalid or inactive emails, while the Finder
+                      fills your CRM with fresh contacts.
                     </p>
                     <p
                       className="font-['Manrope'] font-medium text-[clamp(18px,2.5vw,20px)] leading-[32px] tracking-[0px]"
@@ -75,8 +74,8 @@ const SalesProspecting = () => {
                         color: "#3C4E60",
                       }}
                     >
-                      Together, they maximize your chances of starting real
-                      conversations and closing deals.
+                      The result? A healthy database that keeps your pipeline
+                      flowing.
                     </p>
                   </div>
                 </div>
@@ -88,7 +87,7 @@ const SalesProspecting = () => {
                       className="w-full flex items-start gap-[16px]"
                     >
                       <span
-                        className="inline-flex items-center justify-center w-[36px] h-[36px] shrink-0 rounded-full"
+                        className="inline-flex items-center justify-center w-[32px] h-[32px] shrink-0 rounded-full"
                         style={{
                           background:
                             "linear-gradient(180deg, #EEF6FF 0%, #DFEEFF 100%)",
@@ -112,7 +111,7 @@ const SalesProspecting = () => {
                 <div className="w-full  rounded-[32px] flex flex-col shadow-[0px_20px_70px_rgba(7,24,65,0.18)]">
                   <div className="w-full flex items-center justify-center">
                     <img
-                      src="/images/sales-prospecting-img.png"
+                      src="/images/crm-management-img.png"
                       alt="Sales Prospecting Illustration"
                       className="w-full h-auto max-w-full object-contain"
                     />
@@ -127,4 +126,4 @@ const SalesProspecting = () => {
   );
 };
 
-export default SalesProspecting;
+export default CRMManagement;
