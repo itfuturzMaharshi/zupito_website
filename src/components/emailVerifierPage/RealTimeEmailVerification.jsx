@@ -91,8 +91,29 @@ const RealTimeEmailVerification = () => {
   return (
     <section className="relative w-full bg-white overflow-hidden">
       <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[200px] py-[80px] md:py-[120px]">
-        <div className="w-full flex flex-col items-center gap-[60px] md:gap-[80px]">
-          <div className="flex flex-col items-center gap-[40px] md:gap-[60px]">
+        {/* Decorative background animation - right side */}
+        <img
+          src="/images/footer-animation-1.png"
+          alt=""
+          aria-hidden="true"
+          className="pointer-events-none select-none hidden md:block absolute right-[-60px] md:right-[-80px] lg:right-[-120px] top-[12px] md:top-[10%] lg:top-1/8 w-[220px] h-[220px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px] -translate-y-1/2 z-0"
+          style={{
+            animation: 'spinClockwise 20s linear infinite',
+            transformOrigin: '50% 50%'
+          }}
+        />
+        <style>{`
+          @keyframes spinClockwise {
+            from {
+              transform: rotate(0deg);
+            }
+            to {
+              transform: rotate(360deg);
+            }
+          }
+        `}</style>
+        <div className="w-full flex flex-col items-center gap-[60px] md:gap-[80px] relative z-10">
+          <div className="relative flex flex-col items-center gap-[40px] md:gap-[60px]">
             <div className="flex items-center justify-center">
               <div className="inline-flex items-center gap-[6px] rounded-[50px] bg-[#F8F7FF] px-4 py-3 shadow-sm">
                 <span className="h-[12px] w-[12px] rounded-full bg-[#4A90E2]"></span>

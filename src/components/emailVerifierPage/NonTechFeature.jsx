@@ -64,6 +64,18 @@ const NonTechFeature = () => {
 
   return (
     <section className="relative w-full bg-white overflow-hidden">
+      <img
+        src="/images/vector-img-1.png"
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none select-none hidden md:block absolute left-0 top-1/2  -translate-x-[10%] -translate-y-1/2"
+      />
+      <img
+        src="/images/vector-img-2.png"
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none select-none hidden md:block absolute right-0 top-1/4  translate-x-[10%] -translate-y-1/2"
+      />
       {/* Main Container */}
       <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[200px] py-[100px]">
         {/* Header Section */}

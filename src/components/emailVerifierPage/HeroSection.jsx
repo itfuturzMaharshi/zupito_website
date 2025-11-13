@@ -14,10 +14,19 @@ const HeroSection = () => {
         <div className="w-full flex flex-col items-center gap-6 sm:gap-8 md:gap-[21px] mb-8 sm:mb-12 md:mb-16">
           {/* Main Heading */}
           <div className="w-full flex flex-col items-center gap-4 sm:gap-6">
-            <h1 className="text-center font-['Inter'] font-bold text-[clamp(32px,5vw,68px)] leading-[100%] tracking-[-3.2px] text-[#132436] capitalize">
-              Business & Personal Email Validation
+            <h1 className="text-center font-['Inter'] font-bold text-[clamp(32px,5vw,60px)] leading-[100%] tracking-[-3.2px] text-[#132436] capitalize flex flex-wrap items-center justify-center gap-2 sm:gap-3">
+              <span>Business & Personal</span>
+              <span className="inline-flex items-center justify-center">
+                <img
+                  src="/images/Success.svg"
+                  alt=""
+                  aria-hidden="true"
+                  className="w-[56px] h-[56px]"
+                />
+              </span>
+              <span>Email Validation</span>
             </h1>
-            <h2 className="text-center font-['Inter'] font-bold text-[clamp(32px,5vw,70px)] leading-[100%] tracking-[-3.2px] text-[#EB3609] capitalize">
+            <h2 className="text-center font-['Inter'] font-bold text-[clamp(32px,5vw,60px)] leading-[100%] tracking-[-3.2px] text-[#EB3609] capitalize">
               High Speed Accuracy
             </h2>
           </div>
@@ -33,7 +42,7 @@ const HeroSection = () => {
         <div className="relative w-full max-w-full mx-auto mb-8 sm:mb-12 md:mb-16">
           {/* Profile Images with Connecting Lines */}
           {/* Top Left Profile */}
-          <div className="absolute -top-8 -left-8 sm:-top-12 sm:-left-12 md:-top-16 md:-left-16 lg:-top-0 lg:-left-20 z-10 hidden md:block">
+          <div className="absolute -top-8 -left-8 sm:-top-12 sm:-left-12 md:-top-16 md:-left-16 lg:top-0 lg:-left-20 z-10 hidden md:block">
             <div className="relative">
               <img
                 src="/images/hero-email-verifier-animation-1.png"
@@ -177,38 +186,12 @@ const HeroSection = () => {
               </h2>
               <h2 className="text-center font-['Inter'] font-semibold text-[clamp(28px,3.5vw,40px)] leading-[100%] tracking-[-1.5px] text-[#132436] capitalize flex items-center gap-2">
                 <span>different</span>
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  className="w-6 h-6"
-                >
-                  <rect
-                    x="4"
-                    y="8"
-                    width="4"
-                    height="8"
-                    fill="#EB3609"
-                    rx="1"
-                  />
-                  <rect
-                    x="10"
-                    y="4"
-                    width="4"
-                    height="12"
-                    fill="#EB3609"
-                    rx="1"
-                  />
-                  <rect
-                    x="16"
-                    y="2"
-                    width="4"
-                    height="14"
-                    fill="#EB3609"
-                    rx="1"
-                  />
-                </svg>
+                <img
+                  src="/images/setting-orange-1.svg"
+                  alt=""
+                  aria-hidden="true"
+                  className="w-[56px] h-[56px]"
+                />
                 <span>industries</span>
               </h2>
             </div>
