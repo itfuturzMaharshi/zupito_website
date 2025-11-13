@@ -23,37 +23,11 @@ const DocumentationPage = () => {
                   <span>Can't</span>
                   {/* Orange Speech Bubble Icon */}
                   <span className="inline-flex items-center justify-center shrink-0 relative">
-                    <svg
-                      width="clamp(40px, 5vw, 60px)"
-                      height="clamp(40px, 5vw, 60px)"
-                      viewBox="0 0 60 60"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="relative z-10"
-                    >
-                      {/* Glow effect behind */}
-                      <circle cx="30" cy="30" r="28" fill="#EB3609" opacity="0.2" />
-                      {/* Speech bubble main body */}
-                      <path
-                        d="M30 8C18.954 8 10 16.954 10 28C10 35.5 14.5 41.5 21 44.5V52L30 44.5C38.5 44.5 50 37.5 50 28C50 16.954 41.046 8 30 8Z"
-                        fill="#EB3609"
-                      />
-                      {/* Speech bubble tail pointing down-left */}
-                      <path
-                        d="M21 44.5L12 52L21 52V44.5Z"
-                        fill="#EB3609"
-                      />
-                      {/* Question mark - dot */}
-                      <circle cx="30" cy="36" r="2.5" fill="white" />
-                      {/* Question mark - hook */}
-                      <path
-                        d="M30 28C28.3431 28 27 26.6569 27 25V21C27 19.3431 28.3431 18 30 18C31.6569 18 33 19.3431 33 21V25C33 26.6569 31.6569 28 30 28Z"
-                        fill="white"
-                        stroke="white"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                      />
-                    </svg>
+                    <img 
+                      src="/images/Commitment-1.svg" 
+                      alt="Icon" 
+                      className="w-[clamp(40px,5vw,60px)] h-[clamp(40px,5vw,60px)] relative z-10"
+                    />
                   </span>
                   <span>Find What You're</span>
                   <span className="w-full lg:w-auto">looking for?</span>

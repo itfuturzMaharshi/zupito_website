@@ -32,52 +32,17 @@ const ContactUs = () => {
             <span>Contact</span>
             {/* Headset Icon - Purple Circle with White Headset and Speech Bubble */}
             <span className="inline-flex items-center justify-center w-[clamp(50px,6vw,80px)] h-[clamp(50px,6vw,80px)] shrink-0">
-              <svg
-                width="100%"
-                height="100%"
-                viewBox="0 0 80 80"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="40" cy="40" r="40" fill="#8B5CF6" />
-                {/* Headset */}
-                <g transform="translate(18, 22)">
-                  {/* Left Earcup */}
-                  <ellipse cx="8" cy="18" rx="6" ry="8" fill="white" />
-                  {/* Right Earcup */}
-                  <ellipse cx="24" cy="18" rx="6" ry="8" fill="white" />
-                  {/* Headband Arc */}
-                  <path
-                    d="M8 10C8 10 10 6 16 6C22 6 24 10 24 10"
-                    stroke="white"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                    fill="none"
-                  />
-                  {/* Microphone Boom */}
-                  <path
-                    d="M16 26L16 30C16 31.1046 16.8954 32 18 32C19.1046 32 20 31.1046 20 30L20 26"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    fill="none"
-                  />
-                </g>
-                {/* Speech Bubble - overlapping the earpiece */}
-                <g transform="translate(52, 20)">
-                  <circle cx="8" cy="8" r="8" fill="white" />
-                  <path
-                    d="M8 18C11.3137 18 14 15.3137 14 12C14 8.68629 11.3137 6 8 6C4.68629 6 2 8.68629 2 12C2 15.3137 4.68629 18 8 18Z"
-                    fill="white"
-                  />
-                </g>
-              </svg>
+              <img 
+                src="/images/contact-us-icon.svg" 
+                alt="Contact Us Icon" 
+                className="w-full h-full"
+              />
             </span>
             <span>Us</span>
           </h1>
 
           {/* Description Text */}
-          <p className="max-w-full text-center font-['Manrope'] text-[clamp(18px,2.5vw,26px)] font-medium leading-[100%] tracking-normal text-[#62768B]">
+          <p className="max-w-full text-center font-['Manrope'] text-[clamp(18px,2.5vw,26px)] font-medium leading-[40px] tracking-normal text-[#62768B]">
             Get in touch and let us know how we can help. Fill out the form and we'll be in touch as soon as possible.
           </p>
         </div>
@@ -130,7 +95,7 @@ const ContactUs = () => {
                   onChange={handleChange}
                   placeholder="Description"
                   rows="6"
-                  className="w-full min-h-[161px] rounded-[16px] px-[34px] pt-[24px] pb-[110px] bg-white shadow-[0px_4px_16px_0px_rgba(0,0,0,0.08)] border-none outline-none resize-none font-['Manrope'] text-[clamp(16px,2vw,18px)] font-medium text-[#132436] placeholder:text-[#9CA3AF] focus:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.12)] transition-shadow duration-300"
+                  className="w-full min-h-[161px] rounded-[16px] px-[34px] pt-[24px] pb-[24px] bg-white shadow-[0px_4px_16px_0px_rgba(0,0,0,0.08)] border-none outline-none resize-none font-['Manrope'] text-[clamp(16px,2vw,18px)] font-medium text-[#132436] placeholder:text-[#9CA3AF] focus:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.12)] transition-shadow duration-300"
                   required
                 />
               </div>
