@@ -46,7 +46,7 @@ const EmailsVerified = () => {
               </div>
 
               {/* Bottom section - width 781px, height 240px, padding 30px 32px, border-radius bottom 24px, background #F9F9F8 */}
-              <div className="w-full max-w-[781px] mx-auto lg:mx-0 h-auto lg:h-[240px] rounded-b-[24px] bg-[#F9F9F8] pt-4! md:pt-4! pr-4! md:pr-4! pb-4! md:pb-8! pl-4! md:pl-4! flex flex-col">
+              <div className="w-full max-w-[781px] mx-auto lg:mx-0 h-auto lg:h-[240px] rounded-b-[24px] bg-[#F9F9F8] p-6 flex flex-col">
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
                 <div className="w-full max-w-[717px] h-full flex flex-col gap-3 justify-between">
                   {/* Description text */}
