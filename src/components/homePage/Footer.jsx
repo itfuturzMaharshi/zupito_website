@@ -55,35 +55,35 @@ const Footer = () => {
               bottom: 'clamp(900px, 50vh, 875px)',
             }}
           />
-          <div className="relative z-2 w-full max-w-full mx-auto flex flex-col items-center gap-[20px] md:gap-[24px]">
-            <h2 className="font-bold text-center tracking-[-2.4px] mt-8! text-white leading-[40px] text-[28px] sm:text-[36px] sm:leading-[48px] md:text-[46px] md:leading-[62px] lg:text-[54px] lg:leading-[72px] xl:text-[56px] xl:leading-[80px] capitalize">
+          <div className="relative z-2 w-full max-w-full mx-auto flex flex-col items-center gap-4 sm:gap-5 md:gap-[24px]">
+            <h2 className="font-bold text-center font-['Inter'] tracking-[-2.4px] mt-4! sm:mt-6! md:mt-8! text-white leading-[36px] text-[24px] sm:text-[32px] sm:leading-[44px] md:text-[46px] md:leading-[62px] lg:text-[54px] lg:leading-[72px] xl:text-[56px] xl:leading-[80px] capitalize px-2!">
               <span className="text-white">Sign Up </span>
               <span className="text-[#717680]">For </span>
               <span className="text-[#EDFF67]">300 Free Credits </span>
-              <br />
+              <br className="hidden sm:block" />
               <span className="text-[#717680]">With </span>
               <span className="text-white">Unlimited Validity</span>
             </h2>
 
-            <p className="text-center text-white md:opacity-100 opacity-90 font-medium text-[14px] leading-[24px] sm:text-[18px] sm:leading-[30px] md:text-[22px] md:leading-[38px] max-w-[980px]">
+            <p className="text-center font-['Manrope'] text-white md:opacity-100 opacity-90 font-medium text-[14px] leading-[22px] sm:text-[16px] sm:leading-[26px] md:text-[18px] md:leading-[30px] lg:text-[22px] lg:leading-[38px] max-w-[980px] px-4!">
               Use your free credits for both finding and verifying emails.
             </p>
 
-            <div className="flex items-center justify-center gap-4 md:gap-6 flex-wrap w-full max-w-[800px] pt-6! pb-6!">
-              <button className="h-[54px] sm:h-[58px] md:h-[62px] px-6! sm:px-8! md:px-10! rounded-[50px] bg-[#EB3609] text-white text-[16px] sm:text-[18px] md:text-[20px] font-semibold whitespace-nowrap inline-flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 md:gap-6 w-full max-w-[800px] pt-4! sm:pt-6! pb-4! sm:pb-6! px-4!">
+              <button className="w-full sm:w-auto h-[50px] sm:h-[54px] font-['Inter'] md:h-[58px] lg:h-[62px] px-6! sm:px-8! md:px-10! rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35] text-white text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-semibold whitespace-nowrap inline-flex items-center justify-center gap-2 sm:gap-3 transition-colors">
                 <span>Checkout Details</span>
                 <img
                     src="/images/right-arrow.svg"
                     alt="Right arrow icon"
-                    className="w-4 h-4 sm:w-5 sm:h-5 "
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                   />
               </button>
-              <button className="text-white text-[16px] sm:text-[18px] md:text-[24px] font-semibold flex items-center gap-2">
+              <button className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[24px] font-semibold flex items-center gap-2 hover:text-[#EDFF67] transition-colors">
                 <span>Claim 300 free credits</span>
                <img
                     src="/images/right-arrow.svg"
                     alt="Right arrow icon"
-                    className=" w-4 h-4 sm:w-5 sm:h-5 mt-1"
+                    className="w-4 h-4 sm:w-5 sm:h-5 mt-1"
                   />
               </button>
             </div>
@@ -100,34 +100,34 @@ const Footer = () => {
               />
             </div>
 
-            <div className="w-full flex items-center justify-center gap-8 md:gap-10 flex-wrap pt-6!">
+            <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-10 pt-4! sm:pt-6! px-4!">
               {["Free Monthly Credits", "No Hidden Costs"].map((label) => (
-                <div key={label} className="flex items-center gap-3">
+                <div key={label} className="flex items-center gap-2 sm:gap-3">
                   <img
                     src="/images/check-icon-white.png"
                     alt="tick"
-                    className="w-5 h-5 object-contain"
+                    className="w-4 h-4 sm:w-5 sm:h-5 object-contain shrink-0"
                   />
-                  <span className="text-white text-[16px] sm:text-[18px] md:text-[20px] leading-[100%]">
+                  <span className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[100%] text-center sm:text-left">
                     {label}
                   </span>
                 </div>
               ))}
             </div>
           </div>
-          <div className="flex flex-col gap-4">
-            <div className="w-full max-w-full mx-auto mt-10! md:mt-14! lg:mt-16! flex flex-col lg:flex-row gap-4">
-              <div className="flex-1 rounded-[16px] bg-[#1C2D3E] p-6! md:p-10! flex flex-col gap-4! md:gap-6! min-h-[224px]">
-                <div className="text-white font-extrabold text-[28px] sm:text-[34px] md:text-[40px] leading-[100%]">
+          <div className="flex flex-col gap-4 sm:gap-6">
+            <div className="w-full max-w-full mx-auto mt-8! sm:mt-10! md:mt-14! lg:mt-16! flex flex-col lg:flex-row gap-4 sm:gap-6">
+              <div className="flex-1 rounded-[16px] bg-[#1C2D3E] p-5! sm:p-6! md:p-10! flex flex-col gap-3! sm:gap-4! md:gap-6! min-h-[200px] sm:min-h-[224px]">
+                <div className="text-white font-extrabold text-[24px] sm:text-[28px] md:text-[34px] lg:text-[40px] leading-[100%]">
                   Zupitu
                 </div>
-                <p className="text-white text-[16px] sm:text-[18px] md:text-[20px] leading-[28px] md:leading-[34px] max-w-[722px]">
+                <p className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[24px] sm:leading-[28px] md:leading-[34px] max-w-[722px]">
                   From dynamic visuals to interactive features, our software
                   empowers you to craft a website tailored to every need.
                 </p>
               </div>
 
-              <div className="w-full lg:w-auto grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-4">
+              <div className="w-full lg:w-auto grid grid-cols-3 gap-3 sm:gap-4">
                 {[
                   { label: "Facebook", icon: "/images/FB.svg" },
                   { label: "Linked In", icon: "/images/Linkedin.svg" },
@@ -135,16 +135,16 @@ const Footer = () => {
                 ].map((s) => (
                   <div
                     key={s.label}
-                    className="rounded-[16px] bg-[#1C2D3E]  flex flex-col items-center justify-center gap-4 p-6!"
+                    className="rounded-[16px] bg-[#1C2D3E] flex flex-col items-center justify-center gap-2 sm:gap-3 md:gap-4 p-4! sm:p-5! md:p-6!"
                   >
-                    <div className="w-12 h-12 rounded-full  flex items-center justify-center">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center">
                       <img
                         src={s.icon}
                         alt={s.label}
-                        className="w-12 h-12 object-contain"
+                        className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
                       />
                     </div>
-                    <div className="text-white text-[18px] md:text-[20px]">
+                    <div className="text-white font-['Manrope'] text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] text-center">
                       {s.label}
                     </div>
                   </div>
@@ -152,8 +152,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full max-w-full mx-auto  rounded-[16px] bg-[#1C2D3E] px-6! md:px-[52px]! py-8! md:py-[50px]!">
-              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-[60px] text-white">
+            <div className="w-full max-w-full mx-auto rounded-[16px] bg-[#1C2D3E] px-4! sm:px-6! md:px-[52px]! py-6! sm:py-8! md:py-[50px]!">
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 md:gap-[60px] text-white">
                 {[
                   {
                     title: "Product",
@@ -171,15 +171,15 @@ const Footer = () => {
                   { title: "Use Cases", items: ["Lead Generation", "Offers"] },
                   { title: "Company", items: ["Terms", "Contact Us"] },
                 ].map((col) => (
-                  <div key={col.title} className="flex flex-col gap-4">
-                    <h3 className="font-bold text-[18px] sm:text-[20px] md:text-[26px] tracking-[-0.32px] capitalize">
+                  <div key={col.title} className="flex flex-col gap-3 sm:gap-4">
+                    <h3 className="font-bold font-['Inter'] text-[16px] sm:text-[18px] md:text-[20px] lg:text-[26px] tracking-[-0.32px] capitalize">
                       {col.title}
                     </h3>
-                    <ul className="flex flex-col gap-3 md:gap-4 opacity-90">
+                    <ul className="flex flex-col gap-2 sm:gap-3 md:gap-4 opacity-90">
                       {col.items.map((it) => (
                         <li
                           key={it}
-                          className="text-[16px] sm:text-[18px] md:text-[20px] leading-[100%]"
+                          className="text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-['Manrope'] leading-[100%] cursor-pointer hover:text-[#EDFF67] transition-colors"
                         >
                           {it}
                         </li>
@@ -191,7 +191,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-full max-w-full mx-auto text-center text-white text-[14px] sm:text-[16px] md:text-[20px] pt-10!">
+          <div className="w-full font-['Manrope'] max-w-full mx-auto text-center text-white text-[12px] sm:text-[14px] md:text-[16px] lg:text-[20px] pt-6! sm:pt-8! md:pt-10! px-4!">
             © 2025 Zupitu.{" "}
             <span className="text-white/70">All Rights Reserved.</span>
           </div>

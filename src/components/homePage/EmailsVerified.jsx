@@ -12,7 +12,7 @@ const EmailsVerified = () => {
             <div className="w-full lg:w-[full] h-auto lg:h-full rounded-[24px] p-6! bg-[#F0EBFF] flex flex-col gap-5">
               {/* Title section */}
               <div className="w-full flex flex-col items-center justify-center text-center">
-                <h2 className="font-semibold text-[24px] leading-[38px] sm:text-[28px] sm:leading-[42px] md:text-[32px] md:leading-[50px] tracking-[-1.2px]">
+                <h2 className="font-semibold text-[24px] font-['Inter'] leading-[38px] sm:text-[28px] sm:leading-[42px] md:text-[32px] md:leading-[50px] tracking-[-1.2px]">
                   <span className="text-[#132436]">
                     Lead Generation <span className="text-[#9C93B4]">with</span>{" "}
                   </span>
@@ -35,9 +35,7 @@ const EmailsVerified = () => {
             </div>
 
             {/* Right column */}
-            <div
-              className="w-full lg:w-auto justify-between  flex flex-col gap-6 md:gap-14 lg:gap-16  bg-white rounded-[24px] border border-solid border-[var(--color-grey-92,#E9EAEB)] overflow-hidden"
-            >
+            <div className="w-full lg:w-auto justify-between  flex flex-col gap-6 md:gap-14 lg:gap-16  bg-white rounded-[24px] border border-solid border-[var(--color-grey-92,#E9EAEB)] overflow-hidden">
               {/* Right side image - verified email content */}
               <div className="w-full flex items-center justify-center">
                 <img
@@ -50,9 +48,9 @@ const EmailsVerified = () => {
               {/* Bottom section - width 781px, height 240px, padding 30px 32px, border-radius bottom 24px, background #F9F9F8 */}
               <div className="w-full max-w-[781px] mx-auto lg:mx-0 h-auto lg:h-[240px] rounded-b-[24px] bg-[#F9F9F8] pt-4! md:pt-4! pr-4! md:pr-4! pb-4! md:pb-8! pl-4! md:pl-4! flex flex-col">
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
-                <div className="w-full max-w-[717px] h-full flex flex-col justify-between">
+                <div className="w-full max-w-[717px] h-full flex flex-col gap-3 justify-between">
                   {/* Description text */}
-                  <p className="text-[#4A4E5C] font-normal text-[18px] leading-[30px] sm:text-[20px] sm:leading-[34px] md:text-[22px] md:leading-[38px] tracking-[0px]">
+                  <p className="text-[#4A4E5C] font-['Manrope'] font-normal text-[18px] leading-[30px] sm:text-[20px] sm:leading-[34px] md:text-[22px] md:leading-[38px] tracking-[0px]">
                     Zupitu ensures your emails always reach the right inbox.
                     High email deliverability is achieved through reduced bounce
                     rates, a healthy email list,
@@ -62,14 +60,14 @@ const EmailsVerified = () => {
                   <div className="w-full">
                     <a
                       href="#"
-                      className="inline-flex items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] tracking-[0px] capitalize hover:opacity-80 transition-opacity"
+                      className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] tracking-[0px] capitalize hover:opacity-80 transition-opacity"
                     >
                       Explore Email Finder
                       <img
-                   src="/images/right-orange-arrow.svg"
-                   alt="Right arrow icon"
-                   className="w-5 h-5 mt-1"
-                 />
+                        src="/images/right-orange-arrow.svg"
+                        alt="Right arrow icon"
+                        className="w-5 h-5 mt-1"
+                      />
                     </a>
                   </div>
                 </div>

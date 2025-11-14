@@ -10,12 +10,12 @@ const Productivity = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] md:gap-[50px] lg:gap-[60px] items-start">
             {/* Headline block on the left */}
             <div className="flex flex-col gap-4">
-              <div className="inline-flex items-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]">
+              <div className="inline-flex font-['Manrope'] items-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]">
                 <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
                 <span>Type Something</span>
               </div>
 
-              <h2 className="text-[#132436] font-semibold tracking-[-1.5px] leading-[36px] sm:leading-[44px] md:leading-[50px] lg:leading-[50px] text-[34px] sm:text-[40px] md:text-[44px] lg:text-[44px]">
+              <h2 className="text-[#132436] font-['Inter'] font-semibold tracking-[-1.5px] leading-[36px] sm:leading-[44px] md:leading-[50px] lg:leading-[50px] text-[34px] sm:text-[40px] md:text-[44px] lg:text-[44px]">
                 <span>Powerful</span>
                 <span className="align-middle inline-flex items-center justify-center mx-2 relative -top-px">
                   <img
@@ -32,11 +32,11 @@ const Productivity = () => {
 
             {/* Right description copy */}
             <div>
-              <p className="text-[#6C728C] font-normal text-[16px] leading-[28px] sm:text-[18px] sm:leading-[32px] md:text-[20px] md:leading-[32px] lg:text-[22px] lg:leading-[34px]">
+              <p className="text-[#6C728C] font-normal font-['Manrope'] text-[16px] leading-[28px] sm:text-[18px] sm:leading-[32px] md:text-[20px] md:leading-[32px] lg:text-[22px] lg:leading-[34px]">
                 Zupitu's user-friendly interface simplifies prospecting with
                 intuitive tools for high-quality data generation.
               </p>
-              <p className="mt-3 text-[#6C728C] font-normal text-[16px] leading-[28px] sm:text-[18px] sm:leading-[32px] md:text-[20px] md:leading-[32px] lg:text-[22px] lg:leading-[34px]">
+              <p className="mt-3 text-[#6C728C] font-['Manrope'] font-normal text-[16px] leading-[28px] sm:text-[18px] sm:leading-[32px] md:text-[20px] md:leading-[32px] lg:text-[22px] lg:leading-[34px]">
                 It supports seamless team collaboration, easily handles large
                 data volumes, and offers cost-effective scalability for growing
                 businesses.
@@ -69,13 +69,13 @@ const Productivity = () => {
                 {/* Bottom content block (sixth image) */}
                 <div className="px-9! py-7! md:px-9! md:py-8! lg:px-9! lg:py-8! bg-white/0 rounded-b-[24px]">
                   <div className="flex flex-col gap-4">
-                    <div className="inline-flex items-center gap-[6px] rounded-[50px] bg-white px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]">
+                    <div className="inline-flex font-['Manrope'] items-center gap-[6px] rounded-[50px] bg-white px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]">
                       <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
                       <span>Type Something</span>
                     </div>
 
                     <div className="mt-5 flex flex-col gap-4">
-                       <h3 className="text-[#132436] font-semibold tracking-[-1.5px] text-[24px] leading-[34px] sm:text-[28px] sm:leading-[40px] md:text-[30px] md:leading-[46px] lg:text-[32px] lg:leading-[50px]">
+                       <h3 className="text-[#132436] font-['Inter'] font-semibold tracking-[-1.5px] text-[24px] leading-[34px] sm:text-[28px] sm:leading-[40px] md:text-[30px] md:leading-[46px] lg:text-[32px] lg:leading-[50px]">
                          Powerful Team, Management
                          <br className="hidden sm:block" />
                          <span>Unified</span>
@@ -90,17 +90,17 @@ const Productivity = () => {
                        </h3>
 
                       <div className="flex flex-col gap-4">
-                        <p className="text-[#6C728C] text-[16px] leading-[28px] sm:text-[16px] sm:leading-[32px] md:text-[18px] md:leading-[36px]">
+                        <p className="text-[#6C728C] font-['Manrope'] text-[16px] leading-[28px] sm:text-[16px] sm:leading-[32px] md:text-[18px] md:leading-[36px]">
                           Zupitu's Team Management features empower businesses
                           with streamlined team management workflows.
                         </p>
-                        <p className="text-[#6C728C] text-[16px] leading-[28px] sm:text-[16px] sm:leading-[32px] md:text-[18px] md:leading-[36px]">
+                        <p className="text-[#6C728C] font-['Manrope'] text-[16px] leading-[28px] sm:text-[16px] sm:leading-[32px] md:text-[18px] md:leading-[36px]">
                           Our free platform features help customers to optimize
                           resource allocation and get actionable insights
                           through detailed reporting. Teams can enhance
                           productivity and budget efficiency.
                         </p>
-                        <p className="text-[#6C728C] text-[16px] leading-[28px] sm:text-[16px] sm:leading-[32px] md:text-[18px] md:leading-[36px]">
+                        <p className="text-[#6C728C] font-['Manrope'] text-[16px] leading-[28px] sm:text-[16px] sm:leading-[32px] md:text-[18px] md:leading-[36px]">
                           These tools ensure accountability and decision- making
                           for achieving business goals
                         </p>
@@ -145,10 +145,10 @@ const Productivity = () => {
                         <img src={item.icon} alt="" className="w-[32px] h-[32px]" />
                       </div>
                       <div className="flex-1 flex flex-col gap-3">
-                        <h4 className="text-[#132436] font-bold text-[20px] leading-[26px] sm:text-[22px] sm:leading-[28px] md:text-[24px] md:leading-[30px] tracking-[-0.32px] capitalize">
+                        <h4 className="text-[#132436] font-['Inter'] font-bold text-[20px] leading-[26px] sm:text-[22px] sm:leading-[28px] md:text-[24px] md:leading-[30px] tracking-[-0.32px] capitalize">
                           {item.title}
                         </h4>
-                        <p className="text-[#747C9A] text-[14px] leading-[24px] sm:text-[16px] sm:leading-[26px] md:text-[18px] md:leading-[30px]">
+                        <p className="text-[#747C9A] font-['Manrope'] text-[14px] leading-[24px] sm:text-[16px] sm:leading-[26px] md:text-[18px] md:leading-[30px]">
                           {item.desc}
                         </p>
                       </div>

@@ -9,7 +9,7 @@ const WinningTeams = () => {
       <div className="w-full flex justify-center px-6! py-6! sm:py-6! md:py-6!">
         {/* Background box with required properties */}
         <div
-          className="w-full max-w-full mx-auto rounded-[24px] overflow-hidden bg-no-repeat bg-cover bg-center py-[100px]! xl:px-24! 2xl:px-[200px]!"
+          className="w-full max-w-full mx-auto rounded-[24px] overflow-hidden bg-no-repeat bg-cover bg-center py-[50px]! xl:px-24! 2xl:px-[200px]!"
           style={{
             backgroundImage: "url('/images/winning-teams-bg.png')",
             opacity: 1,
@@ -20,11 +20,11 @@ const WinningTeams = () => {
             {/* Pill */}
             <div className="inline-flex items-center justify-center gap-[6px] rounded-[50px] px-4! py-3! h-[49px] bg-white/10">
               <span className="w-2.5 h-2.5 rounded-full bg-[#6EA8FF]" />
-              <span className="text-white font-bold text-[16px] sm:text-[18px] leading-[100%]">Commitment</span>
+              <span className="text-white font-bold text-[16px] sm:text-[18px] font-['Manrope'] leading-[100%]">Commitment</span>
             </div>
 
             {/* Heading */}
-            <h2 className="font-semibold text-center tracking-[-2.2px] text-white">
+            <h2 className="font-semibold text-center tracking-[-2.2px] font-['Inter'] text-white">
               <span className="inline-flex flex-col items-center gap-[14px] align-middle max-w-[830px] mx-auto text-[26px] leading-[36px] sm:text-[42px] sm:leading-[44px] md:text-[50px] md:leading-[52px] lg:text-[60px] lg:leading-[60px]">
                 <span>
                   <span className="text-white">Winning </span>
@@ -47,7 +47,7 @@ const WinningTeams = () => {
             </h2>
 
             {/* Subtext */}
-            <p className="text-white/90 font-medium text-[15px] opacity-70 leading-[26px] sm:text-[18px] sm:leading-[32px] md:text-[22px] md:leading-[38px] max-w-[980px] mx-auto px-2!">
+            <p className="text-white/90 font-medium text-[15px] font-['Manrope'] opacity-70 leading-[26px] sm:text-[18px] sm:leading-[32px] md:text-[22px] md:leading-[38px] max-w-[980px] mx-auto px-2!">
               Zupitu's user-friendly interface simplifies prospecting with intuitive tools for high-quality
               data generation. It supports seamless team collaboration, easily handles large data volumes,
             </p>
@@ -67,16 +67,16 @@ const WinningTeams = () => {
                   idx === 1 || idx === 2 ? ' lg:mt-[56px]!' : ''
                 }`}
               >
-                <div className="text-[#132436] font-bold text-[28px]  md:text-[32px]  lg:text-[38px] xl:text-[40px] leading-[28px] sm:leading-[32px] md:leading-[40px] lg:leading-[40px] xl:leading-[40px] tracking-[-1.2px]">
+                <div className="text-[#132436] font-['Inter'] font-bold text-[28px]  md:text-[32px]  lg:text-[38px] xl:text-[40px] leading-[28px] sm:leading-[32px] md:leading-[40px] lg:leading-[40px] xl:leading-[40px] tracking-[-1.2px]">
                   {card.title}
                 </div>
                 {idx === 1 || idx === 2 ? (
-                  <p className="text-[#3A4A5A] text-[16px] sm:text-[18px] lg:text-[20px] xl:text-[20px] leading-[24px] sm:leading-[24px] md:leading-[26px] lg:leading-[26px] xl:leading-[28px]">
+                  <p className="text-[#3A4A5A] text-[16px] sm:text-[18px] font-['Manrope'] lg:text-[20px] xl:text-[20px] leading-[24px] sm:leading-[24px] md:leading-[26px] lg:leading-[26px] xl:leading-[28px]">
                     <span className="block">Lower Cost Per Lead-</span>
                     <span className="block">Cut costs with verified leads</span>
                   </p>
                 ) : (
-                  <p className="whitespace-pre-line text-[#3A4A5A] text-[16px] sm:text-[18px] md:text-[20px] leading-[24px] sm:leading-[26px] md:leading-[28px]">
+                  <p className="whitespace-pre-line font-['Manrope'] text-[#3A4A5A] text-[16px] sm:text-[18px] md:text-[20px] leading-[24px] sm:leading-[26px] md:leading-[28px]">
                     {card.desc}
                   </p>
                 )}

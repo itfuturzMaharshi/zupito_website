@@ -26,17 +26,17 @@ const EmailFinder = () => {
 
                 {/* Fourth image (bottom description panel) */}
                 <div className="w-full bg-[#FCFCFD] rounded-b-[24px] pt-4! pr-4! pb-4! pl-4! h-full">
-                  <div className="max-w-[750px] mx-auto flex flex-col justify-between h-full">
+                  <div className="max-w-[750px] gap-3 mx-auto flex flex-col justify-between h-full">
                     {/* Fifth image text */}
                     <div>
-                      <p className="text-[#4A4E5C] font-normal text-[18px] leading-[30px] sm:text-[20px] sm:leading-[34px] md:text-[24px] md:leading-[40px]">
+                      <p className="text-[#4A4E5C] font-['Manrope'] font-normal text-[18px] leading-[30px] sm:text-[20px] sm:leading-[34px] md:text-[24px] md:leading-[40px]">
                         Beyond Opt-In mail list, email finder is a one of the
                         most reliable sources of building a deliverable list.
                         Zupitu helps you uncover the most accurate.
                       </p>
                     </div>
                     <div>
-                      <button className="inline-flex items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize">
+                      <button className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize">
                         <span>Explore Email Finder</span>
                         <img
                           src="/images/right-orange-arrow.svg"
@@ -60,7 +60,7 @@ const EmailFinder = () => {
 
                 <div className="relative z-1 w-full h-full flex flex-col items-center gap-5 sm:gap-6 md:gap-6 p-3 sm:p-4">
                   {/* Title */}
-                  <h3 className="px-3 text-center text-[#132436] font-semibold text-[24px] leading-[38px] sm:text-[28px] sm:leading-[44px] md:text-[32px] md:leading-[42px] tracking-[-1px] capitalize">
+                  <h3 className="px-3 text-center font-['Inter'] text-[#132436] font-semibold text-[24px] leading-[38px] sm:text-[28px] sm:leading-[44px] md:text-[32px] md:leading-[42px] tracking-[-1px] capitalize">
                     List Building With Reliable <br /> Email Finder
                   </h3>
 
@@ -83,7 +83,7 @@ const EmailFinder = () => {
                             className="w-4 h-4 md:w-5 md:h-5 object-contain"
                           />
                         </span>
-                        <span className="text-[#3A4A5A] font-medium text-[16px] sm:text-[18px] md:text-[20px] lg:text-[18px] leading-[100%]">
+                        <span className="text-[#3A4A5A] font-['Manrope']s font-medium text-[16px] sm:text-[18px] md:text-[20px] lg:text-[18px] leading-[100%]">
                           {label}
                         </span>
                       </div>
