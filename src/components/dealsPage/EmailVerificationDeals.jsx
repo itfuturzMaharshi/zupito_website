@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const EmailFinderDeals = () => {
+const EmailVerificationDeals = () => {
   const [activeTab, setActiveTab] = useState("deals");
 
   const deals = [
@@ -22,7 +22,7 @@ const EmailFinderDeals = () => {
   ];
 
   return (
-    <section className="relative w-full bg-white overflow-hidden">
+    <section className="relative w-full overflow-hidden" style={{ background: "linear-gradient(180deg, #FFE7B1 0%, #FFBEF2 100%)" }}>
       {/* Main Container */}
       <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[200px] py-12 sm:py-16 md:py-20 lg:py-[80px] xl:py-[100px]">
         {/* Header Section */}
@@ -69,13 +69,13 @@ const EmailFinderDeals = () => {
         {/* Pricing Table Container */}
         <div
           className="w-full max-w-full mx-auto rounded-[20px] sm:rounded-[24px] p-4 sm:p-6 md:p-8 lg:p-[50px]"
-          style={{ background: "#EDF6FB" }}
+          style={{ background: "linear-gradient(90deg, #ECE4FF 0%, #E2F4FF 100%)" }}
         >
           {/* Navigation Tabs Container */}
           <div className="w-full max-w-full mx-auto mb-6 sm:mb-8 md:mb-10 lg:mb-12">
             <div
-              className="w-full h-[60px] sm:h-[70px] md:h-[75px] lg:h-[88px] rounded-[100px] sm:rounded-[130px] bg-white flex items-center justify-between px-3 sm:px-4 md:px-6 lg:px-8 xl:px-12"
-              style={{ border: "1px solid #EDF6FB" }}
+              className="w-full h-[60px] sm:h-[70px] md:h-[75px] lg:h-[88px] rounded-[100px] sm:rounded-[130px] flex items-center justify-between px-3 sm:px-4 md:px-6 lg:px-8 xl:px-12"
+              style={{ border: "1px solid #EDF6FB", background: "linear-gradient(90deg, #FFCB5A 0%, #FBB456 100%)" }}
             >
               <button
                 onClick={() => setActiveTab("deals")}
@@ -244,4 +244,4 @@ const EmailFinderDeals = () => {
   );
 };
 
-export default EmailFinderDeals;
+export default EmailVerificationDeals;
