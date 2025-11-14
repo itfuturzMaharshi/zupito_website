@@ -13,3 +13,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Reduce font sizes for 1024px screens (lg breakpoint) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .header-nav-link {
+    font-size: 18px !important;
+  }
+  
+  .header-button-text {
+    font-size: 18px !important;
+  }
+}
