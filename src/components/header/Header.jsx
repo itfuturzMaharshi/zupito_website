@@ -44,7 +44,7 @@ function Header() {
   return (
     <header className="sticky top-0 w-full h-[84px] bg-white border-b border-[#EEF0F3] z-50">
       {/* Container with responsive padding */}
-      <div className="w-full h-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
+      <div className="w-full h-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[200px]!">
         {/* Content wrapper with max-width 1520px and space-between layout */}
         <div className="max-w-full h-full mx-auto flex items-center justify-between">
           {/* Logo */}
@@ -168,14 +168,11 @@ function Header() {
               }}
             >
               <span className="text-white font-semibold text-sm md:text-base whitespace-nowrap">Log In</span>
-              <svg 
-                className="w-5 h-5 text-white" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
+              <img 
+                src="/images/right-arrow.svg" 
+                alt="Right arrow" 
+                className="w-5 h-5"
+              />
             </button>
           </div>
 
@@ -361,14 +358,11 @@ function Header() {
                   }}
                 >
                   <span className="text-white font-semibold text-base whitespace-nowrap">Log In</span>
-                  <svg 
-                    className="w-5 h-5 text-white" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
+                  <img 
+                    src="/images/right-arrow.svg" 
+                    alt="Right arrow" 
+                    className="w-5 h-5"
+                  />
                 </button>
               </div>
             </nav>
