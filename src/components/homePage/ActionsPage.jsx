@@ -62,7 +62,7 @@ const ActionsPage = () => {
 
             <div className="relative z-1 grid grid-cols-1 p-6! md:p-8! lg:p-12! lg:grid-cols-2 gap-6 md:gap-8 lg:gap-0 items-stretch">
               {/* Left panel (copy) sized 561x451 at 60px offset */}
-              <div className="relative rounded-[16px]  flex flex-col gap-[32px] md:gap-[36px] lg:gap-[41px]">
+              <div className="relative rounded-[16px]  flex flex-col justify-between gap-3">
                 <div className="flex flex-col gap-5 lg:pr-18!">
                 <div className="inline-flex items-center font-['Manrope'] justify-center gap-[6px] rounded-[50px] bg-[#F0F3FF] px-4! py-2 w-[180px] h-[38px] text-[14px] leading-[100%] font-bold text-[#132436] sm:w-[200px] sm:h-[46px] sm:text-[16px] md:text-[18px]">
                   <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
