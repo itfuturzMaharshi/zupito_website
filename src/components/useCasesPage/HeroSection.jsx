@@ -9,7 +9,7 @@ const HeroSection = () => {
       }}
     >
       {/* Main Container */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[200px] py-[80px] sm:py-[100px]">
+      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[80px] sm:py-[100px]">
         <div className="w-full max-w-full mx-auto flex flex-col items-center">
           
           {/* Profile Avatars Row - Second Image: width 1362, height 406, gap 30px */}

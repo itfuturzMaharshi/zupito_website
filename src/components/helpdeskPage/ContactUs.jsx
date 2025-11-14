@@ -24,7 +24,7 @@ const ContactUs = () => {
   return (
     <section className="relative w-full bg-white overflow-hidden">
       {/* Main Container */}
-      <div className="w-full max-w-full mx-auto  px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[200px] py-[80px] sm:py-[100px]">
+      <div className="w-full max-w-full mx-auto  px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[80px] sm:py-[100px]">
         {/* Header Section - First Image */}
         <div className="w-full flex flex-col items-center gap-[26px] mb-12 sm:mb-16 md:mb-20">
           {/* Contact Us Title with Icon */}

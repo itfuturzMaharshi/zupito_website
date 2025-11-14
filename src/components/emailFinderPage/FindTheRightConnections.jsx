@@ -9,7 +9,7 @@ const FindTheRightConnections = () => {
       }}
     >
       {/* Container with consistent padding */}
-      <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[200px] py-12 sm:py-16 md:py-20 lg:py-24 xl:py-28">
+      <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[150px] py-12 sm:py-16 md:py-20 lg:py-24 xl:py-28">
         <div className="max-w-full mx-auto">
           {/* Main content block - responsive sizing based on reference images */}
           <div className="w-full max-w-[610px] sm:max-w-[700px] md:max-w-[764px] mx-auto">

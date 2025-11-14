@@ -9,7 +9,7 @@ const BulkEmailFinder = () => {
       }}
     >
       {/* Outer container with responsive padding */}
-      <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[200px] pt-10 sm:pt-12 md:pt-14 lg:pt-16 xl:pt-20">
+      <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[150px] pt-10 sm:pt-12 md:pt-14 lg:pt-16 xl:pt-20">
         <div className="max-w-full mx-auto">
           {/* Main container - max-width 1362px */}
           <div className="w-full max-w-full mx-auto flex flex-col gap-10">

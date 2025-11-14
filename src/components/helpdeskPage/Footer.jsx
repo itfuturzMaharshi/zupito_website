@@ -163,7 +163,7 @@ const Footer = () => {
               </div>
             </div>
             {/* =========================== */}
-            <div className="flex flex-col gap-4 px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[200px]">
+            <div className="flex flex-col gap-4 px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[150px]">
               <div className="w-full max-w-full mx-auto mt-10 md:mt-14 lg:mt-16 flex flex-col lg:flex-row gap-4">
                 <div className="flex-1 rounded-[16px] bg-[#191540] p-6 md:p-10 flex flex-col gap-4 md:gap-6 min-h-[224px]">
                   <div className="text-white font-extrabold text-[28px] sm:text-[34px] md:text-[40px] leading-[100%]">

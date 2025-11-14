@@ -4,7 +4,7 @@ const Productivity = () => {
   return (
     <section className="relative w-full bg-[#FAFBFF] overflow-hidden">
       {/* Container rhythm mirrors ActionsPage */}
-      <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[200px]! py-10! lg:py-16! xl:py-20!">
+      <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-16! xl:py-20!">
         <div className="max-w-[full] mx-auto">
           {/* Top copy row (second image sizing intent) */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] md:gap-[50px] lg:gap-[60px] items-start">

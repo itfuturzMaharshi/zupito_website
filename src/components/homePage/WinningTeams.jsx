@@ -9,7 +9,7 @@ const WinningTeams = () => {
       <div className="w-full flex justify-center px-6! py-6! sm:py-6! md:py-6!">
         {/* Background box with required properties */}
         <div
-          className="w-full max-w-full mx-auto rounded-[24px] overflow-hidden bg-no-repeat bg-cover bg-center py-[50px]! xl:px-24! 2xl:px-[200px]!"
+          className="w-full max-w-full mx-auto rounded-[24px] overflow-hidden bg-no-repeat bg-cover bg-center py-[50px]! xl:px-24! 2xl:px-[150px]!"
           style={{
             backgroundImage: "url('/images/winning-teams-bg.png')",
             opacity: 1,

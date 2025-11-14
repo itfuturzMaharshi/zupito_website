@@ -90,7 +90,7 @@ const RealTimeEmailVerification = () => {
 
   return (
     <section className="relative w-full bg-white overflow-hidden">
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[200px] py-[80px] md:py-[120px]">
+      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-24 xl:px-[150px] py-[80px] md:py-[120px]">
         {/* Decorative background animation - right side */}
         <img
           src="/images/footer-animation-1.png"

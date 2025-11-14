@@ -4,7 +4,7 @@ function HeroSection() {
       {/* Hero Section */}
       <section className="relative w-full overflow-hidden">
         {/* Dots/backdrop spacing wrapper to mimic Figma breathing room */}
-        <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[200px]! py-10! lg:py-0! xl:py-0">
+        <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-0! xl:py-0">
           <div className="max-w-[full] mx-auto relative">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-10 xl:gap-16 items-center">
             {/* Copy */}

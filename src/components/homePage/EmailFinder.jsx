@@ -4,7 +4,7 @@ const EmailFinder = () => {
   return (
     <section className="relative w-full bg-white overflow-hidden">
       {/* Outer container - follow ActionsPage spacing rhythm */}
-      <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[200px]! pt-10! sm:pt-12! md:pt-14! lg:pt-16! xl:pt-20! pb-10! lg:pb-16! xl:pb-20!">
+      <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! pt-10! sm:pt-12! md:pt-14! lg:pt-16! xl:pt-20! pb-10! lg:pb-16! xl:pb-20!">
         <div className="max-w-[full] mx-auto">
           {/* First image: overall card container */}
           <div className="relative w-full bg-white  overflow-hidden">

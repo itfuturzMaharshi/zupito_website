@@ -4,7 +4,7 @@ const VerifiedEmail = () => {
   return (
     <section className="w-full relative">
       {/* Container with responsive padding */}
-      <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[200px] py-12 sm:py-16 md:py-20 lg:py-24 h-full lg:max-h-[1216px] xl:max-h-[1116px]">
+      <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[150px] py-12 sm:py-16 md:py-20 lg:py-24 h-full lg:max-h-[1216px] xl:max-h-[1116px]">
         <div className="max-w-full mx-auto">
           {/* Main content block */}
           <div className="w-full max-w-full mx-auto">

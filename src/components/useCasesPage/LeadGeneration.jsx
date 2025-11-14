@@ -4,7 +4,7 @@ const LeadGeneration = () => {
   return (
     <section className="relative w-full flex items-center justify-center overflow-hidden py-[100px]">
       {/* Main Container - Similar to HeroSection */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[200px]">
+      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px]">
         {/* First Image - Main Background Container */}
         <div
           className="relative w-full max-w-full mx-auto rounded-[24px] "

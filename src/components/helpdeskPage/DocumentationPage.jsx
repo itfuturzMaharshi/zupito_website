@@ -7,7 +7,7 @@ const DocumentationPage = () => {
       <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-6 xl:px-6 2xl:px-[24px]">
         {/* Background Container with Gradient */}
         <div 
-          className="w-full rounded-[24px] px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-[200px] py-[60px] sm:py-[80px] md:py-[100px]"
+          className="w-full rounded-[24px] px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-[150px] py-[60px] sm:py-[80px] md:py-[100px]"
           style={{
             background: 'linear-gradient(180deg, #F4F7FA 0%, #E5F2FF 100%)',
           }}

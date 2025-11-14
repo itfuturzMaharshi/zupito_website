@@ -9,7 +9,7 @@ const CRMManagement = () => {
 
   return (
     <section className="relative w-full flex items-center justify-center overflow-hidden">
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[200px] py-[80px] sm:py-[100px]">
+      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[80px] sm:py-[100px]">
         <div className="relative w-full max-w-full mx-auto rounded-[24px]">
           <div className="w-full max-w-full mx-auto  flex flex-col gap-[80px]">
             <div

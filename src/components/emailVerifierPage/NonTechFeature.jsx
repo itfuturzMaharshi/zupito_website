@@ -77,7 +77,7 @@ const NonTechFeature = () => {
         className="pointer-events-none select-none hidden md:block absolute right-0 top-1/4  translate-x-[10%] -translate-y-1/2"
       />
       {/* Main Container */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[200px] py-[100px]">
+      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-24 xl:px-[150px] py-[100px]">
         {/* Header Section */}
         <div className="w-full flex flex-col items-center gap-6 sm:gap-8 md:gap-[21px] mb-12 sm:mb-16 md:mb-20 lg:mb-[70px]">
           {/* Articles Badge */}

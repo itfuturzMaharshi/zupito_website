@@ -83,7 +83,7 @@ const AccountFeature = () => {
   return (
     <section className="relative w-full bg-[#FAFDFF] overflow-hidden py-12 sm:py-16 md:py-20 lg:py-[104px]">
       {/* Main Container */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[200px]">
+      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[150px]">
         {/* Header Section */}
         <div className="w-full flex flex-col items-center gap-6 sm:gap-8 md:gap-[30px] mb-12 sm:mb-16 md:mb-20 lg:mb-[70px]">
           {/* Plugin Integration Badge */}
