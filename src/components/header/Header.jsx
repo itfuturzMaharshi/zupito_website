@@ -57,7 +57,7 @@ function Header() {
             <div className="relative" ref={dropdownRef}>
               <button 
                 onClick={toggleProductDropdown}
-                className="flex items-center gap-1 text-gray-800 hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium"
+                className="flex font-['Manrope'] items-center gap-1 text-gray-800 hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium"
               >
                 Product
                 <svg 
@@ -105,15 +105,15 @@ function Header() {
               )}
             </div>
             
-            <Link to="/use-cases" className="text-gray-800 hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium">
+            <Link to="/use-cases" className="text-gray-800 font-['Manrope'] hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium">
               Use Cases
             </Link>
             
-            <a href="#pricing" className="text-gray-800 hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium">
+            <a href="#pricing" className="text-gray-800 font-['Manrope'] hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium">
               Pricing
             </a>
             
-            <button className="flex items-center gap-1 text-gray-800 hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium">
+            <button className="flex items-center gap-1 font-['Manrope'] text-gray-800 hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium">
               Resources
               <svg 
                 className="w-4 h-4" 
@@ -125,11 +125,11 @@ function Header() {
               </svg>
             </button>
             
-            <a href="#blog" className="text-gray-800 hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium">
+            <a href="#blog" className="text-gray-800 font-['Manrope'] hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium">
               Blog
             </a>
             
-            <Link to="/deals" className="text-gray-800 hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium">
+            <Link to="/deals" className="text-gray-800 font-['Manrope'] hover:text-[#FF6B35] transition-colors text-sm md:text-base font-medium">
               Deals
             </Link>
           </nav>
@@ -146,15 +146,12 @@ function Header() {
                 gap: '10px'
               }}
             >
-              <svg 
-                className="w-5 h-5 text-[#132436]" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
-              <span className="text-[#132436] font-semibold text-sm md:text-base whitespace-nowrap">Start for Free</span>
+              <img 
+                src="/images/user-rounded.svg" 
+                alt="User icon" 
+                className="w-5 h-5"
+              />
+              <span className="text-[#132436] font-['Manrope'] font-semibold text-sm md:text-base whitespace-nowrap">Start for Free</span>
             </button>
 
             {/* Log In Button */}
@@ -167,7 +164,7 @@ function Header() {
                 gap: '10px'
               }}
             >
-              <span className="text-white font-semibold text-sm md:text-base whitespace-nowrap">Log In</span>
+              <span className="text-white font-['Manrope'] font-semibold text-sm md:text-base whitespace-nowrap">Log In</span>
               <img 
                 src="/images/right-arrow.svg" 
                 alt="Right arrow" 
@@ -336,14 +333,11 @@ function Header() {
                     gap: '10px'
                   }}
                 >
-                  <svg 
-                    className="w-5 h-5 text-[#132436]" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                  </svg>
+                  <img 
+                    src="/images/user-rounded.svg" 
+                    alt="User icon" 
+                    className="w-5 h-5"
+                  />
                   <span className="text-[#132436] font-semibold text-base whitespace-nowrap">Start for Free</span>
                 </button>
 
