@@ -24,7 +24,7 @@ const EmailFinderDeals = () => {
   return (
     <section className="relative w-full bg-white overflow-hidden">
       {/* Main Container */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[200px] py-12 sm:py-16 md:py-20 lg:py-[80px] xl:py-[100px]">
+      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-[150px] py-12 sm:py-16 md:py-20 lg:py-[80px] xl:py-[100px]">
         {/* Header Section */}
         <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12 md:mb-16 lg:mb-20 px-4">
           {/* Banner Container with Border */}
