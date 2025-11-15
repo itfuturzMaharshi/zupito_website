@@ -7,10 +7,10 @@ import Footer from './Footer'
 const DealsPage = () => {
   return (
     <div>
-      <EmailVerificationDeals />
-      <EmailFinderDeals />
       <HeroSection />
-      <Footer />
+      {/* <EmailVerificationDeals />
+      <EmailFinderDeals />
+      <Footer /> */}
     </div>
   )
 }
