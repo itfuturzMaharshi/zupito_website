@@ -42,7 +42,7 @@ const Footer = () => {
                   style={{
                     width: "clamp(40px, 30vw, 80px)",
                     height: "clamp(40px, 30vw, 80px)",
-                    top: "clamp(120px, -5vw, -100px)",
+                    top: "clamp(100px, -5vw, -100px)",
                     right: "clamp(130px, -5vw, -100px)",
                   }}
                 ></div>
@@ -51,7 +51,7 @@ const Footer = () => {
                   <div className="w-full lg:w-auto lg:flex-1 flex flex-col justify-center">
                     {/* Ready Templates Badge */}
                     <div className="w-full max-w-[786px] mb-6 sm:mb-[30px]">
-                      <div className="inline-flex items-center gap-[6px] px-4 py-3 rounded-[50px] bg-[#65287E]">
+                      <div className="inline-flex items-center gap-[6px] px-4 py-3 rounded-[50px] bg-[#2E6D7E]">
                         <div className="w-2 h-2 rounded-full bg-[#FFDD47]"></div>
                         <span className="text-white font-['Inter'] font-medium text-base leading-[100%] align-middle">
                           Ready Templates
@@ -65,19 +65,17 @@ const Footer = () => {
                       <div className="flex flex-col gap-8 sm:gap-[40px]">
                         <div className="flex flex-col gap-4 sm:gap-[16px]">
                           <h1 className="text-white capitalize font-['Inter'] font-semibold text-[clamp(32px,5vw,50px)] leading-[clamp(40px,8vw,80px)] tracking-[-2.4px] align-middle">
-                            Why pay more when you can{" "}
+                            Don’t Wait to{" "}
                             <span className="font-['Inter'] font-bold text-[#FFDD47]">
-                              get more?
+                              Boost
                             </span>{" "}
+                            Your Pipeline
                           </h1>
 
                           <p className="text-white font-['Manrope'] font-medium text-[clamp(18px,2.5vw,20px)] leading-[30px] tracking-[0px] align-middle">
-                            Grab this deal to unlock additional credits,
-                            exclusive offers, and incredible value for your
-                            sales and marketing campaigns.
-                          </p>
-                          <p className="text-white font-['Manrope'] font-medium text-[clamp(18px,2.5vw,20px)] leading-[30px] tracking-[0px] align-middle">
-                            Act now and start achieving results faster
+                            Every day counts in sales. Start reaching more leads
+                            with verified accuracy - at a price built for your
+                            budget.
                           </p>
                         </div>
                       </div>
@@ -86,14 +84,28 @@ const Footer = () => {
                       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5">
                         <button className="flex items-center justify-center gap-[10px] px-6 py-4 rounded-[50px] w-full sm:w-auto bg-[#EB3609] max-w-[248px] min-h-[62px]">
                           <span className="text-white font-['Inter'] font-semibold text-xl leading-[100%] tracking-[0px] align-middle">
-                            Get Started
+                            Checkout Details
                           </span>
                           <img
                             src="/images/right-arrow.svg"
-                            alt="Arrow"
-                            className="w-5 h-5"
+                            alt="Right arrow"
+                            width="20"
+                            height="20"
                           />
-                        </button>                     
+                        </button>
+
+                        <a
+                          href="#"
+                          className="flex items-center gap-[10px] text-white hover:opacity-80 transition-opacity font-['Manrope'] font-semibold text-[clamp(18px,2.5vw,24px)] leading-[30px] tracking-[0px] align-middle"
+                        >
+                          Claim 300 Free credits
+                          <img
+                            src="/images/right-arrow.svg"
+                            alt="Right arrow"
+                            width="20"
+                            height="20"
+                          />
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -123,7 +135,9 @@ const Footer = () => {
                         src="/images/email-finder-footer-vectore.png"
                         alt="Promotional"
                         className="w-full h-auto object-contain relative z-10"
-                    
+                        style={{
+                          maxHeight: "clamp(300px, 45vw, 464px)",
+                        }}
                       />
                     </div>
                   </div>

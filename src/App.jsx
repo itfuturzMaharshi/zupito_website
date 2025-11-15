@@ -26,7 +26,7 @@ function App() {
         <Route path="/email-verifier" element={<EmailVerifierPage />} />
         <Route path="/help-desk" element={<HelpDeskPage />} />
         <Route path="/deals" element={<DealsPage />} />
-        <Route path="/price" element={<PricingPage />} />
+        <Route path="/pricing" element={<PricingPage />} />
       </Routes>
     </Router>
   );

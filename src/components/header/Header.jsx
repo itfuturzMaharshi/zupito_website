@@ -114,13 +114,13 @@ function Header() {
               Use Cases
             </Link>
             
-            <a 
-              href="#pricing" 
+            <Link 
+              to="/pricing" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
               style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '18px', lineHeight: '100%' }}
             >
               Pricing
-            </a>
+            </Link>
             
             <button 
               className="flex items-center gap-1 text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
@@ -314,14 +314,14 @@ function Header() {
                 Use Cases
               </Link>
               
-              <a 
-                href="#pricing" 
+              <Link 
+                to="/pricing" 
                 onClick={closeMobileMenu}
                 className="text-[#132436] hover:text-[#FF6B35] transition-colors py-2"
                 style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '18px', lineHeight: '100%' }}
               >
                 Pricing
-              </a>
+              </Link>
               
               <button 
                 onClick={closeMobileMenu}
