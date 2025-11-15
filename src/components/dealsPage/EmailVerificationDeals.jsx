@@ -85,7 +85,7 @@ const EmailVerificationDeals = () => {
                     : "font-medium text-[#1C4460] opacity-70"
                 }`}
               >
-                <span>Email Finder</span>
+                <span>Email Verification</span>
                 <span
                   style={{
                     fontFamily: '"MADE TOMMY", sans-serif',

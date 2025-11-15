@@ -8,6 +8,7 @@ import EmailVerifierPage from "./components/emailVerifierPage";
 import HelpDeskPage from "./components/helpdeskPage";
 import UseCasesPage from "./components/useCasesPage";
 import DealsPage from "./components/dealsPage";
+import PricingPage from "./components/pricingPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/email-verifier" element={<EmailVerifierPage />} />
         <Route path="/help-desk" element={<HelpDeskPage />} />
         <Route path="/deals" element={<DealsPage />} />
+        <Route path="/price" element={<PricingPage />} />
       </Routes>
     </Router>
   );

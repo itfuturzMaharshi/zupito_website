@@ -7,8 +7,8 @@ import Footer from './Footer'
 const DealsPage = () => {
   return (
     <div>
-      {/* <EmailVerificationDeals />
-      <EmailFinderDeals /> */}
+      <EmailVerificationDeals />
+      <EmailFinderDeals />
       <HeroSection />
       <Footer />
     </div>
