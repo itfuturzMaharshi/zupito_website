@@ -89,7 +89,7 @@ const Footer = () => {
             >
               <button
                 data-hover="lift"
-                className="w-full sm:w-auto h-[50px] sm:h-[54px] font-['Inter'] md:h-[58px] lg:h-[62px] px-6! sm:px-8! md:px-10! rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35] text-white text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-semibold whitespace-nowrap inline-flex items-center justify-center gap-2 sm:gap-3 transition-colors"
+                className="w-full sm:w-auto h-[50px] sm:h-[54px] font-['Inter'] md:h-[58px] lg:h/[62px] px-6! sm:px-8! md:px-10! rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35] text-white text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-semibold whitespace-nowrap inline-flex items-center justify-center gap-2 sm:gap-3 transition-colors cursor-pointer"
               >
                 <span>Checkout Details</span>
                 <img
@@ -100,7 +100,7 @@ const Footer = () => {
               </button>
               <button
                 data-hover="underline"
-                className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[24px] font-semibold flex items-center gap-2 hover:text-[#EDFF67] transition-colors"
+                className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text/[24px] font-semibold flex items-center gap-2 hover:text-[#EDFF67] transition-colors cursor-pointer"
               >
                 <span>Claim 300 free credits</span>
                <img
@@ -151,14 +151,14 @@ const Footer = () => {
               </div>
 
               <div className="w-full lg:w-auto grid grid-cols-3 gap-3 sm:gap-4">
-                {[
+                {[ 
                   { label: "Facebook", icon: "/images/FB.svg" },
                   { label: "Linked In", icon: "/images/Linkedin.svg" },
                   { label: "Twitter", icon: "/images/Twitter.svg" },
                 ].map((s) => (
                   <div
                     key={s.label}
-                    className="rounded-[16px] bg-[#1C2D3E] flex flex-col items-center justify-center gap-2 sm:gap-3 md:gap-4 p-4! sm:p-5! md:p-6!"
+                    className="rounded-[16px] bg-[#1C2D3E] flex flex-col items-center justify-center gap-2 sm:gap-3 md:gap-4 p-4! sm:p-5! md:p-6! cursor-pointer"
                   >
                     <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center">
                       <img

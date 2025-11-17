@@ -70,7 +70,7 @@ const EmailsVerified = () => {
                   <div>
                       <button
                         data-hover="lift"
-                        className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize"
+                        className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize cursor-pointer"
                       >
                         <span>Explore Email Finder</span>
                         <img

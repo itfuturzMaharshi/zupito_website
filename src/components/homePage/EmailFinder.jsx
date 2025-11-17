@@ -44,7 +44,7 @@ const EmailFinder = () => {
                     <div>
                       <button
                         data-hover="lift"
-                        className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize"
+                        className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize cursor-pointer"
                       >
                         <span>Explore Email Finder</span>
                         <img
@@ -92,8 +92,10 @@ const EmailFinder = () => {
                       <div
                         key={label}
                         data-animate-item
-                        style={{ transitionDelay: `${0.15 + idx * 0.08}s` }}
-                        className="w-full xs:w-full sm:w-full md:w-full lg:w-full h-[58px] md:h-[62px] lg:h-[64px] bg-white rounded-[10px] shadow-[0_8px_20px_0_#00000012] px-4! sm:px-5! md:px-6! flex items-center gap-4"
+                        style={{
+                          transitionDelay: `${0.15 + idx * 0.08}s`,
+                        }}
+                        className="w-full xs:w-full sm:w-full md:w-full lg:w-full h-[58px] md:h-[62px] lg:h-[64px] bg-white rounded-[10px] shadow-[0_8px_20px_0_#00000012] px-4! sm:px-5! md:px-6! flex items-center gap-4 cursor-pointer"
                       >
                         <span className="inline-flex items-center justify-center w-[38px] h-[38px] md:w-[48px] md:h-[42px] lg:w-[56px] lg:h-[46px] rounded-[10px] bg-[#F6F6F7]">
                           <img
@@ -102,7 +104,13 @@ const EmailFinder = () => {
                             className="w-4 h-4 md:w-5 md:h-5 object-contain"
                           />
                         </span>
-                        <span className="home-description text-[#3A4A5A] font-['Manrope']">
+                        <span
+                          className="home-description text-[#3A4A5A] font-['Manrope'] email-finder-label"
+                          style={{
+                            animationDelay: `${0.28 + idx * 0.18}s`,
+                            animationDuration: "0.9s",
+                          }}
+                        >
                           {label}
                         </span>
                       </div>

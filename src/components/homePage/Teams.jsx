@@ -94,7 +94,7 @@ const Teams = () => {
                 data-animate-item
                 style={{ transitionDelay: `${0.1 * idx}s` }}
                 data-hover="lift"
-                className="bg-white rounded-[16px] shadow-[0px_7px_16px_0px_#181D2717] px-4! py-3! min-h-[260px] flex flex-col gap-[20px]"
+                className="bg-white rounded-[16px] shadow-[0px_7px_16px_0px_#181D2717] px-4! py-3! min-h-[260px] flex flex-col gap-[20px] cursor-pointer"
               >
                 <div className="w-[56px] h-[56px] rounded-full bg-[#FAFAFF] flex items-center justify-center">
                   <img

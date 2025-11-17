@@ -181,7 +181,7 @@ const Productivity = () => {
                     data-animate-item
                     style={{ transitionDelay: `${0.1 * idx}s` }}
                     data-hover="lift"
-                    className="rounded-[16px] border border-[#EEF0F3] bg-white p-5! sm:p-6! md:p-6! lg:p-6! lg:pt-8! lg:pb-8! shadow-[0_1px_0_0_#0000000A]"
+                    className="rounded-[16px] border border-[#EEF0F3] bg-white p-5! sm:p-6! md:p-6! lg:p-6! lg:pt-8! lg:pb-8! shadow-[0_1px_0_0_#0000000A] cursor-pointer"
                   >
                     <div className="flex items-start gap-4">
                       <div className="w-[54px] h-[54px] rounded-[44px] bg-[#FAFBFF] flex items-center justify-center shrink-0">

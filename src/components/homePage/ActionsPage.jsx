@@ -125,7 +125,7 @@ const ActionsPage = () => {
                   data-animate-item
                   style={{ transitionDelay: "0.25s" }}
                   data-hover="lift"
-                  className="inline-flex items-center font-['Manrope'] gap-3 text-[#EB3609] font-bold text-[18px] leading-[28px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize"
+                  className="inline-flex items-center font-['Manrope'] gap-3 text-[#EB3609] font-bold text-[18px] leading-[28px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize cursor-pointer"
                 >
                   <span>Checkout Our Deals</span>
                   <span className="flex items-center justify-center ">
@@ -182,7 +182,7 @@ const ActionsPage = () => {
                       aria-label="Email address"
                     />
                     <button
-                      className="shrink-0 mr-1! sm:mr-2! font-['Manrope'] inline-flex items-center justify-center rounded-[40px] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold h-[40px] sm:h-[42px] md:h-[44px] lg:h-[46px] px-3! sm:px-4! md:px-5! min-w-[90px] sm:min-w-[110px] md:min-w-[120px] lg:min-w-[130px] text-[12px] sm:text-[14px] md:text-base transition-colors"
+                      className="shrink-0 mr-1! sm:mr-2! font-['Manrope'] inline-flex items-center justify-center rounded-[40px] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold h-[40px] sm:h-[42px] md:h-[44px] lg:h-[46px] px-3! sm:px-4! md:px-5! min-w-[90px] sm:min-w-[110px] md:min-w-[120px] lg:min-w-[130px] text-[12px] sm:text-[14px] md:text-base transition-colors cursor-pointer"
                       type="button"
                     >
                       <span className="hidden sm:inline">Verify Now</span>

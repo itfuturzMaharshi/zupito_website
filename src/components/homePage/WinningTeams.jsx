@@ -80,7 +80,7 @@ const WinningTeams = () => {
                 key={idx}
                 data-animate-item
                 style={{ transitionDelay: `${0.1 * idx}s` }}
-                className={`w-full max-w-[300px] h-[280px] rounded-[20px] bg-[#FAFBFF] shadow-[0px_4px_7px_0px_#53587B12] px-[22px]! lg:py-[50px]! xl:py-[80px]! flex flex-col items-center justify-center text-center gap-5${
+                className={`w-full max-w-[300px] h-[280px] rounded-[20px] bg-[#FAFBFF] shadow-[0px_4px_7px_0px_#53587B12] px-[22px]! lg:py-[50px]! xl:py-[80px]! flex flex-col items-center justify-center text-center gap-5 cursor-pointer${
                   idx === 1 || idx === 2 ? ' lg:mt-[56px]!' : ''
                 }`}
               >

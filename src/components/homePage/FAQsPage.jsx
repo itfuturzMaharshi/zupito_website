@@ -108,7 +108,7 @@ const FAQsPage = () => {
                     {/* Toggle Button - width: 60px, height: 40px, border-radius: 50px */}
                     <button
                       data-hover="lift"
-                      className={`shrink-0 w-[50px] h-[35px] sm:w-[55px] sm:h-[38px] md:w-[60px] md:h-[40px] rounded-[50px] flex items-center justify-center transition-all duration-300 ${
+                      className={`shrink-0 w-[50px] h-[35px] sm:w-[55px] sm:h-[38px] md:w-[60px] md:h-[40px] rounded-[50px] flex items-center justify-center transition-all duration-300 cursor-pointer ${
                         openIndex === index 
                           ? 'bg-[#132436]' 
                           : 'bg-[#F6F6F6]'

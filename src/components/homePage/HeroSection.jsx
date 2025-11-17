@@ -1,7 +1,32 @@
+import { useEffect, useRef, useState } from "react";
 import useScrollReveal from "../../hooks/useScrollReveal";
 
+const ROTATING_WORDS = ["Find", "Verify", "Connect"];
+const ROTATION_INTERVAL = 2600;
+const FADE_DURATION = 260;
+
 function HeroSection() {
+  const [activeWordIndex, setActiveWordIndex] = useState(0);
+  const [isFading, setIsFading] = useState(false);
+  const fadeTimeoutRef = useRef(null);
+  const rotateIntervalRef = useRef(null);
   const sectionRef = useScrollReveal({ rootMargin: "0px 0px -10% 0px" });
+
+  useEffect(() => {
+    rotateIntervalRef.current = setInterval(() => {
+      setIsFading(true);
+      fadeTimeoutRef.current = setTimeout(() => {
+        setActiveWordIndex((prev) => (prev + 1) % ROTATING_WORDS.length);
+        setIsFading(false);
+      }, FADE_DURATION);
+    }, ROTATION_INTERVAL);
+
+    return () => {
+      clearInterval(rotateIntervalRef.current);
+      clearTimeout(fadeTimeoutRef.current);
+    };
+  }, []);
+
   return (
     <main className="relative w-full bg-white">
       {/* Hero Section */}
@@ -24,7 +49,14 @@ function HeroSection() {
                 {/* Line 1: AI Tool To Connect */}
                 <span className="block whitespace-nowrap">
                   <span>AI Tool To </span>
-                  <span className="text-[#EB3609]">Connect</span>
+                  <span
+                    aria-live="polite"
+                    className={`inline-block text-[#EB3609] font-semibold transition-all duration-300 ease-in-out transform ${
+                      isFading ? "opacity-0 translate-y-2" : "opacity-100 translate-y-0"
+                    }`}
+                  >
+                    {ROTATING_WORDS[activeWordIndex]}
+                  </span>
                 </span>
                 {/* Line 2: Emails [badge] Instantly */}
                 <span className="block whitespace-nowrap">
@@ -58,7 +90,7 @@ function HeroSection() {
               >
                 <button
                   data-hover="lift"
-                  className="rounded-[40px] whitespace-nowrap font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[150px] sm:min-w-[170px] md:min-w-[190px] h-[46px] sm:h-[50px] md:h-[54px] px-5! sm:px-6! md:px-[26px] py-2! sm:py-3! md:py-[12px] text-[14px] sm:text-[16px] md:text-[18px]"
+                  className="rounded-[40px] whitespace-nowrap font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[150px] sm:min-w-[170px] md:min-w-[190px] h-[46px] sm:h-[50px] md:h-[54px] px-5! sm:px-6! md:px-[26px] py-2! sm:py-3! md:py-[12px] text-[14px] sm:text-[16px] md:text-[18px] cursor-pointer"
                 >
                   Checkout Deals
                   <img
@@ -70,7 +102,7 @@ function HeroSection() {
 
                 <button
                    data-hover="lift"
-                  className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] sm:text-[15px] md:text-[18px]"
+                  className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] sm:text-[15px] md:text-[18px] cursor-pointer"
                 >
                   <span>Claim 300 free credits</span>
                   <img
@@ -92,7 +124,7 @@ function HeroSection() {
                 <div
                   data-animate-item
                   style={{ transitionDelay: "0.35s" }}
-                  className="flex items-center gap-[10px] h-[44px] sm:h-[48px] md:h-[54px] rounded-[50px] bg-[#FCFCFD] border border-[#EEF0F3] px-3! sm:px-4! py-2! sm:py-3!"
+                  className="flex items-center gap-[10px] h-[44px] sm:h-[48px] md:h-[54px] rounded-[50px] bg-[#FCFCFD] border border-[#EEF0F3] px-3! sm:px-4! py-2! sm:py-3! cursor-pointer"
                   data-hover="lift"
                 >
                   <span className="inline-flex items-center justify-center w-4 h-4 sm:w-5 sm:h-5 rounded-full  text-white">
@@ -110,7 +142,7 @@ function HeroSection() {
                 <div
                   data-animate-item
                   style={{ transitionDelay: "0.4s" }}
-                  className="flex items-center gap-[10px] h-[44px] sm:h-[48px] md:h-[54px] rounded-[50px] bg-[#FCFCFD] border border-[#EEF0F3] px-3! sm:px-4! py-2! sm:py-3!"
+                  className="flex items-center gap-[10px] h-[44px] sm:h-[48px] md:h-[54px] rounded-[50px] bg-[#FCFCFD] border border-[#EEF0F3] px-3! sm:px-4! py-2! sm:py-3! cursor-pointer"
                   data-hover="lift"
                 >
                   <span className="inline-flex items-center justify-center w-4 h-4 sm:w-5 sm:h-5 rounded-full text-white">
