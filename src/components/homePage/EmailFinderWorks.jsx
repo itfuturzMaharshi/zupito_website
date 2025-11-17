@@ -54,7 +54,7 @@ const EmailFinderWorks = () => {
                   <img src="/images/Tick.png" alt="checkmark" className="w-5 h-5" />
                   <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[18px]">300 free credits on signup</span>
                 </div>
-                <div className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! lg:p-[30px]! pb-[50px]! md:pb-[54px]! lg:pb-[58px]! mb-0! overflow-visible" style={{ overflow: "visible", height: "auto" }}>
+                <div className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! lg:p-[30px]!  mb-0! overflow-visible" style={{ overflow: "visible", height: "auto" }}>
                   <h4 className="home-subtitle text-[#132436] font-['Inter'] mb-3!">Signup Credits</h4>
                   <p className="home-description text-[#747C9A] font-['Manrope'] mb-0! " style={{ overflow: "visible" }}>
                     300 free credits at signup with month on month top-up to keep the wallet loaded with 300 credits monthly.
@@ -76,7 +76,7 @@ const EmailFinderWorks = () => {
                   <img src="/images/Tick.png" alt="checkmark" className="w-5 h-5" />
                   <span className="text-[#3A4A5A] font-medium font-['Manrope'] text-[16px] md:text-[18px] lg:text-[18px]">Manage credits anytime</span>
                 </div>
-                <div className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! lg:p-[30px]! pb-[50px]! md:pb-[54px]! lg:pb-[58px]! mb-0! overflow-visible" style={{ overflow: "visible", height: "auto" }}>
+                <div className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! lg:p-[30px]!  mb-0! overflow-visible" style={{ overflow: "visible", height: "auto" }}>
                   <h4 className="home-subtitle text-[#132436] font-['Inter'] mb-3!">Access On The Go</h4>
                   <p className="home-description text-[#747C9A] font-['Manrope'] mb-0! " style={{ overflow: "visible" }}>
                     Access the system on the go on mobile, laptop, and tablet. You can work, manage teams, credits.
@@ -98,7 +98,7 @@ const EmailFinderWorks = () => {
                   <img src="/images/Tick.png" alt="checkmark" className="w-5 h-5" />
                   <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[18px]">No hidden costs</span>
                 </div>
-                <div className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! lg:p-[30px]! pb-[50px]! md:pb-[54px]! lg:pb-[58px]! mb-0! overflow-visible" style={{ overflow: "visible", height: "auto" }}>
+                <div className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! lg:p-[30px]!  mb-0! overflow-visible" style={{ overflow: "visible", height: "auto" }}>
                   <h4 className="home-subtitle text-[#132436] font-['Inter'] mb-3!">Free Platform Features</h4>
                   <p className="home-description text-[#747C9A] font-['Manrope'] mb-0! " style={{ overflow: "visible" }}>
                     Access advanced features like API integration & team management at no additional cost.

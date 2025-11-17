@@ -26,7 +26,7 @@ const EmailFinder = () => {
 
                 {/* Fourth image (bottom description panel) */}
                 <div className="w-full bg-[#FCFCFD] rounded-b-[24px] p-6 h-full">
-                  <div className="max-w-[750px] gap-3 mx-auto flex flex-col justify-between h-full">
+                  <div className="max-w-[750px] gap-10 mx-auto flex flex-col justify-between h-full">
                     {/* Fifth image text */}
                     <div>
                       <p className="home-description text-[#4A4E5C] font-['Manrope']">

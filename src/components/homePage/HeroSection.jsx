@@ -36,8 +36,8 @@ function HeroSection() {
               </p>
 
               {/* CTAs */}
-              <div className="flex items-center lg:flex-row gap-4 sm:gap-5 md:gap-6  mt-8! sm:mt-9!">
-                <button className="rounded-[40px] whitespace-nowrap font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[160px] sm:min-w-[180px] md:min-w-[190px] h-[48px] sm:h-[52px] md:h-[56px] px-5! sm:px-6! md:px-[26px] py-2! sm:py-3! md:py-[12px] text-[14px] sm:text-[16px] md:text-[20px]">
+              <div className="flex flex-wrap items-center gap-4 sm:gap-5 md:gap-6 mt-8! sm:mt-9!">
+                <button className="rounded-[40px] whitespace-nowrap font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[150px] sm:min-w-[170px] md:min-w-[190px] h-[46px] sm:h-[50px] md:h-[54px] px-5! sm:px-6! md:px-[26px] py-2! sm:py-3! md:py-[12px] text-[14px] sm:text-[16px] md:text-[18px]">
                   Checkout Deals
                   <img
                     src="/images/right-arrow.svg"
@@ -46,7 +46,7 @@ function HeroSection() {
                   />
                 </button>
 
-                <button className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] sm:text-[15px] md:text-[24px]">
+                <button className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] sm:text-[15px] md:text-[18px]">
                   <span>Claim 300 free credits</span>
                   <img
                     src="/images/right-arrow.svg"
@@ -94,7 +94,7 @@ function HeroSection() {
 
             {/* Image */}
             <div className="order-1 lg:order-2 relative -mt-12! sm:-mt-16! md:-mt-20!">
-              <div className="relative w-full h-[240px] sm:h-[320px] md:h-[420px] lg:h-[480px] xl:h-[540px] 2xl:h-[780px]">
+              <div className="relative w-full h-[240px] sm:h-[320px] md:h-[580px] lg:h-[620px] xl:h-[740px] 2xl:h-[780px]">
                 <img
                   src="/images/hero_img.png"
                   alt="Zupito email automation flow"

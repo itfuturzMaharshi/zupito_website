@@ -40,7 +40,7 @@ const FAQsPage = () => {
             </div>
 
             {/* Title Section - width: 1362px, height: 239px, justify-content: space-between */}
-            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 lg:gap-[21px] mt-4! h-auto"  style={{alignItems: 'end'}}>
+            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 lg:gap-[21px] mt-4! h-auto">
               {/* Left side - Title with icons - width: 568px, height: 239px, gap: 21px */}
               <div className="flex-1 max-w-[568px]">
                 <h2 className="home-title text-[#132436] font-['Inter'] font-bold">

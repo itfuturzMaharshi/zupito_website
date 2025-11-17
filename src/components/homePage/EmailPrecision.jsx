@@ -19,7 +19,7 @@ const EmailPrecision = () => {
               </div>
 
               {/* Headline section - fourth image */}
-              <div className="w-full lg:w-[full] h-auto lg:h-[164px] flex flex-col gap-4 md:gap-5">
+              <div className="w-full lg:w-[full] h-auto lg:h-[164px] flex flex-col ">
                 {/* First line: Lead Generation */}
                 <div className="flex items-center flex-wrap gap-2 sm:gap-3 md:gap-4">
                   <span className="home-title text-[#132436] font-['Inter'] font-bold">
