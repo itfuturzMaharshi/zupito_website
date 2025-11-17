@@ -178,7 +178,7 @@ const ActionsPage = () => {
                     <input
                       type="email"
                       placeholder="Email Address..."
-                      className="flex-1 h-full px-3! sm:px-4! md:px-5! text-[14px] sm:text-[15px] md:text-[16px] placeholder:text-[#9AA6B2] text-[#132436] outline-none bg-transparent"
+                      className="flex-1 min-w-0 h-full px-3! sm:px-4! md:px-5! text-[14px] sm:text-[15px] md:text-[16px] placeholder:text-[#9AA6B2] text-[#132436] outline-none bg-transparent"
                       aria-label="Email address"
                     />
                     <button
