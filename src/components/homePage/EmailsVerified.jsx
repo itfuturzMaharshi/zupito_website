@@ -29,13 +29,13 @@ const EmailsVerified = () => {
                 <img
                   src="/images/shape-automate.png"
                   alt="Email verification workflow"
-                  className="w-full max-w-auto sm:max-w-auto  md:max-w-auto lg:max-w-auto rounded-[16px] object-contain"
+                  className="w-full h-[390px] rounded-[16px] object-contain"
                 />
               </div>
             </div>
 
             {/* Right column */}
-            <div className="w-full lg:w-auto justify-between  flex flex-col gap-6 md:gap-14 lg:gap-16  bg-white rounded-[24px] border border-solid border-[var(--color-grey-92,#E9EAEB)] overflow-hidden">
+            <div className="w-full lg:w-auto   flex flex-col   bg-white rounded-[24px] border border-solid border-[var(--color-grey-92,#E9EAEB)] overflow-hidden">
               {/* Right side image - verified email content */}
               <div className="w-full flex items-center justify-center">
                 <img

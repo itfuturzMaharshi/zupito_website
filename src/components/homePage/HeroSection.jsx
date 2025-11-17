@@ -94,7 +94,7 @@ function HeroSection() {
 
             {/* Image */}
             <div className="order-1 lg:order-2 relative -mt-12! sm:-mt-16! md:-mt-20!">
-              <div className="relative w-full h-[240px] sm:h-[320px] md:h-[420px] lg:h-[480px] xl:h-[540px] 2xl:h-[760px]">
+              <div className="relative w-full h-[240px] sm:h-[320px] md:h-[420px] lg:h-[480px] xl:h-[540px] 2xl:h-[780px]">
                 <img
                   src="/images/hero_img.png"
                   alt="Zupito email automation flow"
