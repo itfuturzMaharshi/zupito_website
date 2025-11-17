@@ -1,18 +1,28 @@
 import React from "react";
+import useScrollReveal from "../../hooks/useScrollReveal";
 
 const EmailsVerified = () => {
+  const sectionRef = useScrollReveal();
   return (
-    <section className="relative w-full bg-white overflow-hidden">
+    <section
+      ref={sectionRef}
+      data-animate="fade-up"
+      className="relative w-full bg-white overflow-hidden"
+    >
       {/* Outer container mirrors EmailPrecision spacing rhythm */}
       <div className="w-full h-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! pt-10! lg:pt-16! xl:pt-20!">
         <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
           {/* Main container - first image: width 1362px, height 624px, gap 24px */}
           <div className="w-full max-w-[full] mx-auto max-h-auto lg:h-[full] grid grid-cols-1 lg:grid-cols-2 items-stretch gap-6 md:gap-8">
             {/* Left column - second image: width 555px, height 623px, gap 20px, border-radius 24px, padding 24px, background #F0EBFF */}
-            <div className="w-full lg:w-[full] h-auto lg:h-full rounded-[24px] p-6! bg-[#F0EBFF] flex flex-col gap-5">
+            <div className="w-full lg:w-[full] h-auto lg:h-full rounded-[24px] p-6! bg-[#F0EBFF] flex flex-col gap-5" data-animate-item>
               {/* Title section */}
               <div className="w-full flex flex-col items-center justify-center text-center">
-                <h2 className="home-subtitle font-['Inter'] text-center">
+                <h2
+                  data-animate-item
+                  style={{ transitionDelay: "0.08s" }}
+                  className="home-subtitle font-['Inter'] text-center"
+                >
                   <span className="text-[#132436]">
                     Lead Generation <span className="text-[#9C93B4]">with</span>{" "}
                   </span>
@@ -25,7 +35,7 @@ const EmailsVerified = () => {
               </div>
 
               {/* Workflow diagram image */}
-              <div className="w-auto  flex-1 flex items-center justify-center ">
+              <div className="w-auto  flex-1 flex items-center justify-center " data-animate-item style={{ transitionDelay: "0.15s" }}>
                 <img
                   src="/images/shape-automate.png"
                   alt="Email verification workflow"
@@ -35,9 +45,9 @@ const EmailsVerified = () => {
             </div>
 
             {/* Right column */}
-            <div className="w-full lg:w-auto   flex flex-col   bg-white rounded-[24px] border border-solid border-[var(--color-grey-92,#E9EAEB)] overflow-hidden">
+            <div className="w-full lg:w-auto   flex flex-col   bg-white rounded-[24px] border border-solid border-[var(--color-grey-92,#E9EAEB)] overflow-hidden" data-animate-item style={{ transitionDelay: "0.2s" }}>
               {/* Right side image - verified email content */}
-              <div className="w-full flex items-center justify-center">
+              <div className="w-full flex items-center justify-center" data-animate-item style={{ transitionDelay: "0.25s" }}>
                 <img
                   src="/images/verified-email-img.png"
                   alt="Verified email status"
@@ -46,7 +56,7 @@ const EmailsVerified = () => {
               </div>
 
               {/* Bottom section - width 781px, height 240px, padding 30px 32px, border-radius bottom 24px, background #F9F9F8 */}
-              <div className="w-full max-w-[781px] mx-auto lg:mx-0 h-auto lg:h-[240px] rounded-b-[24px] bg-[#F9F9F8] p-6 flex flex-col">
+              <div className="w-full max-w-[781px] mx-auto lg:mx-0 h-auto lg:h-[240px] rounded-b-[24px] bg-[#F9F9F8] p-6 flex flex-col" data-animate-item style={{ transitionDelay: "0.3s" }}>
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
                 <div className="w-full max-w-[717px] h-full flex flex-col gap-10 justify-between">
                   {/* Description text */}
@@ -57,19 +67,19 @@ const EmailsVerified = () => {
                   </p>
 
                   {/* Call to action */}
-                  <div className="w-full">
-                    <a
-                      href="#"
-                      className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] tracking-[0px] capitalize hover:opacity-80 transition-opacity"
-                    >
-                      Explore Email Finder
-                      <img
-                        src="/images/right-orange-arrow.svg"
-                        alt="Right arrow icon"
-                        className="w-5 h-5 mt-1"
-                      />
-                    </a>
-                  </div>
+                  <div>
+                      <button
+                        data-hover="lift"
+                        className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize"
+                      >
+                        <span>Explore Email Finder</span>
+                        <img
+                          src="/images/right-orange-arrow.svg"
+                          alt="Right arrow icon"
+                          className="w-5 h-5 mt-1"
+                        />
+                      </button>
+                    </div>
                 </div>
               </div>
             </div>

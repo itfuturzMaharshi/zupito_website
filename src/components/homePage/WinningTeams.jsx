@@ -1,8 +1,12 @@
 import React from 'react'
+import useScrollReveal from '../../hooks/useScrollReveal'
 
 const WinningTeams = () => {
+  const sectionRef = useScrollReveal()
   return (
     <section
+      ref={sectionRef}
+      data-animate="fade-up"
       className="relative w-full overflow-hidden bg-transparent"
     >
       {/* Outer layout container (mobile 24px padding) */}
@@ -18,13 +22,20 @@ const WinningTeams = () => {
           {/* Top copy block */}
           <div className="text-center flex flex-col items-center gap-[21px]">
             {/* Pill */}
-            <div className="inline-flex items-center justify-center gap-[6px] rounded-[50px] px-4! py-3! h-[49px] bg-white/10">
+            <div
+              data-animate-item
+              className="inline-flex items-center justify-center gap-[6px] rounded-[50px] px-4! py-3! h-[49px] bg-white/10"
+            >
               <span className="w-2.5 h-2.5 rounded-full bg-[#6EA8FF]" />
               <span className="text-white font-bold text-[16px] sm:text-[18px] font-['Manrope'] leading-[100%]">Commitment</span>
             </div>
 
             {/* Heading */}
-            <h2 className="home-title font-bold text-center font-['Inter'] text-white">
+            <h2
+              data-animate-item
+              style={{ transitionDelay: "0.08s" }}
+              className="home-title font-bold text-center font-['Inter'] text-white"
+            >
               <span className="inline-flex flex-col items-center gap-[14px] align-middle max-w-[830px] mx-auto">
                 <span>
                   <span className="text-white">Winning </span>
@@ -47,7 +58,11 @@ const WinningTeams = () => {
             </h2>
 
             {/* Subtext */}
-            <p className="home-description text-white/90 font-['Manrope'] opacity-70 max-w-[980px] mx-auto px-2!">
+            <p
+              data-animate-item
+              style={{ transitionDelay: "0.15s" }}
+              className="home-description text-white/90 font-['Manrope'] opacity-70 max-w-[980px] mx-auto px-2!"
+            >
               Zupitu's user-friendly interface simplifies prospecting with intuitive tools for high-quality
               data generation. It supports seamless team collaboration, easily handles large data volumes,
             </p>
@@ -63,6 +78,8 @@ const WinningTeams = () => {
             ].map((card, idx) => (
               <div
                 key={idx}
+                data-animate-item
+                style={{ transitionDelay: `${0.1 * idx}s` }}
                 className={`w-full max-w-[300px] h-[280px] rounded-[20px] bg-[#FAFBFF] shadow-[0px_4px_7px_0px_#53587B12] px-[22px]! lg:py-[50px]! xl:py-[80px]! flex flex-col items-center justify-center text-center gap-5${
                   idx === 1 || idx === 2 ? ' lg:mt-[56px]!' : ''
                 }`}

@@ -1,8 +1,14 @@
 import React from "react";
+import useScrollReveal from "../../hooks/useScrollReveal";
 
 const Productivity = () => {
+  const sectionRef = useScrollReveal();
   return (
-    <section className="relative w-full bg-[#FAFBFF] overflow-hidden">
+    <section
+      ref={sectionRef}
+      data-animate="fade-up"
+      className="relative w-full bg-[#FAFBFF] overflow-hidden"
+    >
       {/* Container rhythm mirrors ActionsPage */}
       <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-16! xl:py-20!">
         <div className="max-w-[full] lg:max-w-[1362px] mx-auto">
@@ -10,12 +16,19 @@ const Productivity = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] md:gap-[50px] lg:gap-[60px] items-start">
             {/* Headline block on the left */}
             <div className="flex flex-col gap-4">
-              <div className="inline-flex font-['Manrope'] items-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]">
+              <div
+                data-animate-item
+                className="inline-flex font-['Manrope'] items-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]"
+              >
                 <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
                 <span>Type Something</span>
               </div>
 
-              <h2 className="home-title text-[#132436] font-['Inter'] font-bold">
+              <h2
+                data-animate-item
+                style={{ transitionDelay: "0.08s" }}
+                className="home-title text-[#132436] font-['Inter'] font-bold"
+              >
                 <span>Powerful</span>
                 <span className="align-middle inline-flex items-center justify-center mx-2 relative -top-px">
                   <img
@@ -32,11 +45,19 @@ const Productivity = () => {
 
             {/* Right description copy */}
             <div>
-              <p className="home-description text-[#6C728C] font-['Manrope']">
+              <p
+                data-animate-item
+                style={{ transitionDelay: "0.15s" }}
+                className="home-description text-[#6C728C] font-['Manrope']"
+              >
                 Zupitu's user-friendly interface simplifies prospecting with
                 intuitive tools for high-quality data generation.
               </p>
-              <p className="home-description mt-3 text-[#6C728C] font-['Manrope']">
+              <p
+                data-animate-item
+                style={{ transitionDelay: "0.22s" }}
+                className="home-description mt-3 text-[#6C728C] font-['Manrope']"
+              >
                 It supports seamless team collaboration, easily handles large
                 data volumes, and offers cost-effective scalability for growing
                 businesses.
@@ -47,7 +68,7 @@ const Productivity = () => {
           {/* Main content row (third image sizing intent) */}
           <div className="mt-10! sm:mt-14! md:mt-16! lg:mt-20! grid grid-cols-1 lg:grid-cols-2 gap-[20px] md:gap-[30px]">
             {/* Left large card (fourth + sixth + seventh images) */}
-            <div className="relative w-full">
+            <div className="relative w-full" data-animate-item>
               {/* Background image */}
               <div
                 className="relative h-full rounded-[24px] border border-[#EEF0F3] bg-[#FAFAFF] overflow-hidden"
@@ -69,13 +90,20 @@ const Productivity = () => {
                 {/* Bottom content block (sixth image) */}
                 <div className="px-9! py-7! md:px-9! md:py-8! lg:px-9! lg:py-8! bg-white/0 rounded-b-[24px]">
                   <div className="flex flex-col gap-4">
-                    <div className="inline-flex font-['Manrope'] items-center gap-[6px] rounded-[50px] bg-white px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]">
+                <div
+                  data-animate-item
+                  className="inline-flex font-['Manrope'] items-center gap-[6px] rounded-[50px] bg-white px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]"
+                >
                       <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
                       <span>Type Something</span>
                     </div>
 
                     <div className="mt-5 flex flex-col gap-4">
-                       <h3 className="home-subtitle text-[#132436] font-['Inter']">
+                       <h3
+                         data-animate-item
+                         style={{ transitionDelay: "0.12s" }}
+                         className="home-subtitle text-[#132436] font-['Inter']"
+                       >
                          Powerful Team, Management
                          <br className="hidden sm:block" />
                          <span>Unified</span>
@@ -90,17 +118,29 @@ const Productivity = () => {
                        </h3>
 
                       <div className="flex flex-col gap-4">
-                        <p className="home-description text-[#6C728C] font-['Manrope']">
+                        <p
+                          data-animate-item
+                          style={{ transitionDelay: "0.18s" }}
+                          className="home-description text-[#6C728C] font-['Manrope']"
+                        >
                           Zupitu's Team Management features empower businesses
                           with streamlined team management workflows.
                         </p>
-                        <p className="home-description text-[#6C728C] font-['Manrope']">
+                        <p
+                          data-animate-item
+                          style={{ transitionDelay: "0.24s" }}
+                          className="home-description text-[#6C728C] font-['Manrope']"
+                        >
                           Our free platform features help customers to optimize
                           resource allocation and get actionable insights
                           through detailed reporting. Teams can enhance
                           productivity and budget efficiency.
                         </p>
-                        <p className="home-description text-[#6C728C] font-['Manrope']">
+                        <p
+                          data-animate-item
+                          style={{ transitionDelay: "0.3s" }}
+                          className="home-description text-[#6C728C] font-['Manrope']"
+                        >
                           These tools ensure accountability and decision- making
                           for achieving business goals
                         </p>
@@ -138,6 +178,9 @@ const Productivity = () => {
                 ].map((item, idx) => (
                   <div
                     key={idx}
+                    data-animate-item
+                    style={{ transitionDelay: `${0.1 * idx}s` }}
+                    data-hover="lift"
                     className="rounded-[16px] border border-[#EEF0F3] bg-white p-5! sm:p-6! md:p-6! lg:p-6! lg:pt-8! lg:pb-8! shadow-[0_1px_0_0_#0000000A]"
                   >
                     <div className="flex items-start gap-4">

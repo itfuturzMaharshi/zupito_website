@@ -1,19 +1,32 @@
 import React from "react";
+import useScrollReveal from "../../hooks/useScrollReveal";
 
 const ActionsPage = () => {
+  const sectionRef = useScrollReveal();
   return (
-    <section className="relative w-full bg-[#FAFBFF] overflow-hidden mt-4!">
+    <section
+      ref={sectionRef}
+      data-animate="fade-up"
+      className="relative w-full bg-[#FAFBFF] overflow-hidden mt-4!"
+    >
       {/* Outer container mirrors HeroSection spacing rhythm */}
       <div className="w-full  px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-16! xl:py-20!">
         <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
           {/* Header copy */}
           <div className="text-center">
-            <div className="inline-flex items-center font-['Inter'] justify-center gap-[6px] rounded-[50px] bg-white w-[187px] h-[42px] px-4 py-3 text-[16px] leading-[18px] font-semibold text-[#132436] capitalize">
+            <div
+              data-animate-item
+              className="inline-flex items-center font-['Inter'] justify-center gap-[6px] rounded-[50px] bg-white w-[187px] h-[42px] px-4 py-3 text-[16px] leading-[18px] font-semibold text-[#132436] capitalize"
+            >
               <span className="w-2 h-2 rounded-full bg-[#3B82F6]" />
               Plugin Integration
             </div>
 
-            <h2 className="home-title mt-5! text-[#132436] font-bold font-['Inter']">
+            <h2
+              data-animate-item
+              style={{ transitionDelay: "0.08s" }}
+              className="home-title mt-5! text-[#132436] font-bold font-['Inter']"
+            >
               <span className="inline-block align-middle">
                 See
                 <span className="align-middle inline-flex items-center justify-center mx-2! relative top-[-2px]">
@@ -27,7 +40,11 @@ const ActionsPage = () => {
               </span>
             </h2>
 
-            <p className="home-description mt-5! text-[#546779] font-['Manrope'] text-center max-w-[full] mx-auto">
+            <p
+              data-animate-item
+              style={{ transitionDelay: "0.15s" }}
+              className="home-description mt-5! text-[#546779] font-['Manrope'] text-center max-w-[full] mx-auto"
+            >
               Experience the quality and speed of Artificial Intelligence in
               email verification and email finding. Try Zupitu without Sign-Up.
               We welcome FREE trials and offer 10 Credits daily forever.
@@ -64,13 +81,20 @@ const ActionsPage = () => {
               {/* Left panel (copy) sized 561x451 at 60px offset */}
               <div className="relative rounded-[16px]  flex flex-col justify-between gap-3">
                 <div className="flex flex-col gap-5 lg:pr-18!">
-                <div className="inline-flex items-center font-['Manrope'] justify-center gap-[6px] rounded-[50px] bg-[#F0F3FF] px-4! py-2 w-[180px] h-[38px] text-[14px] leading-[100%] font-bold text-[#132436] sm:w-[200px] sm:h-[46px] sm:text-[16px] md:text-[18px]">
+                <div
+                  data-animate-item
+                  className="inline-flex items-center font-['Manrope'] justify-center gap-[6px] rounded-[50px] bg-[#F0F3FF] px-4! py-2 w-[180px] h-[38px] text-[14px] leading-[100%] font-bold text-[#132436] sm:w-[200px] sm:h-[46px] sm:text-[16px] md:text-[18px]"
+                >
                   <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
                   <span>Let's get in touch</span>
                 </div>
 
                 <div className="flex gap-5 flex-col">
-                  <h3 className="home-subtitle text-[#132436] font-['Inter']">
+                  <h3
+                    data-animate-item
+                    style={{ transitionDelay: "0.12s" }}
+                    className="home-subtitle text-[#132436] font-['Inter']"
+                  >
                     Comprehensive Personal &{" "}
                     <br className="hidden sm:block" />
                     Business
@@ -84,7 +108,11 @@ const ActionsPage = () => {
                     Email Validation
                   </h3>
 
-                  <p className="home-description text-[#76838F] font-['Manrope'] max-w-[640px]">
+                  <p
+                    data-animate-item
+                    style={{ transitionDelay: "0.18s" }}
+                    className="home-description text-[#76838F] font-['Manrope'] max-w-[640px]"
+                  >
                     Verify up to 10 emails instantly without sign-up just
                     enter an email, click Verify, and repeat. Explore bulk
                     validation, verification history, and all platform features
@@ -93,7 +121,12 @@ const ActionsPage = () => {
                 </div>
                 </div>
 
-                <button className="inline-flex items-center font-['Manrope'] gap-3 text-[#EB3609] font-bold text-[18px] leading-[28px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize">
+                <button
+                  data-animate-item
+                  style={{ transitionDelay: "0.25s" }}
+                  data-hover="lift"
+                  className="inline-flex items-center font-['Manrope'] gap-3 text-[#EB3609] font-bold text-[18px] leading-[28px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize"
+                >
                   <span>Checkout Our Deals</span>
                   <span className="flex items-center justify-center ">
                    <img
@@ -108,25 +141,40 @@ const ActionsPage = () => {
               {/* Right panel (widget) sized 600x490 at 724/42 */}
               <div className="relative mx-auto lg:mx-0 w-full max-w-full bg-[#132436] rounded-[24px] p-4! sm:p-5! md:p-6! flex flex-col items-center gap-4 sm:gap-5 md:gap-[20px]">
                 {/* Top icon */}
-                <div className="mt-2 sm:mt-3 relative w-[48px] h-[48px] sm:w-[56px] sm:h-[56px] rounded-full bg-white shadow-sm">
+                <div
+                  data-animate-item
+                  className="mt-2 sm:mt-3 relative w-[48px] h-[48px] sm:w-[56px] sm:h-[56px] rounded-full bg-white shadow-sm"
+                >
                   <img src="/images/email-icon.svg" alt="Email" className="absolute left-[55%] top-[52%] -translate-x-1/2 -translate-y-1/2 w-[30px] h-[30px] sm:w-[36px] sm:h-[36px] object-contain" />
                 </div>
 
                 {/* Title */}
-                <h4 className="home-subtitle text-white text-center font-['Inter'] px-2 sm:px-4">
+                <h4
+                  data-animate-item
+                  style={{ transitionDelay: "0.08s" }}
+                  className="home-subtitle text-white text-center font-['Inter'] px-2 sm:px-4"
+                >
                   Verify Personal & Business
                   <br className="hidden sm:block" />
                   Emails Instantly
                 </h4>
 
                 {/* Subtitle */}
-                <p className="home-description text-[#546779] text-center font-['Manrope'] max-w-[420px] px-2 sm:px-4">
+                <p
+                  data-animate-item
+                  style={{ transitionDelay: "0.15s" }}
+                  className="home-description text-[#546779] text-center font-['Manrope'] max-w-[420px] px-2 sm:px-4"
+                >
                   Check up to 10 emails for free — no sign-up required.
                 </p>
 
                 {/* Input group */}
                 <div className="w-full px-2!">
-                  <div className="mx-auto w-full max-w-[520px] bg-white rounded-[40px] h-[48px] sm:h-[50px] md:h-[52px] lg:h-[56px] flex items-center shadow-[0_2px_0_0_#0000000A] border border-[#E6E8EB] overflow-hidden">
+                  <div
+                    data-animate-item
+                    style={{ transitionDelay: "0.2s" }}
+                    className="mx-auto w-full max-w-[520px] bg-white rounded-[40px] h-[48px] sm:h-[50px] md:h-[52px] lg:h-[56px] flex items-center shadow-[0_2px_0_0_#0000000A] border border-[#E6E8EB] overflow-hidden"
+                  >
                     <input
                       type="email"
                       placeholder="Email Address..."

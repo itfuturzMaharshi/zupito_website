@@ -1,8 +1,14 @@
 import React from "react";
+import useScrollReveal from "../../hooks/useScrollReveal";
 
 const Footer = () => {
+  const sectionRef = useScrollReveal();
   return (
-    <section className="relative w-full overflow-hidden bg-transparent">
+    <section
+      ref={sectionRef}
+      data-animate="fade-up"
+      className="relative w-full overflow-hidden bg-transparent"
+    >
       {/* Outer layout container (mobile 24px padding) */}
       <div className="w-full flex justify-center px-6! py-6! sm:py-6! md:py-6!">
         {/* Background box with required properties */}
@@ -56,7 +62,10 @@ const Footer = () => {
             }}
           />
           <div className="relative z-2 w-full max-w-full mx-auto flex flex-col items-center gap-4 sm:gap-5 md:gap-[24px]">
-            <h2 className="home-title font-bold text-center font-['Inter'] tracking-[-2.4px] mt-4! sm:mt-6! md:mt-8! text-white capitalize px-2!">
+            <h2
+              data-animate-item
+              className="home-title font-bold text-center font-['Inter'] tracking-[-2.4px] mt-4! sm:mt-6! md:mt-8! text-white capitalize px-2!"
+            >
               <span className="text-white">Sign Up </span>
               <span className="text-[#717680]">For </span>
               <span className="text-[#EDFF67]">300 Free Credits </span>
@@ -65,12 +74,23 @@ const Footer = () => {
               <span className="text-white">Unlimited Validity</span>
             </h2>
 
-            <p className="home-description text-center font-['Manrope'] text-white md:opacity-100 opacity-90 max-w-[980px] px-4!">
+            <p
+              data-animate-item
+              style={{ transitionDelay: "0.1s" }}
+              className="home-description text-center font-['Manrope'] text-white md:opacity-100 opacity-90 max-w-[980px] px-4!"
+            >
               Use your free credits for both finding and verifying emails.
             </p>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 md:gap-6 w-full max-w-[800px] pt-4! sm:pt-6! pb-4! sm:pb-6! px-4!">
-              <button className="w-full sm:w-auto h-[50px] sm:h-[54px] font-['Inter'] md:h-[58px] lg:h-[62px] px-6! sm:px-8! md:px-10! rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35] text-white text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-semibold whitespace-nowrap inline-flex items-center justify-center gap-2 sm:gap-3 transition-colors">
+            <div
+              data-animate-item
+              style={{ transitionDelay: "0.2s" }}
+              className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 md:gap-6 w-full max-w-[800px] pt-4! sm:pt-6! pb-4! sm:pb-6! px-4!"
+            >
+              <button
+                data-hover="lift"
+                className="w-full sm:w-auto h-[50px] sm:h-[54px] font-['Inter'] md:h-[58px] lg:h-[62px] px-6! sm:px-8! md:px-10! rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35] text-white text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-semibold whitespace-nowrap inline-flex items-center justify-center gap-2 sm:gap-3 transition-colors"
+              >
                 <span>Checkout Details</span>
                 <img
                     src="/images/right-arrow.svg"
@@ -78,7 +98,10 @@ const Footer = () => {
                     className="w-4 h-4 sm:w-5 sm:h-5"
                   />
               </button>
-              <button className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[24px] font-semibold flex items-center gap-2 hover:text-[#EDFF67] transition-colors">
+              <button
+                data-hover="underline"
+                className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[24px] font-semibold flex items-center gap-2 hover:text-[#EDFF67] transition-colors"
+              >
                 <span>Claim 300 free credits</span>
                <img
                     src="/images/right-arrow.svg"

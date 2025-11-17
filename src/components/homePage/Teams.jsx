@@ -1,13 +1,22 @@
 import React from "react";
+import useScrollReveal from "../../hooks/useScrollReveal";
 
 const Teams = () => {
+  const sectionRef = useScrollReveal();
   return (
-    <section className="relative w-full bg-[#FDF9FB] overflow-hidden">
+    <section
+      ref={sectionRef}
+      data-animate="fade-up"
+      className="relative w-full bg-[#FDF9FB] overflow-hidden"
+    >
       {/* Outer container spacing mirrors ActionsPage rhythm */}
       <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-12! lg:py-16! xl:py-20!">
         <div className="max-w-[full] lg:max-w-[1362px] mx-auto">
           {/* Top badge */}
-          <div className="inline-flex font-['Manrope'] items-center justify-center gap-[6px] rounded-[50px] bg-[#FFE9F2] px-4! py-3 h-[42px] sm:h-[46px] text-center align-middle font-bold text-[#132436] text-[14px] leading-[100%] sm:text-[16px] md:text-[18px]">
+          <div
+            data-animate-item
+            className="inline-flex font-['Manrope'] items-center justify-center gap-[6px] rounded-[50px] bg-[#FFE9F2] px-4! py-3 h-[42px] sm:h-[46px] text-center align-middle font-bold text-[#132436] text-[14px] leading-[100%] sm:text-[16px] md:text-[18px]"
+          >
             <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
             <span>Plugin integration</span>
           </div>
@@ -15,7 +24,11 @@ const Teams = () => {
           {/* Hero row: heading left, paragraph right on large screens */}
           <div className="mt-5! grid grid-cols-1 lg:grid-cols-[auto_1fr] items-start gap-6 lg:gap-12">
             {/* Heading */}
-            <h2 className="home-title font-['Inter'] font-bold text-[#132436]">
+            <h2
+              data-animate-item
+              style={{ transitionDelay: "0.08s" }}
+              className="home-title font-['Inter'] font-bold text-[#132436]"
+            >
               <span className="inline-block align-middle">
                 Reach
                 <span className="align-middle inline-flex items-center justify-center mx-2! relative top-[-2px]">
@@ -39,7 +52,11 @@ const Teams = () => {
             </h2>
 
             {/* Sub copy */}
-            <p className="home-description text-[#546779] font-['Manrope'] max-w-[620px] lg:mt-[10px]">
+            <p
+              data-animate-item
+              style={{ transitionDelay: "0.15s" }}
+              className="home-description text-[#546779] font-['Manrope'] max-w-[620px] lg:mt-[10px]"
+            >
               Zupitu’s fast, intuitive platform empowers teams to verify leads
               quickly with minimal training required.
             </p>
@@ -74,6 +91,9 @@ const Teams = () => {
             ].map((item, idx) => (
               <div
                 key={idx}
+                data-animate-item
+                style={{ transitionDelay: `${0.1 * idx}s` }}
+                data-hover="lift"
                 className="bg-white rounded-[16px] shadow-[0px_7px_16px_0px_#181D2717] px-4! py-3! min-h-[260px] flex flex-col gap-[20px]"
               >
                 <div className="w-[56px] h-[56px] rounded-full bg-[#FAFAFF] flex items-center justify-center">

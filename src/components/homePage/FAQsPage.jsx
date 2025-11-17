@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import useScrollReveal from '../../hooks/useScrollReveal'
 
 const FAQsPage = () => {
+  const sectionRef = useScrollReveal()
   const [openIndex, setOpenIndex] = useState(3) // Start with 4th question open
 
   const faqs = [
@@ -27,14 +29,22 @@ const FAQsPage = () => {
   }
 
   return (
-    <section className="relative w-full" style={{ background: 'var(--color-white-solid, #FFFFFF)' }}>
+    <section
+      ref={sectionRef}
+      data-animate="fade-up"
+      className="relative w-full"
+      style={{ background: 'var(--color-white-solid, #FFFFFF)' }}
+    >
       {/* Outer container with responsive padding */}
       <div className="w-full flex justify-center px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-16! xl:py-20!">
         <div className="max-w-full mx-auto relative">
           {/* Header Section - max-width 1362px */}
           <div className="w-full lg:max-w-[1362px] mx-auto">
             {/* FAQ Tag - width: 85px, height: 49px */}
-            <div className="inline-flex items-center justify-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] mb-4!">
+            <div
+              data-animate-item
+              className="inline-flex items-center justify-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] mb-4!"
+            >
               <span className="w-2 h-2 rounded-full bg-[#3B82F6]" />
               <span className="text-[#132436] font-['Manrope'] font-bold text-[18px] leading-[100%] text-center">FAQ</span>
             </div>
@@ -43,7 +53,11 @@ const FAQsPage = () => {
             <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 lg:gap-[21px] mt-4! h-auto">
               {/* Left side - Title with icons - width: 568px, height: 239px, gap: 21px */}
               <div className="flex-1 max-w-[568px]">
-                <h2 className="home-title text-[#132436] font-['Inter'] font-bold">
+                <h2
+                  data-animate-item
+                  style={{ transitionDelay: "0.08s" }}
+                  className="home-title text-[#132436] font-['Inter'] font-bold"
+                >
                   <span className="inline-flex items-center gap-2">
                     {/* Green Checkmark Icon */}
                     <img src="/images/faq.svg" alt="" className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] shrink-0" />
@@ -60,7 +74,11 @@ const FAQsPage = () => {
 
               {/* Right side - Description */}
               <div className="flex-1 max-w-[568px] lg:max-w-none">
-                <p className="home-description text-[#546779] font-['Manrope']">
+                <p
+                  data-animate-item
+                  style={{ transitionDelay: "0.15s" }}
+                  className="home-description text-[#546779] font-['Manrope']"
+                >
                   If you're new or looking for answers to your questions, this guide will help you learn more about our services and their features.
                 </p>
               </div>
@@ -76,6 +94,8 @@ const FAQsPage = () => {
                 >
                   {/* FAQ Item - width: 1362px, height: 132px, padding: 48px 30px */}
                   <div 
+                    data-animate-item
+                    style={{ transitionDelay: `${0.1 * (index + 1)}s` }}
                     className="w-full py-12! lg:py-[32px]! flex items-center justify-between cursor-pointer transition-colors hover:bg-gray-50/50"
                     onClick={() => toggleFAQ(index)}
                   >
@@ -87,6 +107,7 @@ const FAQsPage = () => {
                     
                     {/* Toggle Button - width: 60px, height: 40px, border-radius: 50px */}
                     <button
+                      data-hover="lift"
                       className={`shrink-0 w-[50px] h-[35px] sm:w-[55px] sm:h-[38px] md:w-[60px] md:h-[40px] rounded-[50px] flex items-center justify-center transition-all duration-300 ${
                         openIndex === index 
                           ? 'bg-[#132436]' 
