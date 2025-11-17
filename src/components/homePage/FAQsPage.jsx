@@ -43,14 +43,14 @@ const FAQsPage = () => {
             <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 lg:gap-[21px] mt-4! h-auto"  style={{alignItems: 'end'}}>
               {/* Left side - Title with icons - width: 568px, height: 239px, gap: 21px */}
               <div className="flex-1 max-w-[568px]">
-                <h2 className="text-[#132436] font-['Inter'] font-semibold">
-                  <span className="inline-flex items-center gap-2 text-[34px] leading-[100%] sm:text-[42px] md:text-[50px] lg:text-[50px] tracking-[-2.2px]">
+                <h2 className="home-title text-[#132436] font-['Inter'] font-bold">
+                  <span className="inline-flex items-center gap-2">
                     {/* Green Checkmark Icon */}
                     <img src="/images/faq.svg" alt="" className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] shrink-0" />
                     Frequently
                   </span>
                   <br className="hidden sm:block" />
-                  <span className="inline-flex items-center gap-2 text-[34px] leading-[100%] sm:text-[42px] md:text-[50px] lg:text-[50px] tracking-[-2.2px]">
+                  <span className="inline-flex items-center gap-2">
                     Asked Questions
                     {/* Purple Question Mark Icon */}
                     <img src="/images/faq2.svg" alt="" className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] shrink-0" />
@@ -60,7 +60,7 @@ const FAQsPage = () => {
 
               {/* Right side - Description */}
               <div className="flex-1 max-w-[568px] lg:max-w-none">
-                <p className="text-[#546779] font-medium font-['Manrope'] text-[18px] leading-[32px] sm:text-[20px] md:text-[22px] lg:text-[22px] tracking-[0px]">
+                <p className="home-description text-[#546779] font-['Manrope']">
                   If you're new or looking for answers to your questions, this guide will help you learn more about our services and their features.
                 </p>
               </div>
@@ -80,7 +80,7 @@ const FAQsPage = () => {
                     onClick={() => toggleFAQ(index)}
                   >
                     <div className="flex-1 pr-4!">
-                      <h3 className="text-[#132436] font-['Manrope'] font-semibold text-[20px] leading-[100%] sm:text-[22px] md:text-[24px] lg:text-[26px] tracking-[-0.32px] capitalize">
+                      <h3 className="home-subtitle text-[#132436] font-['Manrope'] capitalize">
                         {index + 1}. {faq.question}
                       </h3>
                     </div>
@@ -114,7 +114,7 @@ const FAQsPage = () => {
                     }`}
                   >
                     <div className="px-6! lg:px-[30px]! pb-8! lg:pb-12!">
-                      <p className="text-[#747C9A] font-['Manrope'] font-normal text-[18px] leading-[40px] sm:text-[20px] md:text-[22px] lg:text-[24px] tracking-[0px] max-w-[full]">
+                      <p className="home-description text-[#747C9A] font-['Manrope'] max-w-[full]">
                         {faq.answer}
                       </p>
                     </div>

@@ -15,6 +15,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.home-title {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.home-subtitle {
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.home-description {
+  font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+
 /* Reduce font sizes for 1024px screens (lg breakpoint) */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .header-nav-link {

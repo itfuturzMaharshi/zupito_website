@@ -13,8 +13,8 @@ const ActionsPage = () => {
               Plugin Integration
             </div>
 
-            <h2 className="mt-5! text-[#132436] font-semibold">
-              <span className="inline-block font-['Inter'] align-middle text-[34px] leading-[36px] sm:text-[42px] sm:leading-[44px] md:text-[50px] md:leading-[50px] lg:text-[60px] lg:leading-[50px] tracking-[-2.2px]">
+            <h2 className="home-title mt-5! text-[#132436] font-bold font-['Inter']">
+              <span className="inline-block align-middle">
                 See
                 <span className="align-middle inline-flex items-center justify-center mx-2! relative top-[-2px]">
                   <img
@@ -27,7 +27,7 @@ const ActionsPage = () => {
               </span>
             </h2>
 
-            <p className="mt-5! text-[#546779] font-['Manrope'] font-medium text-[16px] leading-[28px] sm:text-[18px] sm:leading-[32px] md:text-[20px] md:leading-[34px] lg:text-[22px] lg:leading-[38px] tracking-[0px] text-center max-w-[full] mx-auto">
+            <p className="home-description mt-5! text-[#546779] font-['Manrope'] text-center max-w-[full] mx-auto">
               Experience the quality and speed of Artificial Intelligence in
               email verification and email finding. Try Zupitu without Sign-Up.
               We welcome FREE trials and offer 10 Credits daily forever.
@@ -70,7 +70,7 @@ const ActionsPage = () => {
                 </div>
 
                 <div className="flex gap-5 flex-col">
-                  <h3 className="text-[#132436] font-['Inter'] font-semibold text-[22px] leading-[34px] sm:text-[26px] sm:leading-[40px] md:text-[28px] md:leading-[44px] lg:text-[30px] lg:leading-[50px] tracking-[-1.5px]">
+                  <h3 className="home-subtitle text-[#132436] font-['Inter']">
                     Comprehensive Personal &{" "}
                     <br className="hidden sm:block" />
                     Business
@@ -84,7 +84,7 @@ const ActionsPage = () => {
                     Email Validation
                   </h3>
 
-                  <p className="text-[#76838F] font-normal font-['Manrope'] text-[15px] leading-[26px] sm:text-[16px] sm:leading-[28px] md:text-[17px] md:leading-[30px] lg:text-[18px] lg:leading-[32px] max-w-[640px]">
+                  <p className="home-description text-[#76838F] font-['Manrope'] max-w-[640px]">
                     Verify up to 10 emails instantly without sign-up just
                     enter an email, click Verify, and repeat. Explore bulk
                     validation, verification history, and all platform features
@@ -113,14 +113,14 @@ const ActionsPage = () => {
                 </div>
 
                 {/* Title */}
-                <h4 className="text-white text-center font-['Inter'] font-semibold text-[18px] leading-[28px] sm:text-[20px] sm:leading-[32px] md:text-[22px] md:leading-[36px] lg:text-[24px] lg:leading-[40px] xl:text-[26px] xl:leading-[42px] tracking-[-0.56px] px-2 sm:px-4">
+                <h4 className="home-subtitle text-white text-center font-['Inter'] px-2 sm:px-4">
                   Verify Personal & Business
                   <br className="hidden sm:block" />
                   Emails Instantly
                 </h4>
 
                 {/* Subtitle */}
-                <p className="text-[#546779] text-center font-['Manrope'] font-medium text-[13px] leading-[22px] sm:text-[14px] sm:leading-[24px] md:text-[16px] md:leading-[28px] lg:text-[17px] lg:leading-[30px] xl:text-[18px] xl:leading-[32px] tracking-[0px] max-w-[420px] px-2 sm:px-4">
+                <p className="home-description text-[#546779] text-center font-['Manrope'] max-w-[420px] px-2 sm:px-4">
                   Check up to 10 emails for free — no sign-up required.
                 </p>
 

@@ -13,8 +13,8 @@ const EmailFinderWorks = () => {
               <span>Type Something</span>
             </div>
 
-            <h2 className="mt-5! text-[#132436] font-['Inter'] font-semibold text-center">
-              <span className="inline-block align-middle text-[34px] leading-[36px] sm:text-[42px] sm:leading-[44px] md:text-[50px] md:leading-[50px] lg:text-[60px] lg:leading-[50px] tracking-[-2.2px]">
+            <h2 className="home-title mt-5! text-[#132436] font-['Inter'] font-bold text-center">
+              <span className="inline-block align-middle">
                 How Our
                 <span className="align-middle inline-flex items-center justify-center mx-2! relative -top-[2px]">
                   <img
@@ -27,7 +27,7 @@ const EmailFinderWorks = () => {
               </span>
             </h2>
 
-            <p className="mt-5! mb-8! md:mb-12! lg:mb-5! text-[#546779] font-['Manrope']s font-medium text-[16px] leading-[28px] sm:text-[18px] sm:leading-[32px] md:text-[22px] md:leading-[38px] tracking-[0px] text-center max-w-full mx-auto">
+            <p className="home-description mt-5! mb-8! md:mb-12! lg:mb-5! text-[#546779] font-['Manrope'] text-center max-w-full mx-auto">
               Most companies follow unique email patterns. Our tool detects these formats automatically, helping you uncover accurate contact details, even for large organizations.
             </p>
           </div>
@@ -55,8 +55,8 @@ const EmailFinderWorks = () => {
                   <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[18px]">300 free credits on signup</span>
                 </div>
                 <div className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! lg:p-[30px]! pb-[50px]! md:pb-[54px]! lg:pb-[58px]! mb-0! overflow-visible" style={{ overflow: "visible", height: "auto" }}>
-                  <h4 className="text-[#132436] font-bold text-[18px] font-['Inter'] md:text-[20px] lg:text-[21px] tracking-[-0.32px] mb-3!">Signup Credits</h4>
-                  <p className="text-[#747C9A] font-['Manrope'] font-normal text-[16px] leading-[28px] md:text-[16px] md:leading-[28px] mb-0! " style={{ overflow: "visible" }}>
+                  <h4 className="home-subtitle text-[#132436] font-['Inter'] mb-3!">Signup Credits</h4>
+                  <p className="home-description text-[#747C9A] font-['Manrope'] mb-0! " style={{ overflow: "visible" }}>
                     300 free credits at signup with month on month top-up to keep the wallet loaded with 300 credits monthly.
                   </p>
                 </div>
@@ -77,8 +77,8 @@ const EmailFinderWorks = () => {
                   <span className="text-[#3A4A5A] font-medium font-['Manrope'] text-[16px] md:text-[18px] lg:text-[18px]">Manage credits anytime</span>
                 </div>
                 <div className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! lg:p-[30px]! pb-[50px]! md:pb-[54px]! lg:pb-[58px]! mb-0! overflow-visible" style={{ overflow: "visible", height: "auto" }}>
-                  <h4 className="text-[#132436] font-bold text-[18px] md:text-[20px] font-['Inter'] lg:text-[21px] tracking-[-0.32px] mb-3!">Access On The Go</h4>
-                  <p className="text-[#747C9A] font-['Manrope'] font-normal text-[16px] leading-[28px] md:text-[16px] md:leading-[28px] mb-0! " style={{ overflow: "visible" }}>
+                  <h4 className="home-subtitle text-[#132436] font-['Inter'] mb-3!">Access On The Go</h4>
+                  <p className="home-description text-[#747C9A] font-['Manrope'] mb-0! " style={{ overflow: "visible" }}>
                     Access the system on the go on mobile, laptop, and tablet. You can work, manage teams, credits.
                   </p>
                 </div>
@@ -99,8 +99,8 @@ const EmailFinderWorks = () => {
                   <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[18px]">No hidden costs</span>
                 </div>
                 <div className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! lg:p-[30px]! pb-[50px]! md:pb-[54px]! lg:pb-[58px]! mb-0! overflow-visible" style={{ overflow: "visible", height: "auto" }}>
-                  <h4 className="text-[#132436] font-bold text-[18px] font-['Inter'] md:text-[20px] lg:text-[21px] tracking-[-0.32px] mb-3!">Free Platform Features</h4>
-                  <p className="text-[#747C9A] font-['Manrope'] font-normal text-[16px] leading-[28px] md:text-[16px] md:leading-[28px] mb-0! " style={{ overflow: "visible" }}>
+                  <h4 className="home-subtitle text-[#132436] font-['Inter'] mb-3!">Free Platform Features</h4>
+                  <p className="home-description text-[#747C9A] font-['Manrope'] mb-0! " style={{ overflow: "visible" }}>
                     Access advanced features like API integration & team management at no additional cost.
                   </p>
                 </div>

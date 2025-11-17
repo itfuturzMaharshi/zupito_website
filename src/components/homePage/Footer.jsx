@@ -56,7 +56,7 @@ const Footer = () => {
             }}
           />
           <div className="relative z-2 w-full max-w-full mx-auto flex flex-col items-center gap-4 sm:gap-5 md:gap-[24px]">
-            <h2 className="font-bold text-center font-['Inter'] tracking-[-2.4px] mt-4! sm:mt-6! md:mt-8! text-white leading-[36px] text-[24px] sm:text-[32px] sm:leading-[44px] md:text-[46px] md:leading-[62px] lg:text-[54px] lg:leading-[72px] xl:text-[56px] xl:leading-[80px] capitalize px-2!">
+            <h2 className="home-title font-bold text-center font-['Inter'] tracking-[-2.4px] mt-4! sm:mt-6! md:mt-8! text-white capitalize px-2!">
               <span className="text-white">Sign Up </span>
               <span className="text-[#717680]">For </span>
               <span className="text-[#EDFF67]">300 Free Credits </span>
@@ -65,7 +65,7 @@ const Footer = () => {
               <span className="text-white">Unlimited Validity</span>
             </h2>
 
-            <p className="text-center font-['Manrope'] text-white md:opacity-100 opacity-90 font-medium text-[14px] leading-[22px] sm:text-[16px] sm:leading-[26px] md:text-[18px] md:leading-[30px] lg:text-[22px] lg:leading-[38px] max-w-[980px] px-4!">
+            <p className="home-description text-center font-['Manrope'] text-white md:opacity-100 opacity-90 max-w-[980px] px-4!">
               Use your free credits for both finding and verifying emails.
             </p>
 
@@ -121,7 +121,7 @@ const Footer = () => {
                 <div className="text-white font-extrabold text-[24px] sm:text-[28px] md:text-[34px] lg:text-[40px] leading-[100%]">
                   Zupitu
                 </div>
-                <p className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[24px] sm:leading-[28px] md:leading-[34px] max-w-[722px]">
+                <p className="home-description text-white font-['Manrope'] max-w-[722px]">
                   From dynamic visuals to interactive features, our software
                   empowers you to craft a website tailored to every need.
                 </p>
@@ -172,14 +172,14 @@ const Footer = () => {
                   { title: "Company", items: ["Terms", "Contact Us"] },
                 ].map((col) => (
                   <div key={col.title} className="flex flex-col gap-3 sm:gap-4">
-                    <h3 className="font-bold font-['Inter'] text-[16px] sm:text-[18px] md:text-[20px] lg:text-[26px] tracking-[-0.32px] capitalize">
+                    <h3 className="home-subtitle font-['Inter'] text-white capitalize">
                       {col.title}
                     </h3>
                     <ul className="flex flex-col gap-2 sm:gap-3 md:gap-4 opacity-90">
                       {col.items.map((it) => (
                         <li
                           key={it}
-                          className="text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-['Manrope'] leading-[100%] cursor-pointer hover:text-[#EDFF67] transition-colors"
+                          className="home-description text-white font-['Manrope'] cursor-pointer hover:text-[#EDFF67] transition-colors"
                         >
                           {it}
                         </li>
@@ -191,7 +191,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-full font-['Manrope'] max-w-full mx-auto text-center text-white text-[12px] sm:text-[14px] md:text-[16px] lg:text-[20px] pt-6! sm:pt-8! md:pt-10! px-4!">
+          <div className="home-description w-full font-['Manrope'] max-w-full mx-auto text-center text-white pt-6! sm:pt-8! md:pt-10! px-4!">
             © 2025 Zupitu.{" "}
             <span className="text-white/70">All Rights Reserved.</span>
           </div>

@@ -12,7 +12,7 @@ const EmailsVerified = () => {
             <div className="w-full lg:w-[full] h-auto lg:h-full rounded-[24px] p-6! bg-[#F0EBFF] flex flex-col gap-5">
               {/* Title section */}
               <div className="w-full flex flex-col items-center justify-center text-center">
-                <h2 className="font-semibold text-[24px] font-['Inter'] leading-[38px] sm:text-[28px] sm:leading-[42px] md:text-[32px] md:leading-[50px] tracking-[-1.2px]">
+                <h2 className="home-subtitle font-['Inter'] text-center">
                   <span className="text-[#132436]">
                     Lead Generation <span className="text-[#9C93B4]">with</span>{" "}
                   </span>
@@ -50,7 +50,7 @@ const EmailsVerified = () => {
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
                 <div className="w-full max-w-[717px] h-full flex flex-col gap-3 justify-between">
                   {/* Description text */}
-                  <p className="text-[#4A4E5C] font-['Manrope'] font-normal text-[18px] leading-[30px] sm:text-[20px] sm:leading-[34px] md:text-[22px] md:leading-[38px] tracking-[0px]">
+                  <p className="home-description text-[#4A4E5C] font-['Manrope']">
                     Zupitu ensures your emails always reach the right inbox.
                     High email deliverability is achieved through reduced bounce
                     rates, a healthy email list,

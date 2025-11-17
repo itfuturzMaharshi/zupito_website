@@ -9,14 +9,14 @@ function HeroSection() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-10 xl:gap-16 items-center">
             {/* Copy */}
             <div className="order-2 lg:order-1">
-              <h1 className="text-[#132436] font-bold font-['Inter'] tracking-[-0.02em] leading-[1.08] space-y-1 mt-6! sm:mt-8! md:mt-10!">
+              <h1 className="home-title text-[#132436] font-bold font-['Inter'] space-y-1">
                 {/* Line 1: AI Tool To Connect */}
-                <span className="block whitespace-nowrap text-[28px] leading-[34px] sm:text-[36px] sm:leading-[42px] md:text-[48px] md:leading-[52px] lg:text-[56px] lg:leading-[60px] xl:text-[64px] xl:leading-[69px] 2xl:text-[64px] 2xl:leading-[69px]">
+                <span className="block whitespace-nowrap">
                   <span>AI Tool To </span>
                   <span className="text-[#EB3609]">Connect</span>
                 </span>
                 {/* Line 2: Emails [badge] Instantly */}
-                <span className="block whitespace-nowrap text-[28px] leading-[34px] sm:text-[36px] sm:leading-[42px] md:text-[48px] md:leading-[52px] lg:text-[56px] lg:leading-[60px] xl:text-[64px] xl:leading-[69px] 2xl:text-[64px] 2xl:leading-[69px]">
+                <span className="block whitespace-nowrap">
                   <span>Emails </span>
                   <span className="align-middle inline-flex items-center justify-center mx-2 mr-2! relative top-[-2px]">
                     <img
@@ -29,7 +29,7 @@ function HeroSection() {
                 </span>
               </h1>
 
-              <p className="text-[#63778B] font-['Manrope'] max-w-[full] sm:max-w-[640px] md:max-w-[720px] font-semibold text-[16px] leading-[28px] sm:text-[18px] sm:leading-[32px] md:text-[20px] md:leading-[34px] lg:text-[20px] lg:leading-[34px] mt-5! sm:mt-6!">
+              <p className="home-description text-[#63778B] font-['Manrope'] max-w-[full] sm:max-w-[640px] md:max-w-[720px] mt-5! sm:mt-6!">
                 Simplify outreach with Zupitu's AI Email Verifier & Finder –
                 validate emails, find business contacts, and boost
                 deliverability.
@@ -94,7 +94,7 @@ function HeroSection() {
 
             {/* Image */}
             <div className="order-1 lg:order-2 relative -mt-12! sm:-mt-16! md:-mt-20!">
-              <div className="relative w-full h-[240px] sm:h-[320px] md:h-[420px] lg:h-[480px] xl:h-[540px] 2xl:h-[560px]">
+              <div className="relative w-full h-[240px] sm:h-[320px] md:h-[420px] lg:h-[480px] xl:h-[540px] 2xl:h-[760px]">
                 <img
                   src="/images/hero_img.png"
                   alt="Zupito email automation flow"

@@ -22,7 +22,7 @@ const EmailPrecision = () => {
               <div className="w-full lg:w-[full] h-auto lg:h-[164px] flex flex-col gap-4 md:gap-5">
                 {/* First line: Lead Generation */}
                 <div className="flex items-center flex-wrap gap-2 sm:gap-3 md:gap-4">
-                  <span className="text-[#132436] font-['Inter'] font-semibold text-[28px] leading-[34px] sm:text-[34px] sm:leading-[36px] md:text-[38px] md:leading-[40px] lg:text-[42px] lg:leading-[44px] xl:text-[48px] xl:leading-[50px] tracking-[-2.2px]">
+                  <span className="home-title text-[#132436] font-['Inter'] font-bold">
                     Lead
                   </span>
                   {/* Rocket icon */}
@@ -33,17 +33,17 @@ const EmailPrecision = () => {
                       className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] object-contain"
                     />
                   </div>
-                  <span className="text-[#3A4A5A] font-['Inter'] opacity-50 font-semibold text-[28px] leading-[34px] sm:text-[34px] sm:leading-[36px] md:text-[38px] md:leading-[40px] lg:text-[42px] lg:leading-[44px] xl:text-[48px] xl:leading-[50px] tracking-[-2.2px]">
+                  <span className="home-title text-[#3A4A5A] font-['Inter'] font-bold opacity-50">
                     Generation
                   </span>
                 </div>
 
                 {/* Second line: With Email Precision */}
                 <div className="flex items-center flex-wrap gap-2 sm:gap-3 md:gap-4">
-                  <span className="text-[#3A4A5A] font-['Inter'] opacity-50 font-semibold text-[28px] leading-[34px] sm:text-[34px] sm:leading-[36px] md:text-[38px] md:leading-[40px] lg:text-[42px] lg:leading-[44px] xl:text-[48px] xl:leading-[50px] tracking-[-2.2px]">
+                  <span className="home-title text-[#3A4A5A] font-['Inter'] font-bold opacity-50">
                     With
                   </span>
-                  <span className="text-[#132436] font-['Inter'] font-semibold text-[28px] leading-[34px] sm:text-[34px] sm:leading-[36px] md:text-[38px] md:leading-[40px] lg:text-[42px] lg:leading-[44px] xl:text-[48px] xl:leading-[50px] tracking-[-2.2px]">
+                  <span className="home-title text-[#132436] font-['Inter'] font-bold">
                     Email Precision
                   </span>
                   {/* Setting icon */}
@@ -60,7 +60,7 @@ const EmailPrecision = () => {
 
             {/* Right section - paragraph */}
             <div className="w-full lg:w-auto lg:flex-1 lg:max-w-[600px]">
-              <p className="text-[#546779] font-['Manrope'] font-medium text-[16px] leading-[28px] sm:text-[18px] sm:leading-[32px] md:text-[20px] md:leading-[34px] lg:text-[18px] lg:leading-[42px] tracking-[0px] text-left">
+              <p className="home-description text-[#546779] font-['Manrope'] text-left">
                 Your email marketing success depends upon valid and opt-in email
                 database. An email verifier helps you maintain a valid list and
                 email finder discovers the right business contacts to fill your
