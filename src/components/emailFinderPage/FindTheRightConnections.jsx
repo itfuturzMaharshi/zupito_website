@@ -1,8 +1,12 @@
 import React from 'react'
+import useScrollReveal from '../../hooks/useScrollReveal'
 
 const FindTheRightConnections = () => {
+  const sectionRef = useScrollReveal()
   return (
     <section 
+      ref={sectionRef}
+      data-animate="fade-up"
       className="relative w-full overflow-hidden bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: 'url(/images/find-right-connection-bg-img.png)'
@@ -18,14 +22,8 @@ const FindTheRightConnections = () => {
               {/* Heading section - responsive based on fourth image (610x152) */}
               <div className="w-full mt-30">
                 <h2 
-                  className="text-center capitalize text-[#132436] font-semibold leading-[100%] tracking-[-2.2px] align-middle"
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontSize: 'clamp(32px, 5vw, 60px)',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    gap: '6px',
-                  }}
+                  data-animate-item
+                  className="home-title text-center text-[#132436] font-['Inter'] capitalize flex flex-col gap-2"
                 >
                   <span className="inline-flex items-center justify-center gap-2!">
                     <span>Find The</span>
@@ -46,34 +44,25 @@ const FindTheRightConnections = () => {
               {/* Paragraphs section - responsive based on third image (764x544) */}
               <div className="flex flex-col">
                 <p 
-                  className="text-center text-[#546779] font-medium leading-[44px] tracking-normal align-middle"
-                  style={{
-                    fontFamily: 'Manrope, sans-serif',
-                    fontSize: 'clamp(18px, 2.5vw, 24px)',
-                    lineHeight: 'clamp(32px, 5.5vw, 44px)'
-                  }}
+                  data-animate-item
+                  style={{ transitionDelay: '0.08s' }}
+                  className="home-description text-center text-[#546779] font-['Manrope']"
                 >
                   Our Email Finder makes it simple to discover and verify professional email addresses in just a few seconds.
                 </p>
                 
                 <p 
-                  className="text-center text-[#546779] font-medium leading-[44px] tracking-normal align-middle"
-                  style={{
-                    fontFamily: 'Manrope, sans-serif',
-                    fontSize: 'clamp(18px, 2.5vw, 24px)',
-                    lineHeight: 'clamp(32px, 5.5vw, 44px)'
-                  }}
+                  data-animate-item
+                  style={{ transitionDelay: '0.14s' }}
+                  className="home-description text-center text-[#546779] font-['Manrope']"
                 >
                   Whether you're building a sales pipeline, connecting with decision-makers, or expanding your network, our tool gives you accurate results instantly—so you can focus on making meaningful connections, not chasing invalid leads.
                 </p>
                 
                 <p 
-                  className="text-center text-[#546779] font-medium leading-[44px] tracking-normal align-middle"
-                  style={{
-                    fontFamily: 'Manrope, sans-serif',
-                    fontSize: 'clamp(18px, 2.5vw, 24px)',
-                    lineHeight: 'clamp(32px, 5.5vw, 44px)'
-                  }}
+                  data-animate-item
+                  style={{ transitionDelay: '0.2s' }}
+                  className="home-description text-center text-[#546779] font-['Manrope']"
                 >
                   Grow smarter, connect faster, and unlock new opportunities with a reliable email lookup solution built for modern businesses.
                 </p>
@@ -82,13 +71,10 @@ const FindTheRightConnections = () => {
               {/* CTA Button */}
               <div className="w-full flex justify-center">
                 <button 
-                  className="inline-flex items-center gap-2 capitalize transition-colors hover:opacity-90 text-[#EB3609] font-bold leading-[30px] tracking-normal align-middle"
-                  style={{
-                    fontFamily: 'Manrope, sans-serif',
-                    fontSize: 'clamp(18px, 2.2vw, 22px)'
-                  }}
+                  data-hover="lift"
+                  className="inline-flex items-center  gap-2 capitalize transition-colors hover:opacity-90 text-[#EB3609]  align-middle font-['Manrope'] home-description cursor-pointer"
                 >
-                  <span>Discover More</span>
+                  <span className="font-bold">Discover More</span>
                   <img
                     src="/images/right-orange-arrow.svg"
                     alt=""

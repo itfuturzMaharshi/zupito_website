@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
+import useScrollReveal from '../../hooks/useScrollReveal'
 
 const FAQsPage = () => {
   const [openIndex, setOpenIndex] = useState(3) // Start with 4th question open
+  const sectionRef = useScrollReveal()
 
   const faqs = [
     {
@@ -27,30 +29,35 @@ const FAQsPage = () => {
   }
 
   return (
-    <section className="relative w-full" style={{ background: 'var(--color-white-solid, #FFFFFF)' }}>
+    <section
+      ref={sectionRef}
+      data-animate="fade-up"
+      className="relative w-full"
+      style={{ background: 'var(--color-white-solid, #FFFFFF)' }}
+    >
       {/* Outer container with responsive padding */}
       <div className="w-full flex justify-center px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-16! xl:py-20!">
         <div className="max-w-full lg:max-w-[1362px] mx-auto relative">
           {/* Header Section - max-width 1362px */}
           <div className="w-full max-w-full lg:max-w-[1362px] mx-auto">
             {/* FAQ Tag - width: 85px, height: 49px */}
-            <div className="inline-flex items-center justify-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] mb-4!">
+            <div className="inline-flex items-center justify-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] mb-4!" data-animate-item>
               <span className="w-2 h-2 rounded-full bg-[#3B82F6]" />
-              <span className="text-[#132436] font-bold text-[18px] leading-[100%] text-center">FAQ</span>
+              <span className="home-description text-[#132436] font-bold leading-[100%] text-center">FAQ</span>
             </div>
 
             {/* Title Section - width: 1362px, height: 239px, justify-content: space-between */}
             <div className="flex flex-col md:flex-row lg:flex-row lg:items-start lg:justify-between gap-6 lg:gap-[21px] mt-4! h-auto"  style={{alignItems: 'end'}}>
               {/* Left side - Title with icons - width: 568px, height: 239px, gap: 21px */}
               <div className="flex-1 max-w-[568px]">
-                <h2 className="text-[#132436] font-semibold">
-                  <span className="inline-flex items-center gap-2 text-[34px] leading-[100%] sm:text-[42px] md:text-[50px] lg:text-[50px] tracking-[-2.2px]">
+                <h2 data-animate-item className="home-title text-[#132436] font-['Inter']">
+                  <span className="inline-flex items-center gap-2">
                     {/* Green Checkmark Icon */}
                     <img src="/images/faq.svg" alt="" className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] shrink-0" />
                     Frequently
                   </span>
                   <br className="hidden sm:block" />
-                  <span className="inline-flex items-center gap-2 text-[34px] leading-[100%] sm:text-[42px] md:text-[50px] lg:text-[50px] tracking-[-2.2px]">
+                  <span className="inline-flex items-center gap-2">
                     Asked Questions
                     {/* Purple Question Mark Icon */}
                     <img src="/images/faq2.svg" alt="" className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] shrink-0" />
@@ -60,7 +67,7 @@ const FAQsPage = () => {
 
               {/* Right side - Description */}
               <div className="flex-1 max-w-[568px] lg:max-w-none">
-                <p className="text-[#546779] font-medium text-[18px] leading-[32px] sm:text-[20px] md:text-[22px] lg:text-[22px] tracking-[0px]">
+                <p data-animate-item style={{ transitionDelay: '0.08s' }} className="home-description text-[#546779]">
                   If you're new or looking for answers to your questions, this guide will help you learn more about our services and their features.
                 </p>
               </div>
@@ -76,18 +83,21 @@ const FAQsPage = () => {
                 >
                   {/* FAQ Item - width: 1362px, height: 132px, padding: 48px 30px */}
                   <div 
+                    data-animate-item
+                    style={{ transitionDelay: `${0.05 * (index + 1)}s` }}
                     className="w-full py-12! lg:py-[32px]! flex items-center justify-between cursor-pointer transition-colors hover:bg-gray-50/50"
                     onClick={() => toggleFAQ(index)}
                   >
                     <div className="flex-1 pr-4!">
-                      <h3 className="text-[#132436] font-semibold text-[20px] leading-[100%] sm:text-[22px] md:text-[24px] lg:text-[26px] tracking-[-0.32px] capitalize">
+                      <h3 className="home-subtitle text-[#132436] font-['Inter'] capitalize">
                         {index + 1}. {faq.question}
                       </h3>
                     </div>
                     
                     {/* Toggle Button - width: 60px, height: 40px, border-radius: 50px */}
                     <button
-                      className={`shrink-0 w-[50px] h-[35px] sm:w-[55px] sm:h-[38px] md:w-[60px] md:h-[40px] rounded-[50px] flex items-center justify-center transition-all duration-300 ${
+                      data-hover="lift"
+                      className={`shrink-0 w-[50px] h-[35px] sm:w-[55px] sm:h-[38px] md:w-[60px] md:h-[40px] rounded-[50px] flex items-center justify-center transition-all duration-300 cursor-pointer ${
                         openIndex === index 
                           ? 'bg-[#132436]' 
                           : 'bg-[#F6F6F6]'
@@ -114,7 +124,7 @@ const FAQsPage = () => {
                     }`}
                   >
                     <div className="px-6! lg:px-[30px]! pb-8! lg:pb-12!">
-                      <p className="text-[#747C9A] font-normal text-[18px] leading-[40px] sm:text-[20px] md:text-[22px] lg:text-[24px] tracking-[0px] max-w-[full]">
+                      <p className="home-description text-[#747C9A]">
                         {faq.answer}
                       </p>
                     </div>

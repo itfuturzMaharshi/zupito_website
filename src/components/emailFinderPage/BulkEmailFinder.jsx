@@ -1,8 +1,12 @@
 import React from "react";
+import useScrollReveal from "../../hooks/useScrollReveal";
 
 const BulkEmailFinder = () => {
+  const sectionRef = useScrollReveal();
   return (
     <section
+      ref={sectionRef}
+      data-animate="fade-up"
       className="relative w-full overflow-hidden bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: "url(/images/bulk-email-finder-bg-img.png)",
@@ -19,7 +23,8 @@ const BulkEmailFinder = () => {
               <div className="w-full lg:max-w-[631px] flex flex-col gap-5">
                 {/* Title: Bulk Email Finder */}
                 <h1
-                  className="text-[40px] sm:text-[50px] lg:text-[58px] font-semibold leading-[50px] tracking-[-2.2px] text-[#132436] font-[Inter]"
+                  data-animate-item
+                  className="home-title text-[#132436] font-['Inter'] flex items-center gap-3"
                 >
                   Bulk{" "}
                   <img
@@ -32,7 +37,9 @@ const BulkEmailFinder = () => {
 
                 {/* Description text */}
                 <p
-                  className="text-[20px] sm:text-[22px] lg:text-[26px] font-medium leading-[34px] sm:leading-[38px] lg:leading-[42px] text-[#546779] font-['Manrope']"
+                  data-animate-item
+                  style={{ transitionDelay: "0.08s" }}
+                  className="home-description text-[#546779] font-['Manrope']"
                 >
                   For larger teams, speed and accuracy are non-negotiable. Our{" "}
                   <span className="font-bold font-['Manrope']">
@@ -46,7 +53,9 @@ const BulkEmailFinder = () => {
               <div className="w-full lg:max-w-[631px] flex flex-col gap-5 justify-center">
                 {/* Benefits text */}
                 <p
-                  className="text-[20px] sm:text-[22px] lg:text-[26px] font-medium leading-[34px] sm:leading-[38px] lg:leading-[42px] text-[#546779] font-['Manrope']"
+                  data-animate-item
+                  style={{ transitionDelay: "0.16s" }}
+                  className="home-description text-[#546779] font-['Manrope']"
                 >
                   Giving your teams an instant access to verified email lists
                   they can trust.
@@ -58,9 +67,10 @@ const BulkEmailFinder = () => {
                 {/* Discover More link */}
                 <a
                   href="#"
-                  className="inline-flex items-center gap-2 text-[#EB3609] font-bold text-[18px] sm:text-[20px] lg:text-[22px] leading-[30px] capitalize hover:opacity-80 transition-opacity w-fit font-['Manrope']"
+                  data-hover="lift"
+                  className="inline-flex items-center gap-2 text-[#EB3609] font-bold capitalize hover:opacity-80 transition-opacity w-fit font-['Manrope'] home-description cursor-pointer"
                 >
-                  Discover More
+                  <span className="font-bold">Discover More</span>
                   <img
                     src="/images/right-orange-arrow.svg"
                     alt="arrow"
@@ -93,8 +103,10 @@ const BulkEmailFinder = () => {
                     <div className="w-full flex flex-col gap-[50px]">
                       {/* Image card with background */}
                       <div
+                        data-animate-item
                         className="w-full rounded-[24px] border border-[#EEF0F3] p-[30px] h-full sm:p-[40px_30px] bg-cover bg-center bg-no-repeat"
                         style={{
+                          transitionDelay: "0.05s",
                           boxShadow: "0px 24px 40px -10px #AEB8DF66",
                           backgroundImage: "url(/images/7.png)",
                         }}
@@ -108,14 +120,10 @@ const BulkEmailFinder = () => {
 
                           {/* Text content */}
                           <div className="w-full flex flex-col gap-4">
-                            <h3
-                              className="text-[22px] sm:text-[24px] lg:text-[24px] font-semibold leading-[100%] text-[#132436] capitalize font-['Inter']"
-                            >
+                            <h3 className="home-subtitle text-[#132436] font-['Inter']">
                               Upload At Scale
                             </h3>
-                            <p
-                              className="text-[20px] sm:text-[22px] lg:text-[22px] font-normal leading-[34px] sm:leading-[38px] lg:leading-[40px] text-[#747C9A] font-['Manrope']"
-                            >
+                            <p className="home-description text-[#747C9A] font-['Manrope']">
                               Simply drop in a CSV or Excel file containing names
                               and company domains.
                             </p>
@@ -128,8 +136,10 @@ const BulkEmailFinder = () => {
                     <div className="w-full flex flex-col gap-[50px]">
                       {/* Image card */}
                       <div
+                        data-animate-item
                         className="w-full rounded-[24px] border border-[#EEF0F3] p-[30px] sm:p-[40px_30px] h-full bg-cover bg-center bg-no-repeat"
                         style={{
+                          transitionDelay: "0.1s",
                           boxShadow: "0px 24px 40px -10px #AEB8DF66",
                           backgroundImage: "url(/images/7.png)",
                         }}
@@ -143,14 +153,10 @@ const BulkEmailFinder = () => {
 
                           {/* Text content */}
                           <div className="w-full flex flex-col gap-4">
-                            <h3
-                              className="text-[22px] sm:text-[24px] lg:text-[24px] font-semibold leading-[100%] text-[#132436] capitalize font-['Inter']"
-                            >
+                            <h3 className="home-subtitle text-[#132436] font-['Inter']">
                               High-Speed Processing
                             </h3>
-                            <p
-                              className="text-[20px] sm:text-[22px] lg:text-[22px] font-normal leading-[34px] sm:leading-[38px] lg:leading-[40px] text-[#747C9A] font-['Manrope']"
-                            >
+                            <p className="home-description text-[#747C9A] font-['Manrope']">
                               Our system handles large datasets quickly, ensuring
                               your team never waits on slow manual lookups.
                             </p>
@@ -163,8 +169,10 @@ const BulkEmailFinder = () => {
                     <div className="w-full flex flex-col gap-[50px]">
                       {/* Image card */}
                       <div
+                        data-animate-item
                         className="w-full rounded-[24px] border border-[#EEF0F3] h-full p-[30px] sm:p-[40px_30px] bg-cover bg-center bg-no-repeat"
                         style={{
+                          transitionDelay: "0.15s",
                           boxShadow: "0px 24px 40px -10px #AEB8DF66",
                           backgroundImage: "url(/images/7.png)",
                         }}
@@ -178,14 +186,10 @@ const BulkEmailFinder = () => {
 
                           {/* Text content */}
                           <div className="w-full flex flex-col gap-4">
-                            <h3
-                              className="text-[22px] sm:text-[24px] lg:text-[24px] font-semibold leading-[100%] text-[#132436] capitalize font-['Inter']"
-                            >
+                            <h3 className="home-subtitle text-[#132436] font-['Inter']">
                               Highest Accuracy
                             </h3>
-                            <p
-                              className="text-[20px] sm:text-[22px] lg:text-[22px] font-normal leading-[34px] sm:leading-[34px] lg:leading-[34px] text-[#747C9A] font-['Manrope']"
-                            >
+                            <p className="home-description text-[#747C9A] font-['Manrope']">
                               Every email is validated before delivery, so your
                               campaigns stay clean and your sender reputation
                               remains strong.
@@ -202,6 +206,8 @@ const BulkEmailFinder = () => {
                     <div className="w-full flex flex-col gap-[50px]">
                       {/* Image card */}
                       <div
+                        data-animate-item
+                        style={{ transitionDelay: "0.05s" }}
                         className="w-full rounded-[24px] border border-[#EEF0F3] h-full max-h-auto p-[30px] bg-white shadow-[0px_24px_40px_-10px_rgba(174,184,223,0.4)]"
                       >
                         <div className="w-full h-full flex flex-col gap-10">
@@ -213,14 +219,10 @@ const BulkEmailFinder = () => {
 
                           {/* Text content */}
                           <div className="w-full flex flex-col gap-4">
-                            <h3
-                              className="text-[22px] sm:text-[24px] lg:text-[26px] font-semibold leading-[100%] text-[#132436] capitalize font-['Inter']"
-                            >
+                            <h3 className="home-subtitle text-[#132436] font-['Inter']">
                               Team-Friendly Outputs
                             </h3>
-                            <p
-                              className="text-[20px] sm:text-[22px] lg:text-[24px] font-normal leading-[34px] sm:leading-[38px] lg:leading-[40px] text-[#747C9A] font-['Manrope']"
-                            >
+                            <p className="home-description text-[#747C9A] font-['Manrope']">
                               Download structured, export-ready files that integrate
                               seamlessly into your CRM, ATS, or outreach platform.
                             </p>
@@ -233,6 +235,8 @@ const BulkEmailFinder = () => {
                     <div className="w-full flex flex-col gap-[50px]">
                       {/* Image card */}
                       <div
+                        data-animate-item
+                        style={{ transitionDelay: "0.08s" }}
                         className="w-full rounded-[24px] border border-[#EEF0F3] h-full p-[30px] bg-white shadow-[0px_24px_40px_-10px_rgba(174,184,223,0.4)]"
                       >
                         <div className="w-full h-full flex flex-col gap-10">
@@ -244,14 +248,10 @@ const BulkEmailFinder = () => {
 
                           {/* Text content */}
                           <div className="w-full flex flex-col gap-4">
-                            <h3
-                              className="text-[22px] sm:text-[24px] lg:text-[26px] font-semibold leading-[100%] text-[#132436] capitalize font-['Inter']"
-                            >
+                            <h3 className="home-subtitle text-[#132436] font-['Inter']">
                               Consistency Across Teams
                             </h3>
-                            <p
-                              className="text-[20px] sm:text-[22px] lg:text-[24px] font-normal leading-[34px] sm:leading-[38px] lg:leading-[40px] text-[#747C9A] font-['Manrope']"
-                            >
+                            <p className="home-description text-[#747C9A] font-['Manrope']">
                               Ensure every representative, recruiter, or marketer works
                               from the same accurate, up-to-date contact data.
                             </p>

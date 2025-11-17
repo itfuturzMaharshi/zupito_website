@@ -99,7 +99,7 @@ const Footer = () => {
                   />
               </button>
               <button
-                data-hover="underline"
+                data-hover="lift"
                 className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text/[24px] font-semibold flex items-center gap-2 hover:text-[#EDFF67] transition-colors cursor-pointer"
               >
                 <span>Claim 300 free credits</span>
