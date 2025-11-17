@@ -7,11 +7,11 @@ const HeroSection = () => {
       style={{ background: 'linear-gradient(180deg, #F4FFF8 0%, #F8F7FF 100%)' }}
     >
       {/* Main Container */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[80px] sm:py-[100px]">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[80px] sm:py-[100px]">
         {/* Header Section - Second Image */}
-        <div className="w-full max-w-full mx-auto flex flex-col items-center gap-[21px] mb-[21px]">
+        <div className="w-full max-w-full lg:max-w-[1362px] mx-auto flex flex-col items-center gap-[21px] mb-[21px]">
           {/* Title Section - Third Image */}
-          <div className="w-full max-w-full mx-auto flex flex-col items-center gap-[21px]">
+          <div className="w-full max-w-full lg:max-w-[1362px] mx-auto flex flex-col items-center gap-[21px]">
             {/* Main Title with Icons */}
             <h1 className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-center font-['Inter'] text-[clamp(36px,4vw,60px)] font-semibold leading-[100%] tracking-[-2.2px] text-[#132436]">
               <span>Answers</span>
@@ -51,7 +51,7 @@ const HeroSection = () => {
         </div>
 
         {/* Contact Cards Section with Connector */}
-        <div className="relative w-full max-w-full mx-auto mt-[40px] sm:mt-[80px] md:mt-[100px] lg:mt-[150px]">
+        <div className="relative w-full max-w-full lg:max-w-[1362px] mx-auto mt-[40px] sm:mt-[80px] md:mt-[100px] lg:mt-[150px]">
           {/* Connector Element - Group-bg.png */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[30%] sm:-translate-y-[30%] md:-translate-y-[30%] lg:-translate-y-[28%] z-0 w-full flex items-center justify-center pointer-events-none">
             <img 
@@ -62,7 +62,7 @@ const HeroSection = () => {
           </div>
           
           {/* Contact Cards Section */}
-          <div className="relative z-10 w-full max-w-full mx-auto flex flex-col lg:flex-row gap-[30px] lg:gap-[21px] justify-center">
+          <div className="relative z-10 w-full max-w-full lg:max-w-[1362px] mx-auto flex flex-col lg:flex-row gap-[30px] lg:gap-[21px] justify-center">
           {/* Technical Support Card - Fourth Image */}
           <div 
             className="w-full lg:w-[659px] lg:h-[358px] rounded-[24px] p-6 sm:p-[24px] flex flex-col items-center justify-center"

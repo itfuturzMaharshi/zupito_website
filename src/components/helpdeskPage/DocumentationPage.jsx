@@ -4,7 +4,7 @@ const DocumentationPage = () => {
   return (
     <section className="relative w-full overflow-hidden">
       {/* Main Container - First Image */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-6 xl:px-6 2xl:px-[24px]">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-6 xl:px-6 2xl:px-[24px]">
         {/* Background Container with Gradient */}
         <div 
           className="w-full rounded-[24px] px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-[150px] py-[60px] sm:py-[80px] md:py-[100px]"

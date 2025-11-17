@@ -8,9 +8,9 @@ const DealsPage = () => {
   return (
     <div>
       <HeroSection />
-      {/* <EmailVerificationDeals />
+      <EmailVerificationDeals />
       <EmailFinderDeals />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }

@@ -27,12 +27,12 @@ const FAQsPage = () => {
   }
 
   return (
-    <section className="relative w-full min-h-screen" style={{ background: 'var(--color-white-solid, #FFFFFF)' }}>
+    <section className="relative w-full" style={{ background: 'var(--color-white-solid, #FFFFFF)' }}>
       {/* Outer container with responsive padding */}
       <div className="w-full flex justify-center px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-16! xl:py-20!">
         <div className="max-w-full mx-auto relative">
           {/* Header Section - max-width 1362px */}
-          <div className="w-full max-w-[1362px] mx-auto">
+          <div className="w-full lg:max-w-[1362px] mx-auto">
             {/* FAQ Tag - width: 85px, height: 49px */}
             <div className="inline-flex items-center justify-center gap-[6px] rounded-[50px] bg-[#F6F6F6] px-4! py-3! h-[49px] mb-4!">
               <span className="w-2 h-2 rounded-full bg-[#3B82F6]" />

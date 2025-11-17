@@ -2,9 +2,9 @@ import React from "react";
 
 const EmailVerification = () => {
   return (
-    <section className="relative flex min-h-screen w-full items-center justify-center bg-linear-to-b from-[#FAFDFF] to-[#EFEFFF] py-12 sm:py-16 md:py-20 lg:py-24">
+    <section className="relative flex w-full items-center justify-center bg-linear-to-b from-[#FAFDFF] to-[#EFEFFF] py-12 sm:py-16 md:py-20 lg:py-24">
       {/* Container with 200px left/right padding on large screens */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-[150px]">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-[150px]">
         <div className="w-full max-w-full mx-auto flex flex-col items-center">
           {/* Top Section - Badge and Heading */}
           <div className="mb-[21px] flex w-full flex-col items-center gap-[21px]">

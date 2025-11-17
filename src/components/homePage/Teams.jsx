@@ -5,7 +5,7 @@ const Teams = () => {
     <section className="relative w-full bg-[#FDF9FB] overflow-hidden">
       {/* Outer container spacing mirrors ActionsPage rhythm */}
       <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-12! lg:py-16! xl:py-20!">
-        <div className="max-w-[full] mx-auto">
+        <div className="max-w-[full] lg:max-w-[1362px] mx-auto">
           {/* Top badge */}
           <div className="inline-flex font-['Manrope'] items-center justify-center gap-[6px] rounded-[50px] bg-[#FFE9F2] px-4! py-3 h-[42px] sm:h-[46px] text-center align-middle font-bold text-[#132436] text-[14px] leading-[100%] sm:text-[16px] md:text-[18px]">
             <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />

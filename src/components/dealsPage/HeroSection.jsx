@@ -3,14 +3,14 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section
-      className="relative w-full min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative w-full  flex items-center justify-center overflow-hidden"
       style={{
         background: "linear-gradient(180deg, #F3FFDD 0%, #BCACFF 100%)",
       }}
     >
       {/* Main Container */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-[150px] py-12 sm:py-16 md:py-20 lg:py-[80px] xl:py-[100px]">
-        <div className="w-full max-w-full mx-auto">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-[150px] py-12 sm:py-16 md:py-20 lg:py-[80px] xl:py-[100px]">
+        <div className="w-full max-w-full lg:max-w-[1362px] mx-auto">
           {/* Two Column Layout - 50/50 split */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-6 items-center">
             {/* Left Side - Profile Images with Connecting Lines */}

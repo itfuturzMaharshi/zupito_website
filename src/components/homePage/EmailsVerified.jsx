@@ -5,7 +5,7 @@ const EmailsVerified = () => {
     <section className="relative w-full bg-white overflow-hidden">
       {/* Outer container mirrors EmailPrecision spacing rhythm */}
       <div className="w-full h-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! pt-10! lg:pt-16! xl:pt-20!">
-        <div className="max-w-[full] mx-auto relative">
+        <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
           {/* Main container - first image: width 1362px, height 624px, gap 24px */}
           <div className="w-full max-w-[full] mx-auto max-h-auto lg:h-[full] grid grid-cols-1 lg:grid-cols-2 items-stretch gap-6 md:gap-8">
             {/* Left column - second image: width 555px, height 623px, gap 20px, border-radius 24px, padding 24px, background #F0EBFF */}

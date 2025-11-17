@@ -6,14 +6,14 @@ const HeroSection = () => {
 
   return (
     <section
-      className="relative w-full min-h-screen flex items-center justify-center py-12 sm:py-16 md:py-20 lg:py-[90px] xl:py-[100px] bg-cover bg-center bg-no-repeat"
+      className="relative w-full flex items-center justify-center py-12 sm:py-16 md:py-20 lg:py-[90px] xl:py-[100px] bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: "url(/images/email-finder-bg-img.png)",
       }}
     >
       {/* Container */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-[150px]">
-        <div className="w-full max-w-full mx-auto flex flex-col items-center">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-[150px]">
+        <div className="w-full max-w-full lg:max-w-[1362px] mx-auto flex flex-col items-center">
           {/* Headline Section */}
           <div className="w-full flex flex-col items-center gap-5 mb-[21px]">
             <h1 className="text-center capitalize flex flex-col gap-5 tracking-[-3.2px] align-middle font-bold text-[#132436] font-['Inter'] text-[clamp(36px,5vw,70px)] leading-[clamp(40px,5.5vw,70.4px)]">

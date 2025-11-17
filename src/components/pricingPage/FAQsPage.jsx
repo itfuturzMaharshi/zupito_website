@@ -27,7 +27,7 @@ const FAQsPage = () => {
   }
 
   return (
-    <section className="relative w-full min-h-screen" style={{ background: 'var(--color-white-solid, #FFFFFF)' }}>
+    <section className="relative w-full" style={{ background: 'var(--color-white-solid, #FFFFFF)' }}>
       {/* Outer container with responsive padding */}
       <div className="w-full flex justify-center px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-16! xl:py-20!">
         <div className="max-w-full mx-auto relative">

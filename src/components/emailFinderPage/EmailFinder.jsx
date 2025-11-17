@@ -5,9 +5,9 @@ const EmailFinder = () => {
     <section className="w-full">
       {/* Container with responsive padding */}
       <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[150px] py-12 sm:py-16 md:py-20 lg:py-24 xl:py-28">
-        <div className="max-w-full mx-auto">
+        <div className="max-w-full lg:max-w-[1362px] mx-auto">
           {/* Main content block - responsive container */}
-          <div className="w-full max-w-full mx-auto">
+          <div className="w-full max-w-full lg:max-w-[1362px] mx-auto">
             {/* Content wrapper with gap spacing */}
             <div className="flex flex-col gap-[100px]">
               {/* Top section with badge and heading */}

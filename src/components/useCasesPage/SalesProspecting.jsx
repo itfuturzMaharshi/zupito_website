@@ -9,11 +9,11 @@ const SalesProspecting = () => {
 
   return (
     <section className="relative w-full flex items-center justify-center overflow-hidden">
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] pb-[80px] sm:pb-[100px]">
-        <div className="relative w-full max-w-full mx-auto rounded-[24px]">
-          <div className="w-full max-w-full mx-auto  flex flex-col gap-[80px]">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] pb-[80px] sm:pb-[100px]">
+        <div className="relative w-full max-w-full lg:max-w-[1362px] mx-auto rounded-[24px]">
+          <div className="w-full max-w-full lg:max-w-[1362px] mx-auto  flex flex-col gap-[80px]">
             <div
-              className="w-full max-w-full mx-auto h-[125px] flex items-center justify-center rounded-[16px] relative"
+              className="w-full max-w-full lg:max-w-[1362px] mx-auto h-[125px] flex items-center justify-center rounded-[16px] relative"
               style={{
                 background:
                   "linear-gradient(90deg, rgba(241, 244, 247, 0.5) 0%, rgba(221, 238, 255, 0.5) 100%)",
@@ -31,7 +31,7 @@ const SalesProspecting = () => {
               </h1>
             </div>
 
-            <div className="w-full max-w-full mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-[50px]">
+            <div className="w-full max-w-full lg:max-w-[1362px] mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-[50px]">
               <div className="w-full lg:max-w-[629px] lg:flex-1 flex flex-col gap-[31px]">
                 <div className="w-full flex flex-col gap-[16px]">
                   <div className="w-full flex flex-col gap-[14px]">

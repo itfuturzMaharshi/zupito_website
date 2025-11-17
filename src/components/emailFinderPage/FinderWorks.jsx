@@ -10,7 +10,7 @@ const FinderWorks = () => {
     >
       {/* Container with padding: top/bottom 100px, left/right 200px */}
       <div className="w-full mx-auto pt-[100px] pb-[62px] px-[clamp(24px,10vw,150px)]">
-        <div className="max-w-full mx-auto">
+        <div className="max-w-full lg:max-w-[1362px] mx-auto">
           {/* Heading Section */}
           <div className="w-full mb-[21px]">
             <h2 className="text-center text-[#132436] font-semibold leading-[50px] tracking-[-2.2px] align-middle font-['Inter',sans-serif] text-[clamp(32px,5vw,60px)] flex items-center justify-center gap-3 flex-wrap">

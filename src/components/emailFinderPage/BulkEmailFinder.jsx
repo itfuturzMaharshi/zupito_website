@@ -10,9 +10,9 @@ const BulkEmailFinder = () => {
     >
       {/* Outer container with responsive padding */}
       <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[150px] pt-10 sm:pt-12 md:pt-14 lg:pt-16 xl:pt-20">
-        <div className="max-w-full mx-auto">
+        <div className="max-w-full lg:max-w-[1362px] mx-auto">
           {/* Main container - max-width 1362px */}
-          <div className="w-full max-w-full mx-auto flex flex-col gap-10">
+          <div className="w-full max-w-full lg:max-w-[1362px] mx-auto flex flex-col gap-10">
             {/* Header Section - width: 1362px, height: 270px, gap: 100px */}
             <div className="w-full flex flex-col lg:flex-row gap-[30px] lg:gap-[70px]">
               {/* Left Column - width: 631px, height: 270px, gap: 20px */}

@@ -46,7 +46,7 @@ function Header() {
       {/* Container with responsive padding */}
       <div className="w-full h-full px-6! sm:px-8! md:px-12! lg:px-10! xl:px-24! 2xl:px-[150px]!">
         {/* Content wrapper with max-width 1520px and space-between layout */}
-        <div className="max-w-full h-full mx-auto flex items-center justify-between">
+        <div className="max-w-full lg:max-w-[1362px] h-full mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="shrink-0">
             <img src="/images/zupito_logo.png" alt="Zupito" className="h-7 sm:h-8 md:h-9 w-auto" />

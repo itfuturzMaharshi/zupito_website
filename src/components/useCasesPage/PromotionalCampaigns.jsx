@@ -8,8 +8,8 @@ const PromotionalCampaigns = () => {
         background: "linear-gradient(180deg, #F4FFF8 0%, #F8F7FF 100%)",
       }}
     >
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[100px]">
-        <div className="relative w-full max-w-full mx-auto rounded-[24px]">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[100px]">
+        <div className="relative w-full max-w-full lg:max-w-[1362px] mx-auto rounded-[24px]">
           <div className="w-full  flex flex-col gap-[80px]">
             <div
               className="w-full h-[125px] flex items-center justify-center rounded-[16px] relative"

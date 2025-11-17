@@ -5,9 +5,9 @@ const VerifiedEmail = () => {
     <section className="w-full relative">
       {/* Container with responsive padding */}
       <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[150px] py-12 sm:py-16 md:py-20 lg:py-24 h-full lg:max-h-[1216px] xl:max-h-[1116px]">
-        <div className="max-w-full mx-auto">
+        <div className="max-w-full lg:max-w-[1362px] mx-auto">
           {/* Main content block */}
-          <div className="w-full max-w-full mx-auto">
+          <div className="w-full max-w-full lg:max-w-[1362px] mx-auto">
             {/* Content wrapper with gap spacing */}
             <div className="flex flex-col gap-4 sm:gap-16 md:gap-4 lg:gap-4 ">
               {/* Top section with heading and description */}

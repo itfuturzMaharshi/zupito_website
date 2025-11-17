@@ -4,19 +4,19 @@ const LeadGeneration = () => {
   return (
     <section className="relative w-full flex items-center justify-center overflow-hidden py-[100px]">
       {/* Main Container - Similar to HeroSection */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px]">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px]">
         {/* First Image - Main Background Container */}
         <div
-          className="relative w-full max-w-full mx-auto rounded-[24px] "
+          className="relative w-full max-w-full lg:max-w-[1362px] mx-auto rounded-[24px] "
           style={{
             background: "linear-gradient(360deg, #FAFDFF 0%, #F5F5FF 100%)",
           }}
         >
           {/* Second Image - Content Container */}
-          <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-[80px] sm:py-[100px] flex flex-col gap-[80px]">
+          <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-[80px] sm:py-[100px] flex flex-col gap-[80px]">
             {/* Third Image - Header Section */}
             <div
-              className="w-full max-w-full mx-auto h-[125px] flex items-center justify-center rounded-[16px] relative"
+              className="w-full max-w-full lg:max-w-[1362px] mx-auto h-[125px] flex items-center justify-center rounded-[16px] relative"
               style={{
                 background:
                   "linear-gradient(90deg, rgba(239, 247, 255, 0.5) 0%, rgba(207, 207, 255, 0.5) 100%)",
@@ -37,7 +37,7 @@ const LeadGeneration = () => {
             </div>
 
             {/* Fourth Image - Main Content Container */}
-            <div className="w-full max-w-full mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-[50px]">
+            <div className="w-full max-w-full lg:max-w-[1362px] mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-[50px]">
               {/* Fifth Image - Lead Generation Image */}
               <div className="w-full lg:flex-1 shrink-0 flex items-center justify-center">
                 <img

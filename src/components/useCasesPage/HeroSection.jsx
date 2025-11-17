@@ -9,12 +9,12 @@ const HeroSection = () => {
       }}
     >
       {/* Main Container */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[80px] sm:py-[100px]">
-        <div className="w-full max-w-full mx-auto flex flex-col items-center">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[80px] sm:py-[100px]">
+        <div className="w-full max-w-full lg:max-w-[1362px] mx-auto flex flex-col items-center">
           
           {/* Profile Avatars Row - Second Image: width 1362, height 406, gap 30px */}
-          <div className="w-full max-w-full h-auto mb-[30px] flex items-center justify-center">
-            <div className="w-full max-w-full h-auto  flex items-center justify-center">
+          <div className="w-full max-w-full lg:max-w-[1362px] h-auto mb-[30px] flex items-center justify-center">
+            <div className="w-full max-w-full lg:max-w-[1362px] h-auto  flex items-center justify-center">
               <img 
                 src="/images/use-case-hero-section-img.png" 
                 alt="Profile avatars" 
@@ -24,7 +24,7 @@ const HeroSection = () => {
           </div>
 
           {/* Main Headline Section - Third Image: width 400, height 84 */}
-          <div className="w-full max-w-full mb-[21px] flex flex-col items-center justify-center">
+          <div className="w-full max-w-full lg:max-w-[1362px] mb-[21px] flex flex-col items-center justify-center">
             <h1 className="text-center capitalize flex flex-col items-center justify-center gap-2 sm:gap-3 tracking-[-3.2px] align-middle font-bold font-['Inter'] text-[clamp(32px,4.5vw,60px)] leading-[100%]" style={{ fontWeight: 700 }}>
               {/* First Line */}
               <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
@@ -47,7 +47,7 @@ const HeroSection = () => {
           </div>
 
           {/* Description Paragraph - Fourth Image: width 1362, height 292, gap 21px */}
-          <div className="w-full max-w-full h-auto mb-[16px] flex items-center justify-center">
+          <div className="w-full max-w-full lg:max-w-[1362px] h-auto mb-[16px] flex items-center justify-center">
             <p className="text-center font-['Manrope'] text-[clamp(18px,2.5vw,26px)] font-semibold leading-[40px] tracking-[0px] text-[#737191] max-w-full px-4" style={{ fontWeight: 600 }}>
               Build pipelines you can rely on with verified data that keeps bounce rates low and response rates high.
             </p>

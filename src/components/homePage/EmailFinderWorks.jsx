@@ -5,7 +5,7 @@ const EmailFinderWorks = () => {
     <section className="relative w-full bg-[#FFFDFD]" style={{ overflow: "visible", minHeight: "auto", paddingBottom: "0" }}>
       {/* Outer container spacing mirrors other homepage sections */}
       <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-12! lg:py-16! xl:py-20! overflow-visible" style={{ overflow: "visible", minHeight: "auto" }}>
-        <div className="max-w-[full]  mx-auto relative overflow-visible">
+        <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative overflow-visible">
           {/* Header */}
           <div className="text-center">
             <div className="inline-flex font-['Manrope'] items-center justify-center gap-[6px] rounded-[50px] bg-[#FFE9F2] px-4 py-3 h-[49px] min-w-[192px] text-[16px] md:text-[18px] leading-[100%] font-bold text-[#132436]">

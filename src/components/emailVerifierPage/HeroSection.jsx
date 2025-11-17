@@ -9,7 +9,7 @@ const HeroSection = () => {
       }}
     >
       {/* Main Container */}
-      <div className="w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[80px] sm:py-[100px]">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[80px] sm:py-[100px]">
         {/* Top Section - Heading and Description */}
         <div className="w-full flex flex-col items-center gap-6 sm:gap-8 md:gap-[21px] mb-8 sm:mb-12 md:mb-16">
           {/* Main Heading */}

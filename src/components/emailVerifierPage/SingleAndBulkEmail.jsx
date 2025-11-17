@@ -2,12 +2,12 @@ import React from 'react'
 
 const SingleAndBulkEmail = () => {
   return (
-    <section className="relative w-full min-h-screen overflow-hidden">
+    <section className="relative w-full  overflow-hidden">
       {/* Full background overlay - covers entire section */}
       <div className="absolute inset-0 bg-[#FFECEA] opacity-60 z-0 pointer-events-none" />
       
       {/* Container */}
-      <div className="relative z-10 w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-24 xl:px-[150px] py-[100px]">
+      <div className="relative z-10 w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-24 xl:px-[150px] py-[100px]">
         
         {/* Header Section - Second Image */}
         <div className="w-full max-w-full mx-auto mb-16 lg:mb-24 flex flex-col items-center gap-[21px]">
