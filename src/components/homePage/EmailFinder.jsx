@@ -101,7 +101,7 @@ const EmailFinder = () => {
                           <img
                             src="/images/Bullet.svg"
                             alt=""
-                            className="w-4 h-4 md:w-5 md:h-5 object-contain"
+                            className="w-4! h-4 md:w-5 md:h-5 object-contain"
                           />
                         </span>
                         <span
