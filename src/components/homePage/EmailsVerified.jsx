@@ -21,7 +21,7 @@ const EmailsVerified = () => {
                 <h2
                   data-animate-item
                   style={{ transitionDelay: "0.08s" }}
-                  className="home-subtitle text-[32px]! leading-[40px]! font-['Inter'] text-center"
+                  className="home-subtitle sm:text-[24px]! md:text-[28px]! lg:text-[32px]! sm:leading-[32px]! md:leading-[36px]! lg:leading-[40px]! font-['Inter'] text-center"
                 >
                   <span className="text-[#132436]">
                     Lead Generation <span className="text-[#9C93B4]">with</span>{" "}

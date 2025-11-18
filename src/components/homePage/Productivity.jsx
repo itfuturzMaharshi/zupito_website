@@ -192,10 +192,10 @@ const Productivity = () => {
                         />
                       </div>
                       <div className="flex-1 flex flex-col gap-3">
-                        <h4 className="text-[16px] sm:text-[18px] md:text-[22px] lg:text-[24px] xl:text-[26px] font-bold text-[#132436] font-['Inter'] capitalize">
+                        <h4 className="text-[18px]  md:text-[22px] lg:text-[24px] xl:text-[26px] font-bold text-[#132436] font-['Inter'] capitalize">
                           {item.title}
                         </h4>
-                        <p className=" text-[22px] font-normal text-[#747C9A] font-['Manrope']">
+                        <p className="text-[16px] md:text-[20px] lg:text-[22px] font-normal text-[#747C9A] font-['Manrope']">
                           {item.desc}
                         </p>
                       </div>

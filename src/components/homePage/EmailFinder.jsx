@@ -76,7 +76,7 @@ const EmailFinder = () => {
                 <h3
                   data-animate-item
                   style={{ transitionDelay: "0.2s" }}
-                  className="home-subtitle px-3 text-[32px]! text-center font-['Inter'] text-[#132436] capitalize"
+                  className="home-subtitle px-3 sm:text-[24px]! md:text-[28px]! lg:text-[32px]! text-center font-['Inter'] text-[#132436] capitalize"
                 >
                     List Building With Reliable <br /> Email Finder
                   </h3>
@@ -105,7 +105,7 @@ const EmailFinder = () => {
                           />
                         </span>
                         <span
-                          className="home-description leading-8! text-[#3A4A5A] font-['Manrope'] email-finder-label"
+                          className="home-description leading-5!  md:leading-6! lg:leading-8! text-[#3A4A5A] font-['Manrope'] email-finder-label"
                           style={{
                             animationDelay: `${0.28 + idx * 0.18}s`,
                             animationDuration: "0.9s",

@@ -38,7 +38,7 @@ function HeroSection() {
         {/* Dots/backdrop spacing wrapper to mimic Figma breathing room */}
         <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-0! xl:py-0">
           <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-10 xl:gap-16 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-8 lg:gap-10 xl:gap-16 items-center">
             {/* Copy */}
             <div className="order-2 lg:order-1">
               <h1

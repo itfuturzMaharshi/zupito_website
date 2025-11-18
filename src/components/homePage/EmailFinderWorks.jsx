@@ -140,7 +140,7 @@ const EmailFinderWorks = () => {
                       data-animate-item
                     >
                       <h4 className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] font-bold text-[#132436] font-['Inter'] mb-3!">{step.title}</h4>
-                      <p className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-normal text-[#747C9A] font-['Manrope'] mb-0!">
+                      <p className="text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-normal text-[#747C9A] font-['Manrope'] mb-0!">
                         {step.description}
                       </p>
                     </div>
