@@ -134,7 +134,7 @@ function HeroSection() {
                       className="w-3 h-3 sm:w-3.5 sm:h-3.5"
                     />
                   </span>
-                  <span className="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px]  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
+                  <span className="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] whitespace-nowrap  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
                     Flexible solution
                   </span>
                 </div>
@@ -152,7 +152,7 @@ function HeroSection() {
                       className="w-3 h-3 sm:w-3.5 sm:h-3.5"
                     />
                   </span>
-                  <span className="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px]  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
+                  <span className="text-[18px] sm:text-[16px] md:text-[18px] whitespace-nowrap lg:text-[18px]  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
                     No credit card required
                   </span>
                 </div>
@@ -165,7 +165,7 @@ function HeroSection() {
               style={{ transitionDelay: "0.35s" }}
               className="order-1 lg:order-2 relative -mt-12! sm:-mt-16! md:-mt-20!"
             >
-              <div className="relative w-full h-[240px] sm:h-[320px] md:h-[580px] lg:h-[620px] xl:h-[740px] 2xl:h-[780px]">
+              <div className="relative w-full h-[240px] sm:h-[320px] md:h-[580px] lg:h-[500px] xl:h-[740px] 2xl:h-[780px]">
                 <img
                   src="/images/hero_img.png"
                   alt="Zupito email automation flow"

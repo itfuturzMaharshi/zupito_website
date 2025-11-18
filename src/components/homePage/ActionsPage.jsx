@@ -70,7 +70,7 @@ const ActionsPage = () => {
           />
 
           {/* Card container (desktop exact sizing as provided) */}
-          <div className="relative z-1 top-12 sm:top-16 md:top-20 lg:top-24 bg-white rounded-[20px] shadow-[0px_10px_30px_0px_#0000001A] max-w-[full] mx-auto lg:h-[513px] overflow-hidden mb-12 sm:mb-16 md:mb-20 lg:mb-[100px]">
+          <div className="relative z-1 top-12 sm:top-16 md:top-20 lg:top-24 bg-white rounded-[20px] shadow-[0px_10px_30px_0px_#0000001A] max-w-[full] mx-auto lg:h-[550px] overflow-hidden mb-12 sm:mb-16 md:mb-20 lg:mb-[100px]">
             {/* Desktop divider line at x=681, 492px tall */}
             <div
               aria-hidden="true"
@@ -79,7 +79,7 @@ const ActionsPage = () => {
 
             <div className="relative z-1 grid grid-cols-1 p-6! md:p-8! lg:p-12! lg:grid-cols-2 gap-6 md:gap-8 lg:gap-0 items-stretch">
               {/* Left panel (copy) sized 561x451 at 60px offset */}
-              <div className="relative rounded-[16px]  flex flex-col justify-between gap-3">
+              <div className="relative rounded-[16px]  flex flex-col justify-between gap-7">
                 <div className="flex flex-col gap-5 lg:pr-18!">
                 <div
                   data-animate-item
@@ -139,7 +139,7 @@ const ActionsPage = () => {
               </div>
 
               {/* Right panel (widget) sized 600x490 at 724/42 */}
-              <div className="relative mx-auto lg:mx-0 w-full max-w-full bg-[#132436] rounded-[24px] p-4! sm:p-5! md:p-6! flex flex-col items-center gap-4 sm:gap-5 md:gap-[20px]">
+              <div className="relative mx-auto lg:mx-0 w-full max-w-full bg-[#132436] rounded-[24px] p-4! sm:p-5! md:py-10! flex flex-col items-center gap-4 sm:gap-5 md:gap-[20px]">
                 {/* Top icon */}
                 <div
                   data-animate-item
