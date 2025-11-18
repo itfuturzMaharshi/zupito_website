@@ -29,14 +29,14 @@ body {
 }
 
 .home-title {
-  font-size: clamp(1.40rem, 4vw, 3.5rem);
+  font-size: clamp(1.80rem, 4vw, 3.5rem);
   font-weight: 600;
   line-height: 1.15;
   letter-spacing: -0.02em;
 }
 
 .home-subtitle {
-  font-size: clamp(1.25rem, 2.5vw, 2.2rem);
+  font-size: clamp(1.40rem, 2.5vw, 2.2rem);
   font-weight: 600;
   line-height: 1.35;
   letter-spacing: -0.01em;
@@ -50,7 +50,7 @@ body {
 }
 
 .home-description-card {
-  font-size: clamp(0.95rem, 1.6vw, 1.3rem);
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
   font-weight: 400;
   line-height: 1.80;
   letter-spacing: 0;

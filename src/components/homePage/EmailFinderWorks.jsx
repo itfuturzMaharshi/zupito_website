@@ -73,7 +73,7 @@ const EmailFinderWorks = () => {
             <p
               data-animate-item
               style={{ transitionDelay: '0.15s' }}
-              className="home-description mt-5! mb-8! md:mb-12! lg:mb-5! text-[#546779] font-['Manrope'] text-center max-w-full mx-auto"
+              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! mt-5! mb-8! md:mb-12! lg:mb-5! text-[#546779] font-['Manrope'] text-center max-w-full mx-auto"
             >
               Most companies follow unique email patterns. Our tool detects these formats automatically, helping you uncover accurate contact details, even for large organizations.
             </p>
@@ -126,7 +126,7 @@ const EmailFinderWorks = () => {
                       style={{ transitionDelay: `${baseDelay + 0.1}s` }}
                     >
                       <img src="/images/Tick.png" alt="checkmark" className="w-5 h-5" loading="lazy" />
-                      <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[22px]">
+                      <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[20px] xl:text-[22px]">
                         {step.chipLabel}
                       </span>
                     </div>
@@ -140,7 +140,7 @@ const EmailFinderWorks = () => {
                       data-animate-item
                     >
                       <h4 className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] font-bold text-[#132436] font-['Inter'] mb-3!">{step.title}</h4>
-                      <p className="text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-normal text-[#747C9A] font-['Manrope'] mb-0!">
+                      <p className="text-[16px]  md:text-[18px] lg:text-[20px] xl:text-[24px] font-normal text-[#747C9A] font-['Manrope'] mb-0!">
                         {step.description}
                       </p>
                     </div>

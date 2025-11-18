@@ -39,7 +39,7 @@ const EmailsVerified = () => {
                 <img
                   src="/images/shape-automate.png"
                   alt="Email verification workflow"
-                  className="w-full md:max-h-[300px] lg:max-h-[300px] xl:max-h-[390px] rounded-[16px] object-contain"
+                  className="w-full md:max-h-[300px] lg:max-h-[300px] xl:max-h-[400px] rounded-[16px] object-contain"
                 />
               </div>
             </div>
@@ -60,7 +60,7 @@ const EmailsVerified = () => {
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
                 <div className="w-full max-w-[717px] h-full flex flex-col gap-10 justify-between">
                   {/* Description text */}
-                  <p className="home-description font-normal! text-[#4A4E5C] font-['Manrope']">
+                  <p className="home-description text-[16px]! sm:text-[18px]! md:text-[20px]! lg:text-[20px]! xl:text-[24px]! font-normal! text-[#4A4E5C] font-['Manrope']">
                     Zupitu ensures your emails always reach the right inbox.
                     High email deliverability is achieved through reduced bounce
                     rates, a healthy email list,

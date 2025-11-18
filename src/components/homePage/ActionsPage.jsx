@@ -43,7 +43,7 @@ const ActionsPage = () => {
             <p
               data-animate-item
               style={{ transitionDelay: "0.15s" }}
-              className="home-description mt-5! text-[#546779] font-['Manrope'] text-center max-w-[full] mx-auto"
+              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! mt-5! text-[#546779] font-['Manrope'] text-center max-w-[full] mx-auto"
             >
               Experience the quality and speed of Artificial Intelligence in
               email verification and email finding. Try Zupitu without Sign-Up.
@@ -111,7 +111,7 @@ const ActionsPage = () => {
                   <p
                     data-animate-item
                     style={{ transitionDelay: "0.18s" }}
-                    className="home-description-card text-[#76838F] font-['Manrope'] max-w-[640px]"
+                    className="home-description-card lg:text-[18px]! xl:text-[24px]! text-[#76838F] font-['Manrope'] max-w-[640px]"
                   >
                     Verify up to 10 emails instantly without sign-up just
                     enter an email, click Verify, and repeat. Explore bulk
@@ -152,7 +152,7 @@ const ActionsPage = () => {
                 <h4
                   data-animate-item
                   style={{ transitionDelay: "0.08s" }}
-                  className="home-subtitle text-white text-[22px]! sm:text-[26px]! md:text-[28px]! lg:text-[32px]! text-center font-['Inter'] px-2 sm:px-4"
+                  className="home-subtitle text-white text-[18px]! sm:text-[26px]! md:text-[26px]! lg:text-[26px]! xl:text-[32px]! text-center font-['Inter'] px-2 sm:px-4"
                 >
                   Verify Personal & Business
                   <br className="hidden sm:block" />
@@ -163,7 +163,7 @@ const ActionsPage = () => {
                 <p
                   data-animate-item
                   style={{ transitionDelay: "0.15s" }}
-                  className="home-description text-[#546779] opacity-70 text-center font-['Manrope'] max-w-[420px] px-2 sm:px-4"
+                  className="home-description lg:text-[20px]! xl:text-[24px]! text-[#546779] opacity-70 text-center font-['Manrope'] max-w-[420px] px-2 sm:px-4"
                 >
                   Check up to 10 emails for free — no sign-up required.
                 </p>

@@ -33,35 +33,33 @@ const WinningTeams = () => {
             {/* Heading */}
             <h2
               data-animate-item
-              style={{ transitionDelay: "0.08s" }}
-              className="home-title font-bold text-center font-['Inter'] text-white"
+              style={{ transitionDelay: '0.08s' }}
+              className="home-title font-bold text-center font-['Inter'] text-white  leading-6"
             >
-              <span className="inline-flex flex-col items-center gap-[14px] align-middle max-w-[830px] mx-auto">
-                <span>
-                  <span className="text-white">Winning </span>
-                  <span className="text-[#717680]">Teams </span>
-                  <span className="text-white">Trust Zupitu </span>
-                  <span className="text-[#717680]">to </span>
+              <span className="block max-w-[900px] mx-auto">
+                <span className="text-white">Winning </span>
+                <span className="text-[#717680]">Teams </span>
+                <span className="text-white">Trust Zupitu </span>
+                <span className="text-[#717680]">to</span>
+              </span>
+              <span className="mt-2 block max-w-[900px] mx-auto">
+                <span className="text-white">Crush </span>
+                <span className="inline-flex items-center justify-center align-middle relative">
+                  <img
+                    src="/images/Commitment.svg"
+                    alt=""
+                    className="w-[32px] h-[32px] sm:w-[40px] sm:h-[40px] md:w-[60px] md:h-[60px] mx-2!"
+                  />
                 </span>
-                <span className="inline-flex items-center">
-                  <span className="text-white">Crush </span>
-                  <span className=" inline-flex items-center justify-center  relative ">
-                    <img
-                      src="/images/Commitment.svg"
-                      alt=""
-                      className="w-[28px] h-[28px] md:w-[60px] md:h-[60px] mx-2!"
-                    />
-                  </span>
-                  <span className="text-[#717680]">Their Targets</span>
-                </span>
+                <span className="text-[#717680]">Their Targets</span>
               </span>
             </h2>
 
             {/* Subtext */}
             <p
               data-animate-item
-              style={{ transitionDelay: "0.15s" }}
-              className="home-description  text-white font-['Manrope'] opacity-70! max-w-[980px] mx-auto"
+              style={{ transitionDelay: '0.15s' }}
+              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! text-white font-['Manrope'] opacity-70! max-w-[980px] mx-auto"
             >
               Zupitu's user-friendly interface simplifies prospecting with intuitive tools for high-quality
               data generation. It supports seamless team collaboration, easily handles large data volumes,

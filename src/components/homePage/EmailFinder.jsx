@@ -35,7 +35,7 @@ const EmailFinder = () => {
                   <div className="max-w-[750px] gap-10 mx-auto flex flex-col justify-between h-full">
                     {/* Fifth image text */}
                     <div>
-                      <p className="home-description font-normal! text-[#4A4E5C] font-['Manrope']">
+                      <p className="home-description text-[16px]! sm:text-[18px]! md:text-[20px]! lg:text-[20px]! xl:text-[24px]! font-normal! text-[#4A4E5C] font-['Manrope']">
                         Beyond Opt-In mail list, email finder is a one of the
                         most reliable sources of building a deliverable list.
                         Zupitu helps you uncover the most accurate.
