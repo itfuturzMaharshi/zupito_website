@@ -21,7 +21,7 @@ const EmailsVerified = () => {
                 <h2
                   data-animate-item
                   style={{ transitionDelay: "0.08s" }}
-                  className="home-subtitle font-['Inter'] text-center"
+                  className="home-subtitle text-[32px]! leading-[40px]! font-['Inter'] text-center"
                 >
                   <span className="text-[#132436]">
                     Lead Generation <span className="text-[#9C93B4]">with</span>{" "}
@@ -60,7 +60,7 @@ const EmailsVerified = () => {
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
                 <div className="w-full max-w-[717px] h-full flex flex-col gap-10 justify-between">
                   {/* Description text */}
-                  <p className="home-description text-[#4A4E5C] font-['Manrope']">
+                  <p className="home-description font-normal! text-[#4A4E5C] font-['Manrope']">
                     Zupitu ensures your emails always reach the right inbox.
                     High email deliverability is achieved through reduced bounce
                     rates, a healthy email list,

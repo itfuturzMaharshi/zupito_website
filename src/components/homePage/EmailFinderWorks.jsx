@@ -126,7 +126,7 @@ const EmailFinderWorks = () => {
                       style={{ transitionDelay: `${baseDelay + 0.1}s` }}
                     >
                       <img src="/images/Tick.png" alt="checkmark" className="w-5 h-5" loading="lazy" />
-                      <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[18px]">
+                      <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[22px]">
                         {step.chipLabel}
                       </span>
                     </div>
@@ -139,8 +139,8 @@ const EmailFinderWorks = () => {
                       }}
                       data-animate-item
                     >
-                      <h4 className="home-subtitle text-[#132436] font-['Inter'] mb-3!">{step.title}</h4>
-                      <p className="home-description text-[#747C9A] font-['Manrope'] mb-0!">
+                      <h4 className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] font-bold text-[#132436] font-['Inter'] mb-3!">{step.title}</h4>
+                      <p className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-normal text-[#747C9A] font-['Manrope'] mb-0!">
                         {step.description}
                       </p>
                     </div>

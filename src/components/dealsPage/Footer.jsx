@@ -1,6 +1,8 @@
 import React from "react";
+import useScrollReveal from "../../hooks/useScrollReveal";
 
 const Footer = () => {
+  const sectionRef = useScrollReveal();
   return (
     <>
       <style>{`
@@ -17,7 +19,11 @@ const Footer = () => {
           transform-origin: center center;
         }
       `}</style>
-      <section className="relative w-full overflow-hidden bg-transparent">
+      <section
+        ref={sectionRef}
+        data-animate="fade-up"
+        className="relative w-full overflow-hidden bg-transparent"
+      >
         {/* Outer layout container (mobile 24px padding) */}
         <div className="w-full flex justify-center px-6 py-6 sm:py-6 md:py-6">
           {/* Background box with required properties */}
@@ -38,7 +44,7 @@ const Footer = () => {
               >
                 {/* Yellow Circle Decorative Element */}
                 <div
-                  className="absolute rounded-full bg-[#FFDD47] z-[1]"
+                  className="absolute rounded-full bg-[#FFDD47] z-1"
                   style={{
                     width: "clamp(40px, 30vw, 80px)",
                     height: "clamp(40px, 30vw, 80px)",
@@ -46,7 +52,7 @@ const Footer = () => {
                     right: "clamp(130px, -5vw, -100px)",
                   }}
                 ></div>
-                <div className="relative w-full h-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-38 py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 z-[2]">
+                <div className="relative w-full h-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-38 py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 z-2">
                   {/* Left Content Section */}
                   <div className="w-full lg:w-auto lg:flex-1 flex flex-col justify-center">
                     {/* Ready Templates Badge */}
@@ -64,19 +70,30 @@ const Footer = () => {
                       {/* Headline Section */}
                       <div className="flex flex-col gap-8 sm:gap-[40px]">
                         <div className="flex flex-col gap-4 sm:gap-[16px]">
-                          <h1 className="text-white capitalize font-['Inter'] font-semibold text-[clamp(32px,5vw,50px)] leading-[clamp(40px,8vw,80px)] tracking-[-2.4px] align-middle">
+                          <h1
+                            data-animate-item
+                            className="home-title text-white capitalize font-['Inter'] font-semibold tracking-[-2.4px]"
+                          >
                             Why pay more when you can{" "}
                             <span className="font-['Inter'] font-bold text-[#FFDD47]">
                               get more?
                             </span>{" "}
                           </h1>
 
-                          <p className="text-white font-['Manrope'] font-medium text-[clamp(18px,2.5vw,20px)] leading-[30px] tracking-[0px] align-middle">
+                          <p
+                            data-animate-item
+                            style={{ transitionDelay: "0.08s" }}
+                            className="home-description text-white font-['Manrope']"
+                          >
                             Grab this deal to unlock additional credits,
                             exclusive offers, and incredible value for your
                             sales and marketing campaigns.
                           </p>
-                          <p className="text-white font-['Manrope'] font-medium text-[clamp(18px,2.5vw,20px)] leading-[30px] tracking-[0px] align-middle">
+                          <p
+                            data-animate-item
+                            style={{ transitionDelay: "0.16s" }}
+                            className="home-description text-white font-['Manrope']"
+                          >
                             Act now and start achieving results faster
                           </p>
                         </div>
@@ -84,8 +101,11 @@ const Footer = () => {
 
                       {/* CTA Buttons Section */}
                       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5">
-                        <button className="flex items-center justify-center gap-[10px] px-6 py-4 rounded-[50px] w-full sm:w-auto bg-[#EB3609] max-w-[248px] min-h-[62px]">
-                          <span className="text-white font-['Inter'] font-semibold text-xl leading-[100%] tracking-[0px] align-middle">
+                        <button
+                          data-hover="lift"
+                          className="flex items-center justify-center gap-[10px] px-6 py-4 rounded-[50px] w-full sm:w-auto bg-[#EB3609] max-w-[248px] min-h-[62px]"
+                        >
+                          <span className="home-subtitle text-white font-['Inter'] font-semibold leading-[100%] tracking-[0px] align-middle">
                             Get Started
                           </span>
                           <img
@@ -134,10 +154,10 @@ const Footer = () => {
             <div className="flex flex-col gap-4 px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-[150px]">
               <div className="w-full max-w-full mx-auto mt-10 md:mt-14 lg:mt-16 flex flex-col lg:flex-row gap-4">
                 <div className="flex-1 rounded-[16px] bg-[#191540] p-6 md:p-10 flex flex-col gap-4 md:gap-6 min-h-[224px]">
-                  <div className="text-white font-extrabold text-[28px] sm:text-[34px] md:text-[40px] leading-[100%]">
+                  <div className="home-title text-white font-['Inter']">
                     Zupitu
                   </div>
-                  <p className="text-white text-[16px] sm:text-[18px] md:text-[20px] leading-[28px] md:leading-[34px] max-w-[722px]">
+                  <p className="home-description text-white font-['Manrope'] max-w-[722px]">
                     From dynamic visuals to interactive features, our software
                     empowers you to craft a website tailored to every need.
                   </p>
@@ -191,14 +211,14 @@ const Footer = () => {
                     { title: "Company", items: ["Terms", "Contact Us"] },
                   ].map((col) => (
                     <div key={col.title} className="flex flex-col gap-4">
-                      <h3 className="font-bold text-[18px] sm:text-[20px] md:text-[26px] tracking-[-0.32px] capitalize">
+                      <h3 className="home-subtitle font-['Inter'] text-white capitalize">
                         {col.title}
                       </h3>
                       <ul className="flex flex-col gap-3 md:gap-4 opacity-90">
                         {col.items.map((it) => (
                           <li
                             key={it}
-                            className="text-[16px] sm:text-[18px] md:text-[20px] leading-[100%]"
+                            className="home-description text-white font-['Manrope'] leading-[100%]"
                           >
                             {it}
                           </li>

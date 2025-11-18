@@ -22,12 +22,12 @@ const Teams = () => {
           </div>
 
           {/* Hero row: heading left, paragraph right on large screens */}
-          <div className="mt-5! grid grid-cols-1 lg:grid-cols-[auto_1fr] items-start gap-6 lg:gap-12">
+          <div className="mt-5! grid grid-cols-1 lg:grid-cols-[auto_1fr] items-start gap-6 lg:gap-16">
             {/* Heading */}
             <h2
               data-animate-item
               style={{ transitionDelay: "0.08s" }}
-              className="home-title font-['Inter'] font-bold text-[#132436]"
+              className="home-title xl:w-[590px] font-['Inter'] font-bold text-[#132436]"
             >
               <span className="inline-block align-middle">
                 Reach
@@ -52,14 +52,16 @@ const Teams = () => {
             </h2>
 
             {/* Sub copy */}
-            <p
-              data-animate-item
-              style={{ transitionDelay: "0.15s" }}
-              className="home-description text-[#546779] font-['Manrope'] max-w-[620px] lg:mt-[10px]"
-            >
-              Zupitu’s fast, intuitive platform empowers teams to verify leads
-              quickly with minimal training required.
-            </p>
+            <div>
+              <p
+                data-animate-item
+                style={{ transitionDelay: "0.15s" }}
+                className="home-description text-[26px]! text-[#546779] font-['Manrope'] max-w-[620px] lg:mt-[10px]"
+              >
+                Zupitu’s fast, intuitive platform empowers teams to verify leads
+                quickly with minimal training required.
+              </p>
+            </div>
           </div>
           {/* Features grid */}
           <div className="mt-10! sm:mt-12! md:mt-16! lg:mt-25! grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-[30px]">
@@ -94,7 +96,7 @@ const Teams = () => {
                 data-animate-item
                 style={{ transitionDelay: `${0.1 * idx}s` }}
                 data-hover="lift"
-                className="bg-white rounded-[16px] shadow-[0px_7px_16px_0px_#181D2717] px-4! py-3! min-h-[260px] flex flex-col gap-[20px] cursor-pointer"
+                className="bg-white rounded-[16px] shadow-[0px_7px_16px_0px_#181D2717] px-4! pt-10 pb-15 min-h-[260px] flex flex-col gap-[20px] cursor-pointer"
               >
                 <div className="w-[56px] h-[56px] rounded-full bg-[#FAFAFF] flex items-center justify-center">
                   <img
@@ -116,10 +118,10 @@ const Teams = () => {
                   />
                 </div>
                 <div className="flex flex-col gap-3">
-                  <h3 className="home-subtitle text-[#132436] font-['Inter'] capitalize">
+                  <h3 className="text-[24px]! font-semibold leading-7 text-[#132436] font-['Inter'] capitalize">
                     {item.title}
                   </h3>
-                  <p className="home-description text-[#747C9A] font-['Manrope']">
+                  <p className="home-description-card text-[#747C9A] font-['Manrope']">
                     {item.desc}
                   </p>
                 </div>

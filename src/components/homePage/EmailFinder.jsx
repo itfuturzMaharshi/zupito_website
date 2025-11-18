@@ -35,7 +35,7 @@ const EmailFinder = () => {
                   <div className="max-w-[750px] gap-10 mx-auto flex flex-col justify-between h-full">
                     {/* Fifth image text */}
                     <div>
-                      <p className="home-description text-[#4A4E5C] font-['Manrope']">
+                      <p className="home-description font-normal! text-[#4A4E5C] font-['Manrope']">
                         Beyond Opt-In mail list, email finder is a one of the
                         most reliable sources of building a deliverable list.
                         Zupitu helps you uncover the most accurate.
@@ -76,7 +76,7 @@ const EmailFinder = () => {
                 <h3
                   data-animate-item
                   style={{ transitionDelay: "0.2s" }}
-                  className="home-subtitle px-3 text-center font-['Inter'] text-[#132436] capitalize"
+                  className="home-subtitle px-3 text-[32px]! text-center font-['Inter'] text-[#132436] capitalize"
                 >
                     List Building With Reliable <br /> Email Finder
                   </h3>
@@ -95,7 +95,7 @@ const EmailFinder = () => {
                         style={{
                           transitionDelay: `${0.15 + idx * 0.08}s`,
                         }}
-                        className="w-full xs:w-full sm:w-full md:w-full lg:w-full h-[58px] md:h-[62px] lg:h-[64px] bg-white rounded-[10px] shadow-[0_8px_20px_0_#00000012] px-4! sm:px-5! md:px-6! flex items-center gap-4 cursor-pointer"
+                        className="w-full xs:w-full sm:w-full md:w-full lg:w-full h-[58px] md:h-[62px] lg:h-[72px] bg-white rounded-[10px] shadow-[0_8px_20px_0_#00000012] py-[10px] px-4! sm:px-5! md:px-6! flex items-center gap-4 cursor-pointer"
                       >
                         <span className="inline-flex items-center justify-center w-[38px] h-[38px] md:w-[48px] md:h-[42px] lg:w-[56px] lg:h-[46px] rounded-[10px] bg-[#F6F6F7]">
                           <img
@@ -105,7 +105,7 @@ const EmailFinder = () => {
                           />
                         </span>
                         <span
-                          className="home-description text-[#3A4A5A] font-['Manrope'] email-finder-label"
+                          className="home-description leading-8! text-[#3A4A5A] font-['Manrope'] email-finder-label"
                           style={{
                             animationDelay: `${0.28 + idx * 0.18}s`,
                             animationDuration: "0.9s",

@@ -111,7 +111,7 @@ const ActionsPage = () => {
                   <p
                     data-animate-item
                     style={{ transitionDelay: "0.18s" }}
-                    className="home-description text-[#76838F] font-['Manrope'] max-w-[640px]"
+                    className="home-description-card text-[#76838F] font-['Manrope'] max-w-[640px]"
                   >
                     Verify up to 10 emails instantly without sign-up just
                     enter an email, click Verify, and repeat. Explore bulk
@@ -152,7 +152,7 @@ const ActionsPage = () => {
                 <h4
                   data-animate-item
                   style={{ transitionDelay: "0.08s" }}
-                  className="home-subtitle text-white text-center font-['Inter'] px-2 sm:px-4"
+                  className="home-subtitle text-white text-[22px]! sm:text-[26px]! md:text-[28px]! lg:text-[32px]! text-center font-['Inter'] px-2 sm:px-4"
                 >
                   Verify Personal & Business
                   <br className="hidden sm:block" />
@@ -163,7 +163,7 @@ const ActionsPage = () => {
                 <p
                   data-animate-item
                   style={{ transitionDelay: "0.15s" }}
-                  className="home-description text-[#546779] text-center font-['Manrope'] max-w-[420px] px-2 sm:px-4"
+                  className="home-description text-[#546779] opacity-70 text-center font-['Manrope'] max-w-[420px] px-2 sm:px-4"
                 >
                   Check up to 10 emails for free — no sign-up required.
                 </p>
@@ -185,7 +185,7 @@ const ActionsPage = () => {
                       className="shrink-0 mr-1! sm:mr-2! font-['Manrope'] inline-flex items-center justify-center rounded-[40px] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold h-[40px] sm:h-[42px] md:h-[44px] lg:h-[46px] px-3! sm:px-4! md:px-5! min-w-[90px] sm:min-w-[110px] md:min-w-[120px] lg:min-w-[130px] text-[12px] sm:text-[14px] md:text-base transition-colors cursor-pointer"
                       type="button"
                     >
-                      <span className="hidden sm:inline">Verify Now</span>
+                      <span className="hidden sm:inline text-[18px] font-semibold">Verify Now</span>
                       <span className="sm:hidden">Verify</span>
                     </button>
                   </div>

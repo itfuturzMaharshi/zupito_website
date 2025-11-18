@@ -44,7 +44,7 @@ function HeroSection() {
               <h1
                 data-animate-item
                 style={{ transitionDelay: "0.05s" }}
-                className="home-title text-[#132436] font-bold font-['Inter'] space-y-1"
+                className="home-main-title text-[#132436] font-bold font-['Inter'] space-y-1"
               >
                 {/* Line 1: AI Tool To Connect */}
                 <span className="block whitespace-nowrap">
@@ -75,7 +75,7 @@ function HeroSection() {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.15s" }}
-                className="home-description text-[#63778B] font-['Manrope'] max-w-[full] sm:max-w-[640px] md:max-w-[720px] mt-5! sm:mt-6!"
+                className="home-main-description text-[#63778B] font-['Manrope'] max-w-[full] sm:max-w-[640px] md:max-w-[720px] mt-5! sm:mt-6!"
               >
                 Simplify outreach with Zupitu's AI Email Verifier & Finder –
                 validate emails, find business contacts, and boost
@@ -90,7 +90,7 @@ function HeroSection() {
               >
                 <button
                   data-hover="lift"
-                  className="rounded-[40px] whitespace-nowrap font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[150px] sm:min-w-[170px] md:min-w-[190px] h-[46px] sm:h-[50px] md:h-[54px] px-5! sm:px-6! md:px-[26px] py-2! sm:py-3! md:py-[12px] text-[14px] sm:text-[16px] md:text-[18px] cursor-pointer"
+                  className="rounded-[40px] whitespace-nowrap  font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[150px] sm:min-w-[170px] md:min-w-[190px] h-[46px] sm:h-[50px] md:h-[54px] px-5! sm:px-6! md:px-[26px] py-2! sm:py-3! md:py-[12px] text-[14px] sm:text-[16px] md:text-[18px] cursor-pointer"
                 >
                   Checkout Deals
                   <img
@@ -102,7 +102,7 @@ function HeroSection() {
 
                 <button
                    data-hover="lift"
-                  className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] sm:text-[15px] md:text-[18px] cursor-pointer"
+                  className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] sm:text-[15px] md:text-[20px] cursor-pointer"
                 >
                   <span>Claim 300 free credits</span>
                   <img
@@ -134,7 +134,7 @@ function HeroSection() {
                       className="w-3 h-3 sm:w-3.5 sm:h-3.5"
                     />
                   </span>
-                  <span className="text-xs font-['Manrope'] sm:text-sm text-[#132436]">
+                  <span className="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px]  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
                     Flexible solution
                   </span>
                 </div>
@@ -152,7 +152,7 @@ function HeroSection() {
                       className="w-3 h-3 sm:w-3.5 sm:h-3.5"
                     />
                   </span>
-                  <span className="text-xs font-['Manrope'] sm:text-sm text-[#132436]">
+                  <span className="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px]  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
                     No credit card required
                   </span>
                 </div>

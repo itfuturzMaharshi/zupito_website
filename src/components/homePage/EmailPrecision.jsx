@@ -15,7 +15,7 @@ const EmailPrecision = () => {
           {/* Main container - first image */}
           <div className="w-full max-w-[full] mx-auto h-auto lg:h-[229px] flex flex-col lg:flex-row lg:justify-between lg:items-center gap-6 md:gap-8 lg:gap-0">
             {/* Left section - second image */}
-            <div className="w-full lg:w-[550px] h-auto lg:h-[229px] flex flex-col gap-4 md:gap-5 lg:gap-6">
+            <div className="w-full lg:w-[650px] h-auto lg:h-[229px] flex flex-col gap-4 md:gap-5 lg:gap-6">
               {/* Plugin integration tag - third image */}
               <div className="text-center flex">
                 <div
@@ -91,7 +91,7 @@ const EmailPrecision = () => {
                 className="home-description text-[#546779] font-['Manrope'] text-left"
               >
                 Your email marketing success depends upon valid and opt-in email
-                database. An email verifier helps you maintain a valid list and
+                database.<br /> An email verifier helps you maintain a valid list and
                 email finder discovers the right business contacts to fill your
                 sales pipeline with high-quality leads.
               </p>

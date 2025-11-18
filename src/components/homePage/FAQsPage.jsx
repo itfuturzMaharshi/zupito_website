@@ -100,7 +100,7 @@ const FAQsPage = () => {
                     onClick={() => toggleFAQ(index)}
                   >
                     <div className="flex-1 pr-4!">
-                      <h3 className="home-subtitle text-[#132436] font-['Manrope'] capitalize">
+                      <h3 className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] font-semibold text-[#132436] font-['Manrope'] capitalize">
                         {index + 1}. {faq.question}
                       </h3>
                     </div>
@@ -135,7 +135,7 @@ const FAQsPage = () => {
                     }`}
                   >
                     <div className="px-6! lg:px-[30px]! pb-8! lg:pb-12!">
-                      <p className="home-description text-[#747C9A] font-['Manrope'] max-w-[full]">
+                      <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-normal text-[#747C9A] font-['Manrope'] max-w-[full]">
                         {faq.answer}
                       </p>
                     </div>

@@ -88,40 +88,40 @@ const Productivity = () => {
                 </div>
 
                 {/* Bottom content block (sixth image) */}
-                <div className="px-9! py-7! md:px-9! md:py-8! lg:px-9! lg:py-8! bg-white/0 rounded-b-[24px]">
+                <div className="px-9! py-7! md:px-9! md:py-8! lg:px-9! lg:py-8! xl:mt-[50px] bg-white/0 rounded-b-[24px]">
                   <div className="flex flex-col gap-4">
-                <div
-                  data-animate-item
-                  className="inline-flex font-['Manrope'] items-center gap-[6px] rounded-[50px] bg-white px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]"
-                >
+                    <div
+                      data-animate-item
+                      className="inline-flex font-['Manrope'] items-center gap-[6px] rounded-[50px] bg-white px-4! py-3! h-[49px] w-fit text-[16px] md:text-[18px] font-bold text-[#132436] shadow-[0_1px_0_0_#0000000A]"
+                    >
                       <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
                       <span>Type Something</span>
                     </div>
 
                     <div className="mt-5 flex flex-col gap-4">
-                       <h3
-                         data-animate-item
-                         style={{ transitionDelay: "0.12s" }}
-                         className="home-subtitle text-[#132436] font-['Inter']"
-                       >
-                         Powerful Team, Management
-                         <br className="hidden sm:block" />
-                         <span>Unified</span>
-                         <span className="align-middle inline-flex items-center justify-center mx-2 relative -top-px">
-                           <img
-                             src="/images/Success.svg"
-                             alt=""
-                             className="w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] md:w-[40px] md:h-[40px] mx-1.5!"
-                           />
-                         </span>
-                         <span>Success</span>
-                       </h3>
+                      <h3
+                        data-animate-item
+                        style={{ transitionDelay: "0.12s" }}
+                        className="home-subtitle text-[#132436] font-['Inter']"
+                      >
+                        Powerful Team, Management
+                        <br className="hidden sm:block" />
+                        <span>Unified</span>
+                        <span className="align-middle inline-flex items-center justify-center mx-2 relative -top-px">
+                          <img
+                            src="/images/Success.svg"
+                            alt=""
+                            className="w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] md:w-[40px] md:h-[40px] mx-1.5!"
+                          />
+                        </span>
+                        <span>Success</span>
+                      </h3>
 
                       <div className="flex flex-col gap-4">
                         <p
                           data-animate-item
                           style={{ transitionDelay: "0.18s" }}
-                          className="home-description text-[#6C728C] font-['Manrope']"
+                          className="home-description font-normal! text-[#6C728C] font-['Manrope']"
                         >
                           Zupitu's Team Management features empower businesses
                           with streamlined team management workflows.
@@ -129,7 +129,7 @@ const Productivity = () => {
                         <p
                           data-animate-item
                           style={{ transitionDelay: "0.24s" }}
-                          className="home-description text-[#6C728C] font-['Manrope']"
+                          className="home-description font-normal! text-[#6C728C] font-['Manrope']"
                         >
                           Our free platform features help customers to optimize
                           resource allocation and get actionable insights
@@ -139,7 +139,7 @@ const Productivity = () => {
                         <p
                           data-animate-item
                           style={{ transitionDelay: "0.3s" }}
-                          className="home-description text-[#6C728C] font-['Manrope']"
+                          className="home-description font-normal! text-[#6C728C] font-['Manrope']"
                         >
                           These tools ensure accountability and decision- making
                           for achieving business goals
@@ -185,13 +185,17 @@ const Productivity = () => {
                   >
                     <div className="flex items-start gap-4">
                       <div className="w-[54px] h-[54px] rounded-[44px] bg-[#FAFBFF] flex items-center justify-center shrink-0">
-                        <img src={item.icon} alt="" className="w-[32px] h-[32px]" />
+                        <img
+                          src={item.icon}
+                          alt=""
+                          className="w-[32px] h-[32px]"
+                        />
                       </div>
                       <div className="flex-1 flex flex-col gap-3">
-                        <h4 className="home-subtitle text-[#132436] font-['Inter'] capitalize">
+                        <h4 className="text-[16px] sm:text-[18px] md:text-[22px] lg:text-[24px] xl:text-[26px] font-bold text-[#132436] font-['Inter'] capitalize">
                           {item.title}
                         </h4>
-                        <p className="home-description text-[#747C9A] font-['Manrope']">
+                        <p className=" text-[22px] font-normal text-[#747C9A] font-['Manrope']">
                           {item.desc}
                         </p>
                       </div>

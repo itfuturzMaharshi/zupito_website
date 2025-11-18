@@ -1,9 +1,14 @@
 import React from "react";
+import useScrollReveal from "../../hooks/useScrollReveal";
 
 const HeroSection = () => {
+  const sectionRef = useScrollReveal();
+
   return (
     <section
-      className="relative w-full  flex items-center justify-center overflow-hidden"
+      ref={sectionRef}
+      data-animate="fade-up"
+      className="relative w-full flex items-center justify-center overflow-hidden"
       style={{
         background: "linear-gradient(180deg, #F3FFDD 0%, #BCACFF 100%)",
       }}
@@ -27,80 +32,42 @@ const HeroSection = () => {
                 {/* Main Heading with Running Icon */}
                 <div className="w-full mb-6 sm:mb-8">
                   <h1
-                    className="flex flex-col gap-2 "
-                    style={{
-                      fontFamily: '"MADE TOMMY", sans-serif',
-                      fontWeight: 900,
-                      fontStyle: "normal",
-                      fontSize: "clamp(40px, 6vw, 56px)",
-                      lineHeight: "50px",
-                      letterSpacing: "0px",
-                      textAlign: "center",
-                      verticalAlign: "middle",
-                      textTransform: "uppercase",
-                      color: "#132436",
-                      alignItems: "flex-start",
-                    }}
+                    data-animate-item
+                    className="home-title text-[#132436] font-['Inter'] font-bold uppercase text-center lg:text-left flex flex-col gap-2"
                   >
-                    <div>
-                      <span className="inline-flex gap-2 items-center">
-                        SAVE BIG
-                        <span
-                          className="inline-flex items-center justify-center rounded-full"
+                    <span className="inline-flex gap-3 items-center justify-center lg:justify-start">
+                      <span>SAVE BIG</span>
+                      <span
+                        className="inline-flex items-center justify-center rounded-full"
+                        style={{
+                          width: "clamp(50px, 6vw, 70px)",
+                          height: "clamp(50px, 6vw, 70px)",
+                          flexShrink: 0,
+                        }}
+                      >
+                        <img
+                          src="/images/Success-1.svg"
+                          alt="Success icon"
                           style={{
-                            width: "clamp(50px, 6vw, 70px)",
-                            height: "clamp(50px, 6vw, 70px)",
-                            flexShrink: 0,
+                            objectFit: "contain",
                           }}
-                        >
-                          <img
-                            src="/images/Success-1.svg"
-                            alt="Success icon"
-                            style={{
-                              objectFit: "contain",
-                            }}
-                          />
-                        </span>
-                        ON
+                        />
                       </span>
-                    </div>
-                    <div>
-                      <span>VERIFIED LEADS</span>
-                    </div>
+                      <span>ON</span>
+                    </span>
+                    <span className="text-center lg:text-left">VERIFIED LEADS</span>
                   </h1>
                 </div>
 
                 {/* Description Text */}
                 <div className="w-full mb-8 sm:mb-10 md:mb-12">
                   <p
-                    className="text-left"
-                    style={{
-                      fontFamily: "Manrope, sans-serif",
-                      fontWeight: 600,
-                      fontStyle: "normal",
-                      fontSize: "clamp(20px, 2.5vw, 28px)",
-                      lineHeight: "40px",
-                      letterSpacing: "0px",
-                      verticalAlign: "middle",
-                      color: "#133750",
-                    }}
+                    data-animate-item
+                    style={{ transitionDelay: "0.1s" }}
+                    className="home-description text-center lg:text-left text-[#133750] font-['Manrope']"
                   >
                     Grab limited-time{" "}
-                    <span
-                      style={{
-                        fontFamily: "Manrope, sans-serif",
-                        fontWeight: 800,
-                        fontStyle: "normal",
-                        fontSize: "clamp(24px, 2.5vw, 30px)",
-                        lineHeight: "30px",
-                        letterSpacing: "0px",
-                        verticalAlign: "middle",
-                        textTransform: "uppercase",
-                        color: "#F967F6",
-                      }}
-                    >
-                      DEALS
-                    </span>{" "}
+                    <span className="home-title text-[#F967F6] uppercase">DEALS</span>{" "}
                     to get more leads, clean your lists, and accelerate outreach
                     - all at unmatched value.
                   </p>
@@ -113,8 +80,9 @@ const HeroSection = () => {
           <div className="w-full flex items-center justify-center mt-10">
             {/* Outer Container - white background panel */}
             <div
-              className="relative flex items-center justify-center"
+              data-animate-item
               style={{
+                transitionDelay: "0.2s",
                 width: "clamp(300px, 90%, 879px)",
                 minHeight: "clamp(100px, 15vw, 142px)",
                 borderRadius: "280px",
@@ -124,6 +92,7 @@ const HeroSection = () => {
                 gap: "21px",
                 boxShadow: "0px 4px 20px rgba(188, 172, 255, 0.2)",
               }}
+              className="relative flex items-center justify-center"
             >
               {/* Email Verification Deals Button */}
               <div
@@ -139,6 +108,7 @@ const HeroSection = () => {
                 }}
               >
                 <button
+                  data-hover="lift"
                   className="flex items-center justify-center transition-all hover:opacity-90 active:scale-95 relative z-10"
                   style={{
                     width: "100%",
@@ -152,19 +122,7 @@ const HeroSection = () => {
                     boxShadow: "0px 0px 6px rgba(188, 172, 255, 0.3)",
                   }}
                 >
-                  <span
-                    className="whitespace-nowrap"
-                    style={{
-                      fontFamily: "Roboto, sans-serif",
-                      fontWeight: 700,
-                      fontStyle: "normal",
-                      fontSize: "clamp(14px, 2vw, 30px)",
-                      lineHeight: "100%",
-                      letterSpacing: "0%",
-                      textAlign: "center",
-                      color: "#FFFFFF",
-                    }}
-                  >
+                  <span className="home-subtitle text-white font-['Inter'] font-bold uppercase text-center">
                     Email Verification Deals
                   </span>
                 </button>
@@ -184,6 +142,7 @@ const HeroSection = () => {
                 }}
               >
                 <button
+                  data-hover="lift"
                   className="flex items-center justify-center transition-all hover:opacity-90 active:scale-95 relative z-10"
                   style={{
                     width: "100%",
@@ -197,19 +156,7 @@ const HeroSection = () => {
                     boxShadow: "0px 0px 6px rgba(188, 172, 255, 0.3)",
                   }}
                 >
-                  <span
-                    className="whitespace-nowrap"
-                    style={{
-                      fontFamily: "Roboto, sans-serif",
-                      fontWeight: 700,
-                      fontStyle: "normal",
-                      fontSize: "clamp(14px, 2vw, 30px)",
-                      lineHeight: "100%",
-                      letterSpacing: "0%",
-                      textAlign: "center",
-                      color: "#FFFFFF",
-                    }}
-                  >
+                  <span className="home-subtitle text-white font-['Inter'] font-bold uppercase text-center">
                     Email Finder Deals
                   </span>
                 </button>
