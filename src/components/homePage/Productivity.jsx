@@ -13,7 +13,7 @@ const Productivity = () => {
       <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-16! xl:py-20!">
         <div className="max-w-[full] lg:max-w-[1362px] mx-auto">
           {/* Top copy row (second image sizing intent) */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] md:gap-[50px] lg:gap-[60px] items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.3fr_0.9fr] gap-[30px] md:gap-[50px] lg:gap-[60px] items-start">
             {/* Headline block on the left */}
             <div className="flex flex-col gap-4">
               <div
