@@ -26,15 +26,15 @@ const Footer = () => {
             alt=""
             className="pointer-events-none select-none absolute w-[120px] z-[1] sm:w-[160px] md:w-[200px] lg:w-[220px]"
             style={{
-              right: 'clamp(50px, 2.5vw, 15px)',
-              top: 'clamp(150px, 4.5vh, 45px)',
+              right: "clamp(50px, 2.5vw, 15px)",
+              top: "clamp(150px, 4.5vh, 45px)",
             }}
           />
-          <div 
+          <div
             className="absolute pointer-events-none z-[1] w-40 h-40 sm:w-44 sm:h-44 md:w-52 md:h-52 lg:w-60 lg:h-60"
             style={{
-              left: 'clamp(30px, 0.8vw, 20px)',
-              bottom: 'clamp(920px, 20vh, 228px)',
+              left: "clamp(30px, 0.8vw, 20px)",
+              bottom: "clamp(920px, 20vh, 228px)",
             }}
           >
             <img
@@ -48,8 +48,8 @@ const Footer = () => {
             alt=""
             className="pointer-events-none select-none absolute w-[40px] sm:w-[45px] md:w-[50px]"
             style={{
-              top: 'clamp(135px, 15vh, 170px)',
-              right: 'clamp(15px, 3vw, 30px)',
+              top: "clamp(135px, 15vh, 170px)",
+              right: "clamp(15px, 3vw, 30px)",
             }}
           />
           <img
@@ -57,8 +57,8 @@ const Footer = () => {
             alt=""
             className="pointer-events-none select-none absolute w-[40px] sm:w-[45px] md:w-[50px] motion-safe:animate-[bounce_4s_ease-in-out_infinite]"
             style={{
-              left: 'clamp(78%, 95vw, 1200px)',
-              bottom: 'clamp(960px, 50vh, 875px)',
+              left: "clamp(78%, 95vw, 1200px)",
+              bottom: "clamp(960px, 50vh, 875px)",
             }}
           />
           <div className="relative z-2 w-full max-w-full mx-auto flex flex-col items-center gap-4 sm:gap-5 md:gap-[24px]">
@@ -93,21 +93,21 @@ const Footer = () => {
               >
                 <span>Checkout Details</span>
                 <img
-                    src="/images/right-arrow.svg"
-                    alt="Right arrow icon"
-                    className="w-4 h-4 sm:w-5 sm:h-5"
-                  />
+                  src="/images/right-arrow.svg"
+                  alt="Right arrow icon"
+                  className="w-4 h-4 sm:w-5 sm:h-5"
+                />
               </button>
               <button
                 data-hover="lift"
                 className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[20px]  font-semibold flex items-center gap-2 hover:text-[#EDFF67] transition-colors cursor-pointer"
               >
                 <span>Claim 300 free credits</span>
-               <img
-                    src="/images/right-arrow.svg"
-                    alt="Right arrow icon"
-                    className="w-4 h-4 sm:w-5 sm:h-5 mt-1"
-                  />
+                <img
+                  src="/images/right-arrow.svg"
+                  alt="Right arrow icon"
+                  className="w-4 h-4 sm:w-5 sm:h-5 mt-1"
+                />
               </button>
             </div>
 
@@ -141,8 +141,12 @@ const Footer = () => {
           <div className="flex flex-col gap-4 sm:gap-6">
             <div className="w-full max-w-full mx-auto mt-8! sm:mt-10! md:mt-14! lg:mt-16! flex flex-col lg:flex-row gap-4 sm:gap-6">
               <div className="flex-1 rounded-[16px] bg-[#1C2D3E] p-5! sm:p-6! md:p-10! flex flex-col gap-3! sm:gap-4! md:gap-6! min-h-[200px] sm:min-h-[224px]">
-                <div className="text-white font-extrabold text-[24px] sm:text-[28px] md:text-[34px] lg:text-[40px] leading-[100%]">
-                  Zupitu
+                <div className="shrink-0">
+                  <img
+                    src="/images/zupito_logo.svg"
+                    alt="Zupito"
+                    className="h-7 sm:h-9 md:h-10 w-auto brightness-0 invert"
+                  />
                 </div>
                 <p className=" sm:text-[20px]! font-normal! text-white font-['Manrope'] max-w-[722px]">
                   From dynamic visuals to interactive features, our software
@@ -151,7 +155,7 @@ const Footer = () => {
               </div>
 
               <div className="w-full lg:w-auto grid grid-cols-3 gap-3 sm:gap-4">
-                {[ 
+                {[
                   { label: "Facebook", icon: "/images/FB.svg" },
                   { label: "Linked In", icon: "/images/Linkedin.svg" },
                   { label: "Twitter", icon: "/images/Twitter.svg" },

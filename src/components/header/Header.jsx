@@ -49,7 +49,7 @@ function Header() {
         <div className="max-w-full lg:max-w-[1362px] h-full mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="shrink-0">
-            <img src="/images/zupito_logo.png" alt="Zupito" className="h-7 sm:h-9 md:h-10 w-auto" />
+            <img src="/images/zupito_logo.svg" alt="Zupito" className="h-7 sm:h-9 md:h-10 w-auto" />
           </div>
 
           {/* Desktop Navigation Links */}
