@@ -53,7 +53,7 @@ function Header() {
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-8 2xl:gap-8 relative">
+          <nav className="hidden lg:flex items-center gap-4 xl:gap-5 2xl:gap-8 relative">
             <div className="relative" ref={dropdownRef}>
               <button 
                 onClick={toggleProductDropdown}
@@ -155,15 +155,15 @@ function Header() {
           </nav>
 
           {/* Desktop Action Buttons */}
-          <div className="hidden lg:flex items-center shrink-0 gap-4 md:gap-5">
+          <div className="hidden lg:flex items-center shrink-0 gap-4 md:gap-2">
             {/* Start for Free Button */}
             <button 
-              className="flex items-center justify-center transition-colors rounded-[40px] bg-[#F6F6F6] hover:bg-[#EEEEEE]"
+              className="flex px-6 py-4 gap-2 items-center justify-center transition-colors rounded-[40px] bg-[#F6F6F6] hover:bg-[#EEEEEE]"
               style={{ 
-                minWidth: '160px', 
-                height: '52px', 
-                padding: '14px 20px',
-                gap: '10px'
+                // minWidth: '160px', 
+                // height: '52px', 
+                // padding: '14px 20px',
+                // gap: '10px'
               }}
             >
               <img 
@@ -181,12 +181,12 @@ function Header() {
 
             {/* Log In Button */}
             <button 
-              className="flex items-center justify-center transition-colors rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35]"
+              className="flex px-6 py-4 gap-2 items-center justify-center transition-colors rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35]"
               style={{ 
-                minWidth: '130px', 
-                height: '52px', 
-                padding: '14px 28px',
-                gap: '10px'
+                // minWidth: '130px', 
+                // height: '52px', 
+                // padding: '14px 28px',
+                // gap: '10px'
               }}
             >
               <span 

@@ -51,7 +51,7 @@ function HeroSection() {
                   <span>AI Tool To </span>
                   <span
                     aria-live="polite"
-                    className={`inline-block text-[#EB3609] font-semibold transition-all duration-300 ease-in-out transform ${
+                    className={`inline-block text-[#EB3609] font-extrabold transition-all duration-300 ease-in-out transform ${
                       isFading ? "opacity-0 translate-y-2" : "opacity-100 translate-y-0"
                     }`}
                   >
