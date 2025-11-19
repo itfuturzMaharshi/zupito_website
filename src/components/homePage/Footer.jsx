@@ -24,7 +24,7 @@ const Footer = () => {
           <img
             src="/images/home-footer-vector.png"
             alt=""
-            className="pointer-events-none select-none absolute w-[120px] z-[1] sm:w-[160px] md:w-[220px] lg:w-[260px]"
+            className="pointer-events-none select-none absolute w-[120px] z-[1] sm:w-[160px] md:w-[200px] lg:w-[220px]"
             style={{
               right: 'clamp(50px, 2.5vw, 15px)',
               top: 'clamp(150px, 4.5vh, 45px)',
@@ -57,14 +57,14 @@ const Footer = () => {
             alt=""
             className="pointer-events-none select-none absolute w-[40px] sm:w-[45px] md:w-[50px] motion-safe:animate-[bounce_4s_ease-in-out_infinite]"
             style={{
-              left: 'clamp(78%, 95vw, 1145px)',
-              bottom: 'clamp(900px, 50vh, 875px)',
+              left: 'clamp(78%, 95vw, 1200px)',
+              bottom: 'clamp(960px, 50vh, 875px)',
             }}
           />
           <div className="relative z-2 w-full max-w-full mx-auto flex flex-col items-center gap-4 sm:gap-5 md:gap-[24px]">
             <h2
               data-animate-item
-              className="home-title font-bold text-center font-['Inter'] tracking-[-2.4px] mt-4! sm:mt-6! md:mt-8! text-white capitalize px-2!"
+              className="home-title md:text-[50px]! font-bold text-center font-['Inter'] tracking-[-2.4px] mt-4! sm:mt-6! md:mt-8! text-white capitalize px-2!"
             >
               <span className="text-white">Sign Up </span>
               <span className="text-[#717680]">For </span>
@@ -77,7 +77,7 @@ const Footer = () => {
             <p
               data-animate-item
               style={{ transitionDelay: "0.1s" }}
-              className="home-description text-center font-['Manrope'] text-white md:opacity-100 opacity-90 max-w-[980px] px-4!"
+              className="home-description text-[16px]! sm:text-[22px]! text-center font-['Manrope'] text-white md:opacity-100 opacity-90 max-w-[980px] px-4!"
             >
               Use your free credits for both finding and verifying emails.
             </p>
@@ -89,7 +89,7 @@ const Footer = () => {
             >
               <button
                 data-hover="lift"
-                className="w-full sm:w-auto h-[50px] sm:h-[54px] font-['Inter'] md:h-[58px] lg:h/[62px] px-6! sm:px-8! md:px-10! rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35] text-white text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-semibold whitespace-nowrap inline-flex items-center justify-center gap-2 sm:gap-3 transition-colors cursor-pointer"
+                className="w-full sm:w-auto h-[50px] sm:h-[54px] font-['Inter'] md:h-[58px] lg:h/[62px] px-6! sm:px-8! md:px-10! rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35] text-white text-[15px] sm:text-[16px] md:text-[18px] font-semibold whitespace-nowrap inline-flex items-center justify-center gap-2 sm:gap-3 transition-colors cursor-pointer"
               >
                 <span>Checkout Details</span>
                 <img
@@ -100,7 +100,7 @@ const Footer = () => {
               </button>
               <button
                 data-hover="lift"
-                className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text/[24px] font-semibold flex items-center gap-2 hover:text-[#EDFF67] transition-colors cursor-pointer"
+                className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[20px]  font-semibold flex items-center gap-2 hover:text-[#EDFF67] transition-colors cursor-pointer"
               >
                 <span>Claim 300 free credits</span>
                <img
@@ -131,7 +131,7 @@ const Footer = () => {
                     alt="tick"
                     className="w-4 h-4 sm:w-5 sm:h-5 object-contain shrink-0"
                   />
-                  <span className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[100%] text-center sm:text-left">
+                  <span className="text-white font-['Manrope'] text-[14px] sm:text-[16px] md:text-[18px]  leading-[100%] text-center sm:text-left">
                     {label}
                   </span>
                 </div>
@@ -144,7 +144,7 @@ const Footer = () => {
                 <div className="text-white font-extrabold text-[24px] sm:text-[28px] md:text-[34px] lg:text-[40px] leading-[100%]">
                   Zupitu
                 </div>
-                <p className="home-description text-white font-['Manrope'] max-w-[722px]">
+                <p className=" sm:text-[20px]! font-normal! text-white font-['Manrope'] max-w-[722px]">
                   From dynamic visuals to interactive features, our software
                   empowers you to craft a website tailored to every need.
                 </p>
@@ -167,7 +167,7 @@ const Footer = () => {
                         className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
                       />
                     </div>
-                    <div className="text-white font-['Manrope'] text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] text-center">
+                    <div className="text-white font-['Manrope'] text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px]  text-center">
                       {s.label}
                     </div>
                   </div>
@@ -195,14 +195,14 @@ const Footer = () => {
                   { title: "Company", items: ["Terms", "Contact Us"] },
                 ].map((col) => (
                   <div key={col.title} className="flex flex-col gap-3 sm:gap-4">
-                    <h3 className="home-subtitle font-['Inter'] text-white capitalize">
+                    <h3 className="text-[18px] sm:text-[22px] font-bold font-['Inter'] text-white capitalize">
                       {col.title}
                     </h3>
                     <ul className="flex flex-col gap-2 sm:gap-3 md:gap-4 opacity-90">
                       {col.items.map((it) => (
                         <li
                           key={it}
-                          className="home-description text-white font-['Manrope'] cursor-pointer hover:text-[#EDFF67] transition-colors"
+                          className="sm:text-[20px] text-white font-['Manrope'] cursor-pointer hover:text-[#EDFF67] transition-colors"
                         >
                           {it}
                         </li>
@@ -214,7 +214,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="home-description w-full font-['Manrope'] max-w-full mx-auto text-center text-white pt-6! sm:pt-8! md:pt-10! px-4!">
+          <div className="text-[18px] w-full font-['Manrope'] max-w-full mx-auto text-center text-white pt-6! sm:pt-8! md:pt-10! px-4!">
             © 2025 Zupitu.{" "}
             <span className="text-white/70">All Rights Reserved.</span>
           </div>

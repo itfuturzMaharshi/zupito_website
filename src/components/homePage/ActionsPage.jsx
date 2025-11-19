@@ -43,7 +43,7 @@ const ActionsPage = () => {
             <p
               data-animate-item
               style={{ transitionDelay: "0.15s" }}
-              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! mt-5! text-[#546779] font-['Manrope'] text-center max-w-[full] mx-auto"
+              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]!  mt-5! text-[#546779] font-['Manrope'] text-center max-w-[full] mx-auto"
             >
               Experience the quality and speed of Artificial Intelligence in
               email verification and email finding. Try Zupitu without Sign-Up.
@@ -93,7 +93,7 @@ const ActionsPage = () => {
                   <h3
                     data-animate-item
                     style={{ transitionDelay: "0.12s" }}
-                    className="home-subtitle text-[#132436] font-['Inter']"
+                    className="home-subtitle  sm:text-[28px]! md:text-[32px]! text-[#132436] font-['Inter']"
                   >
                     Comprehensive Personal &{" "}
                     <br className="hidden sm:block" />
@@ -102,7 +102,7 @@ const ActionsPage = () => {
                       <img
                         src="/images/setting-orange-1.svg"
                         alt=""
-                        className="mx-2! w-[38px] h-[42px]"
+                        className=" w-[46px] h-[46px]"
                       />
                     </span>
                     Email Validation
@@ -111,7 +111,7 @@ const ActionsPage = () => {
                   <p
                     data-animate-item
                     style={{ transitionDelay: "0.18s" }}
-                    className="home-description-card lg:text-[18px]! xl:text-[24px]! text-[#76838F] font-['Manrope'] max-w-[640px]"
+                    className="home-description-card lg:text-[20px]!  text-[#76838F] font-['Manrope'] max-w-[640px]"
                   >
                     Verify up to 10 emails instantly without sign-up just
                     enter an email, click Verify, and repeat. Explore bulk
@@ -125,14 +125,14 @@ const ActionsPage = () => {
                   data-animate-item
                   style={{ transitionDelay: "0.25s" }}
                   data-hover="lift"
-                  className="inline-flex items-center font-['Manrope'] gap-3 text-[#EB3609] font-bold text-[18px] leading-[28px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize cursor-pointer"
+                  className="inline-flex items-center font-['Manrope'] gap-2 text-[#EB3609] font-bold text-[18px] leading-[28px] sm:text-[18px] sm:leading-[28px]  md:leading-[30px] capitalize cursor-pointer"
                 >
                   <span>Checkout Our Deals</span>
                   <span className="flex items-center justify-center ">
                    <img
                    src="/images/right-orange-arrow.svg"
                    alt="Right arrow icon"
-                   className="w-5 h-5 mt-1"
+                   className="w-3 h-3"
                  />
                   </span>
                 </button>
@@ -152,7 +152,7 @@ const ActionsPage = () => {
                 <h4
                   data-animate-item
                   style={{ transitionDelay: "0.08s" }}
-                  className="home-subtitle text-white text-[18px]! sm:text-[26px]! md:text-[26px]! lg:text-[26px]! xl:text-[32px]! text-center font-['Inter'] px-2 sm:px-4"
+                  className="home-subtitle text-white text-[18px]! sm:text-[26px]! md:text-[26px]! lg:text-[30px]! text-center font-['Inter'] px-2 sm:px-4"
                 >
                   Verify Personal & Business
                   <br className="hidden sm:block" />
@@ -163,7 +163,7 @@ const ActionsPage = () => {
                 <p
                   data-animate-item
                   style={{ transitionDelay: "0.15s" }}
-                  className="home-description lg:text-[20px]! xl:text-[24px]! text-[#546779] opacity-70 text-center font-['Manrope'] max-w-[420px] px-2 sm:px-4"
+                  className="home-description lg:text-[20px]! xl:text-[20px]! text-white opacity-70!  text-center font-['Manrope'] max-w-[420px] px-2 sm:px-4"
                 >
                   Check up to 10 emails for free — no sign-up required.
                 </p>
@@ -185,7 +185,7 @@ const ActionsPage = () => {
                       className="shrink-0 mr-1! sm:mr-2! font-['Manrope'] inline-flex items-center justify-center rounded-[40px] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold h-[40px] sm:h-[42px] md:h-[44px] lg:h-[46px] px-3! sm:px-4! md:px-5! min-w-[90px] sm:min-w-[110px] md:min-w-[120px] lg:min-w-[130px] text-[12px] sm:text-[14px] md:text-base transition-colors cursor-pointer"
                       type="button"
                     >
-                      <span className="hidden sm:inline text-[18px] font-semibold">Verify Now</span>
+                      <span className="hidden sm:inline text-[16px] font-semibold">Verify Now</span>
                       <span className="sm:hidden">Verify</span>
                     </button>
                   </div>

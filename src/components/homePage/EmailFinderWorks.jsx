@@ -47,7 +47,7 @@ const EmailFinderWorks = () => {
               data-animate-item
               className="inline-flex font-['Manrope'] items-center justify-center gap-[6px] rounded-[50px] bg-[#FFE9F2] px-4 py-3 h-[49px] min-w-[192px] text-[16px] md:text-[18px] leading-[100%] font-bold text-[#132436]"
             >
-              <span className="w-3.5 h-3.5 rounded-full bg-[#7B8DFF]" />
+              <span className="w-2.5 h-2.5 rounded-full bg-[#7B8DFF]" />
               <span>Type Something</span>
             </div>
 
@@ -62,7 +62,7 @@ const EmailFinderWorks = () => {
                   <img
                     src="/images/setting-orange2.svg"
                     alt=""
-                    className="w-[28px] h-[28px] md:w-[48px] md:h-[48px]"
+                    className="w-[28px] h-[28px] md:w-[62px] md:h-[62px] ml-2"
                     loading="lazy"
                   />
                 </span>
@@ -73,7 +73,7 @@ const EmailFinderWorks = () => {
             <p
               data-animate-item
               style={{ transitionDelay: '0.15s' }}
-              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! mt-5! mb-8! md:mb-12! lg:mb-5! text-[#546779] font-['Manrope'] text-center max-w-full mx-auto"
+              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! mt-5! mb-8! md:mb-12! lg:mb-5! text-[#546779] font-['Manrope'] text-center max-w-full mx-auto"
             >
               Most companies follow unique email patterns. Our tool detects these formats automatically, helping you uncover accurate contact details, even for large organizations.
             </p>
@@ -126,7 +126,7 @@ const EmailFinderWorks = () => {
                       style={{ transitionDelay: `${baseDelay + 0.1}s` }}
                     >
                       <img src="/images/Tick.png" alt="checkmark" className="w-5 h-5" loading="lazy" />
-                      <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[20px] xl:text-[22px]">
+                      <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[20px]">
                         {step.chipLabel}
                       </span>
                     </div>
@@ -139,8 +139,8 @@ const EmailFinderWorks = () => {
                       }}
                       data-animate-item
                     >
-                      <h4 className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] font-bold text-[#132436] font-['Inter'] mb-3!">{step.title}</h4>
-                      <p className="text-[16px]  md:text-[18px] lg:text-[20px] xl:text-[24px] font-normal text-[#747C9A] font-['Manrope'] mb-0!">
+                      <h4 className="text-[18px] sm:text-[20px] md:text-[22px]  font-bold text-[#132436] font-['Inter'] mb-3!">{step.title}</h4>
+                      <p className="text-[16px]  md:text-[18px] lg:text-[20px]  font-normal text-[#747C9A] font-['Manrope'] mb-0!">
                         {step.description}
                       </p>
                     </div>

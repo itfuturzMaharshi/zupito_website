@@ -34,7 +34,7 @@ const Productivity = () => {
                   <img
                     src="/images/Powerfull-platform.svg"
                     alt=""
-                    className="w-[28px] h-[28px] md:w-[60px] md:h-[60px] mx-1.5!"
+                    className="w-[28px] h-[28px] md:w-[64px] md:h-[64px] mx-1.5!"
                   />
                 </span>
                 <span className="text-[#3A4A5A] opacity-50">Platform</span>
@@ -48,7 +48,7 @@ const Productivity = () => {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.15s" }}
-                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! text-[#6C728C] font-['Manrope']"
+                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#6C728C] font-['Manrope']"
               >
                 Zupitu's user-friendly interface simplifies prospecting with
                 intuitive tools for high-quality data generation.
@@ -56,7 +56,7 @@ const Productivity = () => {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.22s" }}
-                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! mt-3 text-[#6C728C] font-['Manrope']"
+                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! mt-3 text-[#6C728C] font-['Manrope']"
               >
                 It supports seamless team collaboration, easily handles large
                 data volumes, and offers cost-effective scalability for growing
@@ -111,7 +111,7 @@ const Productivity = () => {
                           <img
                             src="/images/Success.svg"
                             alt=""
-                            className="w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] md:w-[40px] md:h-[40px] mx-1.5!"
+                            className="w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] md:w-[56px] md:h-[56px] mx-1.5!"
                           />
                         </span>
                         <span>Success</span>
@@ -121,7 +121,7 @@ const Productivity = () => {
                         <p
                           data-animate-item
                           style={{ transitionDelay: "0.18s" }}
-                          className="home-description text-[18px]! lg:text-[20px]! xl:text-[24px]! font-normal! text-[#6C728C] font-['Manrope']"
+                          className="home-description text-[16px]! lg:text-[20px]! font-normal! text-[#6C728C] font-['Manrope']"
                         >
                           Zupitu's Team Management features empower businesses
                           with streamlined team management workflows.
@@ -129,7 +129,7 @@ const Productivity = () => {
                         <p
                           data-animate-item
                           style={{ transitionDelay: "0.24s" }}
-                          className="home-description text-[18px]! lg:text-[20px]! xl:text-[24px]! font-normal! text-[#6C728C] font-['Manrope']"
+                          className="home-description text-[16px]! lg:text-[20px]!  font-normal! text-[#6C728C] font-['Manrope']"
                         >
                           Our free platform features help customers to optimize
                           resource allocation and get actionable insights
@@ -139,7 +139,7 @@ const Productivity = () => {
                         <p
                           data-animate-item
                           style={{ transitionDelay: "0.3s" }}
-                          className="home-description text-[18px]! lg:text-[20px]! xl:text-[24px]! font-normal! text-[#6C728C] font-['Manrope']"
+                          className="home-description text-[16px]! lg:text-[20px]! font-normal! text-[#6C728C] font-['Manrope']"
                         >
                           These tools ensure accountability and decision- making
                           for achieving business goals
@@ -192,10 +192,10 @@ const Productivity = () => {
                         />
                       </div>
                       <div className="flex-1 flex flex-col gap-3">
-                        <h4 className="text-[18px]  md:text-[22px] lg:text-[24px] xl:text-[26px] font-bold text-[#132436] font-['Inter'] capitalize">
+                        <h4 className="text-[18px]  md:text-[22px] lg:text-[22px]  font-bold text-[#132436] font-['Inter'] capitalize">
                           {item.title}
                         </h4>
-                        <p className="text-[16px] md:text-[18px] lg:text-[18px] xl:text-[22px] font-normal text-[#747C9A] font-['Manrope']">
+                        <p className="text-[16px] md:text-[18px] lg:text-[20px] font-normal text-[#747C9A] font-['Manrope']">
                           {item.desc}
                         </p>
                       </div>

@@ -56,7 +56,7 @@ const Teams = () => {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.15s" }}
-                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! text-[#546779] font-['Manrope'] max-w-[620px] lg:mt-[10px]"
+                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#546779] font-['Manrope'] max-w-[620px] lg:mt-[10px]"
               >
                 Zupitu’s fast, intuitive platform empowers teams to verify leads
                 quickly with minimal training required.
@@ -96,7 +96,7 @@ const Teams = () => {
                 data-animate-item
                 style={{ transitionDelay: `${0.1 * idx}s` }}
                 data-hover="lift"
-                className="bg-white rounded-[16px] shadow-[0px_7px_16px_0px_#181D2717] px-4! pt-10 pb-15 min-h-[260px] flex flex-col gap-[20px] cursor-pointer"
+                className="bg-white rounded-[16px] shadow-[0px_7px_16px_0px_#181D2717] px-6! pt-10 pb-15 min-h-[260px] flex flex-col gap-[20px] cursor-pointer"
               >
                 <div className="w-[56px] h-[56px] rounded-full bg-[#FAFAFF] flex items-center justify-center">
                   <img
@@ -114,14 +114,14 @@ const Teams = () => {
                         : "/images/campaign-confidence.svg"
                     }
                     alt=""
-                    className="w-[28px] h-[28px]"
+                    className="w-[32px] h-[32px]"
                   />
                 </div>
                 <div className="flex flex-col gap-3">
                   <h3 className="text-[20px]! md:text-[22px]!  xl:text-[24px]!  font-semibold leading-7 text-[#132436] font-['Inter'] capitalize">
                     {item.title}
                   </h3>
-                  <p className="home-description-card lg:text-[18px]! xl:text-[24px]! text-[#747C9A] font-['Manrope']">
+                  <p className="home-description-card lg:text-[20px]! text-[#747C9A] font-['Manrope']">
                     {item.desc}
                   </p>
                 </div>

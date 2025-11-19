@@ -60,7 +60,7 @@ const FAQsPage = () => {
                 >
                   <span className="inline-flex items-center gap-2">
                     {/* Green Checkmark Icon */}
-                    <img src="/images/faq.svg" alt="" className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] shrink-0" />
+                    <img src="/images/faq.svg" alt="" className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] md:w-[64px] md:h-[64px] shrink-0" />
                     Frequently
                   </span>
                   <br className="hidden sm:block" />
@@ -77,7 +77,7 @@ const FAQsPage = () => {
                 <p
                   data-animate-item
                   style={{ transitionDelay: "0.15s" }}
-                  className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! text-[#546779] font-['Manrope']"
+                  className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#546779] font-['Manrope']"
                 >
                   If you're new or looking for answers to your questions, this guide will help you learn more about our services and their features.
                 </p>
@@ -96,11 +96,11 @@ const FAQsPage = () => {
                   <div 
                     data-animate-item
                     style={{ transitionDelay: `${0.1 * (index + 1)}s` }}
-                    className="w-full py-12! lg:py-[32px]! flex items-center justify-between cursor-pointer transition-colors hover:bg-gray-50/50"
+                    className="w-full py-12! lg:py-[28px]! flex items-center justify-between cursor-pointer transition-colors hover:bg-gray-50/50"
                     onClick={() => toggleFAQ(index)}
                   >
                     <div className="flex-1 pr-4!">
-                      <h3 className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] font-semibold text-[#132436] font-['Manrope'] capitalize">
+                      <h3 className="text-[18px] sm:text-[20px] md:text-[22px]  font-semibold text-[#132436] font-['Manrope'] capitalize">
                         {index + 1}. {faq.question}
                       </h3>
                     </div>
@@ -135,7 +135,7 @@ const FAQsPage = () => {
                     }`}
                   >
                     <div className="px-6! lg:px-[30px]! pb-8! lg:pb-12!">
-                      <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-normal text-[#747C9A] font-['Manrope'] max-w-[full]">
+                      <p className="text-[16px] sm:text-[18px] md:text-[20px]  font-normal text-[#747C9A] font-['Manrope'] max-w-[full]">
                         {faq.answer}
                       </p>
                     </div>

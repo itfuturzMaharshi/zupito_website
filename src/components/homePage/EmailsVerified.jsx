@@ -79,7 +79,7 @@ const EmailsVerified = () => {
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
                 <div className="w-full max-w-[717px] h-full flex flex-col gap-10 justify-between">
                   {/* Description text */}
-                  <p className="home-description text-[16px]! sm:text-[18px]! md:text-[20px]! lg:text-[20px]! xl:text-[24px]! font-normal! text-[#4A4E5C] font-['Manrope']">
+                  <p className="home-description text-[16px]! sm:text-[18px]! md:text-[20px]! lg:text-[20px]! font-normal! text-[#4A4E5C] font-['Manrope']">
                     Zupitu ensures your emails always reach the right inbox.
                     High email deliverability is achieved through reduced bounce
                     rates, a healthy email list,
@@ -89,13 +89,13 @@ const EmailsVerified = () => {
                   <div>
                     <button
                       data-hover="lift"
-                      className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize cursor-pointer"
+                      className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px]  sm:leading-[28px] md:leading-[30px] capitalize cursor-pointer"
                     >
                       <span>Explore Email Finder</span>
                       <img
                         src="/images/right-orange-arrow.svg"
                         alt="Right arrow icon"
-                        className="w-5 h-5 mt-1"
+                        className="w-3 h-3"
                       />
                     </button>
                   </div>

@@ -38,13 +38,13 @@ function HeroSection() {
         {/* Dots/backdrop spacing wrapper to mimic Figma breathing room */}
         <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-0! xl:py-0">
           <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-8 lg:gap-10 xl:gap-16 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-8 lg:gap-10 xl:gap-16 items-center [@media(min-width:1024px)_and_(max-width:1279px)]:min-h-[calc(100vh-120px)]">
             {/* Copy */}
-            <div className="order-2 lg:order-1">
+            <div className="order-2 lg:order-1 [@media(min-width:1024px)_and_(max-width:1279px)]:self-center">
               <h1
                 data-animate-item
                 style={{ transitionDelay: "0.05s" }}
-                className="home-main-title text-[#132436] font-bold font-['Inter'] space-y-1"
+                className="home-main-title text-[32px] md:text-[48px] lg:text-[58px] xl:text-[60px] text-[#132436] font-bold font-['Inter'] space-y-1"
               >
                 {/* Line 1: AI Tool To Connect */}
                 <span className="block whitespace-nowrap">
@@ -65,7 +65,7 @@ function HeroSection() {
                     <img
                       src="/images/container.svg"
                       alt=""
-                      className="w-[28px] h-[28px] sm:w-[36px] sm:h-[36px] md:w-[48px] md:h-[48px] lg:w-[56px] lg:h-[56px] xl:w-[64px] xl:h-[64px]"
+                      className="w-[28px] h-[28px] sm:w-[36px] sm:h-[36px] md:w-[48px] md:h-[48px] lg:w-[56px] lg:h-[56px] xl:w-[68px] xl:h-[68px]"
                     />
                   </span>
                   <span>Instantly</span>
@@ -90,28 +90,28 @@ function HeroSection() {
               >
                 <button
                   data-hover="lift"
-                  className="rounded-[40px] whitespace-nowrap  font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[150px] sm:min-w-[170px] md:min-w-[190px] h-[46px] sm:h-[50px] md:h-[54px] px-5! sm:px-6! md:px-[26px] py-2! sm:py-3! md:py-[12px] text-[14px] sm:text-[16px] md:text-[18px] cursor-pointer"
+                  className="rounded-[40px] whitespace-nowrap  font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[150px] sm:min-w-[170px] md:min-w-[190px] h-[46px] sm:h-[50px] md:h-[54px] px-5! sm:px-6! md:px-[26px] py-2! sm:py-3! md:py-[12px] text-[14px] sm:text-[16px] cursor-pointer"
                 >
                   Checkout Deals
                   <img
                     src="/images/right-arrow.svg"
                     alt="Right arrow icon"
-                    className="w-4 h-4 sm:w-5 sm:h-5 mt-1"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                   />
                 </button>
 
                 <button
                    data-hover="lift"
-                  className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] sm:text-[15px] md:text-[20px] cursor-pointer"
+                  className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] sm:text-[15px] md:text-[18px] cursor-pointer"
                 >
                   <span>Claim 300 free credits</span>
                   <img
                     src="/images/right-arrow.svg"
                     alt="Right arrow icon"
-                    className="w-5 h-5 mt-1"
+                    className="w-5 h-5"
                     style={{
                       filter:
-                        "invert(29%) sepia(8%) saturate(576%) hue-rotate(178deg) brightness(95%) contrast(87%)",
+                        "invert(29%) sepia(8%) saturate(576%) hue-rotate(178deg) brightness(10%) contrast(87%)",
                     }}
                   />
                 </button>
@@ -163,7 +163,7 @@ function HeroSection() {
             <div
               data-animate-item="scale"
               style={{ transitionDelay: "0.35s" }}
-              className="order-1 lg:order-2 relative -mt-12! sm:-mt-16! md:-mt-20!"
+              className="order-1 lg:order-2 relative -mt-12! sm:-mt-16! md:-mt-20! [@media(min-width:1024px)_and_(max-width:1279px)]:mt-0"
             >
               <div className="relative w-full h-[240px] sm:h-[320px] md:h-[580px] lg:h-[500px] xl:h-[740px] 2xl:h-[780px]">
                 <img

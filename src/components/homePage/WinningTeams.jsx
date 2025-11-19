@@ -59,7 +59,7 @@ const WinningTeams = () => {
             <p
               data-animate-item
               style={{ transitionDelay: '0.15s' }}
-              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! text-white font-['Manrope'] opacity-70! max-w-[980px] mx-auto"
+              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-white font-['Manrope'] opacity-70! max-w-[980px] mx-auto"
             >
               Zupitu's user-friendly interface simplifies prospecting with intuitive tools for high-quality
               data generation. It supports seamless team collaboration, easily handles large data volumes,
@@ -78,20 +78,20 @@ const WinningTeams = () => {
                 key={idx}
                 data-animate-item
                 style={{ transitionDelay: `${0.1 * idx}s` }}
-                className={`w-full max-w-[250px] h-[200px] sm:max-w-[300px] sm:h-[300px] rounded-[20px] bg-[#FAFBFF] shadow-[0px_4px_7px_0px_#53587B12] px-[22px]! lg:py-[50px]! xl:py-[80px]! flex flex-col items-center justify-center text-center gap-5 cursor-pointer${
+                className={`w-full max-w-[250px] h-[200px] sm:max-w-[300px] sm:h-[300px] rounded-[20px] bg-[#FAFBFF] shadow-[0px_4px_7px_0px_#53587B12] px-[22px]! lg:py-[50px]! xl:py-[80px]! flex flex-col items-center justify-center text-center gap-8 cursor-pointer${
                   idx === 1 || idx === 2 ? ' lg:mt-[56px]!' : ''
                 }`}
               >
-                <div className="text-[#132436] font-['Inter'] font-bold text-[28px]  md:text-[32px]  lg:text-[38px] xl:text-[56px] leading-[28px] sm:leading-[32px] md:leading-[40px] lg:leading-[40px] xl:leading-[40px] tracking-[-1.2px]">
+                <div className="text-[#132436] font-['Inter'] font-bold text-[28px]  md:text-[32px]  lg:text-[38px] xl:text-[52px] leading-[28px] sm:leading-[32px] md:leading-[40px] lg:leading-[40px] xl:leading-[40px] tracking-[-1.2px]">
                   {card.title}
                 </div>
                 {idx === 1 || idx === 2 ? (
-                  <p className="text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px] font-normal leading-6  lg:leading-9  text-[#3A4A5A] font-['Manrope']">
+                  <p className="text-[16px] md:text-[18px] lg:text-[18px] font-normal leading-7  text-[#3A4A5A] font-['Manrope']">
                     <span className="block">Lower Cost Per Lead-</span>
                     <span className="block">Cut costs with verified leads</span>
                   </p>
                 ) : (
-                  <p className="text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px] font-normal leading-6  lg:leading-9 whitespace-pre-line font-['Manrope'] text-[#3A4A5A]">
+                  <p className="text-[16px] md:text-[18px] lg:text-[18px]  font-normal leading-7  whitespace-pre-line font-['Manrope'] text-[#3A4A5A]">
                     {card.desc}
                   </p>
                 )}

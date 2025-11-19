@@ -25,7 +25,7 @@ const EmailFinder = () => {
                     <img
                       src="/images/container.png"
                       alt="CRM features"
-                      className="w-full h-auto max-w-[800px] object-contain rounded-[16px]"
+                      className="w-full h-auto min-w-[400px] sm:min-w-[600px] h-full min-h-[300px]! object-contain rounded-[16px]"
                     />
                   </div>
                 </div>
@@ -35,7 +35,7 @@ const EmailFinder = () => {
                   <div className="max-w-[750px] gap-10 mx-auto flex flex-col justify-between h-full">
                     {/* Fifth image text */}
                     <div>
-                      <p className="home-description text-[16px]! sm:text-[18px]! md:text-[20px]! lg:text-[20px]! xl:text-[24px]! font-normal! text-[#4A4E5C] font-['Manrope']">
+                      <p className="home-description text-[16px]! sm:text-[18px]! md:text-[20px]! lg:text-[20px]! font-normal! text-[#4A4E5C] font-['Manrope']">
                         Beyond Opt-In mail list, email finder is a one of the
                         most reliable sources of building a deliverable list.
                         Zupitu helps you uncover the most accurate.
@@ -44,13 +44,13 @@ const EmailFinder = () => {
                     <div>
                       <button
                         data-hover="lift"
-                        className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:text-[20px] sm:leading-[28px] md:text-[22px] md:leading-[30px] capitalize cursor-pointer"
+                        className="inline-flex font-['Manrope'] items-center gap-2 text-[#EB3609] font-bold text-[18px] leading-[26px] sm:leading-[28px]  md:leading-[30px] capitalize cursor-pointer"
                       >
                         <span>Explore Email Finder</span>
                         <img
                           src="/images/right-orange-arrow.svg"
                           alt="Right arrow icon"
-                          className="w-5 h-5 mt-1"
+                          className="w-3 h-3"
                         />
                       </button>
                     </div>
@@ -105,7 +105,7 @@ const EmailFinder = () => {
                           />
                         </span>
                         <span
-                          className="home-description leading-5!  md:leading-6! lg:leading-8! text-[#3A4A5A] font-['Manrope'] email-finder-label"
+                          className="home-description text-[16px]! sm:text-[20px]! leading-5!  md:leading-6! lg:leading-8! text-[#3A4A5A] font-['Manrope'] email-finder-label"
                           style={{
                             animationDelay: `${0.28 + idx * 0.18}s`,
                             animationDuration: "0.9s",

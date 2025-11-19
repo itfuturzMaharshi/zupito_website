@@ -30,7 +30,7 @@ const EmailPrecision = () => {
               {/* Headline section - fourth image */}
               <div className="w-full lg:w-[full] h-auto lg:h-[164px] flex flex-col ">
                 {/* First line: Lead Generation */}
-                <div className="flex items-center flex-wrap gap-2 sm:gap-3 md:gap-4">
+                <div className="flex items-center flex-wrap gap-2">
                   <span
                     data-animate-item
                     style={{ transitionDelay: "0.05s" }}
@@ -49,18 +49,18 @@ const EmailPrecision = () => {
                   <span
                     data-animate-item
                     style={{ transitionDelay: "0.1s" }}
-                    className="home-title text-[#3A4A5A] font-['Inter'] font-bold opacity-50"
+                    className="home-title text-[#a3a5a8] opacity-50  font-['Inter'] font-bold"
                   >
                     Generation
                   </span>
                 </div>
 
                 {/* Second line: With Email Precision */}
-                <div className="flex items-center flex-wrap gap-2 sm:gap-3 md:gap-4">
+                <div className="flex items-center flex-wrap gap-2">
                   <span
                     data-animate-item
                     style={{ transitionDelay: "0.15s" }}
-                    className="home-title text-[#3A4A5A] font-['Inter'] font-bold opacity-50"
+                    className="home-title text-[#a3a5a8] font-['Inter'] font-bold opacity-50"
                   >
                     With
                   </span>
@@ -88,7 +88,7 @@ const EmailPrecision = () => {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.25s" }}
-                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[24px]! xl:text-[26px]! text-[#546779] font-['Manrope'] text-left"
+                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#546779] font-['Manrope'] text-left"
               >
                 Your email marketing success depends upon valid and opt-in email
                 database.<br /> An email verifier helps you maintain a valid list and
