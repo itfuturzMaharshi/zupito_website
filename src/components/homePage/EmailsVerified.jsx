@@ -10,13 +10,13 @@ const EmailsVerified = () => {
       className="relative w-full bg-white overflow-hidden"
     >
       {/* Outer container mirrors EmailPrecision spacing rhythm */}
-      <div className="w-full h-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! pt-10! lg:pt-16! xl:pt-20!">
+      <div className="w-full h-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! pt-10! lg:pt-16!">
         <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
           {/* Main container - first image: width 1362px, height 624px, gap 24px */}
-          <div className="w-full max-w-[full] mx-auto max-h-auto lg:h-[full] grid grid-cols-1 lg:grid-cols-2 items-stretch gap-6 md:gap-8">
+          <div className="w-full max-w-[full] mx-auto max-h-auto lg:h-[full] lg:flex items-stretch gap-6 md:gap-8">
             {/* Left column - second image: width 555px, height 623px, gap 20px, border-radius 24px, padding 24px, background #F0EBFF */}
             <div
-              className="w-full lg:w-[full] h-auto lg:h-full rounded-[24px] p-6! bg-[#F0EBFF] flex flex-col gap-5"
+              className="w-full lg:w-[510px] h-auto lg:h-full rounded-[24px] p-6! bg-[#F0EBFF] flex flex-col gap-5  mb-4 lg:mb-0"
               data-animate-item
             >
               {/* Title section */}
@@ -24,7 +24,7 @@ const EmailsVerified = () => {
                 <h2
                   data-animate-item
                   style={{ transitionDelay: "0.08s" }}
-                  className="home-subtitle sm:text-[24px]! md:text-[28px]! lg:text-[32px]! sm:leading-[32px]! md:leading-[36px]! lg:leading-[40px]! font-['Inter'] text-center"
+                  className="home-subtitle sm:text-[24px]! sm:leading-[32px]! md:leading-[36px]! lg:leading-[40px]! font-['Inter'] text-center"
                 >
                   <span className="text-[#132436]">
                     Lead Generation <span className="text-[#9C93B4]">with</span>{" "}
@@ -72,12 +72,12 @@ const EmailsVerified = () => {
 
               {/* Bottom section - width 781px, height 240px, padding 30px 32px, border-radius bottom 24px, background #F9F9F8 */}
               <div
-                className="w-full max-w-[781px] mx-auto lg:mx-0 h-auto  rounded-b-[24px] bg-[#F9F9F8] p-6 flex flex-col"
+                className="w-full max-w-[781px] mx-auto lg:mx-0 h-auto  rounded-b-[24px] bg-[#F9F9F8] px-6 py-4 flex flex-col"
                 data-animate-item
                 style={{ transitionDelay: "0.3s" }}
               >
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
-                <div className="w-full max-w-[717px] h-full flex flex-col gap-10 justify-between">
+                <div className="w-full max-w-[717px] h-full flex flex-col gap-2 justify-between">
                   {/* Description text */}
                   <p className="home-description text-[16px]! sm:text-[18px]! md:text-[20px]! lg:text-[20px]! font-normal! text-[#4A4E5C] font-['Manrope']">
                     Zupitu ensures your emails always reach the right inbox.

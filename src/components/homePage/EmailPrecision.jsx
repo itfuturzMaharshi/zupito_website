@@ -10,17 +10,17 @@ const EmailPrecision = () => {
       className="relative w-full bg-white overflow-hidden"
     >
       {/* Outer container mirrors ActionsPage spacing rhythm */}
-      <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! pt-10! lg:pt-16! xl:pt-20!">
+      <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! pt-10! lg:pt-16!">
         <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
           {/* Main container - first image */}
           <div className="w-full max-w-[full] mx-auto h-auto  flex flex-col lg:flex-row lg:justify-between lg:items-center gap-6 md:gap-8 lg:gap-0">
             {/* Left section - second image */}
-            <div className="w-full lg:w-[600px] xl:w-[650px] h-auto  flex flex-col gap-4 md:gap-5 lg:gap-6">
+            <div className="w-full lg:w-[560px] h-auto  flex flex-col gap-4">
               {/* Plugin integration tag - third image */}
               <div className="text-center flex">
                 <div
                   data-animate-item
-                  className="inline-flex items-center font-['Inter'] justify-center gap-[6px] rounded-[50px] bg-[#F6F6F6] w-[187px] h-[42px] px-4 py-3 text-[16px] leading-[18px] font-semibold text-[#132436] capitalize"
+                  className="inline-flex items-center font-['Inter'] justify-center gap-[6px] rounded-[50px] bg-[#F6F6F6] w-[160px] h-[34px] px-2 py-2 text-[14px] leading-[18px] font-semibold text-[#132436] capitalize"
                 >
                   <span className="w-2 h-2 rounded-full bg-[#3B82F6]" />
                   Plugin Integration
@@ -28,7 +28,7 @@ const EmailPrecision = () => {
               </div>
 
               {/* Headline section - fourth image */}
-              <div className="w-full lg:w-[full] h-auto lg:h-[164px] flex flex-col ">
+              <div className="w-full lg:w-[full] h-auto lg:min-h-[120px] flex flex-col ">
                 {/* First line: Lead Generation */}
                 <div className="flex items-center flex-wrap gap-2">
                   <span
@@ -88,7 +88,7 @@ const EmailPrecision = () => {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.25s" }}
-                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#546779] font-['Manrope'] text-left"
+                className="home-description-plugin sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#546779] font-['Manrope'] text-left"
               >
                 Your email marketing success depends upon valid and opt-in email
                 database.<br /> An email verifier helps you maintain a valid list and

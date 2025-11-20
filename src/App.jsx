@@ -21,12 +21,12 @@ function App() {
             <HomePage />
           </>
         } />
-        <Route path="/use-cases" element={<UseCasesPage />} />
+        {/* <Route path="/use-cases" element={<UseCasesPage />} />
         <Route path="/email-finder" element={<EmailFinderPage />} />
         <Route path="/email-verifier" element={<EmailVerifierPage />} />
         <Route path="/help-desk" element={<HelpDeskPage />} />
         <Route path="/deals" element={<DealsPage />} />
-        <Route path="/pricing" element={<PricingPage />} />
+        <Route path="/pricing" element={<PricingPage />} /> */}
       </Routes>
     </Router>
   );

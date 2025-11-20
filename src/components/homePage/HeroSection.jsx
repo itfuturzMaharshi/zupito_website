@@ -38,13 +38,13 @@ function HeroSection() {
         {/* Dots/backdrop spacing wrapper to mimic Figma breathing room */}
         <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-10! lg:py-0! xl:py-0">
           <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-8 lg:gap-10 xl:gap-16 items-center [@media(min-width:1024px)_and_(max-width:1279px)]:min-h-[calc(100vh-120px)]">
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center [@media(min-width:1024px)_and_(max-width:1279px)]:min-h-[calc(100vh-120px)]">
             {/* Copy */}
-            <div className="order-2 lg:order-1 [@media(min-width:1024px)_and_(max-width:1279px)]:self-center">
+            <div className="order-2 lg:order-1 [@media(min-width:1024px)_and_(max-width:1279px)]:self-center pt-4 lg:pt-0">
               <h1
                 data-animate-item
                 style={{ transitionDelay: "0.05s" }}
-                className="home-main-title text-[32px] md:text-[48px] lg:text-[58px] xl:text-[60px] text-[#132436] font-bold font-['Inter'] space-y-1"
+                className="home-main-title text-[32px] md:text-[48px] lg:text-[54px] text-[#132436] font-bold font-['Inter'] space-y-1"
               >
                 {/* Line 1: AI Tool To Connect */}
                 <span className="block whitespace-nowrap">
@@ -75,7 +75,7 @@ function HeroSection() {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.15s" }}
-                className="home-main-description text-[#63778B] font-['Manrope'] max-w-[full] sm:max-w-[640px] md:max-w-[720px] mt-5! sm:mt-6!"
+                className="home-main-description text-[#63778B] font-['Manrope'] max-w-[full] sm:max-w-[410px] mt-5! sm:mt-6!"
               >
                 Simplify outreach with Zupitu's AI Email Verifier & Finder –
                 validate emails, find business contacts, and boost
@@ -90,7 +90,7 @@ function HeroSection() {
               >
                 <button
                   data-hover="lift"
-                  className="rounded-[40px] whitespace-nowrap  font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[150px] sm:min-w-[170px] md:min-w-[190px] h-[46px] sm:h-[50px] md:h-[54px] px-5! sm:px-6! md:px-[26px] py-2! sm:py-3! md:py-[12px] text-[14px] sm:text-[16px] cursor-pointer"
+                  className="rounded-[40px] whitespace-nowrap font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[150px] h-[46px] px-4! py-2! text-[14px] cursor-pointer"
                 >
                   Checkout Deals
                   <img
@@ -102,7 +102,7 @@ function HeroSection() {
 
                 <button
                    data-hover="lift"
-                  className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] sm:text-[15px] md:text-[18px] cursor-pointer"
+                  className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] cursor-pointer"
                 >
                   <span>Claim 300 free credits</span>
                   <img
@@ -120,11 +120,11 @@ function HeroSection() {
               <div className="mt-10! sm:mt-12! md:mt-14! lg:mt-12! mb-4 w-full max-w-[565px] h-px bg-linear-to-l from-transparent to-[#666666]/20" />
 
               {/* Trust bullets */}
-              <div className="mt-6! sm:mt-8! md:mt-10! lg:mt-10! flex items-center gap-3 sm:gap-4 md:gap-6! flex-wrap">
+              <div className="mt-6! sm:mt-8! md:mt-10! lg:mt-10! flex items-center gap-3 flex-wrap">
                 <div
                   data-animate-item
                   style={{ transitionDelay: "0.35s" }}
-                  className="flex items-center gap-[10px] h-[44px] sm:h-[48px] md:h-[54px] rounded-[50px] bg-[#FCFCFD] border border-[#EEF0F3] px-3! sm:px-4! py-2! sm:py-3! cursor-pointer"
+                  className="flex items-center gap-[10px] h-[44px] rounded-[50px] bg-[#FCFCFD] border border-[#EEF0F3] px-3! py-2! cursor-pointer"
                   data-hover="lift"
                 >
                   <span className="inline-flex items-center justify-center w-4 h-4 sm:w-5 sm:h-5 rounded-full  text-white">
@@ -134,7 +134,7 @@ function HeroSection() {
                       className="w-3 h-3 sm:w-3.5 sm:h-3.5"
                     />
                   </span>
-                  <span className="text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] whitespace-nowrap  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
+                  <span className="text-[15px] whitespace-nowrap  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
                     Flexible solution
                   </span>
                 </div>
@@ -142,7 +142,7 @@ function HeroSection() {
                 <div
                   data-animate-item
                   style={{ transitionDelay: "0.4s" }}
-                  className="flex items-center gap-[10px] h-[44px] sm:h-[48px] md:h-[54px] rounded-[50px] bg-[#FCFCFD] border border-[#EEF0F3] px-3! sm:px-4! py-2! sm:py-3! cursor-pointer"
+                  className="flex items-center gap-[10px] h-[44px] rounded-[50px] bg-[#FCFCFD] border border-[#EEF0F3] px-3! py-2! cursor-pointer"
                   data-hover="lift"
                 >
                   <span className="inline-flex items-center justify-center w-4 h-4 sm:w-5 sm:h-5 rounded-full text-white">
@@ -152,7 +152,7 @@ function HeroSection() {
                       className="w-3 h-3 sm:w-3.5 sm:h-3.5"
                     />
                   </span>
-                  <span className="text-[18px] sm:text-[16px] md:text-[18px] whitespace-nowrap lg:text-[18px]  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
+                  <span className="text-[15px]  whitespace-nowrap  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
                     No credit card required
                   </span>
                 </div>

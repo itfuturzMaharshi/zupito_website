@@ -10,12 +10,12 @@ const Teams = () => {
       className="relative w-full bg-[#FDF9FB] overflow-hidden"
     >
       {/* Outer container spacing mirrors ActionsPage rhythm */}
-      <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-12! lg:py-16! xl:py-20!">
+      <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-12! lg:py-16!">
         <div className="max-w-[full] lg:max-w-[1362px] mx-auto">
           {/* Top badge */}
           <div
             data-animate-item
-            className="inline-flex font-['Manrope'] items-center justify-center gap-[6px] rounded-[50px] bg-[#FFE9F2] px-4! py-3 h-[42px] sm:h-[46px] text-center align-middle font-bold text-[#132436] text-[14px] leading-[100%] sm:text-[16px] md:text-[18px]"
+            className="inline-flex font-['Manrope'] items-center justify-center gap-[6px] rounded-[50px] bg-[#FFE9F2] px-2! py-2 h-[34px] text-center align-middle font-bold text-[#132436] text-[14px] leading-[100%]"
           >
             <span className="w-2.5 h-2.5 rounded-full bg-[#5B7CF5]" />
             <span>Plugin integration</span>
@@ -27,7 +27,7 @@ const Teams = () => {
             <h2
               data-animate-item
               style={{ transitionDelay: "0.08s" }}
-              className="home-title xl:w-[590px] font-['Inter'] font-bold text-[#132436]"
+              className="home-title xl:w-[560px] font-['Inter'] font-bold text-[#132436]"
             >
               <span className="inline-block align-middle">
                 Reach
@@ -56,7 +56,7 @@ const Teams = () => {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.15s" }}
-                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#546779] font-['Manrope'] max-w-[620px] lg:mt-[10px]"
+                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#546779] font-['Manrope'] max-w-[620px]"
               >
                 Zupitu’s fast, intuitive platform empowers teams to verify leads
                 quickly with minimal training required.
@@ -64,7 +64,7 @@ const Teams = () => {
             </div>
           </div>
           {/* Features grid */}
-          <div className="mt-10! sm:mt-12! md:mt-16! lg:mt-25! grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-[30px]">
+          <div className="mt-10! sm:mt-12! grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-[20px]">
             {[
               {
                 title: "Streamlined Efficiency",
@@ -96,7 +96,7 @@ const Teams = () => {
                 data-animate-item
                 style={{ transitionDelay: `${0.1 * idx}s` }}
                 data-hover="lift"
-                className="bg-white rounded-[16px] shadow-[0px_7px_16px_0px_#181D2717] px-6! pt-10 pb-15 min-h-[260px] flex flex-col gap-[20px] cursor-pointer"
+                className="bg-white rounded-[16px] shadow-[0px_7px_16px_0px_#181D2717] px-5! pt-8 pb-10 min-h-[260px] flex flex-col gap-[16px] cursor-pointer"
               >
                 <div className="w-[56px] h-[56px] rounded-full bg-[#FAFAFF] flex items-center justify-center">
                   <img
@@ -118,7 +118,7 @@ const Teams = () => {
                   />
                 </div>
                 <div className="flex flex-col gap-3">
-                  <h3 className="text-[20px]! md:text-[22px]!  xl:text-[24px]!  font-semibold leading-7 text-[#132436] font-['Inter'] capitalize">
+                  <h3 className="text-[20px]! font-semibold leading-7 text-[#132436] font-['Inter'] capitalize">
                     {item.title}
                   </h3>
                   <p className="home-description-card lg:text-[20px]! text-[#747C9A] font-['Manrope']">

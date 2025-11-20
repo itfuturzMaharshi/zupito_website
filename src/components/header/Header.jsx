@@ -42,23 +42,23 @@ function Header() {
   }, [isProductDropdownOpen]);
 
   return (
-    <header className="sticky top-0 w-full h-[84px] bg-white border-b border-[#EEF0F3] z-50">
+    <header className="sticky top-0 w-full h-[72px] sm:h-[76px] md:h-[80px] lg:h-[84px] bg-white border-b border-[#EEF0F3] z-50">
       {/* Container with responsive padding */}
-      <div className="w-full h-full px-6! sm:px-8! md:px-12! lg:px-10! xl:px-24! 2xl:px-[150px]!">
-        {/* Content wrapper with max-width 1520px and space-between layout */}
-        <div className="max-w-full lg:max-w-[1362px] h-full mx-auto flex items-center justify-between">
+      <div className="w-full h-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
+        {/* Content wrapper with max-width 1280px and space-between layout */}
+        <div className="max-w-[1280px] h-full mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="shrink-0">
-            <img src="/images/zupito_logo.png" alt="Zupito" className="h-7 sm:h-9 md:h-10 w-auto" />
+            <img src="/images/zupito_logo.png" alt="Zupito" className="h-6 sm:h-7 md:h-8 w-auto" />
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-4 xl:gap-5 2xl:gap-8 relative">
+          <nav className="hidden lg:flex items-center gap-4 xl:gap-7 relative">
             <div className="relative" ref={dropdownRef}>
               <button 
                 onClick={toggleProductDropdown}
                 className="flex items-center gap-1 text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-                style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
               >
                 Product
                 <svg 
@@ -109,7 +109,7 @@ function Header() {
             <Link 
               to="/use-cases" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
             >
               Use Cases
             </Link>
@@ -117,18 +117,18 @@ function Header() {
             <Link 
               to="/pricing" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
             >
               Pricing
             </Link>
             
             <button 
               className="flex items-center gap-1 text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
             >
               Resources
               <svg 
-                className="w-4 h-4" 
+                className="w-3.5 h-3.5" 
                 fill="none" 
                 stroke="currentColor" 
                 viewBox="0 0 24 24"
@@ -140,7 +140,7 @@ function Header() {
             <a 
               href="#blog" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
             >
               Blog
             </a>
@@ -148,23 +148,17 @@ function Header() {
             <Link 
               to="/deals" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
             >
               Deals
             </Link>
           </nav>
 
           {/* Desktop Action Buttons */}
-          <div className="hidden lg:flex items-center shrink-0 gap-4 md:gap-2">
+          <div className="hidden lg:flex items-center shrink-0 gap-2 xl:gap-3">
             {/* Start for Free Button */}
             <button 
-              className="flex px-6 py-4 gap-2 items-center justify-center transition-colors rounded-[40px] bg-[#F6F6F6] hover:bg-[#EEEEEE]"
-              style={{ 
-                // minWidth: '160px', 
-                // height: '52px', 
-                // padding: '14px 20px',
-                // gap: '10px'
-              }}
+              className="flex px-5 py-4 gap-1.5 items-center justify-center transition-colors rounded-[40px] bg-[#F6F6F6] hover:bg-[#EEEEEE]"
             >
               <img 
                 src="/images/user-rounded.svg" 
@@ -173,7 +167,7 @@ function Header() {
               />
               <span 
                 className="text-[#132436] whitespace-nowrap header-button-text"
-                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '15px', lineHeight: '100%' }}
               >
                 Start for Free
               </span>
@@ -181,17 +175,11 @@ function Header() {
 
             {/* Log In Button */}
             <button 
-              className="flex px-6 py-4 gap-2 items-center justify-center transition-colors rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35]"
-              style={{ 
-                // minWidth: '130px', 
-                // height: '52px', 
-                // padding: '14px 28px',
-                // gap: '10px'
-              }}
+              className="flex px-5 py-4 gap-1.5 items-center justify-center transition-colors rounded-[50px] bg-[#EB3609] hover:bg-[#FF6B35]"
             >
               <span 
                 className="text-white whitespace-nowrap header-button-text"
-                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '15px', lineHeight: '100%' }}
               >
                 Log In
               </span>
