@@ -77,7 +77,7 @@ const DummyHeader = () => {
 
   return (
     <header
-      className="w-full bg-white border-b border-[#EEF0F3]"
+      className="w-full bg-white border-b border-[#EEF0F3] sticky top-0 z-40"
       style={{
         height: "93px",
         borderBottomWidth: "0.75px",
