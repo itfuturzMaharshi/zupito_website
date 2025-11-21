@@ -24,14 +24,14 @@ const Footer = () => {
           <img
             src="/images/home-footer-vector.png"
             alt=""
-            className="pointer-events-none select-none absolute w-[120px] z-[1] sm:w-[160px] md:w-[190px]"
+            className="hidden lg:flex pointer-events-none select-none absolute w-[120px] z-[1] sm:w-[160px] md:w-[190px]"
             style={{
               right: 'clamp(50px, 2.5vw, 15px)',
               top: 'clamp(150px, 4.5vh, 45px)',
             }}
           />
           <div 
-            className="absolute pointer-events-none z-[1] w-40 h-40 sm:w-44 sm:h-44 md:w-52 md:h-52"
+            className="hidden lg:flex absolute pointer-events-none z-[1] w-40 h-40 sm:w-44 sm:h-44 md:w-52 md:h-52"
             style={{
               left: '35px',
               bottom: '67%',
@@ -46,7 +46,7 @@ const Footer = () => {
           <img
             src="/images/orange-circle.png"
             alt=""
-            className="pointer-events-none select-none absolute w-[40px] sm:w-[45px] md:w-[50px]"
+            className="hidden lg:flex pointer-events-none select-none absolute w-[40px] sm:w-[45px] md:w-[50px]"
             style={{
               top: 'clamp(135px, 15vh, 170px)',
               right: 'clamp(15px, 3vw, 30px)',

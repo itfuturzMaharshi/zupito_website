@@ -246,8 +246,21 @@ body {
     font-size: 18px !important;
   }
 }
+@media (max-width: 640px) {
+  .home-title {
+    font-size: 34px !important;
+  }
+}
 @media (max-width: 470px) {
   .home-subtitle {
     font-size: 22px !important;
+  }
+  .home-title {
+    font-size: 32px !important;
+  }
+}
+@media (max-width: 445px) {
+  .home-title {
+    font-size: 30px !important;
   }
 }
