@@ -37,7 +37,7 @@ const EmailFinderWorks = () => {
     >
       {/* Outer container spacing mirrors other homepage sections */}
       <div
-        className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-12! lg:py-16! xl:py-20! overflow-visible"
+        className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-12! lg:py-14! overflow-visible"
         style={{ overflow: 'visible', minHeight: 'auto' }}
       >
         <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative overflow-visible">
@@ -45,7 +45,7 @@ const EmailFinderWorks = () => {
           <div className="text-center">
             <div
               data-animate-item
-              className="inline-flex font-['Manrope'] items-center justify-center gap-[6px] rounded-[50px] bg-[#FFE9F2] px-4 py-3 h-[49px] min-w-[192px] text-[16px] md:text-[18px] leading-[100%] font-bold text-[#132436]"
+              className="inline-flex font-['Manrope'] items-center justify-center gap-[6px] rounded-[50px] bg-[#FFE9F2] px-3 py-2 h-[34px] text-[14px] leading-[100%] font-bold text-[#132436]"
             >
               <span className="w-2.5 h-2.5 rounded-full bg-[#7B8DFF]" />
               <span>Type Something</span>
@@ -54,7 +54,7 @@ const EmailFinderWorks = () => {
             <h2
               data-animate-item
               style={{ transitionDelay: '0.08s' }}
-              className="home-title mt-5! text-[#132436] font-['Inter'] font-bold text-center"
+              className="home-title mt-3! text-[#132436] font-['Inter'] font-bold text-center"
             >
               <span className="inline-block align-middle">
                 How Our
@@ -73,7 +73,7 @@ const EmailFinderWorks = () => {
             <p
               data-animate-item
               style={{ transitionDelay: '0.15s' }}
-              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! mt-5! mb-8! md:mb-12! lg:mb-5! text-[#546779] font-['Manrope'] text-center max-w-full mx-auto"
+              className="home-description mt-2! mb-6! lg:px-17 lg:mb-2! text-[#546779] font-['Manrope'] text-center max-w-full mx-auto"
             >
               Most companies follow unique email patterns. Our tool detects these formats automatically, helping you uncover accurate contact details, even for large organizations.
             </p>
@@ -109,12 +109,12 @@ const EmailFinderWorks = () => {
                     }}
                   >
                     <div
-                      className="w-full flex justify-center mt-[28px]!"
+                      className="w-full flex justify-center mt-[20px]!"
                       data-animate-item="scale"
                       style={{ transitionDelay: `${baseDelay + 0.05}s` }}
                     >
-                      <div className="email-works-number inline-flex items-center justify-center w-[64px] h-[40px] md:w-[79px] md:h-[52px] rounded-[6px] bg-white shadow-[0_2px_6px_#00000012]">
-                        <span className="text-[#132436] font-['Inter'] font-bold text-[18px] md:text-[22px] lg:text-[26px] tracking-[-0.32px]">
+                      <div className="email-works-number inline-flex items-center justify-center w-[54px] h-[42px] rounded-[6px] bg-white shadow-[0_2px_6px_#00000012]">
+                        <span className="text-[#132436] font-['Inter'] font-bold text-[18px] md:text-[22px] tracking-[-0.32px]">
                           {step.number}
                         </span>
                       </div>
@@ -126,12 +126,12 @@ const EmailFinderWorks = () => {
                       style={{ transitionDelay: `${baseDelay + 0.1}s` }}
                     >
                       <img src="/images/Tick.png" alt="checkmark" className="w-5 h-5" loading="lazy" />
-                      <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope'] md:text-[18px] lg:text-[20px]">
+                      <span className="text-[#3A4A5A] font-medium text-[16px] font-['Manrope']">
                         {step.chipLabel}
                       </span>
                     </div>
                     <div
-                      className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! lg:p-[30px]! mb-0! overflow-visible"
+                      className="w-full rounded-[16px] bg-white p-[22px]! md:p-[26px]! mb-0! overflow-visible"
                       style={{
                         overflow: 'visible',
                         height: 'auto',
@@ -139,8 +139,8 @@ const EmailFinderWorks = () => {
                       }}
                       data-animate-item
                     >
-                      <h4 className="text-[18px] sm:text-[20px] md:text-[22px]  font-bold text-[#132436] font-['Inter'] mb-3!">{step.title}</h4>
-                      <p className="text-[16px]  md:text-[18px] lg:text-[20px]  font-normal text-[#747C9A] font-['Manrope'] mb-0!">
+                      <h4 className="text-[18px] sm:text-[20px]  font-bold text-[#132436] font-['Inter'] mb-2!">{step.title}</h4>
+                      <p className="text-[16px]  md:text-[18px]  font-normal text-[#747C9A] font-['Manrope'] mb-0!">
                         {step.description}
                       </p>
                     </div>

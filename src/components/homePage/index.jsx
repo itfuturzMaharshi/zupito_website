@@ -21,11 +21,11 @@ const HomePage = () => {
       <EmailsVerified />
       <EmailFinder />
       <Teams />
-       {/* <WinningTeams />
+      <WinningTeams />
       <Productivity />
       <EmailFinderWorks />
       <FAQsPage />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }

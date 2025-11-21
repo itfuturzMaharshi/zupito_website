@@ -20,14 +20,14 @@ const WinningTeams = () => {
           }}
         >
           {/* Top copy block */}
-          <div className="text-center flex flex-col items-center gap-[21px]">
+          <div className="text-center flex flex-col items-center gap-[8px]">
             {/* Pill */}
             <div
               data-animate-item
-              className="inline-flex items-center justify-center gap-[6px] rounded-[50px] px-4! py-3! h-[49px] bg-white/10"
+              className="inline-flex items-center justify-center gap-[6px] rounded-[50px] px-3! py-2! h-[34px] bg-white/10"
             >
               <span className="w-2.5 h-2.5 rounded-full bg-[#6EA8FF]" />
-              <span className="text-white font-bold text-[16px] sm:text-[18px] font-['Manrope'] leading-[100%]">Commitment</span>
+              <span className="text-white font-bold text-[14px] font-['Manrope'] leading-[100%]">Commitment</span>
             </div>
 
             {/* Heading */}
@@ -42,8 +42,8 @@ const WinningTeams = () => {
                 <span className="text-white">Trust Zupitu </span>
                 <span className="text-[#717680]">to</span>
               </span>
-              <span className="mt-2 block max-w-[900px] mx-auto">
-                <span className="text-white">Crush </span>
+              <span className=" block max-w-[900px] mx-auto">
+                <span className="text-[#717680]">Crush </span>
                 <span className="inline-flex items-center justify-center align-middle relative">
                   <img
                     src="/images/Commitment.svg"
@@ -59,7 +59,7 @@ const WinningTeams = () => {
             <p
               data-animate-item
               style={{ transitionDelay: '0.15s' }}
-              className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-white font-['Manrope'] opacity-70! max-w-[980px] mx-auto"
+              className="home-description sm:text-[18px]! text-white font-['Manrope'] opacity-70! max-w-[980px] mx-auto"
             >
               Zupitu's user-friendly interface simplifies prospecting with intuitive tools for high-quality
               data generation. It supports seamless team collaboration, easily handles large data volumes,
@@ -78,11 +78,11 @@ const WinningTeams = () => {
                 key={idx}
                 data-animate-item
                 style={{ transitionDelay: `${0.1 * idx}s` }}
-                className={`w-full max-w-[250px] h-[200px] sm:max-w-[300px] sm:h-[300px] rounded-[20px] bg-[#FAFBFF] shadow-[0px_4px_7px_0px_#53587B12] px-[22px]! lg:py-[50px]! xl:py-[80px]! flex flex-col items-center justify-center text-center gap-8 cursor-pointer${
+                className={`w-full max-w-[214px] h-[230px] rounded-[20px] bg-[#FAFBFF] shadow-[0px_4px_7px_0px_#53587B12] px-[18px]! lg:py-[50px]! xl:py-[80px]! flex flex-col items-center justify-center text-center gap-3 cursor-pointer${
                   idx === 1 || idx === 2 ? ' lg:mt-[56px]!' : ''
                 }`}
               >
-                <div className="text-[#132436] font-['Inter'] font-bold text-[28px]  md:text-[32px]  lg:text-[38px] xl:text-[52px] leading-[28px] sm:leading-[32px] md:leading-[40px] lg:leading-[40px] xl:leading-[40px] tracking-[-1.2px]">
+                <div className="text-[#132436] font-['Inter'] font-bold text-[28px]  md:text-[32px]  lg:text-[38px] leading-[28px] sm:leading-[32px] md:leading-[40px] lg:leading-[40px] xl:leading-[40px] tracking-[-1.2px]">
                   {card.title}
                 </div>
                 {idx === 1 || idx === 2 ? (
