@@ -165,7 +165,7 @@ function HeroSection() {
               style={{ transitionDelay: "0.35s" }}
               className="order-1 lg:order-2 relative -mt-12! sm:-mt-16! md:-mt-20! [@media(min-width:1024px)_and_(max-width:1279px)]:mt-0"
             >
-              <div className="relative w-full h-[240px] sm:h-[320px] md:h-[580px] lg:h-[500px] xl:h-[740px] 2xl:h-[780px]">
+              <div className="relative w-full h-[450px] md:h-[580px] lg:h-[500px] xl:h-[740px] 2xl:h-[780px]">
                 <img
                   src="/images/hero_img.png"
                   alt="Zupito email automation flow"
