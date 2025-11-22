@@ -9,11 +9,11 @@ const CRMManagement = () => {
 
   return (
     <section className="relative w-full flex items-center justify-center overflow-hidden">
-      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[80px] sm:py-[100px]">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-0 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[70px]">
         <div className="relative w-full max-w-full lg:max-w-[1362px] mx-auto rounded-[24px]">
-          <div className="w-full max-w-full lg:max-w-[1362px] mx-auto  flex flex-col gap-[80px]">
+          <div className="w-full max-w-full lg:max-w-[1362px] mx-auto  flex flex-col gap-[50px] px-4 sm:px-6 md:px-8 lg:px-12">
             <div
-              className="w-full max-w-full lg:max-w-[1362px] mx-auto h-[125px] flex items-center justify-center rounded-[16px] relative"
+              className="w-full max-w-full lg:max-w-[1362px] mx-auto h-[95px] flex items-center justify-center rounded-[16px] relative"
               style={{
                 background:
                   "linear-gradient(90deg, rgba(241, 244, 247, 0.5) 0%, rgba(221, 238, 255, 0.5) 100%)",
@@ -21,7 +21,7 @@ const CRMManagement = () => {
               }}
             >
               <h1
-                className="text-center font-['Inter'] font-bold text-[clamp(32px,5vw,54px)] leading-[100%] tracking-[0%]"
+                className="text-center font-['Inter'] font-bold text-[30px] lg:text-[40px] leading-[100%] tracking-[0%]"
                 style={{
                   color: "#053155",
                   transform: "rotate(180deg)",
@@ -32,19 +32,20 @@ const CRMManagement = () => {
             </div>
 
             <div className="w-full max-w-full lg:max-w-[1362px] mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-[50px]">
-              <div className="w-full lg:max-w-[629px] lg:flex-1 flex flex-col gap-[31px]">
-                <div className="w-full flex flex-col gap-[16px]">
+              <div className="w-full lg:max-w-[629px] lg:flex-1 flex flex-col gap-[21px]">
+                <div className="w-full flex flex-col gap-[8px]">
                   <div className="w-full flex flex-col gap-[14px]">
                     <h2
-                      className="font-['Inter'] font-semibold text-[clamp(28px,3.5vw,36px)] leading-[50px] tracking-[-1.5px] capitalize flex flex-wrap items-center justify-center sm:justify-start gap-2 text-center sm:text-left"
+                      className="font-['Inter'] font-semibold text-[28px] capitalize flex flex-wrap items-center justify-center sm:justify-start text-center sm:text-left"
                       style={{
                         fontWeight: 600,
                         color: "#132436",
                       }}
                     >
-                      <span>Keep your database</span>
-                      <span>clean &</span>
-                      <span className="inline-flex items-center justify-center w-[38px] h-[38px] shrink-0">
+                      <span>Keep your database </span>
+                      <div className="inline-flex items-center justify-center">
+                      <span> clean & </span>
+                      <span className="inline-flex items-center justify-center w-[38px] h-[38px] shrink-0 mx-2">
                         <img
                           src="/images/setting-orange-6.svg"
                           alt="Check icon"
@@ -52,11 +53,12 @@ const CRMManagement = () => {
                         />
                       </span>
                       <span>actionable</span>
+                      </div>
                     </h2>
                   </div>
                   <div className="w-full flex flex-col gap-[10px]">
                     <p
-                      className="font-['Manrope'] font-medium text-[clamp(18px,2.5vw,20px)] leading-[32px] tracking-[0px]"
+                      className="font-['Manrope'] font-medium text-[18px] leading-[32px] tracking-[0px]"
                       style={{
                         fontWeight: 500,
                         color: "#3C4E60",
@@ -68,7 +70,7 @@ const CRMManagement = () => {
                       fills your CRM with fresh contacts.
                     </p>
                     <p
-                      className="font-['Manrope'] font-medium text-[clamp(18px,2.5vw,20px)] leading-[32px] tracking-[0px]"
+                      className="font-['Manrope'] font-medium text-[18px] leading-[32px] tracking-[0px]"
                       style={{
                         fontWeight: 500,
                         color: "#3C4E60",
@@ -80,7 +82,7 @@ const CRMManagement = () => {
                   </div>
                 </div>
 
-                <div className="w-full flex flex-col gap-[24px]">
+                <div className="w-full flex flex-col gap-[18px]">
                   {bulletPoints.map((point) => (
                     <div
                       key={point}

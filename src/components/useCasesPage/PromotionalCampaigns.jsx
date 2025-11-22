@@ -8,11 +8,11 @@ const PromotionalCampaigns = () => {
         background: "linear-gradient(180deg, #F4FFF8 0%, #F8F7FF 100%)",
       }}
     >
-      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[100px]">
+      <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-0 sm:px-6 md:px-8 lg:px-12 xl:px-[100px] 2xl:px-[150px] py-[70px]">
         <div className="relative w-full max-w-full lg:max-w-[1362px] mx-auto rounded-[24px]">
-          <div className="w-full  flex flex-col gap-[80px]">
+          <div className="w-full  flex flex-col gap-[50px] px-4 sm:px-6 md:px-8 lg:px-12">
             <div
-              className="w-full h-[125px] flex items-center justify-center rounded-[16px] relative"
+              className="w-full h-[95px] flex items-center justify-center rounded-[16px] relative"
               style={{
                 background:
                   "linear-gradient(90deg, rgba(241,244,247,0.5) 0%, rgba(201,229,219,0.5) 100%)",
@@ -20,7 +20,7 @@ const PromotionalCampaigns = () => {
               }}
             >
               <h1
-                className="text-center font-['Inter'] text-[clamp(36px,4vw,54px)] leading-[100%] tracking-[0%]"
+                className="text-center font-['Inter'] text-[26px] sm:text-[30px] lg:text-[40px] leading-[100%] tracking-[0%]"
                 style={{
                   fontWeight: 700,
                   color: "#053155",
@@ -31,13 +31,10 @@ const PromotionalCampaigns = () => {
               </h1>
             </div>
 
-            <div className="w-full flex flex-col lg:flex-row items-center lg:items-start gap-[26px]">
+            <div className="w-full flex flex-col lg:flex-row items-center lg:items-start gap-[12px]">
               <div className="w-full lg:max-w-[688px] flex items-center justify-center">
                 <div
                   className="w-full rounded-[24px] border border-[#EEF0F3] shadow-[0px_15px_18px_0px_rgba(0,0,0,0.08)] overflow-hidden"
-                  style={{
-                    boxShadow: "0px 15px 18px 0px #00000014",
-                  }}
                 >
                   <img
                     src="/images/promotional-campaigns-img.png"
@@ -48,14 +45,14 @@ const PromotionalCampaigns = () => {
               </div>
 
               <div
-                className="w-full lg:max-w-[579px] flex flex-col gap-[40px] rounded-[24px] border border-[#EEF0F3] bg-white shadow-[0px_15px_18px_0px_rgba(0,0,0,0.08)] p-6 sm:p-8 lg:p-[32px]"
+                className="w-full lg:max-w-[579px] flex flex-col gap-[20px] rounded-[24px] border border-[#EEF0F3] bg-white shadow-[0px_15px_18px_0px_rgba(0,0,0,0.08)] p-6 sm:p-8 lg:px-[32px] lg:py-[24px]"
                 style={{
                   boxShadow: "0px 15px 18px 0px #00000014",
                 }}
               >
-                <div className="w-full flex flex-col gap-[10px]">
+                <div className="w-full flex flex-col gap-[5px]">
                   <p
-                    className="font-['Manrope'] text-[clamp(20px,3vw,20px)] leading-[32px]"
+                    className="font-['Manrope'] text-[18px]"
                     style={{
                       fontWeight: 500,
                       color: "#3C4E60",
@@ -67,7 +64,7 @@ const PromotionalCampaigns = () => {
                     people.
                   </p>
                   <p
-                    className="font-['Manrope'] text-[clamp(20px,3vw,20px)] leading-[32px]"
+                    className="font-['Manrope'] text-[18px]"
                     style={{
                       fontWeight: 500,
                       color: "#3C4E60",
@@ -78,7 +75,7 @@ const PromotionalCampaigns = () => {
                   </p>
                 </div>
 
-                <div className="w-full flex flex-col gap-[24px]">
+                <div className="w-full flex flex-col gap-[10px]">
                   {[
                     "Improve inbox placement and campaign performance.",
                     "Protect your marketing ROI by avoiding wasted sends.",
@@ -86,7 +83,7 @@ const PromotionalCampaigns = () => {
                   ].map((item) => (
                     <div
                       key={item}
-                      className="w-full flex items-start gap-[14px]"
+                      className="w-full flex items-start gap-[8px]"
                     >
                       <span
                         className="inline-flex items-center justify-center w-[46px] h-[46px] rounded-full"
@@ -104,7 +101,7 @@ const PromotionalCampaigns = () => {
                         </span>
                       </span>
                       <p
-                        className="flex-1 font-['Manrope'] text-[clamp(18px,2.5vw,20px)] leading-[30px]"
+                        className="flex-1 font-['Manrope'] text-[18px]"
                         style={{
                           fontWeight: 500,
                           color: "#3C4E60",
