@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="w-full flex justify-center px-6! py-6! sm:py-6! md:py-6!">
         {/* Background box with required properties */}
         <div
-          className="relative w-full max-w-full mx-auto rounded-[24px] overflow-hidden bg-no-repeat bg-cover bg-center py-12! sm:py-16! md:py-20! px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]!"
+          className="relative w-full max-w-full mx-auto rounded-[24px] overflow-hidden bg-no-repeat bg-cover bg-center py-12! sm:py-16! md:py-20! px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]!"
           style={{
             backgroundImage: "url('/images/footer-bg-img.png')",
             backgroundSize: "cover",

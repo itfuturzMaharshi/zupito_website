@@ -36,7 +36,7 @@ const FAQsPage = () => {
       style={{ background: 'var(--color-white-solid, #FFFFFF)' }}
     >
       {/* Outer container with responsive padding */}
-      <div className="w-full flex justify-center px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! pt-10! pb-4! lg:pt-14!">
+      <div className="w-full flex justify-center px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]! pt-10! pb-4! lg:pt-14!">
         <div className="max-w-full mx-auto relative">
           {/* Header Section - max-width 1362px */}
           <div className="w-full lg:max-w-[1362px] mx-auto">

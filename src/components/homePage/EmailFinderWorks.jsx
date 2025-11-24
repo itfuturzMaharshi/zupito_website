@@ -37,7 +37,7 @@ const EmailFinderWorks = () => {
     >
       {/* Outer container spacing mirrors other homepage sections */}
       <div
-        className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[150px]! py-12! lg:py-14! overflow-visible"
+        className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]! py-12! lg:py-14! overflow-visible"
         style={{ overflow: 'visible', minHeight: 'auto' }}
       >
         <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative overflow-visible">

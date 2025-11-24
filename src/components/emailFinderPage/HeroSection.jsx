@@ -10,7 +10,7 @@ const HeroSection = () => {
     <section
       ref={sectionRef}
       data-animate="fade-up"
-      className="relative w-full flex items-center justify-center py-12 sm:py-16 md:py-20 lg:py-[90px] xl:py-[100px] bg-cover bg-center bg-no-repeat"
+      className="relative w-full flex items-center justify-center py-12 sm:py-16 md:py-18 bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: "url(/images/email-finder-bg-img.png)",
       }}
@@ -19,10 +19,10 @@ const HeroSection = () => {
       <div className="w-full max-w-full lg:max-w-[1362px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-[150px]">
         <div className="w-full max-w-full lg:max-w-[1362px] mx-auto flex flex-col items-center">
           {/* Headline Section */}
-          <div className="w-full flex flex-col items-center gap-5 mb-[21px]">
+          <div className="w-full flex flex-col items-center gap-5 mb-[12px]">
             <h1
               data-animate-item
-              className="home-title text-center text-[#132436] font-['Inter'] font-bold capitalize flex flex-col gap-4 tracking-tight"
+              className="home-title text-center text-[#132436] font-['Inter'] font-extrabold capitalize flex flex-col gap-1 tracking-tight"
             >
               <div>
                 <span className="text-[#EB3609]">Find</span>{" "}
@@ -31,7 +31,7 @@ const HeroSection = () => {
                   <img
                     src="/images/Success.svg"
                     alt="Success icon"
-                    className="shrink-0 w-[clamp(40px,5vw,60px)] h-auto"
+                    className="shrink-0 w-[40px] h-auto"
                   />
                 </span>
                 <span>Professional</span>
@@ -45,7 +45,7 @@ const HeroSection = () => {
             <p
               data-animate-item
               style={{ transitionDelay: "0.08s" }}
-              className="home-description text-center text-[#62768B] font-['Manrope']"
+              className="home-description max-w-[610px] mx-auto text-center text-[#62768B] font-['Manrope']"
             >
               Reach decision-makers, build connections and grow your business
               with accurate email search
@@ -54,14 +54,14 @@ const HeroSection = () => {
 
           {/* Form Container */}
           <div
-            className="w-full max-w-full rounded-[24px] border border-solid border-[#ABE0E4] overflow-hidden mt-8 bg-cover bg-center bg-no-repeat min-h-[380px]"
+            className="w-full max-w-full rounded-[24px] border border-solid border-[#ABE0E4] overflow-hidden mt-8 bg-cover bg-center bg-no-repeat min-h-[350px]"
             style={{
               backgroundImage: "url(/images/business-email-bg.png)",
             }}
           >
-            <div className="w-full h-full p-6 sm:p-8 md:p-10 lg:p-12 flex flex-col items-center">
+            <div className="w-full h-full px-6 pt-7 sm:px-8 md:px-10 lg:px-12 flex flex-col items-center">
               {/* Form Title */}
-              <div className="w-full max-w-full mb-[50px]">
+              <div className="w-full max-w-full mb-[40px]">
                 <h2
                   data-animate-item
                   className="home-subtitle text-center text-[#3A4A5A] font-['Inter']"
@@ -81,12 +81,12 @@ const HeroSection = () => {
                     placeholder="Full Name"
                     value={fullName}
                     onChange={(e) => setFullName(e.target.value)}
-                    className="w-full sm:w-[461px] h-[78px] rounded-[58px] border border-[#C1DDDA] bg-white px-[34px] py-[24px] text-[#132436] placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ABE0E4] transition-all font-['Manrope'] home-description"
+                    className="w-full sm:w-[420px] h-[60px] rounded-[58px] border border-[#C1DDDA] bg-white px-[34px] py-[24px] text-[#132436] placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ABE0E4] transition-all font-['Manrope'] home-description"
                   />
 
                   {/* @ Icon Separator */}
-                  <div className="shrink-0 w-[60px] h-[60px] sm:w-[80px] sm:h-[80px] rounded-[60px] bg-[#D9F5F1] flex items-center justify-center p-[10px]">
-                    <span className="text-xl sm:text-2xl md:text-3xl font-bold text-[#132436]">
+                  <div className="shrink-0 w-[60px] h-[60px] rounded-[60px] bg-[#D9F5F1] flex items-center justify-center p-[10px]">
+                    <span className="text-[40px] font-bold text-[#132436]">
                       @
                     </span>
                   </div>
@@ -97,18 +97,18 @@ const HeroSection = () => {
                     placeholder="Company Name or Website"
                     value={companyName}
                     onChange={(e) => setCompanyName(e.target.value)}
-                    className="w-full sm:w-[461px] h-[78px] rounded-[58px] border border-[#C1DDDA] bg-white px-[34px] py-[24px] text-[#132436] placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ABE0E4] transition-all font-['Manrope'] home-description"
+                    className="w-full sm:w-[420px] h-[60px] rounded-[58px] border border-[#C1DDDA] bg-white px-[34px] py-[24px] text-[#132436] placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ABE0E4] transition-all font-['Manrope'] home-description"
                   />
                 </div>
               </div>
 
               {/* Find Email Button */}
-              <div className="w-full max-w-full mb-[16px]">
+              <div className="w-full max-w-full">
                 <button
                   data-hover="lift"
-                  className="w-full sm:w-[630px] h-[80px] mx-auto rounded-[50px] bg-[#EB3609] flex items-center justify-center pt-4 pb-4 pl-6 pr-6 transition-all duration-300 shadow-lg cursor-pointer"
+                  className="w-full sm:w-[580px] h-[60px] mx-auto rounded-[50px] bg-[#EB3609] flex items-center justify-center pt-4 pb-4 pl-6 pr-6 transition-all duration-300 shadow-lg cursor-pointer"
                 >
-                  <span className="home-subtitle text-center font-['Inter'] text-white">
+                  <span className="home-subtitle text-[22px]! text-center font-['Inter'] text-white">
                     Find Email
                   </span>
                 </button>
