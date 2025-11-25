@@ -52,7 +52,9 @@ function Header() {
 <div className="max-w-[1580px] h-full mx-auto flex items-center justify-between lg:justify-evenly">        
     {/* Logo */}
           <div className="shrink-0">
+            <a href="#">
             <img src="/public/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto" />
+            </a>
           </div>
 
           {/* Desktop Navigation Links */}
