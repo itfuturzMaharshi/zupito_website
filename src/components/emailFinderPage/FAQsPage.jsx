@@ -124,7 +124,7 @@ const FAQsPage = () => {
                     }`}
                   >
                     <div className="px-6! lg:px-[30px]! pb-8! lg:pb-12!">
-                      <p className="home-description text-[#747C9A]">
+                      <p className="home-description text-[#546779]">
                         {faq.answer}
                       </p>
                     </div>

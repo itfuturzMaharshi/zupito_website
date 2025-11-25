@@ -111,7 +111,7 @@ const ActionsPage = () => {
                   <p
                     data-animate-item
                     style={{ transitionDelay: "0.18s" }}
-                    className="home-description-card  text-[#76838F] font-['Manrope'] max-w-[410px]"
+                    className="home-description  text-[#546779] font-['Manrope'] max-w-[410px]"
                   >
                     Verify up to 10 emails instantly without sign-up just
                     enter an email, click Verify, and repeat. Explore bulk

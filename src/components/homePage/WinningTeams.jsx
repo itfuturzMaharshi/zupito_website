@@ -59,7 +59,7 @@ const WinningTeams = () => {
             <p
               data-animate-item
               style={{ transitionDelay: '0.15s' }}
-              className="home-description sm:text-[18px]! text-white font-['Manrope'] opacity-70! max-w-[980px] mx-auto"
+              className="home-description text-white font-['Manrope'] opacity-70! max-w-[980px] mx-auto"
             >
               Zupitu's user-friendly interface simplifies prospecting with intuitive tools for high-quality
               data generation. It supports seamless team collaboration, easily handles large data volumes,
@@ -91,7 +91,7 @@ const WinningTeams = () => {
                     <span className="block">Cut costs with verified leads</span>
                   </p>
                 ) : (
-                  <p className="text-[16px] md:text-[18px] lg:text-[18px]  font-normal leading-7  whitespace-pre-line font-['Manrope'] text-[#3A4A5A]">
+                  <p className=" leading-7  whitespace-pre-line font-['Manrope'] text-[#546779] home-description">
                     {card.desc}
                   </p>
                 )}

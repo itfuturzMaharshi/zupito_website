@@ -77,7 +77,7 @@ const Footer = () => {
             <p
               data-animate-item
               style={{ transitionDelay: "0.1s" }}
-              className="home-description text-[16px]! sm:text-[18px]! text-center font-['Manrope'] text-white md:opacity-100 opacity-90 max-w-[980px] px-4!"
+              className="home-description text-center font-['Manrope'] text-white md:opacity-100 opacity-90 max-w-[980px] px-4!"
             >
               Use your free credits for both finding and verifying emails.
             </p>
@@ -144,7 +144,7 @@ const Footer = () => {
                 <div className="">
                   <img src="/public/images/hero/colored-logo.png" alt="" className="h-8"/>
                 </div>
-                <p className=" sm:text-[18px]! font-normal! text-white font-['Manrope'] max-w-[722px]">
+                <p className="home-description font-normal! text-white font-['Manrope'] max-w-[722px]">
                   From dynamic visuals to interactive features, our software
                   empowers you to craft a website tailored to every need.
                 </p>

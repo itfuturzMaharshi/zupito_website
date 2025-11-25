@@ -48,7 +48,7 @@ const Productivity = () => {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.15s" }}
-                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#6C728C] font-['Manrope']"
+                className="home-description text-[#546779] font-['Manrope']"
               >
                 Zupitu's user-friendly interface simplifies prospecting with
                 intuitive tools for high-quality data generation.
@@ -56,7 +56,7 @@ const Productivity = () => {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.22s" }}
-                className="home-description sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#6C728C] font-['Manrope']"
+                className="home-description  text-[#546779] font-['Manrope']"
               >
                 It supports seamless team collaboration, easily handles large
                 data volumes, and offers cost-effective scalability for growing
@@ -121,7 +121,7 @@ const Productivity = () => {
                         <p
                           data-animate-item
                           style={{ transitionDelay: "0.18s" }}
-                          className="home-description text-[16px]! font-normal! text-[#6C728C] font-['Manrope']"
+                          className="home-description text-[#546779] font-['Manrope']"
                         >
                           Zupitu's Team Management features empower businesses
                           with streamlined team management workflows.
@@ -129,7 +129,7 @@ const Productivity = () => {
                         <p
                           data-animate-item
                           style={{ transitionDelay: "0.24s" }}
-                          className="home-description text-[16px]!  font-normal! text-[#6C728C] font-['Manrope']"
+                          className="home-description  text-[#546779] font-['Manrope']"
                         >
                           Our free platform features help customers to optimize
                           resource allocation and get actionable insights
@@ -139,7 +139,7 @@ const Productivity = () => {
                         <p
                           data-animate-item
                           style={{ transitionDelay: "0.3s" }}
-                          className="home-description text-[16px]! font-normal! text-[#6C728C] font-['Manrope']"
+                          className="home-description  text-[#546779] font-['Manrope']"
                         >
                           These tools ensure accountability and decision- making
                           for achieving business goals
@@ -195,7 +195,7 @@ const Productivity = () => {
                         <h4 className="text-[18px] font-bold text-[#132436] font-['Inter'] capitalize">
                           {item.title}
                         </h4>
-                        <p className="text-[16px] font-normal text-[#747C9A] font-['Manrope']">
+                        <p className="home-description  text-[#546779] font-['Manrope']">
                           {item.desc}
                         </p>
                       </div>

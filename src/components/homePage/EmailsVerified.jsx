@@ -79,7 +79,7 @@ const EmailsVerified = () => {
                 {/* Content wrapper - width 717px, height 180px, gap 30px */}
                 <div className="w-full max-w-[717px] h-full flex flex-col gap-2 justify-between">
                   {/* Description text */}
-                  <p className="home-description text-[16px]! sm:text-[18px]! md:text-[20px]! lg:text-[20px]! font-normal! text-[#4A4E5C] font-['Manrope']">
+                  <p className="home-description   text-[#546779] font-['Manrope']">
                     Zupitu ensures your emails always reach the right inbox.
                     High email deliverability is achieved through reduced bounce
                     rates, a healthy email list,

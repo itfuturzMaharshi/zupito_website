@@ -75,7 +75,7 @@ function HeroSection() {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.15s" }}
-                className="home-main-description text-[#4C5D6E] text-[16px] sm:text-[18px] leading-[165%] font-['Manrope'] max-w-[full] sm:max-w-[470px] mt-6! sm:mt-7!"
+                className="home-description text-[#546779] text-[16px] leading-[165%] font-['Manrope'] max-w-[full] sm:max-w-[470px] mt-6! sm:mt-7!"
               >
                 Simplify outreach with Zupitu's AI Email Verifier & Finder –
                 validate emails, find business contacts, and boost

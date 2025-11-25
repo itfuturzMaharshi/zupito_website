@@ -88,7 +88,7 @@ const EmailPrecision = () => {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.25s" }}
-                className="home-description-plugin sm:text-[20px]! md:text-[20px]! lg:text-[22px]! text-[#546779] font-['Manrope'] text-left"
+                className="home-description   text-[#546779] font-['Manrope'] text-left"
               >
                 Your email marketing success depends upon valid and opt-in email
                 database.<br /> An email verifier helps you maintain a valid list and
