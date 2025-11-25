@@ -141,8 +141,8 @@ const Footer = () => {
           <div className="flex flex-col gap-4">
             <div className="w-full max-w-full mx-auto mt-8! sm:mt-10! md:mt-14! lg:mt-16! flex flex-col lg:flex-row gap-4">
               <div className="flex-1 rounded-[16px] bg-[#1C2D3E] p-5! sm:p-6! md:p-8! flex flex-col gap-3! sm:gap-4! md:gap-6! min-h-[190px]">
-                <div className="text-white font-extrabold text-[22px] sm:text-[26px] md:text-[32px] lg:text-[36px] leading-[100%]">
-                  Zupitu
+                <div className="">
+                  <img src="/public/images/hero/colored-logo.png" alt="" className="h-8"/>
                 </div>
                 <p className=" sm:text-[18px]! font-normal! text-white font-['Manrope'] max-w-[722px]">
                   From dynamic visuals to interactive features, our software
