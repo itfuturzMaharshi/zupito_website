@@ -36,15 +36,15 @@ function HeroSection() {
         className="relative w-full overflow-hidden"
       >
         {/* Dots/backdrop spacing wrapper to mimic Figma breathing room */}
-        <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]! py-10! lg:py-0! xl:py-0">
+        <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]! pt-[16px]! sm:pt-[28px]! md:pt-[40px]! lg:pt-[52px]! pb-10!">
           <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
-            <div className="grid grid-cols-1 lg:grid-cols-2 items-center [@media(min-width:1024px)_and_(max-width:1279px)]:min-h-[calc(100vh-120px)]">
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-y-12 lg:gap-y-0 [@media(min-width:1024px)_and_(max-width:1279px)]:min-h-[calc(100vh-120px)]">
             {/* Copy */}
             <div className="order-2 lg:order-1 [@media(min-width:1024px)_and_(max-width:1279px)]:self-center pt-4 lg:pt-0">
               <h1
                 data-animate-item
                 style={{ transitionDelay: "0.05s" }}
-                className="home-main-title text-[32px] md:text-[48px] lg:text-[54px] text-[#132436] font-bold font-['Inter'] space-y-1"
+                className="home-main-title text-[36px] sm:text-[46px] md:text-[56px] lg:text-[64px] xl:text-[72px] leading-[108%] text-[#132436] font-bold font-['Inter'] space-y-2"
               >
                 {/* Line 1: AI Tool To Connect */}
                 <span className="block whitespace-nowrap">
@@ -75,7 +75,7 @@ function HeroSection() {
               <p
                 data-animate-item
                 style={{ transitionDelay: "0.15s" }}
-                className="home-main-description text-[#63778B] font-['Manrope'] max-w-[full] sm:max-w-[410px] mt-5! sm:mt-6!"
+                className="home-main-description text-[#4C5D6E] text-[16px] sm:text-[18px] leading-[165%] font-['Manrope'] max-w-[full] sm:max-w-[470px] mt-6! sm:mt-7!"
               >
                 Simplify outreach with Zupitu's AI Email Verifier & Finder –
                 validate emails, find business contacts, and boost
@@ -86,11 +86,11 @@ function HeroSection() {
               <div
                 data-animate-item
                 style={{ transitionDelay: "0.25s" }}
-                className="flex flex-wrap items-center gap-4 sm:gap-5 md:gap-6 mt-8! sm:mt-9!"
+                className="flex flex-wrap items-center gap-4 sm:gap-5 md:gap-6 mt-9! sm:mt-10!"
               >
                 <button
                   data-hover="lift"
-                  className="rounded-[40px] whitespace-nowrap font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[150px] h-[46px] px-4! py-2! text-[14px] cursor-pointer"
+                  className="rounded-[44px] whitespace-nowrap font-['Inter'] bg-[#EB3609] hover:bg-[#FF6B35] text-white font-semibold transition-colors flex items-center gap-2 justify-center shadow-sm min-w-[170px] h-[52px] px-5! py-2! text-[16px] cursor-pointer"
                 >
                   Checkout Deals
                   <img
@@ -102,7 +102,7 @@ function HeroSection() {
 
                 <button
                    data-hover="lift"
-                  className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[14px] cursor-pointer"
+                  className="text-[#3A4A5A] whitespace-nowrap font-['Manrope'] font-semibold flex items-center gap-2 hover:text-[#EB3609] transition-colors text-[16px] cursor-pointer"
                 >
                   <span>Claim 300 free credits</span>
                   <img
@@ -117,7 +117,7 @@ function HeroSection() {
                 </button>
               </div>
 
-              <div className="mt-10! sm:mt-12! md:mt-14! lg:mt-12! mb-4 w-full max-w-[565px] h-px bg-linear-to-l from-transparent to-[#666666]/20" />
+              <div className="mt-12! sm:mt-14! md:mt-16! lg:mt-14! mb-4 w-full max-w-[620px] h-px bg-linear-to-l from-transparent to-[#666666]/20" />
 
               {/* Trust bullets */}
               <div className="mt-6! sm:mt-8! md:mt-10! lg:mt-10! flex items-center gap-3 flex-wrap">
@@ -134,7 +134,7 @@ function HeroSection() {
                       className="w-3 h-3 sm:w-3.5 sm:h-3.5"
                     />
                   </span>
-                  <span className="text-[15px] whitespace-nowrap  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
+                  <span className="text-[16px] whitespace-nowrap  font-['Manrope'] font-semibold leading-[120%] tracking-[0px] text-[#2E3E50]">
                     Flexible solution
                   </span>
                 </div>
@@ -152,7 +152,7 @@ function HeroSection() {
                       className="w-3 h-3 sm:w-3.5 sm:h-3.5"
                     />
                   </span>
-                  <span className="text-[15px]  whitespace-nowrap  font-['Manrope'] font-medium leading-[100%] tracking-[0px] text-[#3A4A5A]">
+                  <span className="text-[16px]  whitespace-nowrap  font-['Manrope'] font-semibold leading-[120%] tracking-[0px] text-[#2E3E50]">
                     No credit card required
                   </span>
                 </div>

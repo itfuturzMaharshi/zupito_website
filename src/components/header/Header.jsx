@@ -52,7 +52,7 @@ function Header() {
 <div className="max-w-[1280px] h-full mx-auto flex items-center justify-between lg:justify-evenly">        
     {/* Logo */}
           <div className="shrink-0">
-            <img src="/public/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-6 sm:h-7 md:h-8 w-auto" />
+            <img src="/public/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto" />
           </div>
 
           {/* Desktop Navigation Links */}
@@ -61,7 +61,7 @@ function Header() {
               <button 
                 onClick={toggleProductDropdown}
                 className="flex items-center gap-1 text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-                style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
               >
                 Product
                 <svg 
@@ -112,7 +112,7 @@ function Header() {
             <Link 
               to="/use-cases" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
             >
               Use Cases
             </Link>
@@ -120,14 +120,14 @@ function Header() {
             <Link 
               to="/pricing" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
             >
               Pricing
             </Link>
             
             <button 
               className="flex items-center gap-1 text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
             >
               Resources
               <svg 
@@ -143,7 +143,7 @@ function Header() {
             <a 
               href="#blog" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
             >
               Blog
             </a>
@@ -151,7 +151,7 @@ function Header() {
             <Link 
               to="/deals" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '16px', lineHeight: '100%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
             >
               Deals
             </Link>
@@ -170,7 +170,7 @@ function Header() {
               />
               <span 
                 className="text-[#132436] whitespace-nowrap header-button-text"
-                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '15px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 700, fontSize: '16px', lineHeight: '110%' }}
               >
                 Start for Free
               </span>
@@ -182,7 +182,7 @@ function Header() {
             >
               <span 
                 className="text-white whitespace-nowrap header-button-text"
-                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '15px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 700, fontSize: '16px', lineHeight: '110%' }}
               >
                 Log In
               </span>
@@ -237,7 +237,7 @@ function Header() {
           <div className="sticky top-0 bg-white border-b border-[#EEF0F3] px-4 sm:px-6 md:px-8 py-4 flex items-center justify-between z-10">
             {/* Logo */}
             <div className="shrink-0">
-              <img src="/public/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-8 md:h-9 w-auto" />
+              <img src="/public/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-9 md:h-10 w-auto" />
             </div>
             
             {/* Close Button */}
@@ -265,7 +265,7 @@ function Header() {
                 <button 
                   onClick={toggleMobileProductDropdown}
                   className="flex items-center justify-between w-full text-[#132436] hover:text-[#FF6B35] transition-colors py-2"
-                  style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+                  style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '22px', lineHeight: '110%' }}
                 >
                   <span>Product</span>
                   <svg 
@@ -284,28 +284,28 @@ function Header() {
                     <Link
                       to="/"
                       onClick={closeMobileMenu}
-                      className="block text-gray-800 hover:text-[#FF6B35] transition-colors text-[20px] font-medium py-2"
+                      className="block text-gray-800 hover:text-[#FF6B35] transition-colors text-[20px] font-semibold py-2"
                     >
                       Home
                     </Link>
                     <Link
                       to="/email-finder"
                       onClick={closeMobileMenu}
-                      className="block text-gray-800 hover:text-[#FF6B35] transition-colors text-base font-medium py-2"
+                      className="block text-gray-800 hover:text-[#FF6B35] transition-colors text-[18px] font-medium py-2"
                     >
                       Email Finder Page
                     </Link>
                     <Link
                       to="/email-verifier"
                       onClick={closeMobileMenu}
-                      className="block text-gray-800 hover:text-[#FF6B35] transition-colors text-base font-medium py-2"
+                      className="block text-gray-800 hover:text-[#FF6B35] transition-colors text-[18px] font-medium py-2"
                     >
                       Email Verifier Page
                     </Link>
                     <Link
                       to="/help-desk"
                       onClick={closeMobileMenu}
-                      className="block text-gray-800 hover:text-[#FF6B35] transition-colors text-base font-medium py-2"
+                      className="block text-gray-800 hover:text-[#FF6B35] transition-colors text-[18px] font-medium py-2"
                     >
                       Help Desk Page
                     </Link>
@@ -317,7 +317,7 @@ function Header() {
                 to="/use-cases" 
                 onClick={closeMobileMenu}
                 className="text-[#132436] hover:text-[#FF6B35] transition-colors py-2"
-                style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '22px', lineHeight: '110%' }}
               >
                 Use Cases
               </Link>
@@ -326,7 +326,7 @@ function Header() {
                 to="/pricing" 
                 onClick={closeMobileMenu}
                 className="text-[#132436] hover:text-[#FF6B35] transition-colors py-2"
-                style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '22px', lineHeight: '110%' }}
               >
                 Pricing
               </Link>
@@ -334,7 +334,7 @@ function Header() {
               <button 
                 onClick={closeMobileMenu}
                 className="flex items-center justify-between text-[#132436] hover:text-[#FF6B35] transition-colors py-2"
-                style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '22px', lineHeight: '110%' }}
               >
                 <span>Resources</span>
                 <svg 
@@ -351,7 +351,7 @@ function Header() {
                 href="#blog" 
                 onClick={closeMobileMenu}
                 className="text-[#132436] hover:text-[#FF6B35] transition-colors py-2"
-                style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '22px', lineHeight: '110%' }}
               >
                 Blog
               </a>
@@ -360,7 +360,7 @@ function Header() {
                 to="/deals" 
                 onClick={closeMobileMenu}
                 className="text-[#132436] hover:text-[#FF6B35] transition-colors py-2"
-                style={{ fontFamily: 'Manrope', fontWeight: 500, fontSize: '20px', lineHeight: '100%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '22px', lineHeight: '110%' }}
               >
                 Deals
               </Link>
@@ -384,7 +384,7 @@ function Header() {
                   />
                   <span 
                     className="text-[#132436] whitespace-nowrap"
-                    style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '100%' }}
+                    style={{ fontFamily: 'Manrope', fontWeight: 700, fontSize: '20px', lineHeight: '110%' }}
                   >
                     Start for Free
                   </span>
@@ -402,7 +402,7 @@ function Header() {
                 >
                   <span 
                     className="text-white whitespace-nowrap"
-                    style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '100%' }}
+                    style={{ fontFamily: 'Manrope', fontWeight: 700, fontSize: '20px', lineHeight: '110%' }}
                   >
                     Log In
                   </span>
