@@ -36,8 +36,8 @@ function HeroSection() {
         className="relative w-full overflow-hidden"
       >
         {/* Dots/backdrop spacing wrapper to mimic Figma breathing room */}
-        <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]! pt-[16px]! sm:pt-[28px]! md:pt-[40px]! lg:pt-[52px]! pb-10!">
-          <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
+        <div className="w-full px-4! sm:px-6! md:px-8! lg:px-10! xl:px-12! pt-[16px]! sm:pt-[28px]! md:pt-[40px]! lg:pt-[52px]! pb-10!">
+          <div className="max-w-[1280px] mx-auto relative">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-y-12 lg:gap-y-0 [@media(min-width:1024px)_and_(max-width:1279px)]:min-h-[calc(100vh-120px)]">
             {/* Copy */}
             <div className="order-2 lg:order-1 [@media(min-width:1024px)_and_(max-width:1279px)]:self-center pt-4 lg:pt-0">
