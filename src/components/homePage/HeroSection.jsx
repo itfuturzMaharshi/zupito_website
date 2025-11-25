@@ -167,7 +167,7 @@ function HeroSection() {
             >
               <div className="relative w-full h-[450px] md:h-[580px] lg:h-[500px] xl:h-[740px] 2xl:h-[780px]">
                 <img
-                  src="/images/hero_img.png"
+                  src="/public/images/hero/home-first1.png"
                   alt="Zupito email automation flow"
                   className="absolute inset-0 w-full h-full object-contain select-none pointer-events-none [image-rendering:auto]"
                 />

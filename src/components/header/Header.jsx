@@ -52,7 +52,7 @@ function Header() {
         <div className="max-w-[1280px] h-full mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="shrink-0">
-            <img src="/images/zupito_logo.png" alt="Zupito" className="h-6 sm:h-7 md:h-8 w-auto" />
+            <img src="/public/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-6 sm:h-7 md:h-8 w-auto" />
           </div>
 
           {/* Desktop Navigation Links */}
@@ -237,7 +237,7 @@ function Header() {
           <div className="sticky top-0 bg-white border-b border-[#EEF0F3] px-4 sm:px-6 md:px-8 py-4 flex items-center justify-between z-10">
             {/* Logo */}
             <div className="shrink-0">
-              <img src="/images/zupito_logo.png" alt="Zupito" className="h-8 md:h-9 w-auto" />
+              <img src="/public/images/websitelogo/zupito-logo.png" alt="Zupito" className="h-8 md:h-9 w-auto" />
             </div>
             
             {/* Close Button */}
