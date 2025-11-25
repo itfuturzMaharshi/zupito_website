@@ -63,7 +63,7 @@ function Header() {
               <button 
                 onClick={toggleProductDropdown}
                 className="flex items-center gap-1 text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
+                style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '16px', lineHeight: '110%' }}
               >
                 Product
                 <svg 
@@ -114,7 +114,7 @@ function Header() {
             <Link 
               to="/use-cases" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '16px', lineHeight: '110%' }}
             >
               Use Cases
             </Link>
@@ -122,14 +122,14 @@ function Header() {
             <Link 
               to="/pricing" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '16px', lineHeight: '110%' }}
             >
               Pricing
             </Link>
             
             <button 
               className="flex items-center gap-1 text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '16px', lineHeight: '110%' }}
             >
               Resources
               <svg 
@@ -145,7 +145,7 @@ function Header() {
             <a 
               href="#blog" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '16px', lineHeight: '110%' }}
             >
               Blog
             </a>
@@ -153,7 +153,7 @@ function Header() {
             <Link 
               to="/deals" 
               className="text-[#132436] hover:text-[#FF6B35] transition-colors header-nav-link"
-              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '18px', lineHeight: '110%' }}
+              style={{ fontFamily: 'Manrope', fontWeight: 600, fontSize: '16px', lineHeight: '110%' }}
             >
               Deals
             </Link>
