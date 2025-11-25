@@ -42,7 +42,10 @@ function Header() {
   }, [isProductDropdownOpen]);
 
   return (
-    <header className="sticky top-0 w-full h-[72px] sm:h-[76px] md:h-[80px] lg:h-[84px] bg-white border-b border-[#EEF0F3] z-50">
+    <header
+      className="sticky top-0 lg:top-[54px] w-full h-[72px] sm:h-[76px] md:h-[80px] lg:h-[84px] bg-white border-b border-[#EEF0F3]"
+      style={{ zIndex: 60 }}
+    >
       {/* Container with responsive padding */}
       <div className="w-full h-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
         {/* Content wrapper with max-width 1280px and space-between layout */}
@@ -212,7 +215,24 @@ function Header() {
 
       {/* Mobile Menu Modal */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 bg-white z-50 lg:hidden overflow-y-auto">
+        <div
+          className="fixed inset-0 bg-white lg:hidden overflow-y-auto"
+          style={{ zIndex: 80 }}
+        >
+          <button
+            onClick={closeMobileMenu}
+            aria-label="Close menu"
+            className="absolute top-4 right-4 flex h-10 w-10 items-center justify-center rounded-full border border-[#E4E7EC] bg-white text-gray-800 shadow-sm transition hover:text-[#FF6B35]"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
           {/* Modal Header with Logo and Close Button */}
           <div className="sticky top-0 bg-white border-b border-[#EEF0F3] px-4 sm:px-6 md:px-8 py-4 flex items-center justify-between z-10">
             {/* Logo */}
