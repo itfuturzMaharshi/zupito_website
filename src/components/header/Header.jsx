@@ -42,10 +42,10 @@ function Header() {
   }, [isProductDropdownOpen]);
 
   return (
-    <header
-      className="sticky top-0 lg:top-[54px] w-full h-[72px] sm:h-[76px] md:h-[80px] lg:h-[84px] bg-white border-b border-[#EEF0F3]"
-      style={{ zIndex: 60 }}
-    >
+ <header
+  className="sticky top-0 lg:top-[54px] w-full h-[72px] sm:h-[76px] md:h-[80px] lg:h-[84px] bg-white/80 backdrop-blur-md border-b border-[#EEF0F3]"
+  style={{ zIndex: 60 }}
+>
       {/* Container with responsive padding */}
       <div className="w-full h-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
         {/* Content wrapper with max-width 1280px and space-between layout */}
