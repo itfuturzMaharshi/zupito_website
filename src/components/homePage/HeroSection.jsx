@@ -36,7 +36,7 @@ function HeroSection() {
         className="relative w-full overflow-hidden"
       >
         {/* Dots/backdrop spacing wrapper to mimic Figma breathing room */}
-        <div className="w-full px-4! sm:px-6! md:px-8! lg:px-10! xl:px-12! pt-[16px]! sm:pt-[28px]! md:pt-[40px]! lg:pt-[52px]! pb-10!">
+        <div className="w-full px-4! sm:px-6! md:px-8! lg:px-10! xl:px-12! pt-[10px]! sm:pt-[20px]! md:pt-[32px]! lg:pt-[38px]! pb-10!">
           <div className="max-w-[1024px] mx-auto relative">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-y-12 lg:gap-y-0 [@media(min-width:1024px)_and_(max-width:1279px)]:min-h-[calc(100vh-120px)]">
             {/* Copy */}
@@ -163,7 +163,7 @@ function HeroSection() {
             <div
               data-animate-item="scale"
               style={{ transitionDelay: "0.35s" }}
-              className="order-1 lg:order-2 relative -mt-12! sm:-mt-16! md:-mt-20! [@media(min-width:1024px)_and_(max-width:1279px)]:mt-0"
+              className="order-1 lg:order-2 relative -mt-12! sm:-mt-16! md:-mt-20! lg:-mt-24! xl:-mt-28! [@media(min-width:1024px)_and_(max-width:1279px)]:mt-0"
             >
               <div className="relative w-full h-[450px] md:h-[580px] lg:h-[500px] xl:h-[740px] 2xl:h-[780px]">
                 <img
