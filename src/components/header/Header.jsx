@@ -43,7 +43,7 @@ function Header() {
 
   return (
  <header
-  className="sticky top-0 lg:top-[54px] w-full h-[72px] sm:h-[76px] md:h-[80px] lg:h-[84px] bg-white/80 backdrop-blur-md border-b border-[#EEF0F3]"
+  className="sticky top-0 lg:top-[54px] w-full h-[72px] sm:h-[76px] md:h-[80px] lg:h-[84px] bg-white/80 border-b border-[#EEF0F3]"
   style={{ zIndex: 60 }}
 >
       {/* Container with responsive padding */}

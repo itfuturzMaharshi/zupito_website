@@ -11,7 +11,7 @@ const ActionsPage = () => {
     >
       {/* Outer container mirrors HeroSection spacing rhythm */}
       <div className="w-full  px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]! py-10! lg:py-14!">
-        <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
+        <div className="max-w-[full] lg:max-w-[1024px] mx-auto relative">
           {/* Header copy */}
           <div className="text-center">
             <div

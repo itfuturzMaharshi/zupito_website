@@ -11,7 +11,7 @@ const Teams = () => {
     >
       {/* Outer container spacing mirrors ActionsPage rhythm */}
       <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]! py-12! lg:py-16!">
-        <div className="max-w-[full] lg:max-w-[1362px] mx-auto">
+        <div className="max-w-[full] lg:max-w-[1024px] mx-auto">
           {/* Top badge */}
           <div
             data-animate-item

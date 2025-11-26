@@ -11,7 +11,7 @@ const EmailPrecision = () => {
     >
       {/* Outer container mirrors ActionsPage spacing rhythm */}
       <div className="w-full px-6! sm:px-8! md:px-12! lg:px-16! xl:px-24! 2xl:px-[170px]! pt-10! lg:pt-16!">
-        <div className="max-w-[full] lg:max-w-[1362px] mx-auto relative">
+        <div className="max-w-[full] lg:max-w-[1024px] mx-auto relative">
           {/* Main container - first image */}
           <div className="w-full max-w-[full] mx-auto h-auto  flex flex-col lg:flex-row lg:justify-between lg:items-center gap-6 md:gap-8 lg:gap-0">
             {/* Left section - second image */}
