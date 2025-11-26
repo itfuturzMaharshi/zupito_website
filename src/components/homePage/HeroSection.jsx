@@ -33,10 +33,10 @@ function HeroSection() {
       <section
         ref={sectionRef}
         data-animate="fade-up"
-        className="relative w-full overflow-hidden"
+        className="relative w-full overflow-hidden mt-0 sm:-mt-[8px] lg:-mt-[20px]"
       >
         {/* Dots/backdrop spacing wrapper to mimic Figma breathing room */}
-        <div className="w-full px-4! sm:px-6! md:px-8! lg:px-10! xl:px-12! pt-[10px]! sm:pt-[20px]! md:pt-[32px]! lg:pt-[38px]! pb-10!">
+        <div className="w-full px-4! sm:px-6! md:px-8! lg:px-10! xl:px-12! pt-[6px]! sm:pt-[12px]! md:pt-[18px]! lg:pt-[24px]! pb-10!">
           <div className="max-w-[1024px] mx-auto relative">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-y-12 lg:gap-y-0 [@media(min-width:1024px)_and_(max-width:1279px)]:min-h-[calc(100vh-120px)]">
             {/* Copy */}
