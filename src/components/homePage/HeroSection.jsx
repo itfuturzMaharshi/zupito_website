@@ -44,7 +44,7 @@ function HeroSection() {
               <h1
                 data-animate-item
                 style={{ transitionDelay: "0.05s" }}
-                className="home-main-title text-[36px] sm:text-[46px] md:text-[56px] lg:text-[64px] xl:text-[72px] leading-[108%] text-[#132436] font-bold font-['Inter'] space-y-2"
+                className="home-main-title text-[36px] sm:text-[46px] md:text-[56px] lg:text-[64px] xl:text-[57px] leading-[108%] text-[#132436] font-bold font-['Inter'] space-y-2"
               >
                 {/* Line 1: AI Tool To Connect */}
                 <span className="block whitespace-nowrap">
