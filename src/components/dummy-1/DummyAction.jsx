@@ -102,7 +102,7 @@ const DummyAction = () => {
                   boxShadow: "0px 7.5px 22.5px 0px #0000001A",
                 }}
               >
-                <div className="w-full p-6 sm:p-8 md:p-10 lg:p-12">
+                <div className="w-full p-6 sm:p-8 md:p-10 lg:p-10.5">
                   <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-10 lg:gap-12">
                   {/* Left Section: Comprehensive Email Validation Info */}
                   <div className="w-full lg:w-auto lg:flex-1 flex flex-col gap-[30.75px]">
@@ -132,7 +132,7 @@ const DummyAction = () => {
                       </div>
 
                       {/* Content Container */}
-                      <div className="flex flex-col gap-[30px]">
+                      <div className="flex flex-col justify-between min-h-full">
                         {/* Heading and Description Container */}
                         <div className="flex flex-col gap-[10.5px] text-center md:text-left">
                           {/* Comprehensive Personal & Business Email Validation Heading */}
@@ -214,7 +214,7 @@ const DummyAction = () => {
 
                   {/* Right Section: Email Verification Form */}
                   <div className="w-full lg:w-auto lg:flex-1 flex flex-col items-center lg:items-start gap-[22.5px]">
-                    <div className="w-full max-w-[420px] rounded-[18px] bg-[#132436] flex flex-col items-center gap-[15px] p-6 sm:p-8 lg:p-[30px] mx-auto lg:mx-0">
+                    <div className="w-full max-w-full rounded-[18px] bg-[#132436] flex flex-col items-center gap-[15px] p-6 sm:p-8 lg:p-[30px] mx-auto lg:mx-0">
                       {/* Icon */}
                       <div className="flex items-center justify-center mb-2">
                         <div className="relative w-16 h-16">
