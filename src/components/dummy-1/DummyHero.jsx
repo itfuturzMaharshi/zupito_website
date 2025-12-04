@@ -1,6 +1,43 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
+
+const ROTATING_WORDS = ["Find", "Verify", "Connect"];
+const ROTATION_INTERVAL = 2600;
+const FADE_DURATION = 260;
 
 const DummyHero = () => {
+  const [activeWordIndex, setActiveWordIndex] = useState(0);
+  const [isFading, setIsFading] = useState(false);
+
+  // Create refs to store interval and timeout IDs
+  const rotateIntervalRef = useRef(null);
+  const fadeTimeoutRef = useRef(null);
+
+  useEffect(() => {
+    // Start the rotation cycle
+    const startRotation = () => {
+      rotateIntervalRef.current = setInterval(() => {
+        setIsFading(true);
+
+        fadeTimeoutRef.current = setTimeout(() => {
+          setActiveWordIndex((prev) => (prev + 1) % ROTATING_WORDS.length);
+          setIsFading(false);
+        }, FADE_DURATION);
+      }, ROTATION_INTERVAL);
+    };
+
+    startRotation();
+
+    // Cleanup on unmount
+    return () => {
+      if (rotateIntervalRef.current) {
+        clearInterval(rotateIntervalRef.current);
+      }
+      if (fadeTimeoutRef.current) {
+        clearTimeout(fadeTimeoutRef.current);
+      }
+    };
+  }, []); // Empty dependency array – run once on mount
+
   return (
     <section className="relative w-full bg-white">
       <div className="w-full px-4 sm:px-6 md:px-12 lg:px-[100px] pt-8 md:pt-12 lg:pt-0 pb-8 md:pb-12 lg:pb-16">
@@ -13,11 +50,11 @@ const DummyHero = () => {
               margin: "0 auto",
             }}
           >
-            {/* Main Container: Two-column layout - Image starts below header, text centered to image */}
+            {/* Main Container: Two-column layout */}
             <div className="flex flex-col lg:flex-row items-start gap-8 md:gap-10 lg:gap-12 xl:gap-16 lg:items-stretch">
-              {/* Left Section: Text Content - Vertically centered relative to image */}
+              {/* Left Section: Text Content */}
               <div className="w-full lg:w-auto lg:flex-1 flex flex-col lg:mt-20 lg:justify-center">
-                {/* Heading: AI Tool To Connect Emails Instantly */}
+                {/* Heading */}
                 <h1
                   className="font-['Inter'] flex flex-col gap-2 font-bold text-[#132436] leading-[52.8px] tracking-[-2.4px] capitalize mb-[46.5px] sm:mb-[46.5px]"
                   style={{
@@ -28,7 +65,16 @@ const DummyHero = () => {
                 >
                   <span className="block">
                     <span>AI Tool To </span>
-                    <span className="text-[#EB3609]">Connect</span>
+                    <span
+                      aria-live="polite"
+                      className={`inline-block text-[#EB3609] font-bold transition-all duration-300 ease-in-out transform ${
+                        isFading
+                          ? "opacity-0 translate-y-4"
+                          : "opacity-100 translate-y-0"
+                      }`}
+                    >
+                      {ROTATING_WORDS[activeWordIndex]}
+                    </span>
                   </span>
                   <span className="flex items-center gap-2">
                     <span>Emails</span>
@@ -43,7 +89,7 @@ const DummyHero = () => {
                   </span>
                 </h1>
 
-                {/* Description Paragraph */}
+                {/* Description */}
                 <p
                   className="font-['Manrope'] font-semibold text-[#63778B] mb-[45px] sm:mb-[45px]"
                   style={{
@@ -57,9 +103,8 @@ const DummyHero = () => {
                   deliverability.
                 </p>
 
-                {/* CTA Buttons Container */}
+                {/* CTA Buttons */}
                 <div className="flex flex-wrap items-center gap-[15px] mb-[25.5px] sm:mb-[46.5px]">
-                  {/* Checkout Deals Button */}
                   <button
                     className="rounded-[37.5px] bg-[#EB3609] text-white font-['Inter'] font-semibold flex items-center justify-center gap-[7.5px] px-[18px] py-[12px] hover:bg-[#FF6B35] transition-colors"
                     style={{
@@ -78,7 +123,6 @@ const DummyHero = () => {
                     />
                   </button>
 
-                  {/* Claim 300 free credits Link */}
                   <button
                     className="text-[#3A4A5A] font-['Manrope'] font-semibold flex items-center gap-[7.5px] hover:text-[#EB3609] transition-colors"
                     style={{
@@ -96,7 +140,7 @@ const DummyHero = () => {
                   </button>
                 </div>
 
-                {/* Divider Line */}
+                {/* Divider */}
                 <div
                   className="w-full max-w-[423.75px] h-[0.75px] mb-[22.5px] sm:mb-[46.5px] opacity-20"
                   style={{
@@ -105,14 +149,11 @@ const DummyHero = () => {
                   }}
                 />
 
-                {/* Feature Badges Container */}
+                {/* Badges */}
                 <div className="flex flex-wrap items-center gap-[7.5px]">
-                  {/* Flexible solution Badge */}
                   <div
                     className="rounded-[37.5px] bg-[#FCFCFD] border border-[#EEF0F3] flex items-center gap-[7.5px] px-[12px] py-[9px]"
-                    style={{
-                      height: "41px",
-                    }}
+                    style={{ height: "41px" }}
                   >
                     <span className="inline-flex items-center justify-center w-5 h-5">
                       <img
@@ -122,23 +163,19 @@ const DummyHero = () => {
                       />
                     </span>
                     <span
-                      className="font-['Manrope'] font-medium text-[#3A4A5A] text-center"
+                      className="font-['Manrope'] font-medium text-[#3A4A5A]"
                       style={{
                         fontSize: "16.5px",
                         lineHeight: "100%",
-                        letterSpacing: "0px",
                       }}
                     >
                       Flexible solution
                     </span>
                   </div>
 
-                  {/* No credit card required Badge */}
                   <div
                     className="rounded-[37.5px] bg-[#FCFCFD] border border-[#EEF0F3] flex items-center gap-[7.5px] px-[12px] py-[9px]"
-                    style={{
-                      height: "41px",
-                    }}
+                    style={{ height: "41px" }}
                   >
                     <span className="inline-flex items-center justify-center w-5 h-5">
                       <img
@@ -148,11 +185,10 @@ const DummyHero = () => {
                       />
                     </span>
                     <span
-                      className="font-['Manrope'] font-medium text-[#3A4A5A] text-center"
+                      className="font-['Manrope'] font-medium text-[#3A4A5A]"
                       style={{
                         fontSize: "16.5px",
                         lineHeight: "100%",
-                        letterSpacing: "0px",
                       }}
                     >
                       No credit card required
@@ -161,7 +197,7 @@ const DummyHero = () => {
                 </div>
               </div>
 
-              {/* Right Section: Image - Starts right below header on desktop */}
+              {/* Right Section: Hero Image */}
               <div className="w-full lg:w-auto lg:flex-1 flex">
                 <div className="relative w-full max-w-[400.75px]">
                   <img
