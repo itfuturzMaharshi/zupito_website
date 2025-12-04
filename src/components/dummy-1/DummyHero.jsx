@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 
 const ROTATING_WORDS = ["Find", "Verify", "Connect"];
 const ROTATION_INTERVAL = 2600;
@@ -93,8 +93,8 @@ const DummyHero = () => {
                 <p
                   className="font-['Manrope'] font-semibold text-[#63778B] mb-[45px] sm:mb-[45px]"
                   style={{
-                    fontSize: "clamp(16px, 2vw, 19.5px)",
-                    lineHeight: "34.5px",
+                    fontSize: "clamp(16px, 2vw, 21px)",
+                    lineHeight: "36px",
                     letterSpacing: "0px",
                   }}
                 >
@@ -203,7 +203,7 @@ const DummyHero = () => {
                   <img
                     src="/images/hero_img.png"
                     alt="Zupito AI Email Verifier & Finder"
-                    className="w-full h-auto object-contain min-w-[300.75px] md:min-w-[600.75px]"
+                    className="w-full h-auto object-contain min-w-[300.75px] lg:min-w-[400px] xl:min-w-[600.75px]"
                     style={{
                       width: "100%",
                       height: "auto",
