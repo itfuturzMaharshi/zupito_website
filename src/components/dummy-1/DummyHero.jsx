@@ -40,27 +40,27 @@ const DummyHero = () => {
 
   return (
     <section className="relative w-full bg-white">
-      <div className="w-full px-4 sm:px-6 md:px-12 lg:px-[100px] pt-8 md:pt-12 lg:pt-0 pb-8 md:pb-12 lg:pb-16">
+      <div className="w-full px-4 sm:px-6 md:px-12 lg:px-[200px] pt-8 md:pt-12 lg:pt-0 pb-8 md:pb-12 lg:pb-16">
         <div className="w-full max-w-full mx-auto">
           {/* Navigation Container */}
           <div
             className="w-full"
             style={{
-              maxWidth: "1140px",
+              maxWidth: "1520px",
               margin: "0 auto",
             }}
           >
             {/* Main Container: Two-column layout */}
-            <div className="flex flex-col lg:flex-row items-start gap-8 md:gap-10 lg:gap-12 xl:gap-16 lg:items-stretch">
+            <div className="flex flex-col lg:flex-row items-start gap-8 md:gap-10 lg:gap-12 xl:gap-30 lg:items-stretch">
               {/* Left Section: Text Content */}
               <div className="w-full lg:w-auto lg:flex-1 flex flex-col lg:mt-20 lg:justify-center">
                 {/* Heading */}
                 <h1
                   className="font-['Inter'] flex flex-col gap-2 font-bold text-[#132436] leading-[52.8px] tracking-[-2.4px] capitalize mb-[46.5px] sm:mb-[46.5px]"
                   style={{
-                    fontSize: "clamp(32px, 5vw, 58.5px)",
-                    lineHeight: "52.8px",
-                    letterSpacing: "-2.4px",
+                    fontSize: "clamp(32px, 5vw, 78px)",
+                    lineHeight: "70px",
+                    letterSpacing: "-3.2px",
                   }}
                 >
                   <span className="block">
@@ -93,8 +93,8 @@ const DummyHero = () => {
                 <p
                   className="font-['Manrope'] font-semibold text-[#63778B] mb-[45px] sm:mb-[45px]"
                   style={{
-                    fontSize: "clamp(16px, 2vw, 21px)",
-                    lineHeight: "36px",
+                    fontSize: "clamp(16px, 2vw, 26px)",
+                    lineHeight: "46px",
                     letterSpacing: "0px",
                   }}
                 >
@@ -108,26 +108,26 @@ const DummyHero = () => {
                   <button
                     className="rounded-[37.5px] bg-[#EB3609] text-white font-['Inter'] font-semibold flex items-center justify-center gap-[7.5px] px-[18px] py-[12px] hover:bg-[#FF6B35] transition-colors"
                     style={{
-                      fontSize: "15px",
+                      fontSize: "20px",
                       lineHeight: "100%",
                       letterSpacing: "0px",
-                      minWidth: "176.5px",
-                      height: "47px",
+                      minWidth: "235px",
+                      height: "62px",
                     }}
                   >
                     Checkout Deals
                     <img
                       src="/images/right-arrow.svg"
                       alt="Right arrow"
-                      className="w-4 h-4"
+                      className="w-5 h-5"
                     />
                   </button>
 
                   <button
                     className="text-[#3A4A5A] font-['Manrope'] font-semibold flex items-center gap-[7.5px] hover:text-[#EB3609] transition-colors"
                     style={{
-                      fontSize: "18px",
-                      lineHeight: "22.5px",
+                      fontSize: "24px",
+                      lineHeight: "30px",
                       letterSpacing: "0px",
                     }}
                   >
@@ -135,7 +135,7 @@ const DummyHero = () => {
                     <img
                       src="/images/right-arrow-dark.svg"
                       alt="Right arrow"
-                      className="w-4 h-4"
+                      className="w-5 h-5"
                     />
                   </button>
                 </div>
@@ -152,8 +152,8 @@ const DummyHero = () => {
                 {/* Badges */}
                 <div className="flex flex-wrap items-center gap-[7.5px]">
                   <div
-                    className="rounded-[37.5px] bg-[#FCFCFD] border border-[#EEF0F3] flex items-center gap-[7.5px] px-[12px] py-[9px]"
-                    style={{ height: "41px" }}
+                    className="rounded-[37.5px] bg-[#FCFCFD] border border-[#EEF0F3] flex items-center gap-[7.5px] px-[16px] py-[12px]"
+                    style={{ height: "54px" }}
                   >
                     <span className="inline-flex items-center justify-center w-5 h-5">
                       <img
@@ -165,7 +165,7 @@ const DummyHero = () => {
                     <span
                       className="font-['Manrope'] font-medium text-[#3A4A5A]"
                       style={{
-                        fontSize: "16.5px",
+                        fontSize: "22px",
                         lineHeight: "100%",
                       }}
                     >
@@ -174,8 +174,8 @@ const DummyHero = () => {
                   </div>
 
                   <div
-                    className="rounded-[37.5px] bg-[#FCFCFD] border border-[#EEF0F3] flex items-center gap-[7.5px] px-[12px] py-[9px]"
-                    style={{ height: "41px" }}
+                    className="rounded-[37.5px] bg-[#FCFCFD] border border-[#EEF0F3] flex items-center gap-[7.5px] px-[16px] py-[12px]"
+                    style={{ height: "54px" }}
                   >
                     <span className="inline-flex items-center justify-center w-5 h-5">
                       <img
@@ -187,7 +187,7 @@ const DummyHero = () => {
                     <span
                       className="font-['Manrope'] font-medium text-[#3A4A5A]"
                       style={{
-                        fontSize: "16.5px",
+                        fontSize: "22px",
                         lineHeight: "100%",
                       }}
                     >
@@ -203,7 +203,7 @@ const DummyHero = () => {
                   <img
                     src="/images/hero_img.png"
                     alt="Zupito AI Email Verifier & Finder"
-                    className="w-full h-auto object-contain min-w-[300.75px] lg:min-w-[400px] xl:min-w-[600.75px]"
+                    className="w-full h-auto object-contain min-w-[300.75px] lg:min-w-[400px] xl:min-w-[800.75px]"
                     style={{
                       width: "100%",
                       height: "auto",

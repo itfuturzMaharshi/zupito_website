@@ -79,17 +79,17 @@ const DummyHeader = () => {
     <header
       className="w-full bg-white border-b border-[#EEF0F3] sticky top-0 z-40"
       style={{
-        height: "93px",
+        height: "124px",
         borderBottomWidth: "0.75px",
       }}
     >
       {/* Main Container */}
-      <div className="w-full h-full max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-[100px] flex items-center">
+      <div className="w-full h-full max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-[200px] flex items-center">
         {/* Navigation Container */}
         <div
           className="w-full flex items-center justify-between"
           style={{
-            maxWidth: "1140px",
+            maxWidth: "1520px",
             margin: "0 auto",
             height: "48.75px",
           }}
@@ -100,7 +100,7 @@ const DummyHeader = () => {
               <img
                 src="/images/zupito_logo.svg"
                 alt="Zupito"
-                className="h-34 w-[117px]"
+                className="h-46 w-[156px]"
                 style={{ height: "auto" }}
               />
             </a>
@@ -116,7 +116,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "18px",
+                  fontSize: "24px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -173,7 +173,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "18px",
+                fontSize: "24px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -187,7 +187,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "18px",
+                fontSize: "24px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -203,7 +203,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "18px",
+                  fontSize: "24px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -253,7 +253,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "18px",
+                fontSize: "24px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -267,7 +267,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "18px",
+                fontSize: "24px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -282,11 +282,11 @@ const DummyHeader = () => {
             <button
               className="flex items-center justify-center transition-colors bg-[#F6F6F6] hover:bg-[#EEEEEE]"
               style={{
-                width: "159.5px",
-                height: "48.75px",
+                width: "213px",
+                height: "65px",
                 gap: "7.5px",
                 borderRadius: "30px",
-                padding: "12px 15px",
+                padding: "16px 20px",
               }}
             >
               <img
@@ -300,7 +300,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 600,
-                  fontSize: "16.5px",
+                  fontSize: "22px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -313,8 +313,8 @@ const DummyHeader = () => {
             <button
               className="flex items-center justify-center transition-colors bg-[#EB3609] hover:bg-[#D32F08]"
               style={{
-                width: "133.25px",
-                height: "47px",
+                width: "178px",
+                height: "62px",
                 borderRadius: "37.5px",
                 padding: "12px 32.25px",
               }}
@@ -324,7 +324,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 600,
-                  fontSize: "16.5px",
+                  fontSize: "22px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -334,7 +334,7 @@ const DummyHeader = () => {
               <img
                 src="/images/right-arrow.svg"
                 alt="Right arrow"
-                className="w-4 h-4 mx-1"
+                className="w-5 h-5 mx-1"
               />
             </button>
           </div>
@@ -427,7 +427,7 @@ const DummyHeader = () => {
                   style={{
                     fontFamily: "Manrope, sans-serif",
                     fontWeight: 500,
-                    fontSize: "18px",
+                    fontSize: "24px",
                     lineHeight: "100%",
                     letterSpacing: "0px",
                   }}
@@ -500,7 +500,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "18px",
+                  fontSize: "24px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -515,7 +515,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "18px",
+                  fontSize: "24px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -530,7 +530,7 @@ const DummyHeader = () => {
                   style={{
                     fontFamily: "Manrope, sans-serif",
                     fontWeight: 500,
-                    fontSize: "18px",
+                    fontSize: "24px",
                     lineHeight: "100%",
                     letterSpacing: "0px",
                   }}
@@ -591,7 +591,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "18px",
+                  fontSize: "24px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -606,7 +606,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "18px",
+                  fontSize: "24px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -638,7 +638,7 @@ const DummyHeader = () => {
                     style={{
                       fontFamily: "Manrope, sans-serif",
                       fontWeight: 600,
-                      fontSize: "16.5px",
+                      fontSize: "22px",
                       lineHeight: "100%",
                       letterSpacing: "0px",
                     }}
