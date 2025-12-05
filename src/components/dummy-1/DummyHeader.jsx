@@ -89,7 +89,7 @@ const DummyHeader = () => {
         <div
           className="w-full flex items-center justify-between"
           style={{
-            maxWidth: "1520px",
+            maxWidth: "1920px",
             margin: "0 auto",
             height: "48.75px",
           }}
@@ -277,7 +277,7 @@ const DummyHeader = () => {
           </nav>
 
           {/* Desktop Action Buttons */}
-          <div className="hidden lg:flex items-center shrink-0 gap-4">
+          <div className="hidden lg:flex items-center shrink-0 gap-5">
             {/* Start for Free Button */}
             <button
               className="flex items-center justify-center transition-colors bg-[#F6F6F6] hover:bg-[#EEEEEE]"
@@ -285,7 +285,7 @@ const DummyHeader = () => {
                 width: "213px",
                 height: "65px",
                 gap: "7.5px",
-                borderRadius: "30px",
+                borderRadius: "40px",
                 padding: "16px 20px",
               }}
             >
@@ -293,7 +293,7 @@ const DummyHeader = () => {
                 src="/images/user-rounded.svg"
                 alt="User icon"
                 className="w-5 h-5"
-                style={{ width: "20px", height: "20px" }}
+                style={{ width: "24px", height: "24px" }}
               />
               <span
                 className="text-[#132436] whitespace-nowrap"
@@ -315,7 +315,7 @@ const DummyHeader = () => {
               style={{
                 width: "178px",
                 height: "62px",
-                borderRadius: "37.5px",
+                borderRadius: "50px",
                 padding: "12px 32.25px",
               }}
             >

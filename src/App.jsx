@@ -38,7 +38,7 @@ function App() {
       <Banner />
       <DummyHeader />
       <DummyHero />
-      {/* <DummyAction />  */}
+      <DummyAction /> 
     </>
   );
 }

@@ -82,7 +82,7 @@ const DummyHero = () => {
                       <img
                         src="/images/container.svg"
                         alt=""
-                        className="w-[28px] h-[28px] sm:w-[36px] sm:h-[36px] md:w-[64px] md:h-[64px]"
+                        className="w-[28px] h-[28px] sm:w-[36px] sm:h-[36px] md:w-[96px] md:h-[64px]"
                       />
                     </span>
                     <span>Instantly</span>
@@ -91,7 +91,7 @@ const DummyHero = () => {
 
                 {/* Description */}
                 <p
-                  className="font-['Manrope'] font-semibold text-[#63778B] mb-[45px] sm:mb-[45px]"
+                  className="font-['Manrope'] font-semibold text-[#63778B] mb-[45px] xl:mb-[60px]"
                   style={{
                     fontSize: "clamp(16px, 2vw, 26px)",
                     lineHeight: "46px",
@@ -104,9 +104,9 @@ const DummyHero = () => {
                 </p>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-wrap items-center gap-[15px] mb-[25.5px] sm:mb-[46.5px]">
+                <div className="flex flex-wrap items-center gap-[20px] mb-[25.5px] sm:mb-[46.5px]">
                   <button
-                    className="rounded-[37.5px] bg-[#EB3609] text-white font-['Inter'] font-semibold flex items-center justify-center gap-[7.5px] px-[18px] py-[12px] hover:bg-[#FF6B35] transition-colors"
+                    className="rounded-[50px] bg-[#EB3609] text-white font-['Inter'] font-semibold flex items-center justify-center gap-[7.5px] px-[18px] py-[12px] hover:bg-[#FF6B35] transition-colors"
                     style={{
                       fontSize: "20px",
                       lineHeight: "100%",
@@ -124,7 +124,7 @@ const DummyHero = () => {
                   </button>
 
                   <button
-                    className="text-[#3A4A5A] font-['Manrope'] font-semibold flex items-center gap-[7.5px] hover:text-[#EB3609] transition-colors"
+                    className="text-[#3A4A5A] font-['Manrope'] px-[24px] py-[16px] font-semibold flex items-center gap-[7.5px] hover:text-[#EB3609] transition-colors"
                     style={{
                       fontSize: "24px",
                       lineHeight: "30px",
@@ -150,12 +150,12 @@ const DummyHero = () => {
                 />
 
                 {/* Badges */}
-                <div className="flex flex-wrap items-center gap-[7.5px]">
+                <div className="flex flex-wrap items-center gap-[10px]">
                   <div
-                    className="rounded-[37.5px] bg-[#FCFCFD] border border-[#EEF0F3] flex items-center gap-[7.5px] px-[16px] py-[12px]"
+                    className="rounded-[50px] bg-[#FCFCFD] border border-[#EEF0F3] flex items-center gap-[7.5px] px-[16px] py-[12px]"
                     style={{ height: "54px" }}
                   >
-                    <span className="inline-flex items-center justify-center w-5 h-5">
+                    <span className="inline-flex items-center justify-center w-[23px] h-[23px]">
                       <img
                         src="/images/check-orange.svg"
                         alt="Checkmark"
@@ -174,7 +174,7 @@ const DummyHero = () => {
                   </div>
 
                   <div
-                    className="rounded-[37.5px] bg-[#FCFCFD] border border-[#EEF0F3] flex items-center gap-[7.5px] px-[16px] py-[12px]"
+                    className="rounded-[50px] bg-[#FCFCFD] border border-[#EEF0F3] flex items-center gap-[7.5px] px-[16px] py-[12px]"
                     style={{ height: "54px" }}
                   >
                     <span className="inline-flex items-center justify-center w-5 h-5">

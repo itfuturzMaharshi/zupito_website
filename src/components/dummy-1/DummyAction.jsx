@@ -18,7 +18,7 @@ const DummyAction = () => {
           <div
             className="w-full"
             style={{
-              maxWidth: "1140px",
+              maxWidth: "1362px",
               margin: "0 auto",
             }}
           >
@@ -28,9 +28,9 @@ const DummyAction = () => {
                 {/* Plugin Integration Label */}
                 <div className="flex items-center justify-center">
                   <span
-                    className="inline-flex items-center gap-[4.5px] rounded-[37.5px] font-['Inter'] font-semibold text-[12px] leading-[13.5px] capitalize text-[#132436] bg-white px-3 py-[9px] min-w-[140.5px] h-[32px]"
+                    className="inline-flex items-center gap-[6px] rounded-[50px] font-['Inter'] font-semibold text-[16px] leading-[18px] capitalize text-[#132436] bg-white px-[16px] py-[12px] min-w-[140.5px]"
                   >
-                    <span className="w-[9px] h-[9px] rounded-full bg-[#659DF8]" />
+                    <span className="w-[12px] h-[12px] rounded-full bg-[#659DF8]" />
                     Plugin Integration
                   </span>
                 </div>
@@ -39,9 +39,9 @@ const DummyAction = () => {
                 <h2
                   className="font-['Inter'] font-semibold text-center"
                   style={{
-                    fontSize: "clamp(28px, 4vw, 45px)",
-                    lineHeight: "37.5px",
-                    letterSpacing: "-1.65px",
+                    fontSize: "clamp(28px, 4vw, 60px)",
+                    lineHeight: "50px",
+                    letterSpacing: "-2.2px",
                     color: "#132436",
                   }}
                 >
@@ -50,7 +50,7 @@ const DummyAction = () => {
                     <img
                       src="/images/setting-orange.svg"
                       alt=""
-                      className="w-[28px] h-[28px] md:w-[60px] md:h-[60px]"
+                      className="w-[28px] h-[28px] md:w-[75px] md:h-[60px]"
                     />
                   </span>{" "}
                   Zupitu In Action
@@ -60,8 +60,8 @@ const DummyAction = () => {
                 <p
                   className="font-['Manrope'] font-medium text-center max-w-full"
                   style={{
-                    fontSize: "clamp(16px, 2vw, 19.5px)",
-                    lineHeight: "34.5px",
+                    fontSize: "clamp(16px, 2vw, 26px)",
+                    lineHeight: "46px",
                     letterSpacing: "0px",
                     color: "#546779",
                   }}
@@ -97,7 +97,7 @@ const DummyAction = () => {
                 />
               </div>
               <div
-                className="relative w-full rounded-[15px] bg-white z-10 lg:min-h-[429px]"
+                className="relative w-full rounded-[15px] bg-white z-10"
                 style={{
                   boxShadow: "0px 7.5px 22.5px 0px #0000001A",
                 }}
@@ -107,20 +107,20 @@ const DummyAction = () => {
                   {/* Left Section: Comprehensive Email Validation Info */}
                   <div className="w-full lg:w-auto lg:flex-1 flex flex-col gap-[30.75px]">
                     {/* Top Container with Button */}
-                    <div className="flex flex-col gap-[15px]">
+                    <div className="flex flex-col gap-[20px]">
                       {/* Let's get in touch Button */}
                       <div className="flex items-start">
                         <button
-                          className="inline-flex items-center gap-[4.5px] rounded-[37.5px] bg-[#F0F3FF] px-3 py-[9px] min-w-[150.5px] h-[34.5px]"
+                          className="inline-flex items-center gap-[6px] rounded-[50px] bg-[#F0F3FF] px-[16px] py-[12px]"
                           style={{
                             width: "fit-content",
                           }}
                         >
-                          <span className="w-[9px] h-[9px] rounded-full bg-[#659DF8]" />
+                          <span className="w-[12px] h-[12px] rounded-full bg-[#659DF8]" />
                           <span
                             className="font-['Manrope'] font-bold text-center"
                             style={{
-                              fontSize: "13.5px",
+                              fontSize: "18px",
                               lineHeight: "100%",
                               letterSpacing: "0px",
                               color: "#132436",
@@ -134,14 +134,14 @@ const DummyAction = () => {
                       {/* Content Container */}
                       <div className="flex flex-col justify-between min-h-full">
                         {/* Heading and Description Container */}
-                        <div className="flex flex-col gap-[10.5px] text-center md:text-left">
+                        <div className="flex flex-col gap-6 text-center md:text-left">
                           {/* Comprehensive Personal & Business Email Validation Heading */}
                           <h3
                             className="font-['Inter'] font-semibold text-[#132436] text-center md:text-left"
                             style={{
-                              fontSize: "clamp(24px, 3.5vw, 30px)",
-                              lineHeight: "37.5px",
-                              letterSpacing: "-1.13px",
+                              fontSize: "clamp(24px, 3.5vw, 40px)",
+                              lineHeight: "50px",
+                              letterSpacing: "-1.5px",
                             }}
                           >
                             <span className="block">Comprehensive Personal &</span>
@@ -151,7 +151,7 @@ const DummyAction = () => {
                                 <img
                                   src="/images/setting-orange-1.svg"
                                   alt=""
-                                  className="w-[32px] h-[32px] sm:w-[46px] sm:h-[46px]"
+                                  className="w-[32px] h-[32px] sm:w-[62px] sm:h-[50px]"
                                 />
                               </span>
                               <span>Email Validation</span>
@@ -162,8 +162,8 @@ const DummyAction = () => {
                           <p
                             className="font-['Manrope'] font-normal"
                             style={{
-                              fontSize: "clamp(16px, 1.8vw, 18px)",
-                              lineHeight: "33px",
+                              fontSize: "clamp(16px, 1.8vw, 24px)",
+                              lineHeight: "44px",
                               letterSpacing: "0px",
                               color: "#76838F",
                             }}
@@ -182,8 +182,8 @@ const DummyAction = () => {
                             href="#"
                             className="font-['Manrope'] font-bold inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
                             style={{
-                              fontSize: "16.5px",
-                              lineHeight: "22.5px",
+                              fontSize: "22px",
+                              lineHeight: "30px",
                               letterSpacing: "0px",
                               color: "#EB3609",
                               textTransform: "capitalize",
@@ -193,7 +193,7 @@ const DummyAction = () => {
                             <img
                               src="/images/right-orange-arrow.svg"
                               alt="Right arrow"
-                              className="w-3 h-3"
+                              className="w-4 h-4"
                             />
                           </a>
                         </div>
@@ -214,15 +214,15 @@ const DummyAction = () => {
 
                   {/* Right Section: Email Verification Form */}
                   <div className="w-full lg:w-auto lg:flex-1 flex flex-col items-center lg:items-start gap-[22.5px]">
-                    <div className="w-full max-w-full rounded-[18px] bg-[#132436] flex flex-col items-center gap-[15px] p-6 sm:p-8 lg:p-[30px] mx-auto lg:mx-0">
+                    <div className="w-full max-w-full rounded-[24px] bg-[#132436] flex flex-col items-center gap-[20px] px-[30px] py-[42px] mx-auto lg:mx-0">
                       {/* Icon */}
                       <div className="flex items-center justify-center mb-2">
-                        <div className="relative w-16 h-16">
+                        <div className="relative w-[78px] h-[78px]">
                           <div className="w-full h-full rounded-full bg-white flex items-center justify-center shadow-sm">
                             <img
                               src="/images/email-icon.svg"
                               alt="Email icon"
-                              className="w-8 h-8 object-contain"
+                              className="w-[48.75px] h-[39px] object-contain"
                             />
                           </div>
                         </div>
@@ -232,16 +232,16 @@ const DummyAction = () => {
                       <div
                         className="w-full flex flex-col items-center text-center"
                         style={{
-                          gap: "15px",
+                          gap: "20px",
                         }}
                       >
                         {/* Verify Personal & Business Emails Instantly Heading */}
                         <h4
                           className="font-['Inter'] font-semibold text-white"
                           style={{
-                            fontSize: "clamp(20px, 2.5vw, 24px)",
-                            lineHeight: "35.25px",
-                            letterSpacing: "-0.42px",
+                            fontSize: "clamp(20px, 2.5vw, 32px)",
+                            lineHeight: "47px",
+                            letterSpacing: "-0.56px",
                             color: "#FFFFFF",
                           }}
                         >
@@ -252,8 +252,8 @@ const DummyAction = () => {
                         <p
                           className="font-['Manrope'] pb-2 font-medium text-white"
                           style={{
-                            fontSize: "clamp(16px, 1.8vw, 18px)",
-                            lineHeight: "27.75px",
+                            fontSize: "clamp(16px, 1.8vw, 24px)",
+                            lineHeight: "37px",
                             letterSpacing: "0px",
                             color: "#FFFFFF",
                             opacity: 0.7,
@@ -266,7 +266,7 @@ const DummyAction = () => {
                       {/* Email Input and Verify Button - Combined rounded container */}
                       <form
                         onSubmit={handleVerify}
-                        className="w-full rounded-[82.5px] bg-white flex items-center gap-[4.5px] pl-4 sm:pl-[23.25px] pr-[4.5px] py-[4.5px] overflow-hidden"
+                        className="w-full rounded-[110px] bg-white flex items-center gap-[4.5px] pl-4 sm:pl-[31px] pr-[6px] py-[6px] overflow-hidden"
                       >
                         <input
                           type="email"
@@ -280,13 +280,13 @@ const DummyAction = () => {
                         />
                         <button
                           type="submit"
-                          className="rounded-[37.5px] bg-[#EB3609] text-white font-['Manrope'] font-semibold flex items-center justify-center hover:bg-[#FF6B35] transition-colors shrink-0 px-[20px] sm:px-[24.75px] py-[13.5px]"
+                          className="rounded-[50px] bg-[#EB3609] text-white font-['Manrope'] font-semibold flex items-center justify-center hover:bg-[#FF6B35] transition-colors shrink-0 px-[33px]  py-[18px]"
                           style={{
-                            minWidth: "123.5px",
-                            height: "47px",
-                            fontSize: "15px",
+                            // minWidth: "123.5px",
+                            // height: "47px",
+                            fontSize: "20px",
                             lineHeight: "100%",
-                            letterSpacing: "-0.24px",
+                            letterSpacing: "-0.32px",
                           }}
                         >
                           <span className="sm:hidden">Verify</span>
