@@ -24,7 +24,7 @@ const DummyAction = () => {
           >
             {/* Top Section: Plugin Integration Label, Heading, and Description */}
             <div className="w-full mb-8 sm:mb-10 md:mb-12 lg:mb-[15.75px]">
-              <div className="flex flex-col items-center gap-[15.75px]">
+              <div className="flex flex-col items-center gap-[21px]">
                 {/* Plugin Integration Label */}
                 <div className="flex items-center justify-center">
                   <span
