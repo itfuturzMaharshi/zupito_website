@@ -91,7 +91,7 @@ const DummyHero = () => {
 
                 {/* Description */}
                 <p
-                  className="font-['Manrope'] font-semibold text-[#63778B] mb-[45px] xl:mb-[60px]"
+                  className="font-['Manrope'] max-w-[581px] font-semibold text-[#63778B] mb-[45px] xl:mb-[60px]"
                   style={{
                     fontSize: "clamp(16px, 2vw, 26px)",
                     lineHeight: "46px",
