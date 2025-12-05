@@ -27,9 +27,7 @@ const DummyAction = () => {
               <div className="flex flex-col items-center gap-[21px]">
                 {/* Plugin Integration Label */}
                 <div className="flex items-center justify-center">
-                  <span
-                    className="inline-flex items-center gap-[6px] rounded-[50px] font-['Inter'] font-semibold text-[16px] leading-[18px] capitalize text-[#132436] bg-white px-[16px] py-[12px] min-w-[140.5px]"
-                  >
+                  <span className="inline-flex items-center gap-[6px] rounded-[50px] font-['Inter'] font-semibold text-[16px] leading-[18px] capitalize text-[#132436] bg-white px-[16px] py-[12px] min-w-[140.5px]">
                     <span className="w-[12px] h-[12px] rounded-full bg-[#659DF8]" />
                     Plugin Integration
                   </span>
@@ -104,195 +102,198 @@ const DummyAction = () => {
               >
                 <div className="w-full p-6 sm:p-8 md:p-10 lg:p-10.5">
                   <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-10 lg:gap-12">
-                  {/* Left Section: Comprehensive Email Validation Info */}
-                  <div className="w-full lg:w-auto lg:flex-1 flex flex-col gap-[30.75px]">
-                    {/* Top Container with Button */}
-                    <div className="flex flex-col gap-[20px]">
-                      {/* Let's get in touch Button */}
-                      <div className="flex items-start">
-                        <button
-                          className="inline-flex items-center gap-[6px] rounded-[50px] bg-[#F0F3FF] px-[16px] py-[12px]"
+                    {/* Left Section: Comprehensive Email Validation Info */}
+                    <div className="w-full lg:w-auto lg:flex-1 flex flex-col gap-[30.75px]">
+                      {/* Top Container with Button */}
+                      <div className="flex flex-col gap-[20px]">
+                        {/* Let's get in touch Button */}
+                        <div className="flex items-start">
+                          <button
+                            className="inline-flex items-center gap-[6px] rounded-[50px] bg-[#F0F3FF] px-[16px] py-[12px]"
+                            style={{
+                              width: "fit-content",
+                            }}
+                          >
+                            <span className="w-[12px] h-[12px] rounded-full bg-[#659DF8]" />
+                            <span
+                              className="font-['Manrope'] font-bold text-center"
+                              style={{
+                                fontSize: "18px",
+                                lineHeight: "100%",
+                                letterSpacing: "0px",
+                                color: "#132436",
+                              }}
+                            >
+                              Let's get in touch
+                            </span>
+                          </button>
+                        </div>
+
+                        {/* Content Container */}
+                        <div className="flex flex-col justify-between min-h-full">
+                          {/* Heading and Description Container */}
+                          <div className="flex flex-col gap-6 text-center md:text-left">
+                            {/* Comprehensive Personal & Business Email Validation Heading */}
+                            <h3
+                              className="font-['Inter'] font-semibold text-[#132436] text-center md:text-left"
+                              style={{
+                                fontSize: "clamp(24px, 3.5vw, 40px)",
+                                lineHeight: "50px",
+                                letterSpacing: "-1.5px",
+                              }}
+                            >
+                              <span className="block">
+                                Comprehensive Personal &
+                              </span>
+                              <span className="inline-flex flex-wrap items-center gap-2">
+                                <span>Business</span>
+                                <span className="align-middle inline-flex items-center justify-center relative -top-px">
+                                  <img
+                                    src="/images/setting-orange-1.svg"
+                                    alt=""
+                                    className="w-[32px] h-[32px] sm:w-[62px] sm:h-[50px]"
+                                  />
+                                </span>
+                                <span>Email Validation</span>
+                              </span>
+                            </h3>
+
+                            {/* Description Text */}
+                            <p
+                              className="font-['Manrope'] font-normal"
+                              style={{
+                                fontSize: "clamp(16px, 1.8vw, 24px)",
+                                lineHeight: "44px",
+                                letterSpacing: "0px",
+                                color: "#76838F",
+                              }}
+                            >
+                              Verify up to 10 emails instantly without sign-up
+                              just enter an email, click Verify, & repeat.
+                              Explore bulk validation, verification history, all
+                              platform features with unlimited access and no
+                              credits required.
+                            </p>
+                          </div>
+
+                          {/* Checkout our Deals Link */}
+                          <div className="flex items-start">
+                            <a
+                              href="#"
+                              className="font-['Manrope'] font-bold inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
+                              style={{
+                                fontSize: "22px",
+                                lineHeight: "30px",
+                                letterSpacing: "0px",
+                                color: "#EB3609",
+                                textTransform: "capitalize",
+                              }}
+                            >
+                              Checkout our Deals
+                              <img
+                                src="/images/right-orange-arrow.svg"
+                                alt="Right arrow"
+                                className="w-4 h-4"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Vertical Divider - Hidden on mobile, visible on desktop */}
+                    <div
+                      className="hidden lg:block self-stretch"
+                      style={{
+                        width: "0.75px",
+                        minHeight: "369px",
+                        background: "#132436",
+                        opacity: 0.1,
+                      }}
+                    />
+
+                    {/* Right Section: Email Verification Form */}
+                    <div className="w-full lg:w-auto lg:flex-1 flex flex-col items-center lg:items-start gap-[22.5px]">
+                      <div className="w-full max-w-full rounded-[24px] bg-[#132436] flex flex-col items-center gap-[20px] px-[30px] py-[42px] mx-auto lg:mx-0">
+                        {/* Icon */}
+                        <div className="flex items-center justify-center mb-2">
+                          <div className="relative w-[78px] h-[78px]">
+                            <div className="w-full h-full rounded-full bg-white flex items-center justify-center shadow-sm">
+                              <img
+                                src="/images/email-icon.svg"
+                                alt="Email icon"
+                                className="w-[48.75px] h-[39px] object-contain"
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Title and Description Container */}
+                        <div
+                          className="w-full flex flex-col items-center text-center"
                           style={{
-                            width: "fit-content",
+                            gap: "20px",
                           }}
                         >
-                          <span className="w-[12px] h-[12px] rounded-full bg-[#659DF8]" />
-                          <span
-                            className="font-['Manrope'] font-bold text-center"
+                          {/* Verify Personal & Business Emails Instantly Heading */}
+                          <h4
+                            className="font-['Inter'] font-semibold text-white"
                             style={{
-                              fontSize: "18px",
-                              lineHeight: "100%",
-                              letterSpacing: "0px",
-                              color: "#132436",
+                              fontSize: "clamp(20px, 2.5vw, 32px)",
+                              lineHeight: "47px",
+                              letterSpacing: "-0.56px",
+                              color: "#FFFFFF",
                             }}
                           >
-                            Let's get in touch
-                          </span>
-                        </button>
-                      </div>
-
-                      {/* Content Container */}
-                      <div className="flex flex-col justify-between min-h-full">
-                        {/* Heading and Description Container */}
-                        <div className="flex flex-col gap-6 text-center md:text-left">
-                          {/* Comprehensive Personal & Business Email Validation Heading */}
-                          <h3
-                            className="font-['Inter'] font-semibold text-[#132436] text-center md:text-left"
-                            style={{
-                              fontSize: "clamp(24px, 3.5vw, 40px)",
-                              lineHeight: "50px",
-                              letterSpacing: "-1.5px",
-                            }}
-                          >
-                            <span className="block">Comprehensive Personal &</span>
-                            <span className="inline-flex flex-wrap items-center gap-2">
-                              <span>Business</span>
-                              <span className="align-middle inline-flex items-center justify-center relative -top-px">
-                                <img
-                                  src="/images/setting-orange-1.svg"
-                                  alt=""
-                                  className="w-[32px] h-[32px] sm:w-[62px] sm:h-[50px]"
-                                />
-                              </span>
-                              <span>Email Validation</span>
-                            </span>
-                          </h3>
+                            Verify Personal & Business <br /> Emails Instantly
+                          </h4>
 
                           {/* Description Text */}
                           <p
-                            className="font-['Manrope'] font-normal"
+                            className="font-['Manrope'] pb-[10px] font-medium text-white"
                             style={{
                               fontSize: "clamp(16px, 1.8vw, 24px)",
-                              lineHeight: "44px",
+                              lineHeight: "37px",
                               letterSpacing: "0px",
-                              color: "#76838F",
+                              color: "#FFFFFF",
+                              opacity: 0.7,
                             }}
                           >
-                            Verify up to 10 emails instantly without sign-up
-                            just enter an email, click Verify, & repeat. Explore
-                            bulk validation, verification history, all platform
-                            features with unlimited access and no credits
+                            Check up to 10 emails for free – no sign-up
                             required.
                           </p>
                         </div>
 
-                        {/* Checkout our Deals Link */}
-                        <div className="flex items-start">
-                          <a
-                            href="#"
-                            className="font-['Manrope'] font-bold inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
+                        {/* Email Input and Verify Button - Combined rounded container */}
+                        <form
+                          onSubmit={handleVerify}
+                          className="w-full rounded-[110px] bg-white flex items-center gap-[4.5px] pl-4 sm:pl-[31px] pr-[6px] py-[6px] overflow-hidden"
+                        >
+                          <input
+                            type="email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            placeholder="Email Address..."
+                            className="flex-1 min-w-0 outline-none border-none bg-transparent font-['Manrope'] text-[#132436] placeholder:text-[#3A4A5A] placeholder:text-[22px] placeholder:font-medium"
                             style={{
-                              fontSize: "22px",
-                              lineHeight: "30px",
-                              letterSpacing: "0px",
-                              color: "#EB3609",
-                              textTransform: "capitalize",
+                              fontSize: "clamp(14px, 1.5vw, 16px)",
+                            }}
+                          />
+                          <button
+                            type="submit"
+                            className="rounded-[50px] bg-[#EB3609] text-white font-['Manrope'] font-semibold flex items-center justify-center hover:bg-[#FF6B35] transition-colors shrink-0 px-[33px]  py-[18px]"
+                            style={{
+                              fontSize: "20px",
+                              lineHeight: "100%",
+                              letterSpacing: "-0.32px",
                             }}
                           >
-                            Checkout our Deals
-                            <img
-                              src="/images/right-orange-arrow.svg"
-                              alt="Right arrow"
-                              className="w-4 h-4"
-                            />
-                          </a>
-                        </div>
+                            <span className="sm:hidden">Verify</span>
+                            <span className="hidden sm:inline">Verify Now</span>
+                          </button>
+                        </form>
                       </div>
                     </div>
-                  </div>
-
-                  {/* Vertical Divider - Hidden on mobile, visible on desktop */}
-                  <div
-                    className="hidden lg:block self-stretch"
-                    style={{
-                      width: "0.75px",
-                      minHeight: "369px",
-                      background: "#132436",
-                      opacity: 0.1,
-                    }}
-                  />
-
-                  {/* Right Section: Email Verification Form */}
-                  <div className="w-full lg:w-auto lg:flex-1 flex flex-col items-center lg:items-start gap-[22.5px]">
-                    <div className="w-full max-w-full rounded-[24px] bg-[#132436] flex flex-col items-center gap-[20px] px-[30px] py-[42px] mx-auto lg:mx-0">
-                      {/* Icon */}
-                      <div className="flex items-center justify-center mb-2">
-                        <div className="relative w-[78px] h-[78px]">
-                          <div className="w-full h-full rounded-full bg-white flex items-center justify-center shadow-sm">
-                            <img
-                              src="/images/email-icon.svg"
-                              alt="Email icon"
-                              className="w-[48.75px] h-[39px] object-contain"
-                            />
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Title and Description Container */}
-                      <div
-                        className="w-full flex flex-col items-center text-center"
-                        style={{
-                          gap: "20px",
-                        }}
-                      >
-                        {/* Verify Personal & Business Emails Instantly Heading */}
-                        <h4
-                          className="font-['Inter'] font-semibold text-white"
-                          style={{
-                            fontSize: "clamp(20px, 2.5vw, 32px)",
-                            lineHeight: "47px",
-                            letterSpacing: "-0.56px",
-                            color: "#FFFFFF",
-                          }}
-                        >
-                          Verify Personal & Business <br /> Emails Instantly
-                        </h4>
-
-                        {/* Description Text */}
-                        <p
-                          className="font-['Manrope'] pb-[10px] font-medium text-white"
-                          style={{
-                            fontSize: "clamp(16px, 1.8vw, 24px)",
-                            lineHeight: "37px",
-                            letterSpacing: "0px",
-                            color: "#FFFFFF",
-                            opacity: 0.7,
-                          }}
-                        >
-                          Check up to 10 emails for free – no sign-up required.
-                        </p>
-                      </div>
-
-                      {/* Email Input and Verify Button - Combined rounded container */}
-                      <form
-                        onSubmit={handleVerify}
-                        className="w-full rounded-[110px] bg-white flex items-center gap-[4.5px] pl-4 sm:pl-[31px] pr-[6px] py-[6px] overflow-hidden"
-                      >
-                        <input
-                          type="email"
-                          value={email}
-                          onChange={(e) => setEmail(e.target.value)}
-                          placeholder="Email Address..."
-                          className="flex-1 min-w-0 outline-none border-none bg-transparent font-['Manrope'] text-[#132436] placeholder:text-gray-400"
-                          style={{
-                            fontSize: "clamp(14px, 1.5vw, 16px)",
-                          }}
-                        />
-                        <button
-                          type="submit"
-                          className="rounded-[50px] bg-[#EB3609] text-white font-['Manrope'] font-semibold flex items-center justify-center hover:bg-[#FF6B35] transition-colors shrink-0 px-[33px]  py-[18px]"
-                          style={{
-                            fontSize: "20px",
-                            lineHeight: "100%",
-                            letterSpacing: "-0.32px",
-                          }}
-                        >
-                          <span className="sm:hidden">Verify</span>
-                          <span className="hidden sm:inline">Verify Now</span>
-                        </button>
-                      </form>
-                    </div>
-                  </div>
                   </div>
                 </div>
               </div>
