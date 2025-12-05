@@ -250,7 +250,7 @@ const DummyAction = () => {
 
                         {/* Description Text */}
                         <p
-                          className="font-['Manrope'] pb-2 font-medium text-white"
+                          className="font-['Manrope'] pb-[10px] font-medium text-white"
                           style={{
                             fontSize: "clamp(16px, 1.8vw, 24px)",
                             lineHeight: "37px",
@@ -282,8 +282,6 @@ const DummyAction = () => {
                           type="submit"
                           className="rounded-[50px] bg-[#EB3609] text-white font-['Manrope'] font-semibold flex items-center justify-center hover:bg-[#FF6B35] transition-colors shrink-0 px-[33px]  py-[18px]"
                           style={{
-                            // minWidth: "123.5px",
-                            // height: "47px",
                             fontSize: "20px",
                             lineHeight: "100%",
                             letterSpacing: "-0.32px",
