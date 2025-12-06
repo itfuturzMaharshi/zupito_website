@@ -46,13 +46,13 @@ function App() {
       <DummyHero />
       <DummyAction />  */}
 
-      {/* <Banner2 />
+      <Banner2 />
       <Dummy2Header />
-      <Dummy2Hero /> */}
+      <Dummy2Hero />
 
-      <Banner3 />
+      {/* <Banner3 />
       <Dummy3Header />
-      <Dummy3Hero />
+      <Dummy3Hero /> */}
     </>
   );
 }
