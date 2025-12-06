@@ -51,7 +51,7 @@ const Dummy2Hero = () => {
             }}
           >
             {/* Main Container: Two-column layout */}
-            <div className="flex flex-col lg:flex-row items-start gap-8 md:gap-10 lg:gap-12 xl:gap-30 lg:items-stretch">
+            <div className="flex flex-col lg:flex-row items-start gap-8 md:gap-10 lg:gap-12 xl:gap-24 lg:items-stretch">
               {/* Left Section: Text Content */}
               <div className="w-full lg:w-auto lg:flex-1 flex flex-col lg:mt-20 lg:justify-center">
                 {/* Heading */}
