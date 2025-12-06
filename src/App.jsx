@@ -41,14 +41,14 @@ function App() {
     // </Router>
 
     <>
-      {/* <Banner />
+      <Banner />
       <DummyHeader />
       <DummyHero />
-      <DummyAction />  */}
+      <DummyAction /> 
 
-      <Banner2 />
+      {/* <Banner2 />
       <Dummy2Header />
-      <Dummy2Hero />
+      <Dummy2Hero /> */}
 
       {/* <Banner3 />
       <Dummy3Header />
