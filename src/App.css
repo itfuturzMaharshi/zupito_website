@@ -234,6 +234,56 @@ body {
   }
 }
 
+/* Fix header layout for 1024px screen width (lg breakpoint range) */
+/* Exclude zoom levels that have existing fixes (125%, 150%, 175%, 200%) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  body:not(.zoom-125):not(.zoom-150):not(.zoom-175):not(.zoom-200) header.dummy-2-header > div {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+  
+  /* Logo size for 1024px */
+  body:not(.zoom-125):not(.zoom-150):not(.zoom-175):not(.zoom-200) header.dummy-2-header img[alt="Zupito"] {
+    width: 110px !important;
+    height: auto !important;
+  }
+  
+  /* Navigation gap for 1024px */
+  body:not(.zoom-125):not(.zoom-150):not(.zoom-175):not(.zoom-200) header.dummy-2-header nav {
+    gap: 18px !important;
+  }
+  
+  /* Action buttons gap for 1024px */
+  body:not(.zoom-125):not(.zoom-150):not(.zoom-175):not(.zoom-200) header.dummy-2-header > div > div > div:last-child {
+    gap: 12px !important;
+  }
+}
+
+/* Fix header layout for 1440px screen width */
+/* Exclude zoom levels that have existing fixes (125%, 150%, 175%, 200%) */
+@media (min-width: 1440px) and (max-width: 1535px) {
+  body:not(.zoom-125):not(.zoom-150):not(.zoom-175):not(.zoom-200) header.dummy-2-header > div {
+    padding-left: 120px !important;
+    padding-right: 120px !important;
+  }
+  
+  /* Logo size for 1440px */
+  body:not(.zoom-125):not(.zoom-150):not(.zoom-175):not(.zoom-200) header.dummy-2-header img[alt="Zupito"] {
+    width: 140px !important;
+    height: auto !important;
+  }
+  
+  /* Navigation gap for 1440px */
+  body:not(.zoom-125):not(.zoom-150):not(.zoom-175):not(.zoom-200) header.dummy-2-header nav {
+    gap: 32px !important;
+  }
+  
+  /* Action buttons gap for 1440px */
+  body:not(.zoom-125):not(.zoom-150):not(.zoom-175):not(.zoom-200) header.dummy-2-header > div > div > div:last-child {
+    gap: 20px !important;
+  }
+}
+
 /* Fix layout issues at 150% and 175% zoom levels */
 /* These styles match the layout behavior that works at 200% zoom */
 

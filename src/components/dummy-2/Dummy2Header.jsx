@@ -77,14 +77,14 @@ const Dummy2Header = () => {
 
   return (
     <header
-      className="w-full bg-white border-b border-[#EEF0F3] sticky top-0 z-40"
+      className="w-full bg-white border-b border-[#EEF0F3] sticky top-0 z-40 dummy-2-header"
       style={{
         height: "124px",
         borderBottomWidth: "0.75px",
       }}
     >
       {/* Main Container */}
-      <div className="w-full h-full max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-[200px] flex items-center">
+      <div className="w-full h-full max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-[24px] xl:px-[120px] 2xl:px-[200px] flex items-center">
         {/* Navigation Container */}
         <div
           className="w-full flex items-center justify-between"
@@ -100,14 +100,14 @@ const Dummy2Header = () => {
               <img
                 src="/images/zupito_logo.svg"
                 alt="Zupito"
-                className="h-40 w-[140px]"
+                className="h-8 w-auto lg:h-9 lg:w-[120px] xl:h-10 xl:w-[140px] 2xl:h-10 2xl:w-[140px]"
                 style={{ height: "auto" }}
               />
             </a>
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-10 relative">
+          <nav className="hidden lg:flex items-center gap-5 xl:gap-8 2xl:gap-10 relative">
             {/* Product Dropdown */}
             <div className="relative" ref={productDropdownRef}>
               <button
@@ -277,7 +277,7 @@ const Dummy2Header = () => {
           </nav>
 
           {/* Desktop Action Buttons */}
-          <div className="hidden lg:flex items-center shrink-0 gap-5">
+          <div className="hidden lg:flex items-center shrink-0 gap-4 xl:gap-5 2xl:gap-5">
             {/* Start for Free Button */}
             <button
               className="flex items-center justify-center transition-colors bg-[#F6F6F6] hover:bg-[#EEEEEE]"
