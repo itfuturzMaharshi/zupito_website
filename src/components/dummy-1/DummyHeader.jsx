@@ -84,7 +84,7 @@ const DummyHeader = () => {
       }}
     >
       {/* Main Container */}
-      <div className="w-full h-full max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-[200px] flex items-center">
+      <div className="w-full h-full max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-8 xl:px-[200px] flex items-center">
         {/* Navigation Container */}
         <div
           className="w-full flex items-center justify-between"
@@ -100,14 +100,14 @@ const DummyHeader = () => {
               <img
                 src="/images/zupito_logo.svg"
                 alt="Zupito"
-                className="h-46 w-[156px]"
+                className="h-8 lg:h-10 xl:h-12 w-auto lg:w-[120px] xl:w-[156px]"
                 style={{ height: "auto" }}
               />
             </a>
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-11 relative">
+          <nav className="hidden lg:flex items-center gap-3 xl:gap-11 relative">
             {/* Product Dropdown */}
             <div className="relative" ref={productDropdownRef}>
               <button
@@ -116,7 +116,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "24px",
+                  fontSize: "clamp(16px, 1.5vw, 24px)",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -173,7 +173,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "24px",
+                fontSize: "clamp(16px, 1.5vw, 24px)",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -187,7 +187,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "24px",
+                fontSize: "clamp(16px, 1.5vw, 24px)",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -203,7 +203,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "24px",
+                  fontSize: "clamp(16px, 1.5vw, 24px)",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -253,7 +253,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "24px",
+                fontSize: "clamp(16px, 1.5vw, 24px)",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -267,7 +267,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "24px",
+                fontSize: "clamp(16px, 1.5vw, 24px)",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -277,30 +277,30 @@ const DummyHeader = () => {
           </nav>
 
           {/* Desktop Action Buttons */}
-          <div className="hidden lg:flex items-center shrink-0 gap-5">
+          <div className="hidden lg:flex items-center shrink-0 gap-3 xl:gap-5">
             {/* Start for Free Button */}
             <button
               className="flex items-center justify-center transition-colors bg-[#F6F6F6] hover:bg-[#EEEEEE]"
               style={{
-                width: "213px",
-                height: "65px",
+                width: "clamp(160px, 12vw, 213px)",
+                height: "clamp(50px, 5vh, 65px)",
                 gap: "7.5px",
                 borderRadius: "40px",
-                padding: "16px 20px",
+                padding: "clamp(12px, 1.5vw, 16px) clamp(15px, 2vw, 20px)",
               }}
             >
               <img
                 src="/images/user-rounded.svg"
                 alt="User icon"
                 className="w-5 h-5"
-                style={{ width: "24px", height: "24px" }}
+                style={{ width: "clamp(20px, 2vw, 24px)", height: "clamp(20px, 2vw, 24px)" }}
               />
               <span
                 className="text-[#132436] whitespace-nowrap"
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 600,
-                  fontSize: "22px",
+                  fontSize: "clamp(16px, 1.5vw, 22px)",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -313,10 +313,10 @@ const DummyHeader = () => {
             <button
               className="flex items-center justify-center transition-colors bg-[#EB3609] hover:bg-[#D32F08]"
               style={{
-                width: "178px",
-                height: "62px",
+                width: "clamp(130px, 10vw, 178px)",
+                height: "clamp(50px, 5vh, 62px)",
                 borderRadius: "50px",
-                padding: "12px 32.25px",
+                padding: "clamp(10px, 1.2vw, 12px) clamp(24px, 2.5vw, 32.25px)",
               }}
             >
               <span
@@ -324,7 +324,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 600,
-                  fontSize: "22px",
+                  fontSize: "clamp(16px, 1.5vw, 22px)",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -335,6 +335,7 @@ const DummyHeader = () => {
                 src="/images/right-arrow.svg"
                 alt="Right arrow"
                 className="w-5 h-5 mx-1"
+                style={{ width: "clamp(18px, 1.5vw, 20px)", height: "clamp(18px, 1.5vw, 20px)" }}
               />
             </button>
           </div>

@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div className="dummy-1-banner w-full bg-[#FDEBE6] min-h-[60px] h-auto md:h-[80px] flex items-center justify-center px-4 sm:px-6 md:px-0 py-2 md:py-0">
-      <div className="max-w-[1920px] w-full flex items-center justify-center">
+      <div className="max-w-full w-full flex items-center justify-center" style={{ maxWidth: "100vw" }}>
         <p
           className="text-center leading-[100%]"
           style={{ lineHeight: "100%" }}

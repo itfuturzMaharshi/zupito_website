@@ -199,14 +199,15 @@ const DummyHero = () => {
 
               {/* Right Section: Hero Image */}
               <div className="w-full lg:w-auto lg:flex-1 flex">
-                <div className="relative w-full max-w-[400.75px]">
+                <div className="relative w-full max-w-full">
                   <img
                     src="/images/hero_img.png"
                     alt="Zupito AI Email Verifier & Finder"
-                    className="w-full h-auto object-contain min-w-[300.75px] lg:min-w-[400px] xl:min-w-[800.75px]"
+                    className="w-full h-auto object-contain"
                     style={{
                       width: "100%",
                       height: "auto",
+                      maxWidth: "100%",
                     }}
                   />
                 </div>
