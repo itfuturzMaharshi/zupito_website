@@ -203,7 +203,7 @@ const Dummy2Hero = () => {
                   <img
                     src="/images/hero_img.png"
                     alt="Zupito AI Email Verifier & Finder"
-                    className="w-full h-auto object-contain min-w-[300.75px] lg:min-w-[400px] xl:min-w-[610.75px]"
+                    className="w-full h-auto object-contain min-w-[300.75px] lg:min-w-[400px] xl:min-w-[570.75px]"
                     style={{
                       width: "100%",
                       height: "auto",
