@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const DummyHeader = () => {
+const Dummy3Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProductDropdownOpen, setIsProductDropdownOpen] = useState(false);
   const [isResourcesDropdownOpen, setIsResourcesDropdownOpen] = useState(false);
@@ -79,7 +79,7 @@ const DummyHeader = () => {
     <header
       className="w-full bg-white border-b border-[#EEF0F3] sticky top-0 z-40"
       style={{
-        height: "124px",
+        height: "94px",
         borderBottomWidth: "0.75px",
       }}
     >
@@ -89,7 +89,7 @@ const DummyHeader = () => {
         <div
           className="w-full flex items-center justify-between"
           style={{
-            maxWidth: "1920px",
+            // maxWidth: "1440px",
             margin: "0 auto",
             height: "48.75px",
           }}
@@ -100,14 +100,14 @@ const DummyHeader = () => {
               <img
                 src="/images/zupito_logo.svg"
                 alt="Zupito"
-                className="h-46 w-[156px]"
+                className="h-34.5 w-[117px]"
                 style={{ height: "auto" }}
               />
             </a>
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-11 relative">
+          <nav className="hidden lg:flex items-center gap-6 xl:gap-10 relative">
             {/* Product Dropdown */}
             <div className="relative" ref={productDropdownRef}>
               <button
@@ -116,7 +116,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "24px",
+                  fontSize: "18px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -173,7 +173,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "24px",
+                fontSize: "18px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -187,7 +187,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "24px",
+                fontSize: "18px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -203,7 +203,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "24px",
+                  fontSize: "18px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -253,7 +253,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "24px",
+                fontSize: "18px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -267,7 +267,7 @@ const DummyHeader = () => {
               style={{
                 fontFamily: "Manrope, sans-serif",
                 fontWeight: 500,
-                fontSize: "24px",
+                fontSize: "18px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -282,25 +282,25 @@ const DummyHeader = () => {
             <button
               className="flex items-center justify-center transition-colors bg-[#F6F6F6] hover:bg-[#EEEEEE]"
               style={{
-                width: "213px",
-                height: "65px",
+                // width: "213px",
+                height: "48px",
                 gap: "7.5px",
                 borderRadius: "40px",
-                padding: "16px 20px",
+                padding: "12px 15px",
               }}
             >
               <img
                 src="/images/user-rounded.svg"
                 alt="User icon"
                 className="w-5 h-5"
-                style={{ width: "24px", height: "24px" }}
+                style={{ width: "18px", height: "18px" }}
               />
               <span
                 className="text-[#132436] whitespace-nowrap"
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 600,
-                  fontSize: "22px",
+                  fontSize: "16.5px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -313,10 +313,10 @@ const DummyHeader = () => {
             <button
               className="flex items-center justify-center transition-colors bg-[#EB3609] hover:bg-[#D32F08]"
               style={{
-                width: "178px",
-                height: "62px",
+                // width: "178px",
+                height: "48px",
                 borderRadius: "50px",
-                padding: "12px 32.25px",
+                padding: "12px 30px",
               }}
             >
               <span
@@ -324,7 +324,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 600,
-                  fontSize: "22px",
+                  fontSize: "16.5px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -427,7 +427,7 @@ const DummyHeader = () => {
                   style={{
                     fontFamily: "Manrope, sans-serif",
                     fontWeight: 500,
-                    fontSize: "24px",
+                    fontSize: "18px",
                     lineHeight: "100%",
                     letterSpacing: "0px",
                   }}
@@ -460,7 +460,7 @@ const DummyHeader = () => {
                       style={{
                         fontFamily: "Manrope, sans-serif",
                         fontWeight: 500,
-                        fontSize: "16px",
+                        fontSize: "18px",
                       }}
                     >
                       Home
@@ -472,7 +472,7 @@ const DummyHeader = () => {
                       style={{
                         fontFamily: "Manrope, sans-serif",
                         fontWeight: 500,
-                        fontSize: "16px",
+                        fontSize: "18px",
                       }}
                     >
                       Email Finder
@@ -484,7 +484,7 @@ const DummyHeader = () => {
                       style={{
                         fontFamily: "Manrope, sans-serif",
                         fontWeight: 500,
-                        fontSize: "16px",
+                        fontSize: "18px",
                       }}
                     >
                       Email Verifier
@@ -500,7 +500,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "24px",
+                  fontSize: "18px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -515,7 +515,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "24px",
+                  fontSize: "18px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -530,7 +530,7 @@ const DummyHeader = () => {
                   style={{
                     fontFamily: "Manrope, sans-serif",
                     fontWeight: 500,
-                    fontSize: "24px",
+                    fontSize: "18px",
                     lineHeight: "100%",
                     letterSpacing: "0px",
                   }}
@@ -563,7 +563,7 @@ const DummyHeader = () => {
                       style={{
                         fontFamily: "Manrope, sans-serif",
                         fontWeight: 500,
-                        fontSize: "16px",
+                        fontSize: "18px",
                       }}
                     >
                       Help Desk
@@ -575,7 +575,7 @@ const DummyHeader = () => {
                       style={{
                         fontFamily: "Manrope, sans-serif",
                         fontWeight: 500,
-                        fontSize: "16px",
+                        fontSize: "18px",
                       }}
                     >
                       Documentation
@@ -591,7 +591,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "24px",
+                  fontSize: "18px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -606,7 +606,7 @@ const DummyHeader = () => {
                 style={{
                   fontFamily: "Manrope, sans-serif",
                   fontWeight: 500,
-                  fontSize: "24px",
+                  fontSize: "18px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -684,4 +684,4 @@ const DummyHeader = () => {
   );
 };
 
-export default DummyHeader;
+export default Dummy3Header;

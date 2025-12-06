@@ -13,6 +13,12 @@ import Banner from "./components/dummy-1/Banner";
 import DummyHeader from "./components/dummy-1/DummyHeader";
 import DummyHero from "./components/dummy-1/DummyHero";
 import DummyAction from "./components/dummy-1/DummyAction";
+import Banner2 from "./components/dummy-2/Banner2";
+import Dummy2Header from "./components/dummy-2/Dummy2Header";
+import Dummy2Hero from "./components/dummy-2/Dummy2Hero";
+import Banner3 from "./components/dummy-3/Banner3";
+import Dummy3Header from "./components/dummy-3/Dummy3Header";
+import Dummy3Hero from "./components/dummy-3/Dummy3Hero";
 
 function App() {
   return (
@@ -35,10 +41,18 @@ function App() {
     // </Router>
 
     <>
-      <Banner />
+      {/* <Banner />
       <DummyHeader />
       <DummyHero />
-      <DummyAction /> 
+      <DummyAction />  */}
+
+      {/* <Banner2 />
+      <Dummy2Header />
+      <Dummy2Hero /> */}
+
+      <Banner3 />
+      <Dummy3Header />
+      <Dummy3Hero />
     </>
   );
 }

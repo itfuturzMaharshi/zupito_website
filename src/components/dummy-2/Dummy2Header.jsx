@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const DummyHeader = () => {
+const Dummy2Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProductDropdownOpen, setIsProductDropdownOpen] = useState(false);
   const [isResourcesDropdownOpen, setIsResourcesDropdownOpen] = useState(false);
@@ -84,7 +84,7 @@ const DummyHeader = () => {
       }}
     >
       {/* Main Container */}
-      <div className="w-full h-full max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-[200px] flex items-center">
+      <div className="w-full h-full max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-[340px] flex items-center">
         {/* Navigation Container */}
         <div
           className="w-full flex items-center justify-between"
@@ -100,14 +100,14 @@ const DummyHeader = () => {
               <img
                 src="/images/zupito_logo.svg"
                 alt="Zupito"
-                className="h-46 w-[156px]"
+                className="h-40 w-[140px]"
                 style={{ height: "auto" }}
               />
             </a>
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-11 relative">
+          <nav className="hidden lg:flex items-center gap-6 xl:gap-10 relative">
             {/* Product Dropdown */}
             <div className="relative" ref={productDropdownRef}>
               <button
@@ -115,8 +115,8 @@ const DummyHeader = () => {
                 className="flex items-center gap-1 text-[#132436] hover:text-[#EB3609] transition-colors"
                 style={{
                   fontFamily: "Manrope, sans-serif",
-                  fontWeight: 500,
-                  fontSize: "24px",
+                  fontWeight: 700,
+                  fontSize: "16px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -172,8 +172,8 @@ const DummyHeader = () => {
               className="text-[#132436] hover:text-[#EB3609] transition-colors"
               style={{
                 fontFamily: "Manrope, sans-serif",
-                fontWeight: 500,
-                fontSize: "24px",
+                fontWeight: 700,
+                fontSize: "16px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -186,8 +186,8 @@ const DummyHeader = () => {
               className="text-[#132436] hover:text-[#EB3609] transition-colors"
               style={{
                 fontFamily: "Manrope, sans-serif",
-                fontWeight: 500,
-                fontSize: "24px",
+                fontWeight: 700,
+                fontSize: "16px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -202,8 +202,8 @@ const DummyHeader = () => {
                 className="flex items-center gap-1 text-[#132436] hover:text-[#EB3609] transition-colors"
                 style={{
                   fontFamily: "Manrope, sans-serif",
-                  fontWeight: 500,
-                  fontSize: "24px",
+                  fontWeight: 700,
+                  fontSize: "16px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -252,8 +252,8 @@ const DummyHeader = () => {
               className="text-[#132436] hover:text-[#EB3609] transition-colors"
               style={{
                 fontFamily: "Manrope, sans-serif",
-                fontWeight: 500,
-                fontSize: "24px",
+                fontWeight: 700,
+                fontSize: "16px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -266,8 +266,8 @@ const DummyHeader = () => {
               className="text-[#132436] hover:text-[#EB3609] transition-colors"
               style={{
                 fontFamily: "Manrope, sans-serif",
-                fontWeight: 500,
-                fontSize: "24px",
+                fontWeight: 700,
+                fontSize: "16px",
                 lineHeight: "100%",
                 letterSpacing: "0px",
               }}
@@ -282,8 +282,8 @@ const DummyHeader = () => {
             <button
               className="flex items-center justify-center transition-colors bg-[#F6F6F6] hover:bg-[#EEEEEE]"
               style={{
-                width: "213px",
-                height: "65px",
+                // width: "213px",
+                // height: "65px",
                 gap: "7.5px",
                 borderRadius: "40px",
                 padding: "16px 20px",
@@ -293,14 +293,14 @@ const DummyHeader = () => {
                 src="/images/user-rounded.svg"
                 alt="User icon"
                 className="w-5 h-5"
-                style={{ width: "24px", height: "24px" }}
+                style={{ width: "20px", height: "20px" }}
               />
               <span
                 className="text-[#132436] whitespace-nowrap"
                 style={{
                   fontFamily: "Manrope, sans-serif",
-                  fontWeight: 600,
-                  fontSize: "22px",
+                  fontWeight: 800,
+                  fontSize: "18px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -313,18 +313,18 @@ const DummyHeader = () => {
             <button
               className="flex items-center justify-center transition-colors bg-[#EB3609] hover:bg-[#D32F08]"
               style={{
-                width: "178px",
-                height: "62px",
+                // width: "178px",
+                // height: "62px",
                 borderRadius: "50px",
-                padding: "12px 32.25px",
+                padding: "12px 20px",
               }}
             >
               <span
                 className="text-white whitespace-nowrap"
                 style={{
                   fontFamily: "Manrope, sans-serif",
-                  fontWeight: 600,
-                  fontSize: "22px",
+                  fontWeight: 800,
+                  fontSize: "18px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -426,8 +426,8 @@ const DummyHeader = () => {
                   className="flex items-center justify-between w-full text-[#132436] hover:text-[#EB3609] transition-colors py-3"
                   style={{
                     fontFamily: "Manrope, sans-serif",
-                    fontWeight: 500,
-                    fontSize: "24px",
+                    fontWeight: 700,
+                    fontSize: "16px",
                     lineHeight: "100%",
                     letterSpacing: "0px",
                   }}
@@ -459,7 +459,7 @@ const DummyHeader = () => {
                       className="block text-[#132436] hover:text-[#EB3609] transition-colors py-2"
                       style={{
                         fontFamily: "Manrope, sans-serif",
-                        fontWeight: 500,
+                        fontWeight: 700,
                         fontSize: "16px",
                       }}
                     >
@@ -471,7 +471,7 @@ const DummyHeader = () => {
                       className="block text-[#132436] hover:text-[#EB3609] transition-colors py-2"
                       style={{
                         fontFamily: "Manrope, sans-serif",
-                        fontWeight: 500,
+                        fontWeight: 700,
                         fontSize: "16px",
                       }}
                     >
@@ -483,7 +483,7 @@ const DummyHeader = () => {
                       className="block text-[#132436] hover:text-[#EB3609] transition-colors py-2"
                       style={{
                         fontFamily: "Manrope, sans-serif",
-                        fontWeight: 500,
+                        fontWeight: 700,
                         fontSize: "16px",
                       }}
                     >
@@ -499,8 +499,8 @@ const DummyHeader = () => {
                 className="text-[#132436] hover:text-[#EB3609] transition-colors py-3"
                 style={{
                   fontFamily: "Manrope, sans-serif",
-                  fontWeight: 500,
-                  fontSize: "24px",
+                  fontWeight: 700,
+                  fontSize: "16px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -514,8 +514,8 @@ const DummyHeader = () => {
                 className="text-[#132436] hover:text-[#EB3609] transition-colors py-3"
                 style={{
                   fontFamily: "Manrope, sans-serif",
-                  fontWeight: 500,
-                  fontSize: "24px",
+                  fontWeight: 700,
+                  fontSize: "16px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -529,8 +529,8 @@ const DummyHeader = () => {
                   className="flex items-center justify-between w-full text-[#132436] hover:text-[#EB3609] transition-colors py-3"
                   style={{
                     fontFamily: "Manrope, sans-serif",
-                    fontWeight: 500,
-                    fontSize: "24px",
+                    fontWeight: 700,
+                    fontSize: "16px",
                     lineHeight: "100%",
                     letterSpacing: "0px",
                   }}
@@ -562,7 +562,7 @@ const DummyHeader = () => {
                       className="block text-[#132436] hover:text-[#EB3609] transition-colors py-2"
                       style={{
                         fontFamily: "Manrope, sans-serif",
-                        fontWeight: 500,
+                        fontWeight: 700,
                         fontSize: "16px",
                       }}
                     >
@@ -574,7 +574,7 @@ const DummyHeader = () => {
                       className="block text-[#132436] hover:text-[#EB3609] transition-colors py-2"
                       style={{
                         fontFamily: "Manrope, sans-serif",
-                        fontWeight: 500,
+                        fontWeight: 700,
                         fontSize: "16px",
                       }}
                     >
@@ -590,8 +590,8 @@ const DummyHeader = () => {
                 className="text-[#132436] hover:text-[#EB3609] transition-colors py-3"
                 style={{
                   fontFamily: "Manrope, sans-serif",
-                  fontWeight: 500,
-                  fontSize: "24px",
+                  fontWeight: 700,
+                  fontSize: "16px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -605,8 +605,8 @@ const DummyHeader = () => {
                 className="text-[#132436] hover:text-[#EB3609] transition-colors py-3"
                 style={{
                   fontFamily: "Manrope, sans-serif",
-                  fontWeight: 500,
-                  fontSize: "24px",
+                  fontWeight: 700,
+                  fontSize: "16px",
                   lineHeight: "100%",
                   letterSpacing: "0px",
                 }}
@@ -684,4 +684,4 @@ const DummyHeader = () => {
   );
 };
 
-export default DummyHeader;
+export default Dummy2Header;
