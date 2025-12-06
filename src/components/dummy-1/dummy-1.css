@@ -1,0 +1,529 @@
+/* Dummy-1 CSS - Zoom Level Fixes */
+/* This file contains zoom-specific adjustments for dummy-1 components only */
+/* DO NOT modify dummy-2 components */
+
+/* ============================================
+   Base: Prevent horizontal overflow at all zoom levels
+   ============================================ */
+html.zoom-110 .dummy-1-banner,
+html.zoom-125 .dummy-1-banner,
+html.zoom-150 .dummy-1-banner,
+html.zoom-175 .dummy-1-banner,
+html.zoom-200 .dummy-1-banner,
+html.zoom-110 .dummy-1-header,
+html.zoom-125 .dummy-1-header,
+html.zoom-150 .dummy-1-header,
+html.zoom-175 .dummy-1-header,
+html.zoom-200 .dummy-1-header,
+html.zoom-110 .dummy-1-hero,
+html.zoom-125 .dummy-1-hero,
+html.zoom-150 .dummy-1-hero,
+html.zoom-175 .dummy-1-hero,
+html.zoom-200 .dummy-1-hero,
+html.zoom-110 .dummy-1-action,
+html.zoom-125 .dummy-1-action,
+html.zoom-150 .dummy-1-action,
+html.zoom-175 .dummy-1-action,
+html.zoom-200 .dummy-1-action {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+/* ============================================
+   ZOOM 110% - Adjustments
+   ============================================ */
+body.zoom-110 .dummy-1-banner > div,
+body.zoom-110 .dummy-1-header > div,
+body.zoom-110 .dummy-1-hero > div,
+body.zoom-110 .dummy-1-action > div {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+  box-sizing: border-box !important;
+  max-width: 100vw !important;
+}
+
+/* Banner adjustments at 110% */
+body.zoom-110 .dummy-1-banner {
+  padding-left: clamp(0.5rem, 1vw, 1.5rem) !important;
+  padding-right: clamp(0.5rem, 1vw, 1.5rem) !important;
+}
+
+/* Header adjustments at 110% */
+body.zoom-110 .dummy-1-header > div {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+/* Hero section adjustments at 110% */
+body.zoom-110 .dummy-1-hero > div {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+/* Action section adjustments at 110% */
+body.zoom-110 .dummy-1-action > div {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+/* Ensure max-width containers respect viewport at 110% */
+body.zoom-110 .dummy-1-header > div > div[style*="maxWidth"],
+body.zoom-110 .dummy-1-hero > div > div > div[style*="maxWidth"],
+body.zoom-110 .dummy-1-action > div > div > div[style*="maxWidth"] {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* ============================================
+   ZOOM 125% - Adjustments
+   ============================================ */
+body.zoom-125 .dummy-1-banner > div,
+body.zoom-125 .dummy-1-header > div,
+body.zoom-125 .dummy-1-hero > div,
+body.zoom-125 .dummy-1-action > div {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+  box-sizing: border-box !important;
+  max-width: 100vw !important;
+}
+
+/* Banner adjustments at 125% */
+body.zoom-125 .dummy-1-banner {
+  padding-left: clamp(0.5rem, 0.8vw, 1.25rem) !important;
+  padding-right: clamp(0.5rem, 0.8vw, 1.25rem) !important;
+}
+
+/* Header adjustments at 125% */
+body.zoom-125 .dummy-1-header > div {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+/* Hero section adjustments at 125% */
+body.zoom-125 .dummy-1-hero > div {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+/* Action section adjustments at 125% */
+body.zoom-125 .dummy-1-action > div {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+/* Ensure max-width containers respect viewport at 125% */
+body.zoom-125 .dummy-1-header > div > div[style*="maxWidth"],
+body.zoom-125 .dummy-1-hero > div > div > div[style*="maxWidth"],
+body.zoom-125 .dummy-1-action > div > div > div[style*="maxWidth"] {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* ============================================
+   ZOOM 150% - Adjustments
+   ============================================ */
+body.zoom-150 .dummy-1-banner > div,
+body.zoom-150 .dummy-1-header > div,
+body.zoom-150 .dummy-1-hero > div,
+body.zoom-150 .dummy-1-action > div {
+  padding-left: clamp(1rem, 1vw, 133px) !important;
+  padding-right: clamp(1rem, 1vw, 133px) !important;
+  box-sizing: border-box !important;
+  max-width: 100vw !important;
+}
+
+/* Banner adjustments at 150% */
+body.zoom-150 .dummy-1-banner {
+  padding-left: clamp(0.5rem, 0.7vw, 1rem) !important;
+  padding-right: clamp(0.5rem, 0.7vw, 1rem) !important;
+}
+
+/* Header adjustments at 150% */
+body.zoom-150 .dummy-1-header > div {
+  padding-left: clamp(1rem, 1vw, 133px) !important;
+  padding-right: clamp(1rem, 1vw, 133px) !important;
+}
+
+/* Hero section adjustments at 150% */
+body.zoom-150 .dummy-1-hero > div {
+  padding-left: clamp(1rem, 1vw, 133px) !important;
+  padding-right: clamp(1rem, 1vw, 133px) !important;
+}
+
+/* Action section adjustments at 150% */
+body.zoom-150 .dummy-1-action > div {
+  padding-left: clamp(1rem, 1vw, 67px) !important;
+  padding-right: clamp(1rem, 1vw, 67px) !important;
+}
+
+/* Ensure max-width containers respect viewport at 150% */
+body.zoom-150 .dummy-1-header > div > div[style*="maxWidth"],
+body.zoom-150 .dummy-1-hero > div > div > div[style*="maxWidth"],
+body.zoom-150 .dummy-1-action > div > div > div[style*="maxWidth"] {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Fix flex layouts at 150% to prevent overflow */
+body.zoom-150 .dummy-1-hero > div > div > div > div[class*="flex"],
+body.zoom-150 .dummy-1-action > div > div > div > div[class*="flex"] {
+  flex-wrap: wrap !important;
+  gap: clamp(0.5rem, 1vw, 1.5rem) !important;
+}
+
+/* Fix images at 150% */
+body.zoom-150 .dummy-1-hero img,
+body.zoom-150 .dummy-1-action img {
+  max-width: 100% !important;
+  height: auto !important;
+  min-width: 0 !important;
+}
+
+/* Fix min-width constraints at 150% */
+body.zoom-150 .dummy-1-hero [class*="min-w"],
+body.zoom-150 .dummy-1-action [class*="min-w"] {
+  min-width: 0 !important;
+}
+
+/* ============================================
+   ZOOM 175% - Adjustments
+   ============================================ */
+body.zoom-175 .dummy-1-banner > div,
+body.zoom-175 .dummy-1-header > div,
+body.zoom-175 .dummy-1-hero > div,
+body.zoom-175 .dummy-1-action > div {
+  padding-left: clamp(1rem, 0.9vw, 114px) !important;
+  padding-right: clamp(1rem, 0.9vw, 114px) !important;
+  box-sizing: border-box !important;
+  max-width: 100vw !important;
+}
+
+/* Banner adjustments at 175% */
+body.zoom-175 .dummy-1-banner {
+  padding-left: clamp(0.5rem, 0.6vw, 0.875rem) !important;
+  padding-right: clamp(0.5rem, 0.6vw, 0.875rem) !important;
+}
+
+/* Header adjustments at 175% */
+body.zoom-175 .dummy-1-header > div {
+  padding-left: clamp(1rem, 0.9vw, 114px) !important;
+  padding-right: clamp(1rem, 0.9vw, 114px) !important;
+}
+
+/* Hero section adjustments at 175% */
+body.zoom-175 .dummy-1-hero > div {
+  padding-left: clamp(1rem, 0.9vw, 114px) !important;
+  padding-right: clamp(1rem, 0.9vw, 114px) !important;
+}
+
+/* Action section adjustments at 175% */
+body.zoom-175 .dummy-1-action > div {
+  padding-left: clamp(1rem, 0.9vw, 57px) !important;
+  padding-right: clamp(1rem, 0.9vw, 57px) !important;
+}
+
+/* Ensure max-width containers respect viewport at 175% */
+body.zoom-175 .dummy-1-header > div > div[style*="maxWidth"],
+body.zoom-175 .dummy-1-hero > div > div > div[style*="maxWidth"],
+body.zoom-175 .dummy-1-action > div > div > div[style*="maxWidth"] {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Fix flex layouts at 175% to prevent overflow */
+body.zoom-175 .dummy-1-hero > div > div > div > div[class*="flex"],
+body.zoom-175 .dummy-1-action > div > div > div > div[class*="flex"] {
+  flex-wrap: wrap !important;
+  gap: clamp(0.5rem, 0.9vw, 1.25rem) !important;
+}
+
+/* Fix images at 175% */
+body.zoom-175 .dummy-1-hero img,
+body.zoom-175 .dummy-1-action img {
+  max-width: 100% !important;
+  height: auto !important;
+  min-width: 0 !important;
+}
+
+/* Fix min-width constraints at 175% */
+body.zoom-175 .dummy-1-hero [class*="min-w"],
+body.zoom-175 .dummy-1-action [class*="min-w"] {
+  min-width: 0 !important;
+}
+
+/* ============================================
+   ZOOM 200% - Adjustments
+   ============================================ */
+body.zoom-200 .dummy-1-banner > div,
+body.zoom-200 .dummy-1-header > div,
+body.zoom-200 .dummy-1-hero > div,
+body.zoom-200 .dummy-1-action > div {
+  padding-left: clamp(1rem, 0.8vw, 100px) !important;
+  padding-right: clamp(1rem, 0.8vw, 100px) !important;
+  box-sizing: border-box !important;
+  max-width: 100vw !important;
+}
+
+/* Banner adjustments at 200% */
+body.zoom-200 .dummy-1-banner {
+  padding-left: clamp(0.5rem, 0.5vw, 0.75rem) !important;
+  padding-right: clamp(0.5rem, 0.5vw, 0.75rem) !important;
+}
+
+/* Header adjustments at 200% */
+body.zoom-200 .dummy-1-header > div {
+  padding-left: clamp(1rem, 0.8vw, 100px) !important;
+  padding-right: clamp(1rem, 0.8vw, 100px) !important;
+}
+
+/* Hero section adjustments at 200% */
+body.zoom-200 .dummy-1-hero > div {
+  padding-left: clamp(1rem, 0.8vw, 100px) !important;
+  padding-right: clamp(1rem, 0.8vw, 100px) !important;
+}
+
+/* Action section adjustments at 200% */
+body.zoom-200 .dummy-1-action > div {
+  padding-left: clamp(1rem, 0.8vw, 50px) !important;
+  padding-right: clamp(1rem, 0.8vw, 50px) !important;
+}
+
+/* Ensure max-width containers respect viewport at 200% */
+body.zoom-200 .dummy-1-header > div > div[style*="maxWidth"],
+body.zoom-200 .dummy-1-hero > div > div > div[style*="maxWidth"],
+body.zoom-200 .dummy-1-action > div > div > div[style*="maxWidth"] {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Fix flex layouts at 200% to prevent overflow */
+body.zoom-200 .dummy-1-hero > div > div > div > div[class*="flex"],
+body.zoom-200 .dummy-1-action > div > div > div > div[class*="flex"] {
+  flex-wrap: wrap !important;
+  gap: clamp(0.5rem, 0.8vw, 1rem) !important;
+}
+
+/* Fix images at 200% */
+body.zoom-200 .dummy-1-hero img,
+body.zoom-200 .dummy-1-action img {
+  max-width: 100% !important;
+  height: auto !important;
+  min-width: 0 !important;
+}
+
+/* Fix min-width constraints at 200% */
+body.zoom-200 .dummy-1-hero [class*="min-w"],
+body.zoom-200 .dummy-1-action [class*="min-w"] {
+  min-width: 0 !important;
+}
+
+/* ============================================
+   Common fixes for all zoom levels above 100%
+   ============================================ */
+body.zoom-110 .dummy-1-header nav,
+body.zoom-125 .dummy-1-header nav,
+body.zoom-150 .dummy-1-header nav,
+body.zoom-175 .dummy-1-header nav,
+body.zoom-200 .dummy-1-header nav {
+  flex-wrap: wrap !important;
+  gap: clamp(0.5rem, 1vw, 2.5rem) !important;
+}
+
+/* Fix button groups to prevent overflow */
+body.zoom-110 .dummy-1-header > div > div > div:last-child,
+body.zoom-125 .dummy-1-header > div > div > div:last-child,
+body.zoom-150 .dummy-1-header > div > div > div:last-child,
+body.zoom-175 .dummy-1-header > div > div > div:last-child,
+body.zoom-200 .dummy-1-header > div > div > div:last-child {
+  flex-wrap: wrap !important;
+  gap: clamp(0.5rem, 0.8vw, 1.25rem) !important;
+}
+
+/* Ensure buttons don't cause overflow */
+body.zoom-110 .dummy-1-header button,
+body.zoom-125 .dummy-1-header button,
+body.zoom-150 .dummy-1-header button,
+body.zoom-175 .dummy-1-header button,
+body.zoom-200 .dummy-1-header button,
+body.zoom-110 .dummy-1-hero button,
+body.zoom-125 .dummy-1-hero button,
+body.zoom-150 .dummy-1-hero button,
+body.zoom-175 .dummy-1-hero button,
+body.zoom-200 .dummy-1-hero button,
+body.zoom-110 .dummy-1-action button,
+body.zoom-125 .dummy-1-action button,
+body.zoom-150 .dummy-1-action button,
+body.zoom-175 .dummy-1-action button,
+body.zoom-200 .dummy-1-action button {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+/* Fix logo container */
+body.zoom-110 .dummy-1-header .shrink-0,
+body.zoom-125 .dummy-1-header .shrink-0,
+body.zoom-150 .dummy-1-header .shrink-0,
+body.zoom-175 .dummy-1-header .shrink-0,
+body.zoom-200 .dummy-1-header .shrink-0 {
+  flex-shrink: 1 !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Ensure all containers with w-full respect viewport */
+body.zoom-110 .dummy-1-banner [class*="w-full"],
+body.zoom-125 .dummy-1-banner [class*="w-full"],
+body.zoom-150 .dummy-1-banner [class*="w-full"],
+body.zoom-175 .dummy-1-banner [class*="w-full"],
+body.zoom-200 .dummy-1-banner [class*="w-full"],
+body.zoom-110 .dummy-1-header [class*="w-full"],
+body.zoom-125 .dummy-1-header [class*="w-full"],
+body.zoom-150 .dummy-1-header [class*="w-full"],
+body.zoom-175 .dummy-1-header [class*="w-full"],
+body.zoom-200 .dummy-1-header [class*="w-full"],
+body.zoom-110 .dummy-1-hero [class*="w-full"],
+body.zoom-125 .dummy-1-hero [class*="w-full"],
+body.zoom-150 .dummy-1-hero [class*="w-full"],
+body.zoom-175 .dummy-1-hero [class*="w-full"],
+body.zoom-200 .dummy-1-hero [class*="w-full"],
+body.zoom-110 .dummy-1-action [class*="w-full"],
+body.zoom-125 .dummy-1-action [class*="w-full"],
+body.zoom-150 .dummy-1-action [class*="w-full"],
+body.zoom-175 .dummy-1-action [class*="w-full"],
+body.zoom-200 .dummy-1-action [class*="w-full"] {
+  max-width: 100vw !important;
+  box-sizing: border-box !important;
+}
+
+/* Override Tailwind padding classes that might cause overflow */
+/* 200px padding adjustments by zoom level */
+body.zoom-110 .dummy-1-header [class*="px-\\[200px\\]"],
+body.zoom-110 .dummy-1-hero [class*="px-\\[200px\\]"] {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+body.zoom-125 .dummy-1-header [class*="px-\\[200px\\]"],
+body.zoom-125 .dummy-1-hero [class*="px-\\[200px\\]"] {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+body.zoom-150 .dummy-1-header [class*="px-\\[200px\\]"],
+body.zoom-150 .dummy-1-hero [class*="px-\\[200px\\]"] {
+  padding-left: clamp(1rem, 1vw, 133px) !important;
+  padding-right: clamp(1rem, 1vw, 133px) !important;
+}
+
+body.zoom-175 .dummy-1-header [class*="px-\\[200px\\]"],
+body.zoom-175 .dummy-1-hero [class*="px-\\[200px\\]"] {
+  padding-left: clamp(1rem, 0.9vw, 114px) !important;
+  padding-right: clamp(1rem, 0.9vw, 114px) !important;
+}
+
+body.zoom-200 .dummy-1-header [class*="px-\\[200px\\]"],
+body.zoom-200 .dummy-1-hero [class*="px-\\[200px\\]"] {
+  padding-left: clamp(1rem, 0.8vw, 100px) !important;
+  padding-right: clamp(1rem, 0.8vw, 100px) !important;
+}
+
+/* 100px padding adjustments by zoom level */
+body.zoom-110 .dummy-1-action [class*="px-\\[100px\\]"] {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+body.zoom-125 .dummy-1-action [class*="px-\\[100px\\]"] {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+body.zoom-150 .dummy-1-action [class*="px-\\[100px\\]"] {
+  padding-left: clamp(1rem, 1vw, 67px) !important;
+  padding-right: clamp(1rem, 1vw, 67px) !important;
+}
+
+body.zoom-175 .dummy-1-action [class*="px-\\[100px\\]"] {
+  padding-left: clamp(1rem, 0.9vw, 57px) !important;
+  padding-right: clamp(1rem, 0.9vw, 57px) !important;
+}
+
+body.zoom-200 .dummy-1-action [class*="px-\\[100px\\]"] {
+  padding-left: clamp(1rem, 0.8vw, 50px) !important;
+  padding-right: clamp(1rem, 0.8vw, 50px) !important;
+}
+
+/* Ensure all sections respect viewport */
+body.zoom-110 .dummy-1-banner,
+body.zoom-125 .dummy-1-banner,
+body.zoom-150 .dummy-1-banner,
+body.zoom-175 .dummy-1-banner,
+body.zoom-200 .dummy-1-banner,
+body.zoom-110 .dummy-1-header,
+body.zoom-125 .dummy-1-header,
+body.zoom-150 .dummy-1-header,
+body.zoom-175 .dummy-1-header,
+body.zoom-200 .dummy-1-header,
+body.zoom-110 .dummy-1-hero,
+body.zoom-125 .dummy-1-hero,
+body.zoom-150 .dummy-1-hero,
+body.zoom-175 .dummy-1-hero,
+body.zoom-200 .dummy-1-hero,
+body.zoom-110 .dummy-1-action,
+body.zoom-125 .dummy-1-action,
+body.zoom-150 .dummy-1-action,
+body.zoom-175 .dummy-1-action,
+body.zoom-200 .dummy-1-action {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+/* Fix any element with fixed min-width that could cause overflow */
+body.zoom-110 .dummy-1-banner *,
+body.zoom-125 .dummy-1-banner *,
+body.zoom-150 .dummy-1-banner *,
+body.zoom-175 .dummy-1-banner *,
+body.zoom-200 .dummy-1-banner *,
+body.zoom-110 .dummy-1-header *,
+body.zoom-125 .dummy-1-header *,
+body.zoom-150 .dummy-1-header *,
+body.zoom-175 .dummy-1-header *,
+body.zoom-200 .dummy-1-header *,
+body.zoom-110 .dummy-1-hero *,
+body.zoom-125 .dummy-1-hero *,
+body.zoom-150 .dummy-1-hero *,
+body.zoom-175 .dummy-1-hero *,
+body.zoom-200 .dummy-1-hero *,
+body.zoom-110 .dummy-1-action *,
+body.zoom-125 .dummy-1-action *,
+body.zoom-150 .dummy-1-action *,
+body.zoom-175 .dummy-1-action *,
+body.zoom-200 .dummy-1-action * {
+  box-sizing: border-box !important;
+}
+
+body.zoom-110 .dummy-1-banner *[class*="min-w"],
+body.zoom-125 .dummy-1-banner *[class*="min-w"],
+body.zoom-150 .dummy-1-banner *[class*="min-w"],
+body.zoom-175 .dummy-1-banner *[class*="min-w"],
+body.zoom-200 .dummy-1-banner *[class*="min-w"],
+body.zoom-110 .dummy-1-header *[class*="min-w"],
+body.zoom-125 .dummy-1-header *[class*="min-w"],
+body.zoom-150 .dummy-1-header *[class*="min-w"],
+body.zoom-175 .dummy-1-header *[class*="min-w"],
+body.zoom-200 .dummy-1-header *[class*="min-w"],
+body.zoom-110 .dummy-1-hero *[class*="min-w"],
+body.zoom-125 .dummy-1-hero *[class*="min-w"],
+body.zoom-150 .dummy-1-hero *[class*="min-w"],
+body.zoom-175 .dummy-1-hero *[class*="min-w"],
+body.zoom-200 .dummy-1-hero *[class*="min-w"],
+body.zoom-110 .dummy-1-action *[class*="min-w"],
+body.zoom-125 .dummy-1-action *[class*="min-w"],
+body.zoom-150 .dummy-1-action *[class*="min-w"],
+body.zoom-175 .dummy-1-action *[class*="min-w"],
+body.zoom-200 .dummy-1-action *[class*="min-w"] {
+  min-width: 0 !important;
+}
+

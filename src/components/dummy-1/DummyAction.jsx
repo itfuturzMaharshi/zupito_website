@@ -10,7 +10,7 @@ const DummyAction = () => {
   };
 
   return (
-    <section className="relative w-full" style={{ background: "#FAFBFF" }}>
+    <section className="dummy-1-action relative w-full" style={{ background: "#FAFBFF" }}>
       {/* Main Container */}
       <div className="w-full px-4 sm:px-6 md:px-12 lg:px-[100px] py-12 sm:py-16 md:py-20 lg:py-24">
         <div className="w-full max-w-full mx-auto">

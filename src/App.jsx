@@ -1,4 +1,5 @@
 import "./App.css";
+import "./components/dummy-1/dummy-1.css";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import PromotionalBanner from "./components/promotionalBanner/PromotionalBanner";
 // import Header from "./components/header/Header";
@@ -45,14 +46,14 @@ function App() {
     // </Router>
 
     <>
-      {/* <Banner />
+      <Banner />
       <DummyHeader />
       <DummyHero />
-      <DummyAction />  */}
+      <DummyAction /> 
 
-      <Banner2 />
+      {/* <Banner2 />
       <Dummy2Header />
-      <Dummy2Hero />
+      <Dummy2Hero /> */}
 
       {/* <Banner3 />
       <Dummy3Header />
