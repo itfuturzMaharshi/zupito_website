@@ -19,8 +19,12 @@ import Dummy2Hero from "./components/dummy-2/Dummy2Hero";
 import Banner3 from "./components/dummy-3/Banner3";
 import Dummy3Header from "./components/dummy-3/Dummy3Header";
 import Dummy3Hero from "./components/dummy-3/Dummy3Hero";
+import { useZoomLevel } from "./hooks/useZoomLevel";
 
 function App() {
+  // Detect zoom level and apply CSS classes for layout fixes
+  useZoomLevel();
+
   return (
     // <Router>
     //   <PromotionalBanner />

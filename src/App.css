@@ -233,3 +233,213 @@ body {
     font-size: 18px !important;
   }
 }
+
+/* Fix layout issues at 150% and 175% zoom levels */
+/* These styles match the layout behavior that works at 200% zoom */
+
+/* Prevent horizontal scrolling at root level */
+html.zoom-150,
+html.zoom-175,
+body.zoom-150,
+body.zoom-175 {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+  width: 100% !important;
+}
+
+/* Ensure all direct children respect viewport */
+body.zoom-150 > *,
+body.zoom-175 > * {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+/* Fix header: override inline max-width style */
+body.zoom-150 header > div > div,
+body.zoom-175 header > div > div {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Fix header padding at problematic zoom levels - reduce padding to prevent overflow */
+body.zoom-150 header > div,
+body.zoom-175 header > div {
+  padding-left: clamp(1rem, 2vw, 8rem) !important;
+  padding-right: clamp(1rem, 2vw, 8rem) !important;
+  box-sizing: border-box !important;
+  max-width: 100vw !important;
+}
+
+/* Fix hero section: override inline max-width style */
+body.zoom-150 section > div > div > div,
+body.zoom-175 section > div > div > div {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Fix hero section padding - reduce to prevent overflow */
+body.zoom-150 section > div,
+body.zoom-175 section > div {
+  padding-left: clamp(1rem, 2vw, 8rem) !important;
+  padding-right: clamp(1rem, 2vw, 8rem) !important;
+  box-sizing: border-box !important;
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+/* Ensure navigation doesn't overflow - allow wrapping */
+body.zoom-150 header nav,
+body.zoom-175 header nav {
+  flex-wrap: wrap;
+  gap: clamp(0.5rem, 1.2vw, 2.5rem) !important;
+}
+
+/* Fix button groups to prevent overflow */
+body.zoom-150 header > div > div > div:last-child,
+body.zoom-175 header > div > div > div:last-child {
+  flex-wrap: wrap;
+  gap: clamp(0.5rem, 1vw, 1.25rem) !important;
+}
+
+/* Fix hero section flex layout - ensure proper wrapping */
+/* Target flex containers in hero section */
+body.zoom-150 section > div > div > div > div[class*="flex"],
+body.zoom-175 section > div > div > div > div[class*="flex"] {
+  flex-wrap: wrap !important;
+}
+
+body.zoom-150 section > div > div > div > div[class*="flex"] > div,
+body.zoom-175 section > div > div > div > div[class*="flex"] > div {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Fix image containers in hero - prevent min-width from causing overflow */
+body.zoom-150 section img,
+body.zoom-175 section img {
+  max-width: 100% !important;
+  height: auto !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Fix hero image container specifically */
+body.zoom-150 section div[class*="relative"] img,
+body.zoom-175 section div[class*="relative"] img {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Ensure buttons don't cause overflow */
+body.zoom-150 button,
+body.zoom-175 button {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Fix logo container */
+body.zoom-150 header .shrink-0,
+body.zoom-175 header .shrink-0 {
+  flex-shrink: 1;
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Fix banner container to prevent overflow */
+body.zoom-150 div[class*="max-w-\\[1920px\\]"],
+body.zoom-175 div[class*="max-w-\\[1920px\\]"],
+body.zoom-150 div[style*="maxWidth: \"1920px\""],
+body.zoom-175 div[style*="maxWidth: \"1920px\""],
+body.zoom-150 div[style*="maxWidth: '1920px'"],
+body.zoom-175 div[style*="maxWidth: '1920px'"] {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Fix banner wrapper */
+body.zoom-150 div.bg-\\[\\#FDEBE6\\],
+body.zoom-175 div.bg-\\[\\#FDEBE6\\] {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+/* Override any Tailwind padding classes that might cause overflow at 150% zoom */
+body.zoom-150 [class*="px-\\[200px\\]"],
+body.zoom-175 [class*="px-\\[200px\\]"] {
+  padding-left: clamp(1rem, 2vw, 6rem) !important;
+  padding-right: clamp(1rem, 2vw, 6rem) !important;
+}
+
+/* Ensure all containers with w-full respect viewport */
+body.zoom-150 [class*="w-full"],
+body.zoom-175 [class*="w-full"] {
+  max-width: 100vw !important;
+  box-sizing: border-box !important;
+}
+
+/* Fix any element with xl:min-w that could cause overflow */
+body.zoom-150 [class*="xl:min-w"],
+body.zoom-175 [class*="xl:min-w"] {
+  min-width: 0 !important;
+}
+
+/* Ensure root container doesn't exceed viewport */
+body.zoom-150 #root,
+body.zoom-175 #root {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+/* Ensure all sections respect viewport */
+body.zoom-150 section,
+body.zoom-175 section {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+/* Fix any element with fixed min-width that could cause overflow */
+body.zoom-150 *,
+body.zoom-175 * {
+  box-sizing: border-box !important;
+}
+
+body.zoom-150 *[class*="min-w"],
+body.zoom-175 *[class*="min-w"] {
+  min-width: 0 !important;
+}
+
+/* Fallback: Viewport-based media queries for zoom levels */
+/* These target the effective viewport sizes at 150% and 175% zoom */
+/* For a 1920px screen: 150% = ~1280px, 175% = ~1097px, 200% = ~960px */
+@media (min-width: 960px) and (max-width: 1400px) {
+  /* Apply 200% zoom layout fixes for viewports in the 150%-175% zoom range */
+  /* This ensures the layout matches what works at 200% zoom */
+  
+  /* Only apply if not already handled by zoom classes */
+  body:not(.zoom-100):not(.zoom-110):not(.zoom-125):not(.zoom-200) header > div > div {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  
+  body:not(.zoom-100):not(.zoom-110):not(.zoom-125):not(.zoom-200) header > div {
+    padding-left: clamp(1rem, 3vw, 12.5rem) !important;
+    padding-right: clamp(1rem, 3vw, 12.5rem) !important;
+  }
+  
+  body:not(.zoom-100):not(.zoom-110):not(.zoom-125):not(.zoom-200) section > div > div > div {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  
+  body:not(.zoom-100):not(.zoom-110):not(.zoom-125):not(.zoom-200) section > div {
+    padding-left: clamp(1rem, 3vw, 12.5rem) !important;
+    padding-right: clamp(1rem, 3vw, 12.5rem) !important;
+  }
+}
