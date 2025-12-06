@@ -84,7 +84,7 @@ const DummyHeader = () => {
       }}
     >
       {/* Main Container */}
-      <div className="w-full h-full max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-8 xl:px-[180px] flex items-center">
+      <div className="w-full h-full max-w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-8 xl:px-[100px] flex items-center">
         {/* Navigation Container */}
         <div
           className="w-full flex items-center justify-between"
