@@ -40,7 +40,7 @@ const Dummy2Hero = () => {
 
   return (
     <section className="relative w-full bg-white">
-      <div className="w-full px-4 sm:px-6 md:px-12 lg:px-[340px] pt-8 md:pt-12 lg:pt-0 pb-8 md:pb-12 lg:pb-16">
+      <div className="w-full px-4 sm:px-6 md:px-12 lg:px-[200px] pt-8 md:pt-12 lg:pt-0 pb-8 md:pb-12 lg:pb-16">
         <div className="w-full max-w-full mx-auto">
           {/* Navigation Container */}
           <div
