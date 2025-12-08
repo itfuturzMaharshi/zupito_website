@@ -100,12 +100,12 @@ const DummyAction = () => {
                   boxShadow: "0px 7.5px 22.5px 0px #0000001A",
                 }}
               >
-                <div className="w-full p-6 sm:p-8 md:p-10 lg:p-10.5">
-                  <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-10 lg:gap-12">
+                <div className="w-full  lg:pr-[38px] lg:pt-[42px] lg:pb-[40px] lg:pl-[60px]">
+                  <div className="flex flex-col lg:flex-row ">
                     {/* Left Section: Comprehensive Email Validation Info */}
-                    <div className="w-full lg:w-auto lg:flex-1 flex flex-col gap-[30.75px]">
+                    <div className="w-full lg:w-auto lg:flex-1 flex flex-col gap-[30.75px] lg:pr-[60px]">
                       {/* Top Container with Button */}
-                      <div className="flex flex-col gap-[20px]">
+                      <div className="flex flex-col gap-[20px] justify-center h-full">
                         {/* Let's get in touch Button */}
                         <div className="flex items-start">
                           <button
@@ -130,7 +130,7 @@ const DummyAction = () => {
                         </div>
 
                         {/* Content Container */}
-                        <div className="flex flex-col justify-between min-h-full">
+                        <div className="flex flex-col justify-between gap-[41px]">
                           {/* Heading and Description Container */}
                           <div className="flex flex-col gap-6 text-center md:text-left">
                             {/* Comprehensive Personal & Business Email Validation Heading */}
@@ -209,12 +209,13 @@ const DummyAction = () => {
                         minHeight: "369px",
                         background: "#132436",
                         opacity: 0.1,
+                        
                       }}
                     />
 
                     {/* Right Section: Email Verification Form */}
-                    <div className="w-full lg:w-auto lg:flex-1 flex flex-col items-center lg:items-start gap-[22.5px]">
-                      <div className="w-full max-w-full rounded-[24px] bg-[#132436] flex flex-col items-center gap-[20px] px-[30px] py-[42px] mx-auto lg:mx-0">
+                    <div className="w-full lg:w-auto lg:flex-1 flex flex-col items-center lg:items-start gap-[22.5px] lg:pl-[43px]">
+                      <div className="w-full xl:w-[600px] rounded-[24px] bg-[#132436] flex flex-col items-center gap-[20px] px-[30px] py-[42px] mx-auto lg:mx-0">
                         {/* Icon */}
                         <div className="flex items-center justify-center mb-2">
                           <div className="relative w-[78px] h-[78px]">
