@@ -89,7 +89,7 @@ const DummyHeader = () => {
         <div
           className="w-full flex items-center justify-between"
           style={{
-            maxWidth: "1920px",
+            maxWidth: "1520px",
             margin: "0 auto",
             height: "48.75px",
           }}
@@ -283,7 +283,7 @@ const DummyHeader = () => {
               className="flex items-center justify-center transition-colors bg-[#F6F6F6] hover:bg-[#EEEEEE]"
               style={{
                 width: "clamp(160px, 12vw, 213px)",
-                height: "clamp(50px, 5vh, 65px)",
+                height: "65px",
                 gap: "7.5px",
                 borderRadius: "40px",
                 padding: "clamp(12px, 1.5vw, 16px) clamp(15px, 2vw, 20px)",
@@ -314,7 +314,7 @@ const DummyHeader = () => {
               className="flex items-center justify-center transition-colors bg-[#EB3609] hover:bg-[#D32F08]"
               style={{
                 width: "clamp(130px, 10vw, 178px)",
-                height: "clamp(50px, 5vh, 62px)",
+                height: "65px",
                 borderRadius: "50px",
                 padding: "clamp(10px, 1.2vw, 12px) clamp(24px, 2.5vw, 32.25px)",
               }}
