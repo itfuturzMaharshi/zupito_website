@@ -282,7 +282,7 @@ const DummyHeader = () => {
             <button
               className="flex items-center justify-center transition-colors bg-[#F6F6F6] hover:bg-[#EEEEEE]"
               style={{
-                width: "clamp(160px, 12vw, 213px)",
+                // width: "clamp(160px, 12vw, 213px)",
                 height: "65px",
                 gap: "7.5px",
                 borderRadius: "40px",
@@ -313,7 +313,7 @@ const DummyHeader = () => {
             <button
               className="flex items-center justify-center transition-colors bg-[#EB3609] hover:bg-[#D32F08]"
               style={{
-                width: "clamp(130px, 10vw, 178px)",
+                // width: "clamp(130px, 10vw, 178px)",
                 height: "65px",
                 borderRadius: "50px",
                 padding: "clamp(10px, 1.2vw, 12px) clamp(24px, 2.5vw, 32.25px)",
